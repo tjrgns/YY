@@ -36,6 +36,7 @@
 	<link rel="stylesheet" type="text/css" href="/brocoli/main/css/util.css">
 	<link rel="stylesheet" type="text/css" href="/brocoli/main/css/main.css">
 <!--===============================================================================================-->
+
 </head>
 <!-- Header -->
 	<header class="header-v4">
@@ -89,7 +90,7 @@
 							</li>
 
 							<li>
-								<a href="product.jsp">RANK</a>
+								<a href="/brocoli/main/rank.jsp">RANK</a>
 							</li>
 
 							<li class="label1" data-label1="hot">
@@ -230,7 +231,21 @@
 				</li>
 			</ul>
 		</div>
+		<!-- Modal Search -->
+		<div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
+			<div class="container-search-header">
+				<button class="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search">
+					<img src="/brocoli/main/images/icons/icon-close2.png" alt="CLOSE">
+				</button>
 
+				<form class="wrap-search-header flex-w p-l-15">
+					<button class="flex-c-m trans-04">
+						<i class="zmdi zmdi-search"></i>
+					</button>
+					<input class="plh3" type="text" name="search" placeholder="Search...">
+				</form>
+			</div>
+		</div>
 	</header>
 
 <body>
