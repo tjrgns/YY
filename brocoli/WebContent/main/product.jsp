@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
-<%@ include file="common/header.jsp" %>
+<%@ include file="../common/header.jsp" %>
 <body>
 
 
