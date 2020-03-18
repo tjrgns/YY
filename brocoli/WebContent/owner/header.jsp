@@ -170,7 +170,7 @@
                                             <a class="nav-link" href="pages/cards.html">상품업로드</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/product-management.jsp">상품관리</a>
+                                            <a class="nav-link" href="/brocoli/owner/product-management.jsp">상품관리</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/carousel.html">재고,입고현황</a>

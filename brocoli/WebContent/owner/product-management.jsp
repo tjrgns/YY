@@ -292,10 +292,7 @@
     <!-- end main wrapper  -->
     <!-- ============================================================== -->
     <!-- Optional JavaScript -->
-    <!-- jquery 3.3.1 js-->
-    <script src="brocoli/owner/assets/vendor/jquery/jquery-3.3.1.min.js"></script>
-    <!-- bootstrap bundle js-->
-    <script src="brocoli/owner/assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+
     <!-- slimscroll js-->
     <script src="brocoli/owner/assets/vendor/slimscroll/jquery.slimscroll.js"></script>
     <!-- chartjs js-->
