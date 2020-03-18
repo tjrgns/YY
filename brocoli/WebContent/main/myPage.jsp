@@ -5,9 +5,9 @@
 <head>
 	<title>About</title>
 	
-<%@ include file="common/header.jsp" %>
-<%@ include file="common/cart.jsp" %>
-<%@ include file="common/sidebar.jsp" %>
+<%@ include file="../common/header.jsp" %>
+<%@ include file="../common/cart.jsp" %>
+<%@ include file="../common/sidebar.jsp" %>
 
 <link rel="stylesheet" type="text/css" href="/brocoli/css/mypage.css">
 
@@ -139,8 +139,8 @@
     </div>
 	<!--#contentWrapper-->
 	
-<%@ include file="common/footer.jsp" %>
-<%@ include file="common/BacktoTop.jsp" %>
+<%@ include file="../common/footer.jsp" %>
+<%@ include file="../common/BacktoTop.jsp" %>
 
 	
 	
