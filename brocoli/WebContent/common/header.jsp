@@ -6,7 +6,7 @@
 	<title>Brocoli : Brand Request Collection Lead</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--====================   g===========================================================================-->	
+<!--===============================================================================================-->	
 	<link rel="icon" type="image/png" href="/brocoli/images/icons/favicon.png"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="/brocoli/vendor/bootstrap/css/bootstrap.min.css">
