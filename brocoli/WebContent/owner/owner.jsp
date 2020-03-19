@@ -137,7 +137,7 @@
                                                     <tr>
                                                         <td>1</td>
                                                         <td>
-                                                            <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                                            <div class="m-r-10"><img src="/brocoli/resources/ownerResources/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
                                                         </td>
                                                         <td>Product #1 </td>
                                                         <td>id000001 </td>
@@ -150,7 +150,7 @@
                                                     <tr>
                                                         <td>2</td>
                                                         <td>
-                                                            <div class="m-r-10"><img src="assets/images/product-pic-2.jpg" alt="user" class="rounded" width="45"></div>
+                                                            <div class="m-r-10"><img src="/brocoli/resources/ownerResources/images/product-pic-2.jpg" alt="user" class="rounded" width="45"></div>
                                                         </td>
                                                         <td>Product #2 </td>
                                                         <td>id000002 </td>
@@ -163,7 +163,7 @@
                                                     <tr>
                                                         <td>3</td>
                                                         <td>
-                                                            <div class="m-r-10"><img src="assets/images/product-pic-3.jpg" alt="user" class="rounded" width="45"></div>
+                                                            <div class="m-r-10"><img src="/brocoli/resources/ownerResources/images/product-pic-3.jpg" alt="user" class="rounded" width="45"></div>
                                                         </td>
                                                         <td>Product #3 </td>
                                                         <td>id000003 </td>
@@ -176,7 +176,7 @@
                                                     <tr>
                                                         <td>4</td>
                                                         <td>
-                                                            <div class="m-r-10"><img src="assets/images/product-pic-4.jpg" alt="user" class="rounded" width="45"></div>
+                                                            <div class="m-r-10"><img src="/brocoli/resources/ownerResources/images/product-pic-4.jpg" alt="user" class="rounded" width="45"></div>
                                                         </td>
                                                         <td>Product #4 </td>
                                                         <td>id000004 </td>
@@ -557,21 +557,21 @@
     <!-- Optional JavaScript -->
 
     <!-- slimscroll js -->
-    <script src="assets/vendor/slimscroll/jquery.slimscroll.js"></script>
+    <script src="/brocoli/resources/ownerResources/vendor/slimscroll/jquery.slimscroll.js"></script>
     <!-- main js -->
-    <script src="assets/libs/js/main-js.js"></script>
+    <script src="/brocoli/resources/ownerResources/libs/js/main-js.js"></script>
     <!-- chart chartist js -->
-    <script src="assets/vendor/charts/chartist-bundle/chartist.min.js"></script>
+    <script src="/brocoli/resources/ownerResources/vendor/charts/chartist-bundle/chartist.min.js"></script>
     <!-- sparkline js -->
-    <script src="assets/vendor/charts/sparkline/jquery.sparkline.js"></script>
+    <script src="/brocoli/resources/ownerResources/vendor/charts/sparkline/jquery.sparkline.js"></script>
     <!-- morris js -->
-    <script src="assets/vendor/charts/morris-bundle/raphael.min.js"></script>
-    <script src="assets/vendor/charts/morris-bundle/morris.js"></script>
+    <script src="/brocoli/resources/ownerResources/vendor/charts/morris-bundle/raphael.min.js"></script>
+    <script src="/brocoli/resources/ownerResources/vendor/charts/morris-bundle/morris.js"></script>
     <!-- chart c3 js -->
-    <script src="assets/vendor/charts/c3charts/c3.min.js"></script>
-    <script src="assets/vendor/charts/c3charts/d3-5.4.0.min.js"></script>
-    <script src="assets/vendor/charts/c3charts/C3chartjs.js"></script>
-    <script src="assets/libs/js/dashboard-ecommerce.js"></script>
+    <script src="/brocoli/resources/ownerResources/vendor/charts/c3charts/c3.min.js"></script>
+    <script src="/brocoli/resources/ownerResources/vendor/charts/c3charts/d3-5.4.0.min.js"></script>
+    <script src="/brocoli/resources/ownerResources/vendor/charts/c3charts/C3chartjs.js"></script>
+    <script src="/brocoli/resources/ownerResources/libs/js/dashboard-ecommerce.js"></script>
 </body>
  
 </html>

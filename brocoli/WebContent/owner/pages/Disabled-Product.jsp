@@ -8,7 +8,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>오너 : 판매상품관리</title>
+    <title>오너 : 판매중지상품</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
     <link href="../assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
@@ -40,14 +40,14 @@
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="page-header">
-                            <h2 class="pageheader-title">판매상품관리</h2>
+                            <h2 class="pageheader-title">판매중지상품</h2>
                             <p class="pageheader-text">Proin placerat ante duiullam scelerisque a velit ac porta, fusce sit amet vestibulum mi. Morbi lobortis pulvinar quam.</p>
                             <div class="page-breadcrumb">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">메뉴</a></li>
                                         <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">상품관리</a></li>
-                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">판매상품관리</a></li>
+                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">판매중지상품</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -65,7 +65,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <h5 class="mb-0">등록된 제품</h5>
-                                <p>현재 판매등록된 제품입니다.</p>
+                                <p>현재 판매중지된 제품입니다.</p>
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
