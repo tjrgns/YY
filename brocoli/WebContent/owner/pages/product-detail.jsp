@@ -152,7 +152,7 @@
                                         </ul>
                                         <div class="tab-content" id="myTabContent5">
                                             <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="product-tab-1">
-												<img style="" src="/brocoli/owner/assets/p_Detail_Img/P11001_detail.jpg">
+												<img style="width: 100%;" src="/brocoli/owner/assets/p_Detail_Img/P11001_detail.jpg">
                                             </div>
                                             <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="product-tab-2">
                                                 <div class="review-block">
