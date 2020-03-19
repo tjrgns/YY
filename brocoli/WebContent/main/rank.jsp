@@ -11,13 +11,12 @@
 
 
  	<!-- Title page -->
-<!-- 	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-02.jpg');">
-		<h2 class="ltext-105 cl0 txt-center">
+	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/brocoli/main/images/bg-02.jpg');">
+		<h2 class="ltext-105 cl0 txt-center" style="color:white">
 			Rank
 		</h2>
-	</section>	 -->
-	
-	 <h1 style="text-align:center; margin-top:50px;">RANK</h1>
+	</section>	
+
 	
 
 	
@@ -25,30 +24,67 @@
 	<div class="bg0 m-t-23 p-b-140">
 		<div class="container">
 			<div class="flex-w flex-sb-m p-b-52">
-				<div class="flex-w flex-l-m filter-tope-group m-tb-10">
-					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
+				<div class="flex-w flex-l-m filter-tope-group m-tb-10" style="border-bottom:3px solid; color:#555">
+					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" style="font-size:30px;"data-filter="*">
 						Day
 					</button>
 
-					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".women">
-						Weekend
+					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" style="font-size:30px;" data-filter=".women">
+						Week
 					</button>
 
-					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".men">
+					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" style="font-size:30px;" data-filter=".men">
 						Month
 					</button>
 
-					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".bag">
+					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" style="font-size:30px;" data-filter=".bag">
 						Year
 					</button>
-
+					
+				
 					
 				</div>
-
 				
 			
 			</div>
+			
+			<div style="margin-bottom:50px;">
 
+					<div class="flex-w flex-sb-m p-b-52">
+					<div class="flex-w flex-l-m filter-tope-group m-tb-10">
+					<ul class="main-menu">
+							<li>
+								아우터
+								<div class="sub-menu">
+								<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" style="font-size:30px;" data-filter=".bag">
+								<label>1</label>
+								</button>
+									<a href="home-02.jsp">Homepage 2</a>
+									<a href="home-03.jsp">Homepage 3</a>
+								</div> 
+							</li>
+					</ul>
+					
+
+					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".women">
+						하의
+					</button>
+
+					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".men">
+						신발
+					</button>
+
+					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".bag">
+						모자
+					</button>
+					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".bag">
+						그 외
+					</button>
+			</div>
+			</div>
+	
+			</div>
+			
 			<div class="row isotope-grid">
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
 					<!-- Block2 -->
