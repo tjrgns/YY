@@ -96,12 +96,12 @@
                                                 <th>상태</th>
                                                 <th>등록일</th>
                                                 <th>재고</th>
-                                                <th>수정</th>
+                                                <th>상품정보수정</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>NOBSNNASZ</td>
+                                                <td>000BS001</td>
                                                 <td>악세서리-머플러</td>
                                                 <td align="center" >
                                                 	<div class="m-r-10"><img src="/brocoli/resources/product-Img/P11001.jpg" alt="user" class="rounded" width="45"></div>
@@ -114,7 +114,7 @@
                                                 <td>19-10-01</td>
                                                 <td>
 	                                                <div class="btn-group ml-auto">
-			                                            <a class="btn btn-sm btn-outline-light" href="/brocoli/owner/pages/stock-detail.jsp">재고관리</a>
+			                                            <a class="btn btn-sm btn-outline-light" href="/brocoli/owner/pages/stock-management.jsp">재고관리</a>
 			                                        </div>
                                                 </td>
                                                 <td>
@@ -128,7 +128,7 @@
                                             </tr>
                                             
                                             <tr>
-                                                <td>NOBSNNASZ</td>
+                                                <td>000BS000</td>
                                                 <td>악세서리-머플러</td>
                                                 <td align="center" >
                                                 	<div class="m-r-10"><img src="/brocoli/resources/product-Img/P11002.jpg" alt="user" class="rounded" width="45"></div>
@@ -141,7 +141,7 @@
                                                 <td>19-10-01</td>
                                                 <td>
 	                                                <div class="btn-group ml-auto">
-			                                            <a class="btn btn-sm btn-outline-light" href="/brocoli/owner/pages/stock-detail.jsp">재고관리</a>
+			                                            <a class="btn btn-sm btn-outline-light" href="/brocoli/owner/pages/stock-management.jsp">재고관리</a>
 			                                        </div>
                                                 </td>
                                                 <td>
@@ -174,7 +174,7 @@
                                                 <th>상태</th>
                                                 <th>등록일</th>
                                                 <th>재고</th>
-                                                <th>수정</th>
+                                                <th>상품정보수정</th>
                                             </tr>
                                         </tfoot>
                                     </table>

@@ -104,7 +104,7 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>그레이</td>
+                                                <td>BROWN</td>
                                                 <td>S</td>
                                                 <td>12</td>
                                                 <td><input type="number"></td>

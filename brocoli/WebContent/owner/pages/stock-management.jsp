@@ -86,13 +86,13 @@
                                             <tr>
                                                 <td>P98001</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
                                                 <td align="center">
-                                                	<div class="m-r-10"><img src="/brocoli/owner/assets/p_Img/P11001.jpg" alt="user" class="rounded" width="45"></div>
+                                                	<div class="m-r-10"><img src="/brocoli/resources/product-Img/P11001.jpg" alt="user" class="rounded" width="45"></div>
                                                 </td>
-                                                <td>DIM. REVERSIBLE FAKE FUR MUFFLER_GRAY</td>
-                                                <td>gray</td>
-                                                <td>S</td>
-                                                <td>0</td>
-                                                <td>품절</td>
+                                                <td>DIM. REVERSIBLE FAKE FUR MUFFLER_BROWN</td>
+                                                <td>BROWN</td>
+                                                <td>M</td>
+                                                <td>12</td>
+                                                <td>판매중</td>
                                                 <td>
                                                 	<div class="btn-group ml-auto">
 			                                            <a class="btn btn-sm btn-outline-light" href="/brocoli/owner/pages/stock-detail.jsp">재고관리</a>
@@ -101,7 +101,54 @@
                                             </tr>
 
                                             
-                                            
+                                            <tr>
+                                                <td>P98001</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
+                                                <td align="center">
+                                                	<div class="m-r-10"><img src="/brocoli/resources/product-Img/P11001.jpg" alt="user" class="rounded" width="45"></div>
+                                                </td>
+                                                <td>DIM. REVERSIBLE FAKE FUR MUFFLER_BROWN</td>
+                                                <td>BROWN</td>
+                                                <td>S</td>
+                                                <td>12</td>
+                                                <td>판매중</td>
+                                                <td>
+                                                	<div class="btn-group ml-auto">
+			                                            <a class="btn btn-sm btn-outline-light" href="/brocoli/owner/pages/stock-detail.jsp">재고관리</a>
+			                                        </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>P98001</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
+                                                <td align="center">
+                                                	<div class="m-r-10"><img src="/brocoli/resources/product-Img/P11001.jpg" alt="user" class="rounded" width="45"></div>
+                                                </td>
+                                                <td>DIM. REVERSIBLE FAKE FUR MUFFLER_BROWN</td>
+                                                <td>BROWN</td>
+                                                <td>L</td>
+                                                <td>131</td>
+                                                <td>판매중</td>
+                                                <td>
+                                                	<div class="btn-group ml-auto">
+			                                            <a class="btn btn-sm btn-outline-light" href="/brocoli/owner/pages/stock-detail.jsp">재고관리</a>
+			                                        </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>P98001</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
+                                                <td align="center">
+                                                	<div class="m-r-10"><img src="/brocoli/resources/product-Img/P11001.jpg" alt="user" class="rounded" width="45"></div>
+                                                </td>
+                                                <td>DIM. REVERSIBLE FAKE FUR MUFFLER_BROWN</td>
+                                                <td>BROWN</td>
+                                                <td>XL</td>
+                                                <td>0</td>
+                                                <td>품절</td>
+                                                <td>
+                                                	<div class="btn-group ml-auto">
+			                                            <a class="btn btn-sm btn-outline-light" href="/brocoli/owner/pages/stock-detail.jsp">재고관리</a>
+			                                        </div>
+                                                </td>
+                                            </tr>
 
                                              <!-- 이하 더미데이터 끝 --> 
                                             
@@ -145,16 +192,16 @@
     <!-- end main wrapper -->
     <!-- ============================================================== -->
     <!-- Optional JavaScript -->
-    <!-- <script src="/brocoli/owner/assets/vendor/jquery/jquery-3.3.1.min.js"></script> -->
-    <!-- <script src="/brocoli/owner/assets/vendor/bootstrap/js/bootstrap.bundle.js"></script> -->
-    <script src="/brocoli/owner/assets/vendor/slimscroll/jquery.slimscroll.js"></script>
-    <script src="/brocoli/owner/assets/vendor/multi-select/js/jquery.multi-select.js"></script>
-    <script src="/brocoli/owner/assets/libs/js/main-js.js"></script>
+    <!-- <script src="/brocoli/resources/ownerResources/vendor/jquery/jquery-3.3.1.min.js"></script> -->
+    <!-- <script src="/brocoli/resources/ownerResources/vendor/bootstrap/js/bootstrap.bundle.js"></script> -->
+    <script src="/brocoli/resources/ownerResources/vendor/slimscroll/jquery.slimscroll.js"></script>
+    <script src="/brocoli/resources/ownerResources/vendor/multi-select/js/jquery.multi-select.js"></script>
+    <script src="/brocoli/resources/ownerResources/libs/js/main-js.js"></script>
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-    <script src="/brocoli/owner/assets/vendor/datatables/js/dataTables.bootstrap4.min.js"></script>
+    <script src="/brocoli/resources/ownerResources/vendor/datatables/js/dataTables.bootstrap4.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js"></script>
-    <script src="/brocoli/owner/assets/vendor/datatables/js/buttons.bootstrap4.min.js"></script>
-    <script src="/brocoli/owner/assets/vendor/datatables/js/data-table.js"></script>
+    <script src="/brocoli/resources/ownerResources/vendor/datatables/js/buttons.bootstrap4.min.js"></script>
+    <script src="/brocoli/resources/ownerResources/vendor/datatables/js/data-table.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
