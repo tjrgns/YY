@@ -82,11 +82,11 @@
 						<ul class="main-menu">
 							<li>
 								<a href="/brocoli/main/index.jsp">Home</a>
-<!-- 								<ul class="sub-menu">
+<!-- 								<ul class="sub-menu main-menu">
 									<li><a href="index.jsp">Homepage 1</a></li>
 									<li><a href="home-02.jsp">Homepage 2</a></li>
 									<li><a href="home-03.jsp">Homepage 3</a></li>
-								</ul> -->
+								</ul>  -->
 							</li>
 
 							<li>
@@ -102,7 +102,7 @@
 							</li>
 
 							<li class="active-menu">
-								<a href="about.jsp">MAGAZINE</a>
+								<a href="/brocoli/main/blog.jsp">MAGAZINE</a>
 							</li>
 
 							<li>

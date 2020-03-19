@@ -9,7 +9,11 @@
 
 <body class="animsition">
 
-   <h1 style="text-align:center; margin-top:50px;">SHOP</h1>
+	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/brocoli/main/images/bg-02.jpg');">
+		<h2 class="ltext-105 cl0 txt-center" style="color:white">
+			SHOP
+		</h2>
+	</section>	
    <!-- Product -->
    <div class="bg0 m-t-23 p-b-140">
       <div class="container">
