@@ -103,7 +103,7 @@
 
 				<div class="col-sm-6 col-lg-3 p-b-50">
 					<h4 class="stext-301 cl0 p-b-30">
-						Newsletter
+						ETC
 					</h4>
 
 					<form>
@@ -114,7 +114,7 @@
 
 						<div class="p-t-18">
 							<button class="flex-c-m stext-101 cl0 size-103 bg1 bor1 hov-btn2 p-lr-15 trans-04">
-								Subscribe
+								입점문의
 							</button>
 						</div>
 					</form>
@@ -124,23 +124,23 @@
 			<div class="p-t-40">
 				<div class="flex-c-m flex-w p-b-18">
 					<a href="#" class="m-all-1">
-						<img src="images/icons/icon-pay-01.png" alt="ICON-PAY">
+						<img src="/brocoli/main/images/icons/icon-pay-01.png" alt="ICON-PAY">
 					</a>
 
 					<a href="#" class="m-all-1">
-						<img src="images/icons/icon-pay-02.png" alt="ICON-PAY">
+						<img src="/brocoli/main/images/icons/icon-pay-02.png" alt="ICON-PAY">
 					</a>
 
 					<a href="#" class="m-all-1">
-						<img src="images/icons/icon-pay-03.png" alt="ICON-PAY">
+						<img src="/brocoli/main/images/icons/icon-pay-03.png" alt="ICON-PAY">
 					</a>
 
 					<a href="#" class="m-all-1">
-						<img src="images/icons/icon-pay-04.png" alt="ICON-PAY">
+						<img src="/brocoli/main/images/icons/icon-pay-04.png" alt="ICON-PAY">
 					</a>
 
 					<a href="#" class="m-all-1">
-						<img src="images/icons/icon-pay-05.png" alt="ICON-PAY">
+						<img src="/brocoli/main/images/icons/icon-pay-05.png" alt="ICON-PAY">
 					</a>
 				</div>
 

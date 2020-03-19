@@ -2,23 +2,17 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>About</title>
+
+<%@ include file="../common/header.jsp" %>
+<%@ include file="../common/cart.jsp" %>
+<%@ include file="../common/sidebar.jsp" %>
+
+<link rel="stylesheet" type="text/css" href="/brocoli/main/css/mypage.css">
+
+<body>
 	
-<%@ include file="common/header.jsp" %>
-<%@ include file="common/cart.jsp" %>
-<%@ include file="common/sidebar.jsp" %>
-
-<link rel="stylesheet" type="text/css" href="/brocoli/css/mypage.css">
-
-
-</head>
-<body class="animsition">
-	
-
-
 	<!-- Title page -->
-	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-01.jpg');">
+	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/brocoli/main/images/bg-01.jpg');">
 		<h2 class="ltext-105 cl0 txt-center">
 			MY PAGE
 		</h2>
@@ -44,7 +38,7 @@
                         <div class="mypage-member-info">
                             <div class="member-id-container cd_clear">
                                 <div class="group-image">
-                                    <img src="../BroColi/images/376451_1.jpg" alt="이미지">
+                                    <img src="/brocoli/main/images/376451_1.jpg" alt="이미지">
                                 </div class="test2">
                                 <p>안녕하세요.
                                     <span class="id">김주희</span> 님
@@ -77,7 +71,7 @@
                     <!-- mypage menu list section-->
                     <div class="mypage-menu-container">
                         <ul class="mypage-menu-list">
-                            <li class="my-info" img="../images/icon/">
+                            <li class="my-info" img="/brocoli/main/images/icon/">
                                 <a href="">
                                     <h4>개인정보관리</h4>
                                     <p>
@@ -114,7 +108,7 @@
                                     </p>
                                 </a>
                             </li>
-                            <li class="my-article" img="icons/내가.png">
+                            <li class="my-article" img="/brocoli/main/images/icons/내가.png">
                                 <a href="">
                                     <h4>내가 쓴 글 보기</h4>
                                     <p>"주문관련문의, 상품후기 등"
@@ -139,8 +133,8 @@
     </div>
 	<!--#contentWrapper-->
 	
-<%@ include file="common/footer.jsp" %>
-<%@ include file="common/BacktoTop.jsp" %>
+<%@ include file="../common/footer.jsp" %>
+<%@ include file="../common/BacktoTop.jsp" %>
 
 	
 	
