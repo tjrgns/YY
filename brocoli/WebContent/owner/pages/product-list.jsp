@@ -10,12 +10,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/brocoli/owner/assets/vendor/bootstrap/css/bootstrap.min.css">
-    <link href="/brocoli/owner/assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="/brocoli/owner/assets/libs/css/style.css">
-    <link rel="stylesheet" href="/brocoli/owner/assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="/brocoli/resources/ownerResources/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="/brocoli/resources/ownerResources/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="/brocoli/resources/ownerResources/libs/css/style.css">
+    <link rel="stylesheet" href="/brocoli/resources/ownerResources/vendor/fonts/fontawesome/css/fontawesome-all.css">
 
-    <%@ include file="/owner/header.jsp" %>
+    <%@ include file="/owner/pages/header.jsp" %>
     
     <title>오너 : 판매상품</title>
 </head>
@@ -63,7 +63,7 @@
                                     <div class="product-thumbnail">
                                         <div class="product-img-head">
                                             <div class="product-img">
-                                                <img src="/brocoli/owner/assets/images/eco-product-img-1.png" alt="" class="img-fluid"></div>
+                                                <img src="/brocoli/resources/ownerResources/images/eco-product-img-1.png" alt="" class="img-fluid"></div>
                                             <div class="ribbons"></div>
                                             <div class="ribbons-text">New</div>
                                             <div class=""><a href="#" class="product-wishlist-btn"><i class="fas fa-heart"></i></a></div>
@@ -92,7 +92,7 @@
                                     <div class="product-thumbnail">
                                         <div class="product-img-head">
                                             <div class="product-img">
-                                                <img src="/brocoli/owner/assets/images/eco-product-img-2.png" alt="" class="img-fluid"></div>
+                                                <img src="/brocoli/resources/ownerResources/images/eco-product-img-2.png" alt="" class="img-fluid"></div>
                                             <div class="ribbons bg-danger"></div>
                                             <div class="ribbons-text">Sold</div>
                                             <div class=""><a href="#" class="product-wishlist-btn"><i class="fas fa-heart"></i></a></div>
@@ -121,7 +121,7 @@
                                     <div class="product-thumbnail">
                                         <div class="product-img-head">
                                             <div class="product-img">
-                                                <img src="/brocoli/owner/assets/images/eco-product-img-3.png" alt="" class="img-fluid"></div>
+                                                <img src="/brocoli/resources/ownerResources/images/eco-product-img-3.png" alt="" class="img-fluid"></div>
                                             <div class="ribbons bg-brand"></div>
                                             <div class="ribbons-text">Offer</div>
                                             <div class=""><a href="#" class="product-wishlist-btn active"><i class="fas fa-heart"></i></a></div>
@@ -152,7 +152,7 @@
                                     <div class="product-thumbnail">
                                         <div class="product-img-head">
                                             <div class="product-img">
-                                                <img src="/brocoli/owner/assets/images/eco-product-img-4.png" alt="" class="img-fluid"></div>
+                                                <img src="/brocoli/resources/ownerResources/images/eco-product-img-4.png" alt="" class="img-fluid"></div>
                                             <div class=""><a href="#" class="product-wishlist-btn"><i class="fas fa-heart"></i></a></div>
                                         </div>
                                         <div class="product-content">
@@ -179,7 +179,7 @@
                                     <div class="product-thumbnail">
                                         <div class="product-img-head">
                                             <div class="product-img">
-                                                <img src="/brocoli/owner/assets/images/eco-product-img-3.png" alt="" class="img-fluid"></div>
+                                                <img src="/brocoli/resources/ownerResources/images/eco-product-img-3.png" alt="" class="img-fluid"></div>
                                             <div class=""><a href="#" class="product-wishlist-btn"><i class="fas fa-heart"></i></a></div>
                                         </div>
                                         <div class="product-content">
@@ -208,7 +208,7 @@
                                     <div class="product-thumbnail">
                                         <div class="product-img-head">
                                             <div class="product-img">
-                                                <img src="/brocoli/owner/assets/images/eco-product-img-2.png" alt="" class="img-fluid"></div>
+                                                <img src="/brocoli/resources/ownerResources/images/eco-product-img-2.png" alt="" class="img-fluid"></div>
                                             <div class=""><a href="#" class="product-wishlist-btn"><i class="fas fa-heart"></i></a></div>
                                         </div>
                                         <div class="product-content">
@@ -235,7 +235,7 @@
                                     <div class="product-thumbnail">
                                         <div class="product-img-head">
                                             <div class="product-img">
-                                                <img src="/brocoli/owner/assets/images/eco-product-img-1.png" alt="" class="img-fluid"></div>
+                                                <img src="/brocoli/resources/ownerResources/images/eco-product-img-1.png" alt="" class="img-fluid"></div>
                                             <div class=""><a href="#" class="product-wishlist-btn"><i class="fas fa-heart"></i></a></div>
                                         </div>
                                         <div class="product-content">
@@ -262,7 +262,7 @@
                                     <div class="product-thumbnail">
                                         <div class="product-img-head">
                                             <div class="product-img">
-                                                <img src="/brocoli/owner/assets/images/eco-product-img-2.png" alt="" class="img-fluid"></div>
+                                                <img src="/brocoli/resources/ownerResources/images/eco-product-img-2.png" alt="" class="img-fluid"></div>
                                             <div class=""><a href="#" class="product-wishlist-btn"><i class="fas fa-heart"></i></a></div>
                                         </div>
                                         <div class="product-content">
@@ -289,7 +289,7 @@
                                     <div class="product-thumbnail">
                                         <div class="product-img-head">
                                             <div class="product-img">
-                                                <img src="/brocoli/owner/assets/images/eco-product-img-4.png" alt="" class="img-fluid"></div>
+                                                <img src="/brocoli/resources/ownerResources/images/eco-product-img-4.png" alt="" class="img-fluid"></div>
                                             <div class=""><a href="#" class="product-wishlist-btn"><i class="fas fa-heart"></i></a></div>
                                         </div>
                                         <div class="product-content">
@@ -467,13 +467,13 @@
         <!-- ============================================================== -->
         <!-- Optional JavaScript -->
         <!-- jquery 3.3.1 -->
-        <script src="/brocoli/owner/assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+        <script src="/brocoli/resources/ownerResources/vendor/jquery/jquery-3.3.1.min.js"></script>
         <!-- bootstap bundle js -->
-        <script src="/brocoli/owner/assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+        <script src="/brocoli/resources/ownerResources/vendor/bootstrap/js/bootstrap.bundle.js"></script>
         <!-- slimscroll js -->
-        <script src="/brocoli/owner/assets/vendor/slimscroll/jquery.slimscroll.js"></script>
+        <script src="/brocoli/resources/ownerResources/vendor/slimscroll/jquery.slimscroll.js"></script>
         <!-- main js -->
-        <script src="/brocoli/owner/assets/libs/js/main-js.js"></script>
+        <script src="/brocoli/resources/ownerResources/libs/js/main-js.js"></script>
 </body>
  
 </html>
