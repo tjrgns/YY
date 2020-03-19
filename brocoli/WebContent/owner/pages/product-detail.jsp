@@ -12,10 +12,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/brocoli/owner/assets/vendor/bootstrap/css/bootstrap.min.css">
-    <link href="/brocoli/owner/assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="/brocoli/owner/assets/libs/css/style.css">
-    <link rel="stylesheet" href="/brocoli/owner/assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="/brocoli/resources/ownerResources/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="/brocoli/resources/ownerResources/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="/brocoli/resources/ownerResources/libs/css/style.css">
+    <link rel="stylesheet" href="/brocoli/resources/ownerResources/vendor/fonts/fontawesome/css/fontawesome-all.css">
     
     <%@ include file="/owner/header.jsp" %>
     
@@ -71,13 +71,13 @@
                                             </ol>
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                    <img class="d-block" style="width: 450px; height: 600px;" src="/brocoli/owner/assets/p_Img/P11001.jpg" alt="First slide">
+                                                    <img class="d-block" style="width: 450px; height: 600px;" src="/brocoli/resources/ownerResources/p_Img/P11001.jpg" alt="First slide">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img class="d-block" style="width: 450px; height: 600px;" src="/brocoli/owner/assets/p_Img/P11001.jpg" alt="Second slide">
+                                                    <img class="d-block" style="width: 450px; height: 600px;" src="/brocoli/resources/ownerResources/p_Img/P11001.jpg" alt="Second slide">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img class="d-block" style="width: 450px; height: 600px;" src="/brocoli/owner/assets/p_Img/P11001.jpg" alt="Third slide">
+                                                    <img class="d-block" style="width: 450px; height: 600px;" src="/brocoli/resources/ownerResources/p_Img/P11001.jpg" alt="Third slide">
                                                 </div>
                                             </div>
                                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -152,7 +152,7 @@
                                         </ul>
                                         <div class="tab-content" id="myTabContent5">
                                             <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="product-tab-1">
-												<img style="width: 100%;" src="/brocoli/owner/assets/p_Detail_Img/P11001_detail.jpg">
+												<img style="width: 100%;" src="/brocoli/resources/ownerResources/p_Detail_Img/P11001_detail.jpg">
                                             </div>
                                             <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="product-tab-2">
                                                 <div class="review-block">
@@ -210,13 +210,13 @@
         <!-- ============================================================== -->
         <!-- Optional JavaScript -->
         <!-- jquery 3.3.1 -->
-        <script src="/brocoli/owner/assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+        <script src="/brocoli/resources/ownerResources/vendor/jquery/jquery-3.3.1.min.js"></script>
         <!-- bootstap bundle js -->
-        <script src="/brocoli/owner/assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+        <script src="/brocoli/resources/ownerResources/vendor/bootstrap/js/bootstrap.bundle.js"></script>
         <!-- slimscroll js -->
-        <script src="/brocoli/owner/assets/vendor/slimscroll/jquery.slimscroll.js"></script>
+        <script src="/brocoli/resources/ownerResources/vendor/slimscroll/jquery.slimscroll.js"></script>
         <!-- main js -->
-        <script src="/brocoli/owner/assets/libs/js/main-js.js"></script>
+        <script src="/brocoli/resources/ownerResources/libs/js/main-js.js"></script>
         <script>
         jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up">+</div><div class="quantity-button quantity-down">-</div></div>').insertAfter('.quantity input');
         jQuery('.quantity').each(function() {
