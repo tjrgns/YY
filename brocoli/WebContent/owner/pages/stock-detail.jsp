@@ -8,18 +8,36 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>오너 : 판매중인상품</title>
+    <title>오너 : 선택상품재고관리</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
-    <link href="../assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/libs/css/style.css">
-    <link rel="stylesheet" href="../assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
-    <link rel="stylesheet" type="text/css" href="../assets/vendor/datatables/css/dataTables.bootstrap4.css">
-    <link rel="stylesheet" type="text/css" href="../assets/vendor/datatables/css/buttons.bootstrap4.css">
-    <link rel="stylesheet" type="text/css" href="../assets/vendor/datatables/css/select.bootstrap4.css">
-    <link rel="stylesheet" type="text/css" href="../assets/vendor/datatables/css/fixedHeader.bootstrap4.css">
+    <link rel="stylesheet" href="/brocoli/resources/ownerResources/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="/brocoli/resources/ownerResources/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="/brocoli/resources/ownerResources/libs/css/style.css">
+    <link rel="stylesheet" href="/brocoli/resources/ownerResources/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" type="text/css" href="/brocoli/resources/ownerResources/vendor/datatables/css/dataTables.bootstrap4.css">
+    <link rel="stylesheet" type="text/css" href="/brocoli/resources/ownerResources/vendor/datatables/css/buttons.bootstrap4.css">
+    <link rel="stylesheet" type="text/css" href="/brocoli/resources/ownerResources/vendor/datatables/css/select.bootstrap4.css">
+    <link rel="stylesheet" type="text/css" href="/brocoli/resources/ownerResources/vendor/datatables/css/fixedHeader.bootstrap4.css">
     
     <%@ include file="/owner/pages/header.jsp" %>
+    <style type="text/css">
+    	.product-name{
+    		max-width: 120px;
+    	}
+		.table td{
+			padding: 10px;
+		}  
+		  
+        .table th{
+        	padding: 10px;
+        }
+        .colorCube{
+        	width: 20px;
+        	height: 20px;
+        	border-radius: 5px;
+        	background-color: gray;
+        }
+    </style>
     
 </head>
 
@@ -40,14 +58,16 @@
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="page-header">
-                            <h2 class="pageheader-title">판매중인상품</h2>
+                            <h2 class="pageheader-title">재고관리</h2>
                             <p class="pageheader-text">Proin placerat ante duiullam scelerisque a velit ac porta, fusce sit amet vestibulum mi. Morbi lobortis pulvinar quam.</p>
                             <div class="page-breadcrumb">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">메뉴</a></li>
                                         <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">상품관리</a></li>
-                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">판매중인상품</a></li>
+                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">판매상품관리</a></li>
+                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">재고관리</a></li>
+                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">선택상품재고관리</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -64,83 +84,111 @@
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="card">
                             <div class="card-header">
-                                <h5 class="mb-0">등록된 제품</h5>
-                                <p>현재 판매등록된 제품입니다.</p>
+                                <h5 class="mb-0">선택상품재고관리</h5>
+                                <p>선택한 상품의 옵션별 재고 현황입니다.</p>
+								<h5>선택상품 : DIM. REVERSIBLE FAKE FUR MUFFLER_GRAY</h5>
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
                                     <table id="example" class="table table-striped table-bordered second" >
                                         <thead>
                                             <tr>
-                                            	<th>상품번호</th>
-                                                <th>카테고리</th>
-                                                <th>이미지</th>
-                                                <th class="product-name">제품명</th>
-                                                <th>등록가격</th>
-                                                <th>할인</th>
-                                                <th>현재가격</th>
-                                                <th>등록일</th>
+                                            	<th>옵션1</th>
+                                                <th>옵션2</th>
+                                                <th>잔여재고</th>
+                                                <th>재고변경</th>
+                                                <th>현재상태</th>
+                                                <th>상태변경</th>
                                                 <th>수정</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>P98001</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
-                                                <td>악세서리-머플러</td>
-                                                <td align="center">
-                                                	<div class="m-r-10"><img src="/brocoli/resources/ownerResources/p_Img/P11001.jpg" alt="user" class="rounded" width="45"></div>
-                                                </td>
-                                                <td class="product-name">DIM. REVERSIBLE FAKE FUR MUFFLER_GRAY</td>
-                                                <td>49,000</td>
-                                                <td>-4,500</td>
-                                                <td>44,500</td>
-                                                <td>2020-03-18</td>
+                                                <td>그레이</td>
+                                                <td>S</td>
+                                                <td>12</td>
+                                                <td><input type="number"></td>
+                                                <td>판매중</td>
                                                 <td>
-	                                                <div class="btn-group ml-auto">
-			                                            <button class="btn btn-sm btn-outline-light">변경</button>
-			                                            <button class="btn btn-sm btn-outline-light">
-			                                                <i class="far fa-trash-alt"></i>
-			                                            </button>
-			                                        </div>
+                                                	<select name="status" style="height: 31px;">
+													    <option value="Y">판매중</option>
+													    <option value="N">품절</option>
+													</select>
                                                 </td>
-                                                
-                                                
-                                                
-                                            </tr>
-                                            <tr>
-                                                <td>P98002</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
-                                                <td>악세서리-머플러</td>
-                                                <td align="center">
-                                                	<div class="m-r-10"><img src="/brocoli/resources/ownerResources/p_Img/P11002.jpg" alt="user" class="rounded" width="45"></div>
-                                                </td>
-                                                <td class="product-name">DIM. REVERSIBLE FAKE FUR MUFFLER_BROWN</td>
-                                                <td>49,000</td>
-                                                <td>-4,500</td>
-                                                <td>44,500</td>
-                                                <td>2020-03-18</td>
                                                 <td>
                                                 	<div class="btn-group ml-auto">
-			                                            <button class="btn btn-sm btn-outline-light">변경</button>
-			                                            <button class="btn btn-sm btn-outline-light">
-			                                                <i class="far fa-trash-alt"></i>
-			                                            </button>
+			                                            <button class="btn btn-sm btn-outline-light">적용</button>
 			                                        </div>
                                                 </td>
                                             </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>M</td>
+                                                <td>12</td>
+                                                <td><input type="number"></td>
+                                                <td>판매중</td>
+                                                <td>
+                                                	<select name="status" style="height: 31px;">
+													    <option value="Y">판매중</option>
+													    <option value="N">품절</option>
+													</select>
+                                                </td>
+                                                <td>
+                                                	<div class="btn-group ml-auto">
+			                                            <button class="btn btn-sm btn-outline-light">적용</button>
+			                                        </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>L</td>
+                                                <td>131</td>
+                                                <td><input type="number"></td>
+                                                <td>판매중</td>
+                                                <td>
+                                                	<select name="status" style="height: 31px;">
+													    <option value="Y">판매중</option>
+													    <option value="N">품절</option>
+													</select>
+                                                </td>
+                                                <td>
+                                                	<div class="btn-group ml-auto">
+			                                            <button class="btn btn-sm btn-outline-light">적용</button>
+			                                        </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>XL</td>
+                                                <td>0</td>
+                                                <td><input type="number"></td>
+                                                <td>품절</td>
+                                                <td>
+                                                	<select name="status" style="height: 31px;">
+													    <option value="Y">판매중</option>
+													    <option value="N">품절</option>
+													</select>
+                                                </td>
+                                                <td>
+                                                	<div class="btn-group ml-auto">
+			                                            <button class="btn btn-sm btn-outline-light">적용</button>
+			                                        </div>
+                                                </td>
+                                            </tr>
+                                        <!-- 더미데이터 시작 -->
+                               				
+                                        <!-- 더미데이터 끝 -->
+                                        
                                             
-                                            
-
                                         </tbody>
                                         <tfoot>
                                             <tr>
-                                             	<th>상품번호</th>
-                                                <th>카테고리</th>
-                                                <th>이미지</th>
-                                                <th>제품명</th>
-                                                <th>등록가격</th>
-                                                <th>할인</th>
-                                                <th>현재가격</th>
-                                                <th>등록일</th>
+                                            	<th>옵션1</th>
+                                                <th>옵션2</th>
+                                                <th>잔여재고</th>
+                                                <th>재고변경</th>
+                                                <th>현재상태</th>
+                                                <th>상태변경</th>
                                                 <th>수정</th>
                                             </tr>
                                         </tfoot>

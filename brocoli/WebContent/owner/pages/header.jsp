@@ -167,13 +167,10 @@
                                             <a class="nav-link" href="pages/cards.html">상품업로드</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/Enable-Product.jsp">판매중인상품</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/product-management.jsp">판매상품관리</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/Disabled-Product.jsp">판매중지상품</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/stock-management.jsp">재고,입고현황</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/stock-management.jsp">재고관리</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/listgroup.html">판매제품순위</a>
@@ -205,26 +202,9 @@
                                 <div id="submenu-8" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/cards.html">사진편집<span class="badge badge-secondary">New</span></a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/Cropper.jsp">사진편집<span class="badge badge-secondary">New</span></a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/general.html">컬러코드조회</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/carousel.html"></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/listgroup.html">List Group</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/typography.html">Typography</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/accordions.html">Accordions</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/tabs.html">Tabs</a>
-                                        </li>
+
                                     </ul>
                                 </div>
                             </li>
