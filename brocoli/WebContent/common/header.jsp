@@ -102,7 +102,7 @@
 							</li>
 
 							<li class="active-menu">
-								<a href="about.jsp">MAGAZINE</a>
+								<a href="/brocoli/main/blog.jsp">MAGAZINE</a>
 							</li>
 
 							<li>
