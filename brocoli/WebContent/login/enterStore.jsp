@@ -21,9 +21,9 @@
           height: 900px;
 	}
 </style>
+<%@ include file="/common/header.jsp" %>
 </head>
 <body>
-<%@ include file="/common/header.jsp" %>
 
 <form>
 	<div id="all">
@@ -37,41 +37,41 @@
 		
   		<div class="form-group">
       		<label for="userId">사업자 명 : </label>
-    		<input type="text" class="form-control" id="userId" name="userId">
+    		<input type="text" class="form-control" id="userId" name="userId" style="width:300px;">
    		</div>
    		 		
    		<div class="form-group">
       		<label for="userPwd2">취급 브랜드 명: </label>
-    		<input type="password" class="form-control" id="userPwd2" name="userPwd2">
+    		<input type="password" class="form-control" id="userPwd2" name="userPwd2" style="width:300px;">
    		</div>
    		
    		<div class="form-group">
       		<label for="email">사이트 URL(http://포함) : </label>
-    		<input type="email" class="form-control" id="email" name="email">
+    		<input type="email" class="form-control" id="email" name="email" style="width:300px;">
    		</div>
    		
    		<div class="form-group">
       		<label for="phone">담당자 명 : </label>
-    		<input type="text" class="form-control" id="phone" name="phone">
+    		<input type="text" class="form-control" id="phone" name="phone" style="width:300px;">
    		</div>
    		
    		<div class="form-group">
       		<label for="year">핸드폰 번호 : </label>
-    		<input type="text" class="form-control" id="year" name="year">
+    		<input type="text" class="form-control" id="year" name="year" style="width:300px;">
    		</div>
    		
    		<div class="form-group">
       		<label for="gender">담당자 이메일 : </label>
-    		<input type="text" class="form-control" id="year" name="year">
+    		<input type="text" class="form-control" id="year" name="year" style="width:300px;">
    		</div>
-   		<div class="form-group">
+   		<div id="cate">
    			<label for="sad">카테고리 분류 : </label>
    			
    		</div>
    		
    		<div class="form-group">
       		<label for="year">브랜드 소개 : </label>
-    		<input type="text" class="form-control" id="year" name="year">
+    		<input type="text" class="form-control" id="year" name="year" style="width:300px;">
    		</div>
    		
    		<button type="submit" class="btn btn-primary">가입</button>
@@ -79,5 +79,107 @@
 </form>
 		<%@ include file="/common/footer.jsp" %>
 		<%@ include file="/common/BacktoTop.jsp" %>
+				
+<!--===============================================================================================-->   
+   <script src="../main/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+   <script src="../main/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+   <script src="../main/vendor/bootstrap/js/popper.js"></script>
+   <script src="../main/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+   <script src="vendor/select2/select2.min.js"></script>
+   <script>
+      $(".js-select2").each(function(){
+         $(this).select2({
+            minimumResultsForSearch: 20,
+            dropdownParent: $(this).next('.dropDownSelect2')
+         });
+      })
+   </script>
+<!--===============================================================================================-->
+   <script src="../main/vendor/daterangepicker/moment.min.js"></script>
+   <script src="../main/vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+   <script src="../main/vendor/slick/slick.min.js"></script>
+   <script src="../main/js/slick-custom.js"></script>
+<!--===============================================================================================-->
+   <script src="../main/vendor/parallax100/parallax100.js"></script>
+   <script>
+        $('.parallax100').parallax100();
+   </script>
+<!--===============================================================================================-->
+   <script src="../main/vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
+   <script>
+      $('.gallery-lb').each(function() { // the containers for all your galleries
+         $(this).magnificPopup({
+              delegate: 'a', // the selector for gallery item
+              type: 'image',
+              gallery: {
+                 enabled:true
+              },
+              mainClass: 'mfp-fade'
+          });
+      });
+   </script>
+<!--===============================================================================================-->
+   <script src="../main/vendor/isotope/isotope.pkgd.min.js"></script>
+<!--===============================================================================================-->
+   <script src="../main/vendor/sweetalert/sweetalert.min.js"></script>
+   <script>
+      $('.js-addwish-b2, .js-addwish-detail').on('click', function(e){
+         e.preventDefault();
+      });
+
+      $('.js-addwish-b2').each(function(){
+         var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
+         $(this).on('click', function(){
+            swal(nameProduct, "is added to wishlist !", "success");
+
+            $(this).addClass('js-addedwish-b2');
+            $(this).off('click');
+         });
+      });
+
+      $('.js-addwish-detail').each(function(){
+         var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();
+
+         $(this).on('click', function(){
+            swal(nameProduct, "is added to wishlist !", "success");
+
+            $(this).addClass('js-addedwish-detail');
+            $(this).off('click');
+         });
+      });
+
+      /*---------------------------------------------*/
+
+      $('.js-addcart-detail').each(function(){
+         var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
+         $(this).on('click', function(){
+            swal(nameProduct, "is added to cart !", "success");
+         });
+      });
+   
+   </script>
+<!--===============================================================================================-->
+   <script src="../main/vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+   <script>
+      $('.js-pscroll').each(function(){
+         $(this).css('position','relative');
+         $(this).css('overflow','hidden');
+         var ps = new PerfectScrollbar(this, {
+            wheelSpeed: 1,
+            scrollingThreshold: 1000,
+            wheelPropagation: false,
+         });
+
+         $(window).on('resize', function(){
+            ps.update();
+         })
+      });
+   </script>
+<!--===============================================================================================-->
+   <script src="../main/js/main.js"></script>
 	</body>
 </html>
