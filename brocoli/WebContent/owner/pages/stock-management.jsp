@@ -19,7 +19,7 @@
     <link rel="stylesheet" type="text/css" href="/brocoli/resources/ownerResources/vendor/datatables/css/select.bootstrap4.css">
     <link rel="stylesheet" type="text/css" href="/brocoli/resources/ownerResources/vendor/datatables/css/fixedHeader.bootstrap4.css">
     
-    <%@ include file="/owner/header.jsp" %>
+    <%@ include file="/owner/pages/header.jsp" %>
     
 </head>
 

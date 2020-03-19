@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/brocoli/resources/ownerResources/libs/css/style.css">
     <link rel="stylesheet" href="/brocoli/resources/ownerResources/vendor/fonts/fontawesome/css/fontawesome-all.css">
     
-    <%@ include file="/owner/header.jsp" %>
+    <%@ include file="/owner/pages/header.jsp" %>
     
     <title>오너 : 상품상세페이지</title>
 </head>
