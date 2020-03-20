@@ -4,7 +4,12 @@
 <!doctype html>
 <html lang="en">
 
- 
+
+<!-- 
+	작성자 : 박주완
+	작성일 : 2020-03-20 
+	내용    : 상품등록 
+-->
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -32,10 +37,16 @@
     #small-category-K { display: none;}
     #small-category-L { display: none;}
     #small-category-M { display: none;}
-    #small-category- { display: none;}
-    #small-category-Z { display: none;}
     
+    #small-category-  { display: none;}
     
+    #small-category-Z { display: none;}  /* Z는 반드시 마지막 번쨰 기타항목  */
+    
+    .btn-secondary{
+	    color: #fff;
+	    background-color: #ff407b;
+	    border-color: #ff407b;
+    }
     </style>
 </head>
 

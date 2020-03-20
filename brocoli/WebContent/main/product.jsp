@@ -9,11 +9,11 @@
 
 <body class="animsition">
 
-	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/brocoli/main/images/bg-02.jpg');">
-		<h2 class="ltext-105 cl0 txt-center" style="color:white">
-			SHOP
-		</h2>
-	</section>	
+   <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/brocoli/main/images/bg-02.jpg');">
+      <h2 class="ltext-105 cl0 txt-center" style="color:white">
+         SHOP
+      </h2>
+   </section>   
    <!-- Product -->
    <div class="bg0 m-t-23 p-b-140">
       <div class="container">
@@ -841,7 +841,7 @@
                   </div>
                </div>
                
-   			<%@ include file="../common/shopModal.jsp" %>
+            <%@ include file="../common/shopModal.jsp" %>
             </div>
          </div>
       </div>
