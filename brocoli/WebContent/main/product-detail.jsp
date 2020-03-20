@@ -2,9 +2,24 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
+<head>
 <%@ include file="../common/header.jsp" %>
 <%@ include file="../common/sidebar.jsp" %>
 <%@ include file="../common/cart.jsp" %>
+<style>
+
+.img_color{
+
+	width: 290px; 
+	height: 290px; 
+	display: inline-block;
+	border: 1px solid black;
+	
+	}
+
+</style>
+</head>
+
 <body class="animsition">
 
 
@@ -141,15 +156,21 @@
 										</div>
 									</div>
 
-									<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+									
+								</div>
+									<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail"
+									style="color: white; background-color: #666666;">
+										즉시 결제
+									</button>
+									<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail"
+									style="color: white; background-color: #666666;">
 										장바구니+
 									</button>
-								</div>
 							</div>	
 						</div>
 
 						<!--  -->
-						<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+						<div class="flex-w flex-m p-l-100 p-t-40 respon7" style="padding-left: 200px;">
 							<div class="flex-m bor9 p-r-10 m-r-11">
 								<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
 									<i class="zmdi zmdi-favorite"></i>
@@ -168,8 +189,36 @@
 								<i class="fa fa-google-plus"></i>
 							</a>
 						</div>
+
 					</div>
+					   <!-- 
+					   	작성자 : 윤석훈
+					   	작성일 : 2020-03-18
+					   	내용 : 해당상품 다른 컬러 보기
+					    -->
+						<!-- 해당 제품의 다른 색상  이미지(white-space:nowrap으로 가로정렬 함)-->
+						<div style="overflow-x: scroll; white-space:nowrap; width:587px; height:308px; margin-top: 30px; ">
+						
+						<div class="img_color">
+						<img src="images/product-detail-01.jpg" alt="IMG-PRODUCT" style="width:288px; height:288px;">
+						</div>
+
+						<div class="img_color" >
+						<img src="images/product-detail-01.jpg" alt="IMG-PRODUCT" style="width:288px; height:288px;">
+						</div>
+						
+						<div class="img_color">
+						<img src="images/product-detail-01.jpg" alt="IMG-PRODUCT" style="width:288px; height:288px;">
+						</div>
+						
+						<div class="img_color">
+						<img src="images/product-detail-01.jpg" alt="IMG-PRODUCT" style="width:288px; height:288px;">
+						</div>
+						
+						</div>
+						<!-- ----------끝----------- -->
 				</div>
+
 			</div>
 
 			<div class="bor10 m-t-50 p-t-43 p-b-40">
@@ -364,7 +413,7 @@
 		<div class="container">
 			<div class="p-b-45">
 				<h3 class="ltext-106 cl5 txt-center">
-					Related Products
+					관련 상품
 				</h3>
 			</div>
 

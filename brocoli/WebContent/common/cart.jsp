@@ -7,6 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
+   <!-- 
+   	작성자 : 윤석훈
+   	작성일 : 2020-03-18
+   	내용 : 카트 메뉴바 수정
+    -->
 <!-- Cart -->
 	<div class="wrap-header-cart js-panel-cart">
 		<div class="s-full js-hide-cart"></div>
@@ -79,11 +84,11 @@
 					</div>
 
 					<div class="header-cart-buttons flex-w w-full">
-						<a href="shoping-cart.jsp" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-r-8 m-b-10">
+						<a href="shoping-cart.jsp" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-r-8 m-b-10" style="color:white;">
 							장바구니
 						</a>
 
-						<a href="shoping-cart.jsp" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-b-10">
+						<a href="shoping-cart.jsp" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-b-10" style="color:white;">
 							결제
 						</a>
 					</div>

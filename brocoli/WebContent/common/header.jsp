@@ -40,6 +40,11 @@
 </head>
 <!-- Header -->
 	<header class="header-v4">
+	   <!-- 
+   	작성자 : 윤석훈
+   	작성일 : 2020-03-18
+   	내용 : 헤더 수정
+    -->
 		<!-- Header desktop -->
 		<div class="container-menu-desktop">
 			<!-- Topbar -->
@@ -121,7 +126,7 @@
 							<i class="zmdi zmdi-shopping-cart"></i>
 						</div>
 
-						<a href="#" class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti" data-notify="0">
+						<a href="/brocoli/main/wishlist.jsp" class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti" data-notify="0">
 							<i class="zmdi zmdi-favorite-outline"></i>
 						</a>
 						

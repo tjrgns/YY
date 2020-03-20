@@ -1966,14 +1966,15 @@ input.num-product::-webkit-inner-spin-button {
 .table-shopping-cart .column-7 {
   width: 133px;
   padding-left: 50px;
-  text-align: center;
+
 }
-.table-shopping-cart .table_row {
+/* .table-shopping-cart .table_row {
   height: 185px;
-}
+} */
 
 .table-shopping-cart .table_row td {
   padding-bottom: 20px;
+  padding-top:20px;
 }
 
 .table-shopping-cart .table_row td.column-0 {
