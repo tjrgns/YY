@@ -19,29 +19,48 @@
       <div class="container">
          <div class="flex-w flex-sb-m p-b-52">
             <div class="flex-w flex-l-m filter-tope-group m-tb-10">
-               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" id="category-ALL" data-filter="*">
                   전체보기
                </button>
 
-               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".women">
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" id="category-A" data-filter=".women">
                   상의
                </button>
 
-               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".men">
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" id="category-B"  data-filter=".men">
+                  아우터
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" id="category-C" data-filter=".bag">
+                  원피스
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" id="category-D" data-filter=".shoes">
                   하의
                </button>
 
-               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".bag">
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" id="category-E" data-filter=".watches">
+                  스커트
+               </button>
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" id="category-F" data-filter=".watches">
+                  가방
+               </button>
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" id="category-G" data-filter=".watches">
                   신발
                </button>
-
-               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".shoes">
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" id="category-H" data-filter=".watches">
                   모자
                </button>
-
-               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
-                  그 외
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" id="category-I" data-filter=".watches">
+                  악세서리
                </button>
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" id="category-J" data-filter=".watches">
+                  언더웨어
+               </button>
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" id="category-Z" data-filter=".watches">
+                  기타
+               </button>
+               
             </div>
 
             <div class="flex-w flex-c-m m-tb-10">
@@ -259,6 +278,409 @@
                </div>
             </div>
          </div>
+         
+         
+<!--  ======== 서브카테고리 영역 시작 ================== -->         
+         <div class="flex-w flex-sb-m p-b-52 sub-category" id="sub-category-A" style="display: none; margin-top: -61px; border-top: 1px solid #666666;" >
+            <div class="flex-w flex-l-m filter-tope-group m-tb-10">
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter="*"></button>
+               
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
+        ALL
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".women">
+                  티셔츠
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".men">
+                  셔츠
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".bag">
+                  맨투맨/스웨트셔츠
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".shoes">
+                  후드스웨트셔츠/후드집업
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  니트/스웨터/가디건
+               </button>
+               
+                <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  기타상의
+               </button>
+               
+            </div>
+
+
+         </div>
+         
+         <div class="flex-w flex-sb-m p-b-52 sub-category" id="sub-category-B" style="display: none; margin-top: -61px; border-top: 1px solid #666666;" >
+            <div class="flex-w flex-l-m filter-tope-group m-tb-10">
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter="*"></button>
+               
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
+        ALL
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".women">
+                  블루종/MA-1
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".men">
+                  레더/라이더스재킷
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".bag">
+                  트러커재킷
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".shoes">
+                  수트/블레이저 재킷
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  나일론/코치/아노락
+               </button>
+               
+                <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  겨울싱글코트
+               </button>
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  겨울기타코트
+               </button>
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                 헤이아우터/패딩
+               </button>
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  기타아우터
+               </button>
+
+               
+               
+            </div>
+
+
+         </div>
+         
+         <div class="flex-w flex-sb-m p-b-52 sub-category" id="sub-category-C" style="display: none; margin-top: -61px; border-top: 1px solid #666666;" >
+            <div class="flex-w flex-l-m filter-tope-group m-tb-10">
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter="*"></button>
+               
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
+        ALL
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".women">
+                  미니원피스
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".men">
+                  미디원피스
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".bag">
+                  맥시원피스
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".shoes">
+                  점프수트
+               </button>
+
+            </div>
+
+
+         </div>
+         
+         <div class="flex-w flex-sb-m p-b-52 sub-category" id="sub-category-D" style="display: none; margin-top: -61px; border-top: 1px solid #666666;" >
+            <div class="flex-w flex-l-m filter-tope-group m-tb-10">
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter="*"></button>
+               
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
+        ALL
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".women">
+                  데님팬츠
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".men">
+                  코튼팬츠
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".bag">
+                  수트팬츠/슬렉스
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".shoes">
+                  트레이닝/조거팬츠
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  숏팬츠
+               </button>
+               
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  레깅스
+               </button>
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  기타
+               </button>
+               
+            </div>
+
+
+         </div>
+         
+         <div class="flex-w flex-sb-m p-b-52 sub-category" id="sub-category-E" style="display: none; margin-top: -61px; border-top: 1px solid #666666;" >
+            <div class="flex-w flex-l-m filter-tope-group m-tb-10">
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter="*"></button>
+               
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
+        ALL
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".women">
+                  미니스커트
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".men">
+                  미디스커트
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".bag">
+                  롱스커트
+               </button>
+
+                             
+            </div>
+
+
+         </div>
+         
+         <div class="flex-w flex-sb-m p-b-52 sub-category" id="sub-category-F" style="display: none; margin-top: -61px; border-top: 1px solid #666666;" >
+            <div class="flex-w flex-l-m filter-tope-group m-tb-10">
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter="*"></button>
+               
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
+        ALL
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".women">
+                  백팩
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".men">
+                  메신저/크로스백
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".bag">
+                  클러치/파우치
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".shoes">
+                  브리프케이스
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  웨이스트백
+               </button>
+               
+                <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  기타가방
+               </button>
+               
+            </div>
+
+
+         </div>
+         
+         <div class="flex-w flex-sb-m p-b-52 sub-category" id="sub-category-G" style="display: none; margin-top: -61px; border-top: 1px solid #666666;" >
+            <div class="flex-w flex-l-m filter-tope-group m-tb-10">
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter="*"></button>
+               
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
+        ALL
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".women">
+                  스니커즈
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".men">
+                  구두
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".bag">
+                 부츠
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".shoes">
+                  힐/펌프스
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  플랫
+               </button>
+               
+                <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  로퍼
+               </button>
+                <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  기타신발
+               </button>
+               
+            </div>
+
+
+         </div>
+         
+         <div class="flex-w flex-sb-m p-b-52 sub-category" id="sub-category-H" style="display: none; margin-top: -61px; border-top: 1px solid #666666;" >
+            <div class="flex-w flex-l-m filter-tope-group m-tb-10">
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter="*"></button>
+               
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
+        ALL
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".women">
+                  캡/야구모자
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".men">
+                  헌팅/베레
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".bag">
+                  비니
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".shoes">
+                  버킷/사파리
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  기타모자
+               </button>
+               
+           
+               
+            </div>
+
+
+         </div>
+         
+         <div class="flex-w flex-sb-m p-b-52 sub-category" id="sub-category-I" style="display: none; margin-top: -61px; border-top: 1px solid #666666;" >
+            <div class="flex-w flex-l-m filter-tope-group m-tb-10">
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter="*"></button>
+               
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
+        ALL
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".women">
+                  안경
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".men">
+                  마스크
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".bag">
+                  지갑
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".shoes">
+                  벨트
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  팔찌
+               </button>
+               
+                <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  목걸이
+               </button>
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  귀걸이
+               </button>
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  머플러
+               </button>
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  장갑
+               </button>
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  넥타이
+               </button>
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  키링
+               </button>
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  헤어악세서리
+               </button>
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+                  기타
+               </button>
+               
+               
+            </div>
+
+
+         </div>
+         
+         <div class="flex-w flex-sb-m p-b-52 sub-category" id="sub-category-J" style="display: none; margin-top: -61px; border-top: 1px solid #666666;" >
+            <div class="flex-w flex-l-m filter-tope-group m-tb-10">
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter="*"></button>
+               
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
+        ALL
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".women">
+                  양말
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".men">
+                  속옷
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".bag">
+                  스타킹
+               </button>
+
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".shoes">
+                  홈웨어
+               </button>
+
+               
+            </div>
+
+
+         </div>
+         
+         <div class="flex-w flex-sb-m p-b-52 sub-category" id="sub-category-Z" style="display: none; margin-top: -61px; border-top: 1px solid #666666;" >
+            <div class="flex-w flex-l-m filter-tope-group m-tb-10">
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter="*"></button>
+               
+               <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
+       	기타상품전체
+               </button>
+               
+            </div>
+
+
+         </div>
+         
+    
+         
+<!--  ======== 서브카테고리 영역 끝 ================== -->     
+         
+         
+         
 
          <div class="row isotope-grid">
             <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
@@ -948,6 +1370,91 @@
    </script>
 <!--===============================================================================================-->
    <script src="js/main.js"></script>
+   
+   <!-- 
+   	작성자 : 박주완
+   	작성일 : 2020-03-20
+   	내용 : 카테고리 버튼 클릭시 서브 메뉴 츌력 
+    -->
+   <script>
+   $(function (){
+		$("#category-ALL").click(function (){
+	  	$(".sub-category").css("display","none");
+	  });
+	});
+
+  
+   $(function (){
+		$("#category-A").click(function (){
+			$(".sub-category").css("display","none");
+	  		$("#sub-category-A").toggle();
+	  });
+	});
+   $(function (){
+		$("#category-B").click(function (){
+			$(".sub-category").css("display","none");
+	  		$("#sub-category-B").toggle();
+	  });
+	});
+   $(function (){
+		$("#category-C").click(function (){
+			$(".sub-category").css("display","none");
+	  		$("#sub-category-C").toggle();
+	  });
+	});
+   $(function (){
+		$("#category-D").click(function (){
+			$(".sub-category").css("display","none");
+	  		$("#sub-category-D").toggle();
+	  });
+	});
+   $(function (){
+		$("#category-E").click(function (){
+			$(".sub-category").css("display","none");
+			$("#sub-category-E").toggle();
+	  });
+	});
+   $(function (){
+		$("#category-F").click(function (){
+			$(".sub-category").css("display","none");
+	  		$("#sub-category-F").toggle();
+	  });
+	});
+   $(function (){
+		$("#category-G").click(function (){
+			$(".sub-category").css("display","none");
+	  		$("#sub-category-G").toggle();
+	  });
+	});
+   $(function (){
+		$("#category-H").click(function (){
+			$(".sub-category").css("display","none");
+	  		$("#sub-category-H").toggle();
+	  });
+	});
+   $(function (){
+		$("#category-I").click(function (){
+			$(".sub-category").css("display","none");
+	  		$("#sub-category-I").toggle();
+	  });
+	});
+   $(function (){
+		$("#category-J").click(function (){
+			$(".sub-category").css("display","none");
+	  		$("#sub-category-J").toggle();
+	  });
+	});
+   
+   $(function (){							/* 마지막 기타 메뉴 : Z */
+		$("#category-Z").click(function (){
+			$(".sub-category").css("display","none");
+	  		$("#sub-category-Z").toggle();
+	  });
+	});
+   
+   
+   
+   </script>
 
 
 </body>
