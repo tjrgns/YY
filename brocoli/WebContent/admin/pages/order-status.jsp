@@ -10,14 +10,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>주문관리</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
-    <link href="../assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/libs/css/style.css">
-    <link rel="stylesheet" href="../assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
-    <link rel="stylesheet" type="text/css" href="../assets/vendor/datatables/css/dataTables.bootstrap4.css">
-    <link rel="stylesheet" type="text/css" href="../assets/vendor/datatables/css/buttons.bootstrap4.css">
-    <link rel="stylesheet" type="text/css" href="../assets/vendor/datatables/css/select.bootstrap4.css">
-    <link rel="stylesheet" type="text/css" href="../assets/vendor/datatables/css/fixedHeader.bootstrap4.css">
+    <link rel="stylesheet" href="/brocoli/resources/adminResources/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="/brocoli/resources/adminResources/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="/brocoli/resources/adminResources/libs/css/style.css">
+    <link rel="stylesheet" href="/brocoli/resources/adminResources/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" type="text/css" href="/brocoli/resources/adminResources/vendor/datatables/css/dataTables.bootstrap4.css">
+    <link rel="stylesheet" type="text/css" href="/brocoli/resources/adminResources/vendor/datatables/css/buttons.bootstrap4.css">
+    <link rel="stylesheet" type="text/css" href="/brocoli/resources/adminResources/vendor/datatables/css/select.bootstrap4.css">
+    <link rel="stylesheet" type="text/css" href="/brocoli/resources/adminResources/vendor/datatables/css/fixedHeader.bootstrap4.css">
 </head>
 
 <body>
@@ -67,38 +67,48 @@
                                         <thead>
                                             <tr>
                                                 <th style="width:3%">번호</th>
-                                                <th style="width:5%">로고</th>
-                                                <th style="width:8%">브랜드명</th>
-                                                <th style="width:8%">사업자번호</th>
-                                                <th style="width:5%">대표</th>
-                                                <th style="width:10%">주소</th>
-                                                <th style="width:8%">전화번호</th>
-                                                <th style="width:8%">입점일</th>
-                                                <th style="width:3%">입점상태(Y/N)</th>
+                                                <th style="width:8%">주문일자</th>
+                                                <th style="width:10%">상품번호</th>
+                                                <th style="width:10%">상품명</th>
+                                                <th style="width:3%">수량</th>
+                                                <th style="width:8%">주문자</th>
+                                                <th style="width:8%">아이디</th> 
+                                                <th style="width:10%">배송지</th>
+                                                <th style="width:8%">가격</th>
+                                                <th style="width:8%">현재주문상태</th>
+                                                <th style="width:12%">상품명?상품코드?</th>
+                                                
                                             </tr>
                                         </thead>
                                         <tbody>
                                         <c:forEach var="i" begin="0" end="10"> <!-- for -->
                                             <tr>
                                                 <td>1</td>
-                                                <td><img src="../assets/images/nike.PNG" width="50" height="50"></td>
-                                                <td>NIKE</td>
-                                                <td>123456789</td>
-                                                <td>나대표</td>
+                                                <td>2020/02/02</td>
+                                                <td>a1d1</td>
+                                                <td>나이키맨투맨</td>
+                                                <td>2</td>
+                                                <td>홍길순</td>
+                                                <td>hongsoon</td>
                                                 <td>서울시 강남구 역삼1동</td>
-                                                <td>010-1212-2323</td>
-                                                <td>1989/01/01</td>
-                                                <td>Y</td>
+                                                <td>30000</td>
+                                                <td>배송준비중</td>
+                                                <td>
+                                                 <select name="cls" style="height: 30px; background-color: white;">
+									                <option value="상품준비중">상품준비중</option>
+									                <option value="배송준비중">배송준비중</option>
+									                <option value="배송중">배송중</option>
+									                <option value="배송완료">배송완료</option>
+									              </select>
+									              <button type="submit" class="btn btn-light "
+									                      style="width:50px; height:40px; ">
+									                      <i class="fas fa-sync"></i>
+									               </button>
+                                                </td>
                                             </tr>
                                         </c:forEach>
                                       </tbody>
                                     </table>
-                      			<div class="form-group row text-right" style="width:136%">
-                                            <div class="col col-sm-10 col-lg-9 offset-sm-1 offset-lg-0">
-                                            	<button class="btn btn-space btn-primary" onclick="location.href='brand-add.jsp'">추가</button>
-                                            </div>
-                                        </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -117,36 +127,18 @@
     <!-- end main wrapper -->
     <!-- ============================================================== -->
     
-    	<!-- 회원 상세보기용 -->
-		<script>
-			$(function(){
-				$("#brand-management").find("td").mouseenter(function(){
-					$(this).parents("tr").css({ "cursor":"pointer"});
-				}).click(function(){
-					var bId = $(this).parents().children("td").eq(0).text();	
-					location.href="brand-detail.jsp";
-					//location.href="detail.bo?bId="+bId;
-				});
-			});
-		</script>
-		
-		
-
-    
-    
-    
     <!-- ============================================================== -->
     <!-- Optional JavaScript -->
-    <script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
-    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
-    <script src="../assets/vendor/slimscroll/jquery.slimscroll.js"></script>
-    <script src="../assets/vendor/multi-select/js/jquery.multi-select.js"></script>
-    <script src="../assets/libs/js/main-js.js"></script>
+    <script src="/brocoli/resources/adminResources/vendor/jquery/jquery-3.3.1.min.js"></script>
+    <script src="/brocoli/resources/adminResources/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="/brocoli/resources/adminResources/vendor/slimscroll/jquery.slimscroll.js"></script>
+    <script src="/brocoli/resources/adminResources/vendor/multi-select/js/jquery.multi-select.js"></script>
+    <script src="/brocoli/resources/adminResources/libs/js/main-js.js"></script>
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-    <script src="../assets/vendor/datatables/js/dataTables.bootstrap4.min.js"></script>
+    <script src="/brocoli/resources/adminResources/vendor/datatables/js/dataTables.bootstrap4.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js"></script>
-    <script src="../assets/vendor/datatables/js/buttons.bootstrap4.min.js"></script>
-    <script src="../assets/vendor/datatables/js/data-table.js"></script>
+    <script src="/brocoli/resources/adminResources/vendor/datatables/js/buttons.bootstrap4.min.js"></script>
+    <script src="/brocoli/resources/adminResources/vendor/datatables/js/data-table.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
