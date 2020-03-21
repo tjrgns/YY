@@ -5,6 +5,16 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style>
+.img_color{
+
+	width: 262px; 
+	height: 262px; 
+	display: inline-block;
+	border: 1px solid black;
+	
+	}
+</style>
 </head>
 <body>
 					<div class="col-md-6 col-lg-5 p-b-30">
@@ -75,15 +85,20 @@
 											</div>
 										</div>
 
-										<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
-											Add to cart
-										</button>
 									</div>
+									<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail"
+									style="color: white; background-color: #666666;">
+										즉시 결제
+									</button>
+									<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail"
+									style="color: white; background-color: #666666;">
+										장바구니+
+									</button>
 								</div>	
 							</div>
 
 							<!--  -->
-							<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+							<div class="flex-w flex-m p-l-100 p-t-40 respon7" style="padding-left: 200px;">
 								<div class="flex-m bor9 p-r-10 m-r-11">
 									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
 										<i class="zmdi zmdi-favorite"></i>
@@ -102,6 +117,32 @@
 									<i class="fa fa-google-plus"></i>
 								</a>
 							</div>
+							 <!-- 
+					   	작성자 : 윤석훈
+					   	작성일 : 2020-03-18
+					   	내용 : 해당상품 다른 컬러 보기
+					    -->
+						<!-- 해당 제품의 다른 색상  이미지(white-space:nowrap으로 가로정렬 함)-->
+						<div style="overflow-x: scroll; white-space:nowrap; width:530px; height:308px; margin-top: 30px; ">
+						
+						<div class="img_color">
+						<img src="images/product-detail-01.jpg" alt="IMG-PRODUCT" style="width:260px; height:260px;">
+						</div>
+
+						<div class="img_color" >
+						<img src="images/product-detail-01.jpg" alt="IMG-PRODUCT" style="width:260px; height:260px;">
+						</div>
+						
+						<div class="img_color">
+						<img src="images/product-detail-01.jpg" alt="IMG-PRODUCT" style="width:260px; height:260px;">
+						</div>
+						
+						<div class="img_color">
+						<img src="images/product-detail-01.jpg" alt="IMG-PRODUCT" style="width:260px; height:260px;">
+						</div>
+						
+						</div>
+						<!-- ----------끝----------- -->
 						</div>
 					</div>
 </body>

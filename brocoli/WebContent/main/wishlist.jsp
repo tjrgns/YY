@@ -7,15 +7,15 @@
 <%@ include file="../common/sidebar.jsp" %>
 
 <body class="animsition">
-	
-   <!-- 
+	   <!-- 
    	작성자 : 윤석훈
    	작성일 : 2020-03-20
-   	내용 : 장바구니 화면 수정
+   	내용 : 찜목록 추가
     -->
+
 	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/brocoli/main/images/bg-01.jpg');">
 		<h2 class="ltext-105 cl0 txt-center" style="color:white;">
-			장바구니
+			My WishList
 		</h2>
 	</section>	
 	<!-- breadcrumb -->
@@ -27,7 +27,7 @@
 			</a>
 
 			<span class="stext-109 cl4">
-				장바구니
+				My WishList
 			</span>
 		</div>
 	</div>
@@ -116,21 +116,26 @@
 							</table>
 						</div>
 
-						<div class="flex-w flex-sb-m bor15 p-t-18 p-b-15 p-lr-40 p-lr-15-sm">
-<!-- 							<div class="flex-w flex-m m-r-20 m-tb-5">
+<!-- 						<div class="flex-w flex-sb-m bor15 p-t-18 p-b-15 p-lr-40 p-lr-15-sm">
+							<div class="flex-w flex-m m-r-20 m-tb-5">
 								<input class="stext-104 cl2 plh4 size-117 bor13 p-lr-20 m-r-10 m-tb-5" type="text" name="coupon" placeholder="쿠폰 번호">
 									
 
-							</div> -->
+							</div>
 
 							<div class="flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10" style="margin-left: 88%; background: #666666;
     					color: white;">
 								선택 상품 삭제
 							</div>
-						</div>
+						</div> -->
 						<div class="flex-c-m stext-101 cl2 size-118 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-5" style="background: #666666;
-   						 color: white;"	>
-							주문 하기
+   						 color: white; width: 200px; float: right;"	>
+							장바구니에 담기
+						</div>
+						
+						<div class="flex-c-m stext-101 cl2 size-118 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-5" style="background: #666666;
+   						 color: white; width: 200px; float: right;"	>
+							선택 상품 삭제
 						</div>
 					</div>
 				</div>

@@ -7,6 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
+   <!-- 
+   	작성자 : 윤석훈
+   	작성일 : 2020-03-18
+   	내용 : 위로가기 버튼 분리
+    -->
 <!-- Back to top -->
 	<div class="btn-back-to-top" id="myBtn">
 		<span class="symbol-btn-back-to-top">
