@@ -225,16 +225,73 @@
                                 
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="/brocoli/owner/pages/manager-contact.jsp" aria-expanded="false" data-target="#submenu-4" aria-controls="submenu-4"><i class="fab fa-qq"></i>매니저컨텍</a>
+                                <a class="nav-link" href="/brocoli/owner/pages/manager-contact.jsp" aria-expanded="false" data-target="#submenu-4" aria-controls="submenu-4"><i class="fas fa-hands-helping"></i>매니저컨텍(제작중)</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="/brocoli/owner/pages/income-management.jsp" aria-expanded="false" data-target="#submenu-5" aria-controls="submenu-5"><i class="fab fa-weixin"></i>후기관리</a>
+                                <a class="nav-link" href="/brocoli/owner/pages/income-management.jsp" aria-expanded="false" data-target="#submenu-5" aria-controls="submenu-5"><i class="fab fa-weixin"></i>후기관리(제작중)</a>
+                                
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="/brocoli/owner/pages/income-management.jsp" aria-expanded="false" data-target="#submenu-6" aria-controls="submenu-6"><i class=" fab fa-leanpub"></i>메거진</a>
+                                <a class="nav-link" href="/brocoli/owner/pages/income-management.jsp" data-toggle="collapse" aria-expanded="false" data-target="#submenu-6" aria-controls="submenu-6"><i class="fas fa-images"></i>광고(제작중)</a>
+                                <div id="submenu-6" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/order-progress.jsp">광고요령</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/order-complete.jsp">광고입찰</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/order-complete.jsp">결과확인</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="/brocoli/owner/pages/income-management.jsp" aria-expanded="false" data-target="#submenu-7" aria-controls="submenu-7"><i class="fab fa-whmcs"></i>설정</a>
+                                <a class="nav-link" href="/brocoli/owner/pages/income-management.jsp"  data-toggle="collapse" aria-expanded="false" data-target="#submenu-7" aria-controls="submenu-7"><i class=" fab fa-leanpub"></i>메거진(제작중)</a>
+                                <div id="submenu-7" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/order-progress.jsp">메거진신청</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/order-complete.jsp">진행현황</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/order-complete.jsp">지난메거진</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="/brocoli/owner/pages/income-management.jsp" data-toggle="collapse" aria-expanded="false" data-target="#submenu-8" aria-controls="submenu-8"><i class="fas fa-comment-dots"></i>질의응답(제작중)</a>
+                                <div id="submenu-8" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/order-progress.jsp">QnA</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="/brocoli/owner/pages/income-management.jsp" data-toggle="collapse"  aria-expanded="false" data-target="#submenu-9" aria-controls="submenu-9"><i class="fab fa-whmcs"></i>설정(제작중)</a>
+                                <div id="submenu-9" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/order-progress.jsp">알림설정</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/order-complete.jsp">브랜드관리</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/order-complete.jsp">계정관리</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-8" aria-controls="submenu-8"><i class="fa fa-fw fa-rocket"></i>부가기능</a>
