@@ -99,7 +99,7 @@
 							</li>
 
 							<li class="label1" data-label1="hot">
-								<a href="shoping-cart.jsp">BRAND</a>
+								<a href="/brocoli/main/brand.jsp">BRAND</a>
 							</li>
 
 							<li>
