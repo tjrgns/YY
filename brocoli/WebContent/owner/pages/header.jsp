@@ -195,7 +195,7 @@
                                             <a class="nav-link" href="pages/listgroup.html">판매제품순위(제작중)</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/product-list.jsp">판매상품전체보기(제작중)</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/product-list.jsp">판매상품전체보기</a>
                                         </li>
                                     </ul>
                                 </div>
