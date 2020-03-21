@@ -11,7 +11,7 @@
 
     <%@ include file="/owner/pages/header.jsp" %>
     
-    <title>오너 페이지 : 메인</title>
+    <title>오너 : 메인</title>
 </head>
 
 <body>
