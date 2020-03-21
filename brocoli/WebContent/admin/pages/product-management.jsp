@@ -8,7 +8,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>회원 관리</title>
+    <title>상품관리</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/brocoli/resources/adminResources/vendor/bootstrap/css/bootstrap.min.css">
     <link href="/brocoli/resources/adminResources/vendor/fonts/circular-std/style.css" rel="stylesheet">
@@ -38,13 +38,13 @@
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="page-header">
-                            <h2 class="pageheader-title">회원관리</h2>
+                            <h2 class="pageheader-title">판매상품</h2>
                             <p class="pageheader-text">Proin placerat ante duiullam scelerisque a velit ac porta, fusce sit amet vestibulum mi. Morbi lobortis pulvinar quam.</p>
                             <div class="page-breadcrumb">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a class="breadcrumb-link">회원관리</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">회원 테이블</li>
+                                        <li class="breadcrumb-item"><a class="breadcrumb-link">상품관라</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">판매상품</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -60,52 +60,62 @@
                     <!-- ============================================================== -->
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="card">
-                            <h5 class="card-header">회원 테이블</h5>
+                            <h5 class="card-header">판매상품 테이블</h5>
                             <div class="card-body">
                                 <div class="table-responsive">
-                                    <table id="memberManagement" class="table table-striped table-bordered first" style="text-align:center;">
+                                    <table id="brand-management" class="table table-striped table-bordered first" style="text-align:center;">
                                         <thead>
                                             <tr>
                                                 <th style="width:5%">번호</th>
-                                                <th style="width:5%">이름</th>
-                                                <th style="width:8%">아이디</th>
-                                                <th style="width:8%">비밀번호</th>
-                                                <th style="width:5%">성별</th>
-                                                <th style="width:8%">생년월일</th>
-                                                <th style="width:8%">전화번호</th>
-                                                <th style="width:10%">주소</th>
-                                                <th style="width:10%">이메일</th>
-                                                <th style="width:6%">적립금</th>
-                                                <th style="width:5%">회원정지(Y/N)</th>
-                                                <th style="width:5%">회원삭제(Y/N)</th>
+                                                <th style="width:8%">브랜드번호</th>
+                                                <th style="width:10%">브랜드명</th>
+                                                <th style="width:10%">상품번호</th>
+                                                <th style="width:10%">상품명</th>
+                                                <th style="width:8%"></th>
+                                                <th style="width:5%">색상</th> 
+                                                <th style="width:5%">사이즈</th> 
+                                                <th style="width:7%">판매가격</th>
+                                                <th style="width:5%">재고</th>
+                                                <th style="width:8%">누적주문횟수</th>
+                                                <th style="width:10%">수정/삭제</th>
+                                                
                                             </tr>
                                         </thead>
                                         <tbody>
                                         <c:forEach var="i" begin="0" end="10"> <!-- for -->
                                             <tr>
-                                                <td>100</td>
-                                                <td>홍길동</td>
-                                                <td>hong1</td>
-                                                <td>hong1</td>
+                                                <td>1</td>
+                                                <td>123456</td>
+                                                <td>나이키</td>
+                                                <td>n1a1d1</td>
+                                                <td>나이키맨투맨</td>
+                                                <td></td>
+                                                <td>black</td>
                                                 <td>M</td>
-                                                <td>1999/01/01</td>
-                                                <td>010-1111-2222</td>
-                                                <td>강남구 역삼1동</td>
-                                                <td>hong@naver.com</td>
-                                                <td>3000</td>
-                                                <td>N</td>
-                                                <td>N</td>
+                                                <td>30000</td>
+                                                <td>100</td>
+                                                <td>1000</td>
+                                                <td>
+									              <button type="submit" class="btn btn-outline-dark"
+									                      style="width:60px; height:40px; ">
+									                      	수정
+									               </button>
+									               <button type="submit" class="btn btn-outline-danger "
+									                      style="width:60px; height:40px; ">
+									                      	삭제
+									               </button>
+                                                </td>
                                             </tr>
                                         </c:forEach>
                                       </tbody>
                                     </table>
-                                </div>
                             </div>
                         </div>
                     </div>
                     <!-- ============================================================== -->
                     <!-- end basic table  -->
                     <!-- ============================================================== -->
+                    
                 </div>
                 <div class="row">
                     <!-- ============================================================== -->
@@ -117,21 +127,29 @@
     <!-- end main wrapper -->
     <!-- ============================================================== -->
     
-    	<!-- 회원 상세보기용 -->
-		<script>
-			$(function(){
-				$("#memberManagement").find("td").mouseenter(function(){
-					$(this).parents("tr").css({ "cursor":"pointer"});
-				}).click(function(){
-					var bId = $(this).parents().children("td").eq(0).text();	
-					location.href="member-detail.jsp";
-					//location.href="detail.bo?bId="+bId;
-				});
-			});
-		</script>
-		
-		
-
+    <!-- ============================================================== -->
+    <!--반품시 alert창으로 한번 확인 -->  
+    <!-- ============================================================== -->
+    
+    
+    
+    <!-- ============================================================== -->
+    <!--/ 반품시 alert창으로 한번 확인 -->  
+    <!-- ============================================================== -->
+    
+    
+    <!-- ============================================================== -->
+    <!--교환시 팝업창 띄우기-->  
+    <!-- ============================================================== -->
+    
+    
+    
+    <!-- ============================================================== -->
+    <!--교환시 팝업창  -->  
+    <!-- ============================================================== -->
+    
+    
+    
     
     
     
@@ -157,6 +175,9 @@
     <script src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
     <script src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
     
+    <!-- end Optional JavaScript -->
+    <!-- ============================================================== -->
+         
 </body>
  
 </html>
