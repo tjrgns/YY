@@ -157,7 +157,26 @@
                                 <a class="nav-link active" href="/brocoli/owner/owner.jsp" ><i class="fa fa-fw fa-user-circle"></i>홈</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="/brocoli/owner/pages/income-management.jsp" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i class="fab fa-fw fa-wpforms"></i>매출관리</a>
+                                <a class="nav-link" href="#" aria-expanded="false" data-toggle="collapse" data-target="#submenu-1" aria-controls="submenu-1"><i class="fab fa-fw fa-wpforms"></i>매출관리</a>
+                                <div id="submenu-1" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/income-day.jsp">일간매출</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/income-week.jsp">주간매출</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/income-month.jsp">월간매출</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/income-year.jsp">연간매출</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/income-management.jsp">통계</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link" href="#" aria-expanded="false" data-toggle="collapse" data-target="#submenu-2" aria-controls="submenu-2"><i class="fab fa-elementor"></i>상품관리</a>
@@ -176,9 +195,8 @@
                                             <a class="nav-link" href="pages/listgroup.html">판매제품순위</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/product-list.jsp">판매상품</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/product-list.jsp">판매상품전체보기</a>
                                         </li>
-                             
                                     </ul>
                                 </div>
                             </li>
