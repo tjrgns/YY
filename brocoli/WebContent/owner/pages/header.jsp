@@ -172,9 +172,9 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="/brocoli/owner/pages/income-year.jsp">연간매출</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/income-management.jsp">통계</a>
-                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/income-management.jsp">매출분석(제작중)</a>
+                                        </li> 
                                     </ul>
                                 </div>
                             </li>
@@ -192,16 +192,37 @@
                                             <a class="nav-link" href="/brocoli/owner/pages/stock-management.jsp">재고관리</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/listgroup.html">판매제품순위</a>
+                                            <a class="nav-link" href="pages/listgroup.html">판매제품순위(제작중)</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/product-list.jsp">판매상품전체보기</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/product-list.jsp">판매상품전체보기(제작중)</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="/brocoli/owner/pages/order-management.jsp" aria-expanded="false" data-target="#submenu-3" aria-controls="submenu-3"><i class="fab fa-trello"></i>주문관리</a>
+                                <a class="nav-link" href="/brocoli/owner/pages/order-management.jsp" data-toggle="collapse" aria-expanded="false" data-target="#submenu-3" aria-controls="submenu-3"><i class="fab fa-trello"></i>주문관리</a>
+                                <div id="submenu-3" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/order-progress.jsp">진행중인 주문</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/order-complete.jsp">완료된 주문</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/order-return.jsp">반품</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/order-exchange.jsp">교환</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/order-analysis.jsp">주문분석(제작중)</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link" href="/brocoli/owner/pages/manager-contact.jsp" aria-expanded="false" data-target="#submenu-4" aria-controls="submenu-4"><i class="fab fa-qq"></i>매니저컨텍</a>
