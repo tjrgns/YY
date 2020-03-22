@@ -27,7 +27,7 @@
 					</li>
 
 					<li class="p-b-13">
-						<a href="#" class="stext-102 cl2 hov-cl1 trans-04">
+						<a href="/brocoli/main/wishlist.jsp" class="stext-102 cl2 hov-cl1 trans-04">
 							My Wishlist
 						</a>
 					</li>

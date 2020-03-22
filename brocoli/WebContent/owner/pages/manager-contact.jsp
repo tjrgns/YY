@@ -18,13 +18,17 @@
     <link rel="stylesheet" type="text/css" href="../assets/vendor/datatables/css/select.bootstrap4.css">
     <link rel="stylesheet" type="text/css" href="../assets/vendor/datatables/css/fixedHeader.bootstrap4.css">
     
-    <%@ include file="/owner/header.jsp" %>
+    <%@ include file="/owner/pages/header.jsp" %>
     
     <title>오너 : 매출관리</title>
 </head>
 
 <body>
-
+    <!-- ============================================================== -->
+    <!-- main wrapper -->
+    <!-- ============================================================== -->
+    <div class="dashboard-main-wrapper">
+       
         <!-- ============================================================== -->
         <!-- wrapper  -->
         <!-- ============================================================== -->
@@ -1581,7 +1585,10 @@
             <!-- end footer -->
             <!-- ============================================================== -->
         </div>
-
+    </div>
+    <!-- ============================================================== -->
+    <!-- end main wrapper -->
+    <!-- ============================================================== -->
     <!-- Optional JavaScript -->
     <script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
     <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>

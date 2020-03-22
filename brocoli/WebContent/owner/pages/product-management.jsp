@@ -10,16 +10,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>오너 : 판매상품관리</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
-    <link href="../assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/libs/css/style.css">
-    <link rel="stylesheet" href="../assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
-    <link rel="stylesheet" type="text/css" href="../assets/vendor/datatables/css/dataTables.bootstrap4.css">
-    <link rel="stylesheet" type="text/css" href="../assets/vendor/datatables/css/buttons.bootstrap4.css">
-    <link rel="stylesheet" type="text/css" href="../assets/vendor/datatables/css/select.bootstrap4.css">
-    <link rel="stylesheet" type="text/css" href="../assets/vendor/datatables/css/fixedHeader.bootstrap4.css">
+    <link rel="stylesheet" href="/brocoli/resources/ownerResources/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="/brocoli/resources/ownerResources/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="/brocoli/resources/ownerResources/libs/css/style.css">
+    <link rel="stylesheet" href="/brocoli/resources/ownerResources/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" type="text/css" href="/brocoli/resources/ownerResources/vendor/datatables/css/dataTables.bootstrap4.css">
+    <link rel="stylesheet" type="text/css" href="/brocoli/resources/ownerResources/vendor/datatables/css/buttons.bootstrap4.css">
+    <link rel="stylesheet" type="text/css" href="/brocoli/resources/ownerResources/vendor/datatables/css/select.bootstrap4.css">
+    <link rel="stylesheet" type="text/css" href="/brocoli/resources/ownerResources/vendor/datatables/css/fixedHeader.bootstrap4.css">
     
-    <%@ include file="/owner/header.jsp" %>
+    <%@ include file="/owner/pages/header.jsp" %>
+    <style type="text/css">
+    	.product-name{
+    		max-width: 120px;
+    	}
+		.table td{
+			padding: 5px;
+			align-content:center;
+		}  
+		  
+        .table th{
+        	padding: 5px;
+        	align-items:center;
+        }
+    </style>
     
 </head>
 
@@ -47,7 +61,7 @@
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">메뉴</a></li>
                                         <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">상품관리</a></li>
-                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">판매상품관리</a></li>
+                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">판매관리상품</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -65,7 +79,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <h5 class="mb-0">등록된 제품</h5>
-                                <p>현재 판매등록된 제품입니다.</p>
+                                <p>현재 등록된 상품 정보 입니다.</p>
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
@@ -75,26 +89,34 @@
                                             	<th>상품번호</th>
                                                 <th>카테고리</th>
                                                 <th>이미지</th>
-                                                <th>제품명</th>
+                                                <th class="product-name">제품명</th>
                                                 <th>등록가격</th>
                                                 <th>할인</th>
                                                 <th>현재가격</th>
+                                                <th>상태</th>
                                                 <th>등록일</th>
-                                                <th>수정</th>
+                                                <th>재고</th>
+                                                <th>상품정보수정</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>P98001</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
+                                                <td>000BS001</td>
                                                 <td>악세서리-머플러</td>
-                                                <td align="center">
-                                                	<div class="m-r-10"><img src="/brocoli/resources/ownerResources/p_Img/P11001.jpg" alt="user" class="rounded" width="45"></div>
+                                                <td align="center" >
+                                                	<div class="m-r-10"><img src="/brocoli/resources/product-Img/P11001.jpg" alt="user" class="rounded" width="45"></div>
                                                 </td>
-                                                <td>DIM. REVERSIBLE FAKE FUR MUFFLER_GRAY</td>
+                                                <td class="product-name">DIM. REVERSIBLE FAKE FUR MUFFLER_GRAY</td>
                                                 <td>49,000</td>
                                                 <td>-4,500</td>
                                                 <td>44,500</td>
-                                                <td>2020-03-18</td>
+                                                <td>판매중</td>
+                                                <td>19-10-01</td>
+                                                <td>
+	                                                <div class="btn-group ml-auto">
+			                                            <a class="btn btn-sm btn-outline-light" href="/brocoli/owner/pages/stock-management.jsp">재고확인</a>
+			                                        </div>
+                                                </td>
                                                 <td>
 	                                                <div class="btn-group ml-auto">
 			                                            <button class="btn btn-sm btn-outline-light">변경</button>
@@ -103,23 +125,54 @@
 			                                            </button>
 			                                        </div>
                                                 </td>
-                                                
-                                                
-                                                
                                             </tr>
+                                            
                                             <tr>
-                                                <td>P98002</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
+                                                <td>000BS000</td>
                                                 <td>악세서리-머플러</td>
-                                                <td align="center">
-                                                	<div class="m-r-10"><img src="/brocoli/resources/ownerResources/p_Img/P11002.jpg" alt="user" class="rounded" width="45"></div>
+                                                <td align="center" >
+                                                	<div class="m-r-10"><img src="/brocoli/resources/product-Img/P11002.jpg" alt="user" class="rounded" width="45"></div>
                                                 </td>
-                                                <td>DIM. REVERSIBLE FAKE FUR MUFFLER_BROWN</td>
+                                                <td class="product-name">DIM. REVERSIBLE FAKE FUR MUFFLER_BROWN</td>
                                                 <td>49,000</td>
                                                 <td>-4,500</td>
                                                 <td>44,500</td>
-                                                <td>2020-03-18</td>
+                                                <td>판매중</td>
+                                                <td>19-10-01</td>
                                                 <td>
-                                                	<div class="btn-group ml-auto">
+	                                                <div class="btn-group ml-auto">
+			                                            <a class="btn btn-sm btn-outline-light" href="/brocoli/owner/pages/stock-management.jsp">재고확인</a>
+			                                        </div>
+                                                </td>
+                                                <td>
+	                                                <div class="btn-group ml-auto">
+			                                            <button class="btn btn-sm btn-outline-light">변경</button>
+			                                            <button class="btn btn-sm btn-outline-light">
+			                                                <i class="far fa-trash-alt"></i>
+			                                            </button>
+			                                        </div>
+                                                </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td>000BS000</td>
+                                                <td>모자-버킷햇</td>
+                                                <td align="center" >
+                                                	<div class="m-r-10"><img src="/brocoli/resources/product-Img/P11003.jpg" alt="user" class="rounded" width="45"></div>
+                                                </td>
+                                                <td class="product-name">DIM. E CRES. MAGICIAN BUCKET HAT_ORANGE</td>
+                                                <td>48,000</td>
+                                                <td>-24,000</td>
+                                                <td>24,000</td>
+                                                <td>판매중</td>
+                                                <td>20-01-12</td>
+                                                <td>
+	                                                <div class="btn-group ml-auto">
+			                                            <a class="btn btn-sm btn-outline-light" href="/brocoli/owner/pages/stock-management.jsp">재고확인</a>
+			                                        </div>
+                                                </td>
+                                                <td>
+	                                                <div class="btn-group ml-auto">
 			                                            <button class="btn btn-sm btn-outline-light">변경</button>
 			                                            <button class="btn btn-sm btn-outline-light">
 			                                                <i class="far fa-trash-alt"></i>
@@ -129,317 +182,26 @@
                                             </tr>
                                             
                                             
-                                           <!-- 이하 더미데이터 --> 
-                                            <tr>
-                                                <td>P98001</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
-                                                <td>악세서리-머플러</td>
-                                                <td align="center">
-                                                	<div class="m-r-10"><img src="/brocoli/resources/ownerResources/p_Img/P11001.jpg" alt="user" class="rounded" width="45"></div>
-                                                </td>
-                                                <td>DIM. REVERSIBLE FAKE FUR MUFFLER_GRAY</td>
-                                                <td>49,000</td>
-                                                <td>-4,500</td>
-                                                <td>44,500</td>
-                                                <td>2020-03-18</td>
-                                                <td>
-	                                                <div class="btn-group ml-auto">
-			                                            <button class="btn btn-sm btn-outline-light">변경</button>
-			                                            <button class="btn btn-sm btn-outline-light">
-			                                                <i class="far fa-trash-alt"></i>
-			                                            </button>
-			                                        </div>
-                                                </td>
-                                                
-                                                
-                                                
-                                            </tr>
-                                            <tr>
-                                                <td>P98002</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
-                                                <td>악세서리-머플러</td>
-                                                <td align="center">
-                                                	<div class="m-r-10"><img src="/brocoli/resources/ownerResources/p_Img/P11002.jpg" alt="user" class="rounded" width="45"></div>
-                                                </td>
-                                                <td>DIM. REVERSIBLE FAKE FUR MUFFLER_BROWN</td>
-                                                <td>49,000</td>
-                                                <td>-4,500</td>
-                                                <td>44,500</td>
-                                                <td>2020-03-18</td>
-                                                <td>
-                                                	<div class="btn-group ml-auto">
-			                                            <button class="btn btn-sm btn-outline-light">변경</button>
-			                                            <button class="btn btn-sm btn-outline-light">
-			                                                <i class="far fa-trash-alt"></i>
-			                                            </button>
-			                                        </div>
-                                                </td>
-                                            </tr><tr>
-                                                <td>P98001</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
-                                                <td>악세서리-머플러</td>
-                                                <td align="center">
-                                                	<div class="m-r-10"><img src="/brocoli/resources/ownerResources/p_Img/P11001.jpg" alt="user" class="rounded" width="45"></div>
-                                                </td>
-                                                <td>DIM. REVERSIBLE FAKE FUR MUFFLER_GRAY</td>
-                                                <td>49,000</td>
-                                                <td>-4,500</td>
-                                                <td>44,500</td>
-                                                <td>2020-03-18</td>
-                                                <td>
-	                                                <div class="btn-group ml-auto">
-			                                            <button class="btn btn-sm btn-outline-light">변경</button>
-			                                            <button class="btn btn-sm btn-outline-light">
-			                                                <i class="far fa-trash-alt"></i>
-			                                            </button>
-			                                        </div>
-                                                </td>
-                                                
-                                                
-                                                
-                                            </tr>
-                                            <tr>
-                                                <td>P98002</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
-                                                <td>악세서리-머플러</td>
-                                                <td align="center">
-                                                	<div class="m-r-10"><img src="/brocoli/resources/ownerResources/p_Img/P11002.jpg" alt="user" class="rounded" width="45"></div>
-                                                </td>
-                                                <td>DIM. REVERSIBLE FAKE FUR MUFFLER_BROWN</td>
-                                                <td>49,000</td>
-                                                <td>-4,500</td>
-                                                <td>44,500</td>
-                                                <td>2020-03-18</td>
-                                                <td>
-                                                	<div class="btn-group ml-auto">
-			                                            <button class="btn btn-sm btn-outline-light">변경</button>
-			                                            <button class="btn btn-sm btn-outline-light">
-			                                                <i class="far fa-trash-alt"></i>
-			                                            </button>
-			                                        </div>
-                                                </td>
-                                            </tr><tr>
-                                                <td>P98001</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
-                                                <td>악세서리-머플러</td>
-                                                <td align="center">
-                                                	<div class="m-r-10"><img src="/brocoli/resources/ownerResources/p_Img/P11001.jpg" alt="user" class="rounded" width="45"></div>
-                                                </td>
-                                                <td>DIM. REVERSIBLE FAKE FUR MUFFLER_GRAY</td>
-                                                <td>49,000</td>
-                                                <td>-4,500</td>
-                                                <td>44,500</td>
-                                                <td>2020-03-18</td>
-                                                <td>
-	                                                <div class="btn-group ml-auto">
-			                                            <button class="btn btn-sm btn-outline-light">변경</button>
-			                                            <button class="btn btn-sm btn-outline-light">
-			                                                <i class="far fa-trash-alt"></i>
-			                                            </button>
-			                                        </div>
-                                                </td>
-                                                
-                                                
-                                                
-                                            </tr>
-                                            <tr>
-                                                <td>P98002</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
-                                                <td>악세서리-머플러</td>
-                                                <td align="center">
-                                                	<div class="m-r-10"><img src="/brocoli/resources/ownerResources/p_Img/P11002.jpg" alt="user" class="rounded" width="45"></div>
-                                                </td>
-                                                <td>DIM. REVERSIBLE FAKE FUR MUFFLER_BROWN</td>
-                                                <td>49,000</td>
-                                                <td>-4,500</td>
-                                                <td>44,500</td>
-                                                <td>2020-03-18</td>
-                                                <td>
-                                                	<div class="btn-group ml-auto">
-			                                            <button class="btn btn-sm btn-outline-light">변경</button>
-			                                            <button class="btn btn-sm btn-outline-light">
-			                                                <i class="far fa-trash-alt"></i>
-			                                            </button>
-			                                        </div>
-                                                </td>
-                                            </tr><tr>
-                                                <td>P98001</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
-                                                <td>악세서리-머플러</td>
-                                                <td align="center">
-                                                	<div class="m-r-10"><img src="/brocoli/resources/ownerResources/p_Img/P11001.jpg" alt="user" class="rounded" width="45"></div>
-                                                </td>
-                                                <td>DIM. REVERSIBLE FAKE FUR MUFFLER_GRAY</td>
-                                                <td>49,000</td>
-                                                <td>-4,500</td>
-                                                <td>44,500</td>
-                                                <td>2020-03-18</td>
-                                                <td>
-	                                                <div class="btn-group ml-auto">
-			                                            <button class="btn btn-sm btn-outline-light">변경</button>
-			                                            <button class="btn btn-sm btn-outline-light">
-			                                                <i class="far fa-trash-alt"></i>
-			                                            </button>
-			                                        </div>
-                                                </td>
-                                                
-                                                
-                                                
-                                            </tr>
-                                            <tr>
-                                                <td>P98002</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
-                                                <td>악세서리-머플러</td>
-                                                <td align="center">
-                                                	<div class="m-r-10"><img src="/brocoli/resources/ownerResources/p_Img/P11002.jpg" alt="user" class="rounded" width="45"></div>
-                                                </td>
-                                                <td>DIM. REVERSIBLE FAKE FUR MUFFLER_BROWN</td>
-                                                <td>49,000</td>
-                                                <td>-4,500</td>
-                                                <td>44,500</td>
-                                                <td>2020-03-18</td>
-                                                <td>
-                                                	<div class="btn-group ml-auto">
-			                                            <button class="btn btn-sm btn-outline-light">변경</button>
-			                                            <button class="btn btn-sm btn-outline-light">
-			                                                <i class="far fa-trash-alt"></i>
-			                                            </button>
-			                                        </div>
-                                                </td>
-                                            </tr><tr>
-                                                <td>P98001</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
-                                                <td>악세서리-머플러</td>
-                                                <td align="center">
-                                                	<div class="m-r-10"><img src="/brocoli/resources/ownerResources/p_Img/P11001.jpg" alt="user" class="rounded" width="45"></div>
-                                                </td>
-                                                <td>DIM. REVERSIBLE FAKE FUR MUFFLER_GRAY</td>
-                                                <td>49,000</td>
-                                                <td>-4,500</td>
-                                                <td>44,500</td>
-                                                <td>2020-03-18</td>
-                                                <td>
-	                                                <div class="btn-group ml-auto">
-			                                            <button class="btn btn-sm btn-outline-light">변경</button>
-			                                            <button class="btn btn-sm btn-outline-light">
-			                                                <i class="far fa-trash-alt"></i>
-			                                            </button>
-			                                        </div>
-                                                </td>
-                                                
-                                                
-                                                
-                                            </tr>
-                                            <tr>
-                                                <td>P98002</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
-                                                <td>악세서리-머플러</td>
-                                                <td align="center">
-                                                	<div class="m-r-10"><img src="/brocoli/resources/ownerResources/p_Img/P11002.jpg" alt="user" class="rounded" width="45"></div>
-                                                </td>
-                                                <td>DIM. REVERSIBLE FAKE FUR MUFFLER_BROWN</td>
-                                                <td>49,000</td>
-                                                <td>-4,500</td>
-                                                <td>44,500</td>
-                                                <td>2020-03-18</td>
-                                                <td>
-                                                	<div class="btn-group ml-auto">
-			                                            <button class="btn btn-sm btn-outline-light">변경</button>
-			                                            <button class="btn btn-sm btn-outline-light">
-			                                                <i class="far fa-trash-alt"></i>
-			                                            </button>
-			                                        </div>
-                                                </td>
-                                            </tr><tr>
-                                                <td>P98001</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
-                                                <td>악세서리-머플러</td>
-                                                <td align="center">
-                                                	<div class="m-r-10"><img src="/brocoli/resources/ownerResources/p_Img/P11001.jpg" alt="user" class="rounded" width="45"></div>
-                                                </td>
-                                                <td>DIM. REVERSIBLE FAKE FUR MUFFLER_GRAY</td>
-                                                <td>49,000</td>
-                                                <td>-4,500</td>
-                                                <td>44,500</td>
-                                                <td>2020-03-18</td>
-                                                <td>
-	                                                <div class="btn-group ml-auto">
-			                                            <button class="btn btn-sm btn-outline-light">변경</button>
-			                                            <button class="btn btn-sm btn-outline-light">
-			                                                <i class="far fa-trash-alt"></i>
-			                                            </button>
-			                                        </div>
-                                                </td>
-                                                
-                                                
-                                                
-                                            </tr>
-                                            <tr>
-                                                <td>P98002</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
-                                                <td>악세서리-머플러</td>
-                                                <td align="center">
-                                                	<div class="m-r-10"><img src="/brocoli/resources/ownerResources/p_Img/P11002.jpg" alt="user" class="rounded" width="45"></div>
-                                                </td>
-                                                <td>DIM. REVERSIBLE FAKE FUR MUFFLER_BROWN</td>
-                                                <td>49,000</td>
-                                                <td>-4,500</td>
-                                                <td>44,500</td>
-                                                <td>2020-03-18</td>
-                                                <td>
-                                                	<div class="btn-group ml-auto">
-			                                            <button class="btn btn-sm btn-outline-light">변경</button>
-			                                            <button class="btn btn-sm btn-outline-light">
-			                                                <i class="far fa-trash-alt"></i>
-			                                            </button>
-			                                        </div>
-                                                </td>
-                                            </tr><tr>
-                                                <td>P98001</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
-                                                <td>악세서리-머플러</td>
-                                                <td align="center">
-                                                	<div class="m-r-10"><img src="/brocoli/resources/ownerResources/p_Img/P11001.jpg" alt="user" class="rounded" width="45"></div>
-                                                </td>
-                                                <td>DIM. REVERSIBLE FAKE FUR MUFFLER_GRAY</td>
-                                                <td>49,000</td>
-                                                <td>-4,500</td>
-                                                <td>44,500</td>
-                                                <td>2020-03-18</td>
-                                                <td>
-	                                                <div class="btn-group ml-auto">
-			                                            <button class="btn btn-sm btn-outline-light">변경</button>
-			                                            <button class="btn btn-sm btn-outline-light">
-			                                                <i class="far fa-trash-alt"></i>
-			                                            </button>
-			                                        </div>
-                                                </td>
-                                                
-                                                
-                                                
-                                            </tr>
-                                            <tr>
-                                                <td>P98002</td><!-- 상품번호 P상품 0 대분류 0소분류 000상품번호-->
-                                                <td>악세서리-머플러</td>
-                                                <td align="center">
-                                                	<div class="m-r-10"><img src="/brocoli/resources/ownerResources/p_Img/P11002.jpg" alt="user" class="rounded" width="45"></div>
-                                                </td>
-                                                <td>DIM. REVERSIBLE FAKE FUR MUFFLER_BROWN</td>
-                                                <td>49,000</td>
-                                                <td>-4,500</td>
-                                                <td>44,500</td>
-                                                <td>2020-03-18</td>
-                                                <td>
-                                                	<div class="btn-group ml-auto">
-			                                            <button class="btn btn-sm btn-outline-light">변경</button>
-			                                            <button class="btn btn-sm btn-outline-light">
-			                                                <i class="far fa-trash-alt"></i>
-			                                            </button>
-			                                        </div>
-                                                </td>
-                                            </tr>
-                                           
-                                             <!-- 이하 더미데이터 끝 --> 
+                                            
+                                        <!-- 더미데이터 시작 -->
+                               				
+                                        <!-- 더미데이터 끝 -->
+                                        
                                             
                                         </tbody>
                                         <tfoot>
                                             <tr>
-                                             	<th>상품번호</th>
+                                            	<th>상품번호</th>
                                                 <th>카테고리</th>
                                                 <th>이미지</th>
-                                                <th>제품명</th>
+                                                <th class="product-name">제품명</th>
                                                 <th>등록가격</th>
                                                 <th>할인</th>
                                                 <th>현재가격</th>
+                                                <th>상태</th>
                                                 <th>등록일</th>
-                                                <th>수정</th>
+                                                <th>재고</th>
+                                                <th>상품정보수정</th>
                                             </tr>
                                         </tfoot>
                                     </table>

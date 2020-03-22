@@ -14,10 +14,10 @@
     <link href="/brocoli/resources/ownerResources/vendor/fonts/circular-std/style.css" rel="stylesheet">
     <link rel="stylesheet" href="/brocoli/resources/ownerResources/libs/css/style.css">
     <link rel="stylesheet" href="/brocoli/resources/ownerResources/vendor/fonts/fontawesome/css/fontawesome-all.css">
-
-    <%@ include file="/owner/header.jsp" %>
     
-    <title>오너 : 판매상품</title>
+     <%@ include file="/owner/pages/header.jsp" %>
+    
+    <title>오나 : 판매상품전체보기</title>
 </head>
 
 <body>
@@ -25,7 +25,6 @@
     <!-- main wrapper -->
     <!-- ============================================================== -->
     <div class="dashboard-main-wrapper">
-
 
         <!-- ============================================================== -->
         <!-- wrapper  -->
@@ -39,14 +38,14 @@
                     <div class="row">
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <div class="page-header">
-                                <h2 class="pageheader-title">판매상품</h2>
+                                <h2 class="pageheader-title">판매상품전체보기</h2>
                                 <p class="pageheader-text">Nulla euismod urna eros, sit amet scelerisque torton lectus vel mauris facilisis faucibus at enim quis massa lobortis rutrum.</p>
                                 <div class="page-breadcrumb">
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb">
-	                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">메뉴</a></li>
-	                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">상품관리</a></li>
-	                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">판매상품</a></li>
+                                            <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">메뉴</a></li>
+                                            <li class="breadcrumb-item active" aria-current="page">상품관리</li>
+                                            <li class="breadcrumb-item active" aria-current="page">판매상품전체보기</li>
                                         </ol>
                                     </nav>
                                 </div>
@@ -63,7 +62,7 @@
                                     <div class="product-thumbnail">
                                         <div class="product-img-head">
                                             <div class="product-img">
-                                                <img src="/brocoli/resources/ownerResources/images/eco-product-img-1.png" alt="" class="img-fluid"></div>
+                                                <img src="/brocoli/resources/product-Img/P11002.jpg" style="height: 250px;"  alt="" class="img-fluid"></div>
                                             <div class="ribbons"></div>
                                             <div class="ribbons-text">New</div>
                                             <div class=""><a href="#" class="product-wishlist-btn"><i class="fas fa-heart"></i></a></div>
@@ -92,7 +91,7 @@
                                     <div class="product-thumbnail">
                                         <div class="product-img-head">
                                             <div class="product-img">
-                                                <img src="/brocoli/resources/ownerResources/images/eco-product-img-2.png" alt="" class="img-fluid"></div>
+                                                <img src="/brocoli/resources/product-Img/P11001.jpg" style="height: 250px;" alt="" class="img-fluid"></div>
                                             <div class="ribbons bg-danger"></div>
                                             <div class="ribbons-text">Sold</div>
                                             <div class=""><a href="#" class="product-wishlist-btn"><i class="fas fa-heart"></i></a></div>
@@ -121,14 +120,14 @@
                                     <div class="product-thumbnail">
                                         <div class="product-img-head">
                                             <div class="product-img">
-                                                <img src="/brocoli/resources/ownerResources/images/eco-product-img-3.png" alt="" class="img-fluid"></div>
+                                                <img src="/brocoli/resources/product-Img/P11003.jpg"  style="height: 250px;"  alt="" class="img-fluid"></div>
                                             <div class="ribbons bg-brand"></div>
                                             <div class="ribbons-text">Offer</div>
                                             <div class=""><a href="#" class="product-wishlist-btn active"><i class="fas fa-heart"></i></a></div>
                                         </div>
                                         <div class="product-content">
                                             <div class="product-content-head">
-                                                <h3 class="product-title">T-Shirt Product Title</h3>
+                                                <h3 class="product-title"> DIM. E CRES. </h3>
                                                 <div class="product-rating d-inline-block">
                                                     <i class="fa fa-fw fa-star"></i>
                                                     <i class="fa fa-fw fa-star"></i>
@@ -466,10 +465,7 @@
         <!-- end main wrapper  -->
         <!-- ============================================================== -->
         <!-- Optional JavaScript -->
-        <!-- jquery 3.3.1 -->
-        <script src="/brocoli/resources/ownerResources/vendor/jquery/jquery-3.3.1.min.js"></script>
-        <!-- bootstap bundle js -->
-        <script src="/brocoli/resources/ownerResources/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+
         <!-- slimscroll js -->
         <script src="/brocoli/resources/ownerResources/vendor/slimscroll/jquery.slimscroll.js"></script>
         <!-- main js -->
