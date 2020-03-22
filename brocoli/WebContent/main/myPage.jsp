@@ -13,7 +13,7 @@
 	
 	<!-- Title page -->
 	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/brocoli/main/images/bg-01.jpg');">
-		<h2 class="ltext-105 cl0 txt-center">
+		<h2 class="ltext-105 cl0 txt-center" style="color:white;">
 			MY PAGE
 		</h2>
 	</section>	
@@ -21,7 +21,7 @@
     <div id="contentWrapper"  style="padding-top: 0px;">
         <div id="contentWrap">
             <div id="content">
-                <div id="mypage" class="mypage SMP-container">
+                <div id="mypage" class="mypage SMP-container" style="WIDTH: 80%; MARGIN: 0px auto;">
                     <!-- mypage common section -->
                     <div class="mypage-common-container">
                         <!-- mypage link section -->
@@ -34,34 +34,35 @@
 					<!-- mypage common section-->
 					<!-- mypage title and member info section-->
                     <div class="mypage-member-info-container">
-                        <h2>MY PAGE</h2>
+
                         <div class="mypage-member-info">
                             <div class="member-id-container cd_clear">
                                 <div class="group-image">
-                                    <img src="/brocoli/main/images/376451_1.jpg" alt="이미지">
-                                </div class="test2">
+                                    <img src="/brocoli/main/images/about-01.jpg" alt="이미지" style="width: 150px; height: 150px; border-radius: 70%; top: -48px;">
+                                </div>
+                                <div style="width:400px; text-align: right;">
                                 <p>안녕하세요.
                                     <span class="id">김주희</span> 님
 								</p>
-								<p>
+								<p style="margin-top: 4%;">
 									 오늘도 좋은하루 되세요.
 								</p>
-								
+								</div>
 							</div>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <div class="member-reserve-container">
-                                <p>적립금</p>
+                            <div class="member-reserve-container" style="margin-left: 13%;">
+                                <p style="font-size: 25px;">적립금</p>
                                 <p>
                                     <a href="" class="reserve"></a>
                                     <span>원</span>
 								</p>
                             </div>
                             <div class="member-deposit-container" :after>
-                                <p>총 주문건수</p>
+                                <p style="margin-bottom: 15%; font-size: 25px;">총 주문건수</p>
                                 <p>
 									<a href="" class="order-total"></a>
-                                    <span>원</span>
+                                    <span>건</span>
 								</p>
 							<div class="member-order-total-price-container"></div>	
                             </div>
@@ -82,7 +83,7 @@
                                 </a>
                             </li>
                             <li class="order-list">
-                                <a href="">
+                                <a href="/brocoli/main/orderlist.jsp">
                                     <h4>주문상품관리</h4>
                                     <p>"주문한 상품을 하는데"
                                         <br>
@@ -91,7 +92,7 @@
                                 </a>
                             </li>
                             <li class="wish-list">
-                                <a href="">
+                                <a href="/brocoli/main/wishlist.jsp">
                                     <h4>관심상품관리</h4>
                                     <p>"내가 찜 해둔 상품을"
                                         <br>
