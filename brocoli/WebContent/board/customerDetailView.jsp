@@ -1,85 +1,70 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    
 <!DOCTYPE html>
 <html>
 <head>
+<title>자주 묻는 질문 디테일</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
-<title>입점 문의</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  
+  <%@ include file="/common/header.jsp" %>
+  
 <style>
 	#all{
-		  border:1px solid red;
-          margin: auto;
-          width: 50%;
-          height: 900px;
-	}
+		/* border:1px solid red; */
+		margin: auto;
+		width: 70%;
+		height: 700px;  	
+  		}
+  		
+  	.tableArea {
+	    border:1px solid white;
+	    width:650px;
+	    height:350px;
+	    margin-left:auto;
+	    margin-right:auto;
+   		}
 </style>
-<%@ include file="/common/header.jsp" %>
 </head>
 <body>
-
-<form>
-	<div id="all">
-			<h2>BROCOLI 입점 문의</h2><Br>
-			<p>
-			안녕하세요.<br>
-			힙합퍼에 입점 문의주신 것에 깊은 감사 드립니다. 
-			하단의 시트를 기재 후 제출하여 주시면 담당자 배정 후 연락드리도록 하겠습니다.			
-			</p>
-			<hr>
-		
-  		<div class="form-group">
-      		<label for="userId">사업자 명 : </label>
-    		<input type="text" class="form-control" id="userId" name="userId" style="width:300px;">
-   		</div>
-   		 		
-   		<div class="form-group">
-      		<label for="userPwd2">취급 브랜드 명: </label>
-    		<input type="password" class="form-control" id="userPwd2" name="userPwd2" style="width:300px;">
-   		</div>
-   		
-   		<div class="form-group">
-      		<label for="email">사이트 URL(http://포함) : </label>
-    		<input type="email" class="form-control" id="email" name="email" style="width:300px;">
-   		</div>
-   		
-   		<div class="form-group">
-      		<label for="phone">담당자 명 : </label>
-    		<input type="text" class="form-control" id="phone" name="phone" style="width:300px;">
-   		</div>
-   		
-   		<div class="form-group">
-      		<label for="year">핸드폰 번호 : </label>
-    		<input type="text" class="form-control" id="year" name="year" style="width:300px;">
-   		</div>
-   		
-   		<div class="form-group">
-      		<label for="gender">담당자 이메일 : </label>
-    		<input type="text" class="form-control" id="year" name="year" style="width:300px;">
-   		</div>
-   		<div id="cate" >
-   			<label for="sad">카테고리 분류 : </label>
-   			<input type="checkBox" name="cate" value="">Clothing (국내 브랜드 의류 전반) (http://www.hiphoper.com/clothing)
-   			
-   		</div>
-   		
-   		<div class="form-group">
-      		<label for="year">브랜드 소개 : </label>
-    		<input type="text" class="form-control" id="year" name="year" style="width:300px;">
-   		</div>
-   		
-   		<button type="submit" class="btn btn-primary">가입</button>
-	</div>
-</form>
-		<%@ include file="/common/footer.jsp" %>
-		<%@ include file="/common/BacktoTop.jsp" %>
+<div id="all">
+<br>
+	<h2 align="center">자주 묻는 질문 세부보기</h2><Br>
+	
+	<table align="center" id="tableArea" class="table">
+			<tr>
+				<td width="100">글 번 호</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>제  목</td>
+				<td><input type="text" class="form-control" id="ntitle" name="ntitle"></td>
+			</tr>
+			<tr>
+				<td>작 성 자</td>
+				<td>ㅎ</b></td>
+			</tr>
+			
+			<tr>
+				<td>작 성 일</td>
+				<td>ㅎ</td>
+			</tr>
+			<tr>
+				<td>내용</td>
+				<td><textarea class="form-control" rows="5" id="comment"></textarea></td>
+			</tr>				
+		</table>
+		<div align="center">
+		<button class="btn btn-outline-primary" style="width:100px;">확인</button>
+		</div>
+</div>
+<%@ include file="/common/footer.jsp" %>
+	<%@ include file="/common/BacktoTop.jsp" %>
 				
 <!--===============================================================================================-->   
    <script src="../main/vendor/jquery/jquery-3.2.1.min.js"></script>
@@ -182,5 +167,5 @@
    </script>
 <!--===============================================================================================-->
    <script src="../main/js/main.js"></script>
-	</body>
+</body>
 </html>

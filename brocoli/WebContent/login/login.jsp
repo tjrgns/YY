@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,75 +10,78 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  
+<title>로그인 창</title>
 
-<title>입점 문의</title>
-<style>
-	#all{
-		  border:1px solid red;
-          margin: auto;
-          width: 50%;
-          height: 900px;
-	}
-</style>
+  <style>
+         #login{
+             margin: auto;
+             border:1px solid blue;
+             width: 50%;
+             height: 500px;
+         }
+         #a{
+             margin: auto;
+             border:1px solid red;
+         }
+         #b{
+             margin: auto;
+             border:1px solid green;
+             width:250px;
+         }
+
+         #c{
+             margin: auto;
+             border:1px solid grey;
+         }
+         
+         #logo{
+         	margin: auto;
+         	border:1px solid pink;
+         	height:40%
+         }
+        </style>
 <%@ include file="/common/header.jsp" %>
 </head>
 <body>
-
-<form>
-	<div id="all">
-			<h2>BROCOLI 입점 문의</h2><Br>
-			<p>
-			안녕하세요.<br>
-			힙합퍼에 입점 문의주신 것에 깊은 감사 드립니다. 
-			하단의 시트를 기재 후 제출하여 주시면 담당자 배정 후 연락드리도록 하겠습니다.			
-			</p>
-			<hr>
-		
-  		<div class="form-group">
-      		<label for="userId">사업자 명 : </label>
-    		<input type="text" class="form-control" id="userId" name="userId" style="width:300px;">
-   		</div>
-   		 		
-   		<div class="form-group">
-      		<label for="userPwd2">취급 브랜드 명: </label>
-    		<input type="password" class="form-control" id="userPwd2" name="userPwd2" style="width:300px;">
-   		</div>
-   		
-   		<div class="form-group">
-      		<label for="email">사이트 URL(http://포함) : </label>
-    		<input type="email" class="form-control" id="email" name="email" style="width:300px;">
-   		</div>
-   		
-   		<div class="form-group">
-      		<label for="phone">담당자 명 : </label>
-    		<input type="text" class="form-control" id="phone" name="phone" style="width:300px;">
-   		</div>
-   		
-   		<div class="form-group">
-      		<label for="year">핸드폰 번호 : </label>
-    		<input type="text" class="form-control" id="year" name="year" style="width:300px;">
-   		</div>
-   		
-   		<div class="form-group">
-      		<label for="gender">담당자 이메일 : </label>
-    		<input type="text" class="form-control" id="year" name="year" style="width:300px;">
-   		</div>
-   		<div id="cate" >
-   			<label for="sad">카테고리 분류 : </label>
-   			<input type="checkBox" name="cate" value="">Clothing (국내 브랜드 의류 전반) (http://www.hiphoper.com/clothing)
-   			
-   		</div>
-   		
-   		<div class="form-group">
-      		<label for="year">브랜드 소개 : </label>
-    		<input type="text" class="form-control" id="year" name="year" style="width:300px;">
-   		</div>
-   		
-   		<button type="submit" class="btn btn-primary">가입</button>
+	<div id="login">
+	
+	<div id="logo">
+		로고 넣는칸입니다.
 	</div>
-</form>
-		<%@ include file="/common/footer.jsp" %>
-		<%@ include file="/common/BacktoTop.jsp" %>
+	    <table id="a" >
+	        <tr>
+	            <td align="right">
+	              	  로 그 인 : &nbsp;
+	            </td>
+	            <td><input type="text" class="form-control form-control"></td>
+	        </tr>
+	        <tr>
+	            <td align="right"> 
+	            	    비밀 번호 : &nbsp;
+	            </td>
+	            <td><input type="password" class="form-control form-control"></td>
+	        </tr>	
+	    </table><br>
+	
+	    <table id="b">
+	        <tr>
+	            <td><button class="btn btn-primary btn-lg btn-block">로그인</button></td>
+	        </tr>
+	    </table><br>
+	
+	    <table id="c">
+	        <tr>
+	            <td align="center">
+	                <a href="#">회원가입</a> &nbsp;&nbsp;<a href="#">아이디 찿기</a>&nbsp;&nbsp;<a href="#">비밀번호 찿기</a>
+	            </td>                    
+	        </tr>
+	    </table>
+	</div>
+
+
+	<%@ include file="/common/footer.jsp" %>
+	<%@ include file="/common/BacktoTop.jsp" %>
 				
 <!--===============================================================================================-->   
    <script src="../main/vendor/jquery/jquery-3.2.1.min.js"></script>
@@ -182,5 +184,5 @@
    </script>
 <!--===============================================================================================-->
    <script src="../main/js/main.js"></script>
-	</body>
+</body>
 </html>

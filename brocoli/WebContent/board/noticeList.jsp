@@ -1,85 +1,101 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
+<title>공지사항</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
-<title>입점 문의</title>
-<style>
-	#all{
-		  border:1px solid red;
-          margin: auto;
-          width: 50%;
-          height: 900px;
-	}
-</style>
-<%@ include file="/common/header.jsp" %>
+  
+  <%@ include file="/common/header.jsp" %>
+  
+  <style>
+  	#all{
+		border:1px solid red;
+		margin: auto;
+		width: 70%;
+		 height: 900px;  	
+  		}
+  	#all th{
+  		text-align:center;
+  	}
+  		
+  </style>
+  
 </head>
 <body>
-
-<form>
-	<div id="all">
-			<h2>BROCOLI 입점 문의</h2><Br>
-			<p>
-			안녕하세요.<br>
-			힙합퍼에 입점 문의주신 것에 깊은 감사 드립니다. 
-			하단의 시트를 기재 후 제출하여 주시면 담당자 배정 후 연락드리도록 하겠습니다.			
-			</p>
-			<hr>
-		
-  		<div class="form-group">
-      		<label for="userId">사업자 명 : </label>
-    		<input type="text" class="form-control" id="userId" name="userId" style="width:300px;">
-   		</div>
-   		 		
-   		<div class="form-group">
-      		<label for="userPwd2">취급 브랜드 명: </label>
-    		<input type="password" class="form-control" id="userPwd2" name="userPwd2" style="width:300px;">
-   		</div>
-   		
-   		<div class="form-group">
-      		<label for="email">사이트 URL(http://포함) : </label>
-    		<input type="email" class="form-control" id="email" name="email" style="width:300px;">
-   		</div>
-   		
-   		<div class="form-group">
-      		<label for="phone">담당자 명 : </label>
-    		<input type="text" class="form-control" id="phone" name="phone" style="width:300px;">
-   		</div>
-   		
-   		<div class="form-group">
-      		<label for="year">핸드폰 번호 : </label>
-    		<input type="text" class="form-control" id="year" name="year" style="width:300px;">
-   		</div>
-   		
-   		<div class="form-group">
-      		<label for="gender">담당자 이메일 : </label>
-    		<input type="text" class="form-control" id="year" name="year" style="width:300px;">
-   		</div>
-   		<div id="cate" >
-   			<label for="sad">카테고리 분류 : </label>
-   			<input type="checkBox" name="cate" value="">Clothing (국내 브랜드 의류 전반) (http://www.hiphoper.com/clothing)
-   			
-   		</div>
-   		
-   		<div class="form-group">
-      		<label for="year">브랜드 소개 : </label>
-    		<input type="text" class="form-control" id="year" name="year" style="width:300px;">
-   		</div>
-   		
-   		<button type="submit" class="btn btn-primary">가입</button>
-	</div>
-</form>
-		<%@ include file="/common/footer.jsp" %>
-		<%@ include file="/common/BacktoTop.jsp" %>
+<div id="all">
+<br>
+<h1 align="center">공지사항</h1>
+<br>
+<table class="table table-striped" align="center">
+    <thead>
+      <tr>
+        <th style="width:10%">글번호</th>
+        <th style="width:60%">제목</th>
+        <th style="width:10%">작성자</th>
+        <th style="width:20%">작성일</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center">1</td>
+        <td align="center">게시판이 개빡쳐요</td>
+        <td align="center">홍길동</td>
+        <td align="center">2020-03-21</td>
+      </tr>
+      
+       <tr>
+        <td align="center">2</td>
+        <td align="center">게시판이 개빡쳐요</td>
+        <td align="center">홍길동</td>
+        <td align="center">2020-03-21</td>
+      </tr>
+      
+       <tr>
+        <td align="center">3</td>
+        <td align="center">게시판이 개빡쳐요</td>
+        <td align="center">홍길동</td>
+        <td align="center">2020-03-21</td>
+      </tr>
+      
+       <tr>
+        <td align="center">4</td>
+        <td align="center">게시판이 개빡쳐요</td>
+        <td align="center">홍길동</td>
+        <td align="center">2020-03-21</td>
+      </tr>
+     
+    </tbody>
+  </table>
+  <ul class="pagination justify-content-center">
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">이전</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">다음</a></li>
+  </ul>
+  <div id="searchArea" align="center" >
+				<form action="${ contextPath }/search.bo" style="display: inline-flex;" >
+					<select id="searchCondition" name="condition">
+						<option>---------------------</option>
+						<option value="writer">작성자</option>
+						<option value="title">제목</option>
+						<option value="content">내용</option>					
+					</select>
+					<br>
+					<input type="search" name="search" class="form-control form-control" style="width:300px;">
+					<button class="btn btn-outline-primary" style="width:100px;">검색하기</button>				
+				</form>			
+			</div>
+  </div>
+  
+  	<%@ include file="/common/footer.jsp" %>
+	<%@ include file="/common/BacktoTop.jsp" %>
 				
 <!--===============================================================================================-->   
    <script src="../main/vendor/jquery/jquery-3.2.1.min.js"></script>
@@ -182,5 +198,5 @@
    </script>
 <!--===============================================================================================-->
    <script src="../main/js/main.js"></script>
-	</body>
+</body>
 </html>

@@ -24,9 +24,9 @@
 		display:none;
 	} */
 </style>
+<%@ include file="/common/header.jsp" %>
 </head>
 <body>
-<%@ include file="/common/header.jsp" %>
 
 <form>
 	<div id="all">
@@ -35,13 +35,13 @@
 		<div class="col-xs-3">
 			<tr>
       			<td><label for="userName">이름 :</label></td>
-     			<td><input type="text" class="form-control" id="userName" name="userName"></td>
+     			<td><input type="text" class="form-control" id="userName" name="userName" style="width:300px;"></td>
      		</tr>
    		</div>
    		
   		<div class="form-group">
       		<label for="userId">아이디 : </label>
-    		<input type="text" class="form-control" id="userId" name="userId">
+    		<input type="text" class="form-control" id="userId" name="userId" style="width:300px;">
    		</div>
    		
    		<div class="form-group">
@@ -51,36 +51,43 @@
    		
    		<div class="form-group">
       		<label for="userPwd2">비밀번호 확인: </label>
-    		<input type="password" class="form-control" id="userPwd2" name="userPwd2">
+    		<input type="password" class="form-control" id="userPwd2" name="userPwd2" style="width:300px;">
    		</div>
    		
    		<div class="form-group">
       		<label for="email">이메일 인증 : </label>
-    		<input type="email" class="form-control" id="email" name="email">
+    		<input type="email" class="form-control" id="email" name="email" style="width:300px;">
    		</div>
    		
    		<div class="form-group">
       		<label for="phone">핸드폰 번호 : </label>
-    		<input type="text" class="form-control" id="phone" name="phone">
+    		<input type="text" class="form-control" id="phone" name="phone" style="width:300px;">
    		</div>
    		
    		<div class="form-group">
       		<label for="year">생년월일 : </label>
-    		<input type="text" class="form-control" id="year" name="year">
+    		<input type="text" class="form-control" id="year" name="year" style="width:300px;">
    		</div>
    		
+   		<label for="year">성별 : </label>
    		<div class="form-group" style="display:flex;">
+   		
 			<input type="radio" name="chk_info" value="1"> 남 &nbsp;
 			<input type="radio" name="chk_info" value="2"> 여
    		</div>
    		
    		<div class="form-group">
       		<label for="year">배송지 입력 : </label>
-    		<input type="text" class="form-control" id="year" name="year">
+    		<input type="text" class="form-control" id="year" name="year" style="width:300px;">
+   		</div>
+   		<div class="form-group">
+   			<label for="Agree">이용 약간 동의</label>
+   		
    		</div>
    		
    		<button type="submit" class="btn btn-primary">가입</button>
 	</div>
+	
 </form>
 		<%@ include file="/common/footer.jsp" %>
 		<%@ include file="/common/BacktoTop.jsp" %>
