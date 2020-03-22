@@ -114,7 +114,7 @@
                                                 <td>19-10-01</td>
                                                 <td>
 	                                                <div class="btn-group ml-auto">
-			                                            <a class="btn btn-sm btn-outline-light" href="/brocoli/owner/pages/stock-management.jsp">재고관리</a>
+			                                            <a class="btn btn-sm btn-outline-light" href="/brocoli/owner/pages/stock-management.jsp">재고확인</a>
 			                                        </div>
                                                 </td>
                                                 <td>
@@ -141,7 +141,34 @@
                                                 <td>19-10-01</td>
                                                 <td>
 	                                                <div class="btn-group ml-auto">
-			                                            <a class="btn btn-sm btn-outline-light" href="/brocoli/owner/pages/stock-management.jsp">재고관리</a>
+			                                            <a class="btn btn-sm btn-outline-light" href="/brocoli/owner/pages/stock-management.jsp">재고확인</a>
+			                                        </div>
+                                                </td>
+                                                <td>
+	                                                <div class="btn-group ml-auto">
+			                                            <button class="btn btn-sm btn-outline-light">변경</button>
+			                                            <button class="btn btn-sm btn-outline-light">
+			                                                <i class="far fa-trash-alt"></i>
+			                                            </button>
+			                                        </div>
+                                                </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td>000BS000</td>
+                                                <td>모자-버킷햇</td>
+                                                <td align="center" >
+                                                	<div class="m-r-10"><img src="/brocoli/resources/product-Img/P11003.jpg" alt="user" class="rounded" width="45"></div>
+                                                </td>
+                                                <td class="product-name">DIM. E CRES. MAGICIAN BUCKET HAT_ORANGE</td>
+                                                <td>48,000</td>
+                                                <td>-24,000</td>
+                                                <td>24,000</td>
+                                                <td>판매중</td>
+                                                <td>20-01-12</td>
+                                                <td>
+	                                                <div class="btn-group ml-auto">
+			                                            <a class="btn btn-sm btn-outline-light" href="/brocoli/owner/pages/stock-management.jsp">재고확인</a>
 			                                        </div>
                                                 </td>
                                                 <td>
