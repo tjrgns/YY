@@ -15,10 +15,10 @@
 <title>입점 문의</title>
 <style>
 	#all{
-		  border:1px solid red;
+		  /* border:1px solid red; */
           margin: auto;
           width: 50%;
-          height: 900px;
+          height: 950px;
 	}
 </style>
 <%@ include file="/common/header.jsp" %>
@@ -28,9 +28,10 @@
 <form>
 	<div id="all">
 			<h2>BROCOLI 입점 문의</h2><Br>
+			<hr>
 			<p>
 			안녕하세요.<br>
-			힙합퍼에 입점 문의주신 것에 깊은 감사 드립니다. 
+			힙합퍼에 입점 문의주신 것에 깊은 감사 드립니다. <br>
 			하단의 시트를 기재 후 제출하여 주시면 담당자 배정 후 연락드리도록 하겠습니다.			
 			</p>
 			<hr>
@@ -66,7 +67,13 @@
    		</div>
    		<div id="cate" >
    			<label for="sad">카테고리 분류 : </label>
+   			
+   			<div style="display:flex;">
+   			<input type="checkBox" name="cate" value="">Clothing (국내 브랜드 의류 전반) (http://www.hiphoper.com/clothing)<br>
    			<input type="checkBox" name="cate" value="">Clothing (국내 브랜드 의류 전반) (http://www.hiphoper.com/clothing)
+   			<input type="checkBox" name="cate" value="">Clothing (국내 브랜드 의류 전반) (http://www.hiphoper.com/clothing)
+   			<input type="checkBox" name="cate" value="">Clothing (국내 브랜드 의류 전반) (http://www.hiphoper.com/clothing)
+   			</div>
    			
    		</div>
    		

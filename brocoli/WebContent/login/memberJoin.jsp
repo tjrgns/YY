@@ -32,7 +32,7 @@
 	<div id="all">
 			<h2>회원 가입</h2><Br>
 			<hr>
-		<div class="col-xs-3">
+		<div class="form-group">
 			<tr>
       			<td><label for="userName">이름 :</label></td>
      			<td><input type="text" class="form-control" id="userName" name="userName" style="width:300px;"></td>
@@ -45,8 +45,8 @@
    		</div>
    		
    		<div class="form-group">
-      		<!-- <label for="userPwd1">비밀번호 : </label>
-    		<input type="password" class="form-control" id="userPwd1" name="userPwd1"> -->
+      		<label for="userPwd1">비밀번호 : </label>
+    		<input type="password" class="form-control" id="userPwd1" name="userPwd1" style="width:300px;">
    		</div>
    		
    		<div class="form-group">
@@ -55,7 +55,7 @@
    		</div>
    		
    		<div class="form-group">
-      		<label for="email">이메일 인증 : </label>
+      		<label for="email">이메일 : </label>
     		<input type="email" class="form-control" id="email" name="email" style="width:300px;">
    		</div>
    		
