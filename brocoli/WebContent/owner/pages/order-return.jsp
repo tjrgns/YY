@@ -94,7 +94,7 @@
                                                 <td>211,000</td>
                                                 <td>택배손망실</td>
                                                 <td>2020-04-05 18:00:12</td>
-                                                <td>창고입고</td>
+                                                <td><span class="badge-dot badge-brand mr-1"></span>창고입고</td>
                                                 <td>
                                                 	<div class="btn-group ml-auto">
 			                                            <button class="btn btn-sm btn-outline-light">상세보기</button>
@@ -109,7 +109,7 @@
                                                 <td>2,321,000</td>
                                                 <td>제품불량</td>
                                                 <td>2020-04-05 18:00:12</td>
-                                                <td>반품완료</td>
+                                                <td><span class="badge-dot badge-success mr-1"></span>반품완료</td>
                                                 <td>
                                                 	<div class="btn-group ml-auto">
 			                                            <button class="btn btn-sm btn-outline-light">상세보기</button>
@@ -124,7 +124,7 @@
                                                 <td>151,000</td>
                                                 <td>고객변심</td>
                                                 <td>2020-04-05 18:00:12</td>
-                                                <td>반품완료</td>
+                                                <td><span class="badge-dot badge-success mr-1"></span>반품완료</td>
                                                 <td>
                                                 	<div class="btn-group ml-auto">
 			                                            <button class="btn btn-sm btn-outline-light">상세보기</button>
@@ -139,7 +139,7 @@
                                                 <td>214,000</td>
                                                 <td>제품누락</td>
                                                 <td>2020-04-05 18:00:12</td>
-                                                <td>재발송완료</td>
+                                                <td><span class="badge-dot badge-success mr-1"></span>재발송완료</td>
                                                 <td>
                                                 	<div class="btn-group ml-auto">
 			                                            <button class="btn btn-sm btn-outline-light">상세보기</button>

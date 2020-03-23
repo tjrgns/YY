@@ -226,8 +226,8 @@
                             </li>
                             
                             <li class="nav-item ">
-                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-5" aria-controls="submenu-5"><i class="fab fa-weixin"></i>후기관리</a>
-                                <div id="submenu-5" class="collapse submenu" style="">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-4" aria-controls="submenu-4"><i class="fab fa-weixin"></i>후기관리</a>
+                                <div id="submenu-4" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
                                             <a class="nav-link" href="/brocoli/owner/pages/review-management.jsp">읽지않은 후기</a>
@@ -241,8 +241,8 @@
                            
                             
                            <li class="nav-item ">
-                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-8" aria-controls="submenu-8"><i class="fas fa-comment-dots"></i>질의응답</a>
-                                <div id="submenu-8" class="collapse submenu" style="">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-5" aria-controls="submenu-5"><i class="fas fa-comment-dots"></i>질의응답</a>
+                                <div id="submenu-5" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
                                             <a class="nav-link" href="/brocoli/owner/pages/QnA-management.jsp">QnA</a>
@@ -291,8 +291,8 @@
                             </li>
 
                             <li class="nav-item ">
-                                <a class="nav-link" href="#" data-toggle="collapse"  aria-expanded="false" data-target="#submenu-9" aria-controls="submenu-9"><i class="fab fa-whmcs"></i>설정(제작중)</a>
-                                <div id="submenu-9" class="collapse submenu" style="">
+                                <a class="nav-link" href="#" data-toggle="collapse"  aria-expanded="false" data-target="#submenu-8" aria-controls="submenu-8"><i class="fab fa-whmcs"></i>설정(제작중)</a>
+                                <div id="submenu-8" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
                                             <a class="nav-link" href="/brocoli/owner/pages/order-progress.jsp">알림설정</a>
@@ -309,11 +309,14 @@
                                 
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-8" aria-controls="submenu-8"><i class="fa fa-fw fa-rocket"></i>부가기능</a>
-                                <div id="submenu-8" class="collapse submenu" style="">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-9" aria-controls="submenu-9"><i class="fa fa-fw fa-rocket"></i>부가기능</a>
+                                <div id="submenu-9" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
                                             <a class="nav-link" href="/brocoli/owner/pages/Cropper.jsp">사진편집<span class="badge badge-secondary">New</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/brocoli/owner/pages/color-picker.jsp">RGB색상표<span class="badge badge-secondary">New</span></a>
                                         </li>
 
                                     </ul>

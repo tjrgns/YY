@@ -70,7 +70,7 @@
 	                         	<img src="/brocoli/resources/product-Img/P11001.jpg" alt="user" class="rounded" width="45">
 	                         </div>
                          
-                             <p class="review-text font-italic m-0">“Quisque lobortis vestibulum elit, vel fermentum elit pretium et. Nullam id ultrices odio. Cras id nulla mollis, molestie diam eu, facilisis tortor. Mauris ultrices lectus laoreet commodo hendrerit. Nullam varius arcu sed aliquam imperdiet. Etiam ut luctus augue.”</p>
+                             <p class="review-text font-italic m-0">끔찍해; 이거 기능구현 다 언제하쥬?</p>
                              <div class="rating-star mb-4">
                                  <i class="fa fa-fw fa-star"></i>
                                  <i class="fa fa-fw fa-star"></i>
