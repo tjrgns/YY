@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="/brocoli/resources/ownerResources/libs/css/style.css">
     <link rel="stylesheet" href="/brocoli/resources/ownerResources/vendor/fonts/fontawesome/css/fontawesome-all.css">
     
-     <%@ include file="/owner/pages/header.jsp" %>
+     <%@ include file="/WEB-INF/owner/pages/header.jsp" %>
     
     <title>오나 : 판매상품전체보기</title>
 </head>

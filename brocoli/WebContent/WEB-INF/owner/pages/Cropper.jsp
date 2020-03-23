@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="/brocoli/resources/ownerResources/vendor/fonts/fontawesome/css/fontawesome-all.css">
     <link rel="stylesheet" type="text/css" href="/brocoli/resources/ownerResources/vendor/cropper/dist/cropper.min.css">
     
-        <%@ include file="/owner/pages/header.jsp" %>
+        <%@ include file="/WEB-INF/owner/pages/header.jsp" %>
 </head>
 
 <body>
