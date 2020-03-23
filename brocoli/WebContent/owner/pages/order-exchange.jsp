@@ -94,7 +94,7 @@
                                                 <td>211,000</td>
                                                 <td>오배송</td>
                                                 <td>2020-04-03 04:12:00</td>
-                                                <td>교환접수</td>
+                                                <td><span class="badge-dot badge-brand mr-1"></span>교환접수</td>
                                                 <td>
                                                 	<div class="btn-group ml-auto">
 			                                            <button class="btn btn-sm btn-outline-light">상세보기</button>
@@ -109,7 +109,7 @@
                                                 <td>2,321,000</td>
                                                 <td>제품불량</td>
                                                 <td>2020-04-03 04:12:00</td>
-                                                <td>재배송중</td>
+                                                <td><span class="badge-dot badge-success mr-1"></span>재배송중</td>
                                                 <td>
                                                 	<div class="btn-group ml-auto">
 			                                            <button class="btn btn-sm btn-outline-light">상세보기</button>
@@ -124,7 +124,7 @@
                                                 <td>151,000</td>
                                                 <td>고객변심</td>
                                                 <td>2020-04-03 04:12:00</td>
-                                                <td>교환완료</td>
+                                                <td><span class="badge-dot badge-success mr-1"></span>교환완료</td>
                                                 <td>
                                                 	<div class="btn-group ml-auto">
 			                                            <button class="btn btn-sm btn-outline-light">상세보기</button>
@@ -139,7 +139,7 @@
                                                 <td>214,000</td>
                                                 <td>수량오류</td>
                                                 <td>2020-04-03 04:12:00</td>
-                                                <td>재배송중</td>
+                                                <td><span class="badge-dot badge-success mr-1"></span>재배송중</td>
                                                 <td>
                                                 	<div class="btn-group ml-auto">
 			                                            <button class="btn btn-sm btn-outline-light">상세보기</button>

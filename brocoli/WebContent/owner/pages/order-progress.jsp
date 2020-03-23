@@ -90,7 +90,9 @@
                                                 <td>이준용</td>
                                                 <td>레거시 스우.. 외 13개</td>
                                                 <td>211,000</td>
-                                                <td>배송중</td>
+                                                <td>
+                                                	<span class="badge-dot badge-success mr-1"></span>배송중
+                                                </td>
                                                 <td>
                                                 	<div class="btn-group ml-auto">
 			                                            <button class="btn btn-sm btn-outline-light">상세보기</button>
@@ -103,7 +105,7 @@
                                                 <td>유영재</td>
                                                 <td> BULKY KNEE.. 외 8개</td>
                                                 <td>2,321,000</td>
-                                                <td>배송중</td>
+                                                <td><span class="badge-dot badge-success mr-1"></span>배송중</td>
                                                 <td>
                                                 	<div class="btn-group ml-auto">
 			                                            <button class="btn btn-sm btn-outline-light">상세보기</button>
@@ -116,7 +118,7 @@
                                                 <td>유민정</td>
                                                 <td>REVERSIBLE F.. 외 21개</td>
                                                 <td>151,000</td>
-                                                <td>배송중</td>
+                                                <td><span class="badge-dot badge-success mr-1"></span>배송중</td>
                                                 <td>
                                                 	<div class="btn-group ml-auto">
 			                                            <button class="btn btn-sm btn-outline-light">상세보기</button>
@@ -129,7 +131,7 @@
                                                 <td>최유빈</td>
                                                 <td>DUCK DOWN SHORT .. 외 2개</td>
                                                 <td>214,000</td>
-                                                <td>배송중</td>
+                                                <td><span class="badge-dot badge-success mr-1"></span>배송중</td>
                                                 <td>
                                                 	<div class="btn-group ml-auto">
 			                                            <button class="btn btn-sm btn-outline-light">상세보기</button>

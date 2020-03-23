@@ -140,10 +140,7 @@
 		<!-- end main wrapper -->
 		<!-- ============================================================== -->
 		<!-- Optional JavaScript -->
-		<script
-			src="/brocoli/resources/adminResources/vendor/jquery/jquery-3.3.1.min.js"></script>
-		<script
-			src="/brocoli/resources/adminResources/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+
 		<script
 			src="/brocoli/resources/adminResources/vendor/slimscroll/jquery.slimscroll.js"></script>
 		<script src="/brocoli/resources/adminResources/libs/js/main-js.js"></script>

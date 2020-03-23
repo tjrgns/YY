@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="/brocoli/resources/ownerResources/libs/css/style.css">
     <link rel="stylesheet" href="/brocoli/resources/ownerResources/vendor/fonts/fontawesome/css/fontawesome-all.css">
     
-            <%@ include file="/owner/pages/header.jsp" %>
+            <%@ include file="/WEB-INF/owner/pages/header.jsp" %>
             
     <style type="text/css">
     #small-category-A { display: none;}

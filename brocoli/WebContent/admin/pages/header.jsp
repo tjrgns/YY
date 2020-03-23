@@ -206,11 +206,11 @@
 							<!-- ================================================ -->
 							<!-- =====================메뉴 넣기===================== -->
 							<!-- ================================================ -->
-							<li class="nav-item"><a class="nav-link" href="#"
-								data-toggle="collapse" aria-expanded="false"
-								aria-controls="submenu-1"><i
+							<li class="nav-item"><a class="nav-link" href="/brocoli/admin/admin.jsp"
+								aria-expanded="false" aria-controls="submenu-1"><i
 									class="fa fa-fw fa-user-circle"></i>홈</a>
 							</li>
+							
 							<li class="nav-item"><a class="nav-link" href="#"
 								data-toggle="collapse" aria-expanded="false"
 								data-target="#submenu-2" aria-controls="submenu-2"><i
@@ -278,11 +278,11 @@
 								<div id="submenu-6" class="collapse submenu" style="">
 									<ul class="nav flex-column">
 										<li class="nav-item"><a class="nav-link"
-											href="/brocoli/admin/pages/sales-management.jsp">매출</a></li>
+											href="/brocoli/admin/pages/sales-date.jsp">년,월,일 매출</a></li>
 									</ul>
 									<ul class="nav flex-column">
 										<li class="nav-item"><a class="nav-link"
-											href="/brocoli/admin/pages/sales2-management.jsp">매출</a></li>
+											href="/brocoli/admin/pages/sales-management.jsp">매출조회</a></li>
 									</ul>
 								</div>
 							</li>
@@ -298,6 +298,22 @@
 									<ul class="nav flex-column">
 										<li class="nav-item"><a class="nav-link"
 											href="/brocoli/admin/pages/magazine-upload.jsp">매거진현황</a></li>
+									</ul>
+								</div>
+							</li>
+							
+							<li class="nav-item"><a class="nav-link" href="#"
+								data-toggle="collapse" aria-expanded="false"
+								data-target="#submenu-8" aria-controls="submenu-8"><i
+									class="fa fa-fw fa-user-circle"></i>게시판</a>
+								<div id="submenu-8" class="collapse submenu" style="">
+									<ul class="nav flex-column">
+										<li class="nav-item"><a class="nav-link"
+											href="/brocoli/admin/pages/board-notice.jsp">공지사항</a></li>
+									</ul>
+									<ul class="nav flex-column">
+										<li class="nav-item"><a class="nav-link"
+											href="/brocoli/admin/pages/board-questions.jsp">Q&A</a></li>
 									</ul>
 								</div>
 							</li>

@@ -134,12 +134,6 @@
 
 
 	<!-- Optional JavaScript -->
-	<!-- jquery 3.3.1 -->
-	<script
-		src="/brocoli/resources/adminResources/vendor/jquery/jquery-3.3.1.min.js"></script>
-	<!-- bootstap bundle js -->
-	<script
-		src="/brocoli/resources/adminResources/vendor/bootstrap/js/bootstrap.bundle.js"></script>
 	<!-- slimscroll js -->
 	<script
 		src="/brocoli/resources/adminResources/vendor/slimscroll/jquery.slimscroll.js"></script>

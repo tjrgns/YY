@@ -67,6 +67,7 @@
                                         <thead>
                                             <tr>
                                                 <th style="width:5%">번호</th>
+                                                <th style="width:6%">일반</th>
                                                 <th style="width:5%">이름</th>
                                                 <th style="width:8%">아이디</th>
                                                 <th style="width:8%">비밀번호</th>
@@ -84,6 +85,7 @@
                                         <c:forEach var="i" begin="0" end="10"> <!-- for -->
                                             <tr>
                                                 <td>100</td>
+                                                <td>일반</td>
                                                 <td>홍길동</td>
                                                 <td>hong1</td>
                                                 <td>hong1</td>
@@ -106,6 +108,55 @@
                     <!-- ============================================================== -->
                     <!-- end basic table  -->
                     <!-- ============================================================== -->
+                    
+                    
+                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="card">
+                            <h5 class="card-header">owner 테이블</h5>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table id="ownerManagement" class="table table-striped table-bordered first" style="text-align:center;">
+                                        <thead>
+                                            <tr>
+                                                <th style="width:5%">번호</th>
+                                                <th style="width:6%">일반</th>
+                                                <th style="width:5%">이름</th>
+                                                <th style="width:8%">아이디</th>
+                                                <th style="width:8%">비밀번호</th>
+                                                <th style="width:5%">성별</th>
+                                                <th style="width:8%">생년월일</th>
+                                                <th style="width:8%">전화번호</th>
+                                                <th style="width:10%">주소</th>
+                                                <th style="width:10%">이메일</th>
+                                                <th style="width:6%">적립금</th>
+                                                <th style="width:5%">회원정지(Y/N)</th>
+                                                <th style="width:5%">회원삭제(Y/N)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        <c:forEach var="i" begin="0" end="10"> <!-- for -->
+                                            <tr>
+                                                <td>100</td>
+                                                <td>일반</td>
+                                                <td>홍길동</td>
+                                                <td>hong1</td>
+                                                <td>hong1</td>
+                                                <td>M</td>
+                                                <td>1999/01/01</td>
+                                                <td>010-1111-2222</td>
+                                                <td>강남구 역삼1동</td>
+                                                <td>hong@naver.com</td>
+                                                <td>3000</td>
+                                                <td>N</td>
+                                                <td>N</td>
+                                            </tr>
+                                        </c:forEach>
+                                      </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="row">
                     <!-- ============================================================== -->
@@ -129,6 +180,19 @@
 				});
 			});
 		</script>
+    
+    	<!-- owner 상세보기용 -->
+		<script>
+			$(function(){
+				$("#ownerManagement").find("td").mouseenter(function(){
+					$(this).parents("tr").css({ "cursor":"pointer"});
+				}).click(function(){
+					var bId = $(this).parents().children("td").eq(0).text();	
+					location.href="member-detail.jsp";
+					//location.href="detail.bo?bId="+bId;
+				});
+			});
+		</script>
 		
 		
 
@@ -137,8 +201,6 @@
     
     <!-- ============================================================== -->
     <!-- Optional JavaScript -->
-    <script src="/brocoli/resources/adminResources/vendor/jquery/jquery-3.3.1.min.js"></script>
-    <script src="/brocoli/resources/adminResources/vendor/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="/brocoli/resources/adminResources/vendor/slimscroll/jquery.slimscroll.js"></script>
     <script src="/brocoli/resources/adminResources/vendor/multi-select/js/jquery.multi-select.js"></script>
     <script src="/brocoli/resources/adminResources/libs/js/main-js.js"></script>

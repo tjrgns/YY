@@ -19,7 +19,7 @@
 	href="/brocoli/resources/adminResources/libs/css/style.css">
 <link rel="stylesheet"
 	href="/brocoli/resources/adminResources/vendor/fonts/fontawesome/css/fontawesome-all.css">
-<title>Concept - Bootstrap 4 Admin Dashboard Template</title>
+<title>게시판 공지사항 게시글</title>
 </head>
 
 <body>
@@ -41,12 +41,12 @@
 					<div class="row">
 						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 							<div class="page-header">
-								<h2 class="pageheader-title">매거진 현황</h2>
+								<h2 class="pageheader-title">공지사항</h2>
 								<div class="page-breadcrumb">
 									<nav aria-label="breadcrumb">
 										<ol class="breadcrumb">
-											<li class="breadcrumb-item">매거진 관리</a></li>
-											<li class="breadcrumb-item">매거진 현황</a></li>
+											<li class="breadcrumb-item">게시판</a></li>
+											<li class="breadcrumb-item">공지사항</a></li>
 											<li class="breadcrumb-item">게시글</a></li>
 										</ol>
 									</nav>
@@ -77,7 +77,7 @@
 											<hr>
 											<span
 												style="float: left; width: 1000px; margin-right: 810px;">첨부파일
-												미리보기 </span>
+											</span>
 										</h3>
 									</div>
 
@@ -104,16 +104,19 @@
 										</div>
 									</div>
 
-								</div>
-								<div class="card-footer bg-white">
-								</div>
+
+									<div class="card-footer bg-white"></div>
 									<div class="card-footer float-right"
 										style="background-color: transparent !important; border-top: white;">
-										<form action="/brocoli/admin/pages/magazine-upload.jsp"
-											method="post" style="padding-left:92%;">
-											<button type="submit" class="btn btn-dark ">삭제</button>
+										<form
+											action="/brocoli/admin/pages/board-notice-detailModify.jsp"
+											method="post">
+											<button type="submit" class="btn btn-light ">수정</button>
 										</form>
+										<button class="btn btn-dark "
+											onclick="location.href='board-notice-detail.jsp'">삭제</button>
 									</div>
+								</div>
 							</div>
 						</div>
 					</div>
