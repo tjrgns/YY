@@ -125,6 +125,18 @@
                                                 <input data-parsley-type="number" type="text" class="form-control">
                                             </div>
                                         </div>
+                                        <div class="form-group row">
+                                            <label class="col-12 col-sm-3 col-form-label text-sm-right">교환이력</label>
+                                            <div class="col-12 col-sm-8 col-lg-6">
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-12 col-sm-3 col-form-label text-sm-right">반품이력</label>
+                                            <div class="col-12 col-sm-8 col-lg-6">
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
                                        <div class="form-group row" style="padding-bottom:3px;">
                                             <label class="col-12 col-sm-3 col-form-label text-sm-right">회원정지 사유</label>
                                             <div class="col-12 col-sm-8 col-lg-6">
@@ -155,16 +167,19 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="form-group row">
-                                            <label class="col-12 col-sm-3 col-form-label text-sm-right">교환이력</label>
+                                        <div class="form-group row" style="padding-bottom:3px;">
+                                            <label class="col-12 col-sm-3 col-form-label text-sm-right">owner 권한부여</label>
                                             <div class="col-12 col-sm-8 col-lg-6">
                                                 <input type="text" class="form-control">
                                             </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label class="col-12 col-sm-3 col-form-label text-sm-right">반품이력</label>
-                                            <div class="col-12 col-sm-8 col-lg-6">
-                                                <input type="text" class="form-control">
+                                            <div class="form-group row">
+                                                <label class="col-12 col-sm-3 col-form-label text-sm-right">owner</label>
+                                                <div class="col-12 col-sm-8 col-lg-6 pt-1">
+                                                    <div class="switch-button switch-button-danger">
+                                                        <input type="checkbox" checked="" name="switch1" id="switch1"><span>
+                                                              <label for="switch1"></label></span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="form-group row text-right">
@@ -188,8 +203,6 @@
     <!-- end main wrapper -->
     <!-- ============================================================== -->
     <!-- Optional JavaScript -->
-    <script src="/brocoli/resources/adminResources/vendor/jquery/jquery-3.3.1.min.js"></script>
-    <script src="/brocoli/resources/adminResources/vendor/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="/brocoli/resources/adminResources/vendor/slimscroll/jquery.slimscroll.js"></script>
     <script src="/brocoli/resources/adminResources/vendor/parsley/parsley.js"></script>
     <script src="/brocoli/resources/adminResources/libs/js/main-js.js"></script>

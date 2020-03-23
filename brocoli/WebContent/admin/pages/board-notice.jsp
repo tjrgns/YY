@@ -8,7 +8,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>매출관리</title>
+    <title>게시판 공지사항</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/brocoli/resources/adminResources/vendor/bootstrap/css/bootstrap.min.css">
     <link href="/brocoli/resources/adminResources/vendor/fonts/circular-std/style.css" rel="stylesheet">
@@ -18,8 +18,6 @@
     <link rel="stylesheet" type="text/css" href="/brocoli/resources/adminResources/vendor/datatables/css/buttons.bootstrap4.css">
     <link rel="stylesheet" type="text/css" href="/brocoli/resources/adminResources/vendor/datatables/css/select.bootstrap4.css">
     <link rel="stylesheet" type="text/css" href="/brocoli/resources/adminResources/vendor/datatables/css/fixedHeader.bootstrap4.css">
-
-
 </head>
 
 <body>
@@ -40,13 +38,13 @@
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="page-header">
-                            <h2 class="pageheader-title">매출관리</h2>
+                            <h2 class="pageheader-title">공지사항</h2>
                             <p class="pageheader-text">Proin placerat ante duiullam scelerisque a velit ac porta, fusce sit amet vestibulum mi. Morbi lobortis pulvinar quam.</p>
                             <div class="page-breadcrumb">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a class="breadcrumb-link">매출관라</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">매출</li>
+                                        <li class="breadcrumb-item"><a class="breadcrumb-link">게시판</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">공지사항</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -62,77 +60,43 @@
                     <!-- ============================================================== -->
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="card">
-                            <h5 class="card-header">매출 테이블</h5>
-                            <div class="card-body">
-                            	<table id="sales-search" class="table table-basic" style="text-align:center;" border="1" >
-                            		<thead>
-                            			<tr style="border:1px solid lightgray;" >
-                            				<th style="width:10%">날짜</th>
-                            				<th style="width:25%">
-											<p>
-										      <input type="date" id="date" />
-										      ~
-										      <input type="date" id="date" />
-										    </p>
-										    </th>
-                            				<th style="width:10%">브랜드</th>
-                            				<th style="width:25%"><input></th>
-                            				<th style="width: 8%">
-                            				  <button type="submit" class="btn btn-light "
-									                  style="width:50px; height:40px; ">
-									                  <i class="fas fa-search"></i>
-									          </button>
-                            				</th>
-                            			</tr>
-                            		</thead>                            	
-                            	</table>
-                            
-                            
-                            </div>
+                            <h5 class="card-header">공지사항 테이블</h5>
                             <div class="card-body">
                                 <div class="table-responsive">
-                                    <table id="brand-management" class="table table-striped table-bordered" style="text-align:center;">
+                                    <table id="brand-owner-contact" class="table table-striped table-bordered first" style="text-align:center;">
                                         <thead>
                                             <tr>
                                                 <th style="width:5%">번호</th>
-                                                <th style="width:10%">판매일</th>
-                                                <th style="width:10%">브랜드명</th>
-                                                <th style="width:10%">상품코드</th>
-                                                <th style="width:10%">상품명</th>
-                                                <th style="width:7%">판매가격</th>
+                                                <th style="width:8%">제목</th>
+                                                <th style="width:8%">작성자</th>
+                                                <th style="width:8%">날짜</th>
+                                                <th style="width:5%">조회수</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                         <c:forEach var="i" begin="0" end="10"> <!-- for -->
                                             <tr>
                                                 <td>1</td>
-                                                <td>2020-01-01</td>
-                                                <td>나이키</td>
-                                                <td>PO010</td>
-                                                <td>나이키맨투맨</td>
-                                                <td>30000</td>
-                                            </tr>
+                                                <td>배송관련 공지사항</td>
+                                                <td>관리자</td>
+                                                <td>2020-03-03</td>
+                                                <td>10</td>
+											</tr>
                                         </c:forEach>
                                       </tbody>
-                                      <tfoot style="background-color:#c3e6cb;">
-                                      	<tr>
-                                      		<th >합계</th>
-                                      		<th>총 매출</th>
-                                      		<th></th>
-                                      		<th>총 주문수</th>
-                                      		<th></th>
-                                      		<th></th> 
-                                      	</tr>
-                                      
-                                      </tfoot>
                                     </table>
+                                    <div class="form-group row text-right" style="width:136%">
+                                     <div class="col col-sm-10 col-lg-9 offset-sm-1 offset-lg-0">
+                                     	<button class="btn btn-dark" onclick="location.href='board-notice-add.jsp'">추가</button>
+                                     </div>
+                                </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <!-- ============================================================== -->
                     <!-- end basic table  -->
                     <!-- ============================================================== -->
-                    
                 </div>
                 <div class="row">
                     <!-- ============================================================== -->
@@ -144,36 +108,26 @@
     <!-- end main wrapper -->
     <!-- ============================================================== -->
     
-    <!-- ============================================================== -->
-    <!--반품시 alert창으로 한번 확인 -->  
-    <!-- ============================================================== -->
-    
-    
-    
-    <!-- ============================================================== -->
-    <!--/ 반품시 alert창으로 한번 확인 -->  
-    <!-- ============================================================== -->
-    
-    
-    <!-- ============================================================== -->
-    <!--교환시 팝업창 띄우기-->  
-    <!-- ============================================================== -->
-    
-    
-    
-    <!-- ============================================================== -->
-    <!--교환시 팝업창  -->  
-    <!-- ============================================================== -->
-    
-    
-    
+    	<!-- 공지사항 상세보기용 -->
+		<script>
+			$(function(){
+				$("#brand-owner-contact").find("td").mouseenter(function(){
+					$(this).parents("tr").css({ "cursor":"pointer"});
+				}).click(function(){
+					var bId = $(this).parents().children("td").eq(0).text();	
+					location.href="board-notice-detail.jsp";
+					//location.href="detail.bo?bId="+bId;
+				});
+			});
+		</script>
+		
+		
+
     
     
     
     <!-- ============================================================== -->
     <!-- Optional JavaScript -->
-    <script src="/brocoli/resources/adminResources/vendor/jquery/jquery-3.3.1.min.js"></script>
-    <script src="/brocoli/resources/adminResources/vendor/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="/brocoli/resources/adminResources/vendor/slimscroll/jquery.slimscroll.js"></script>
     <script src="/brocoli/resources/adminResources/vendor/multi-select/js/jquery.multi-select.js"></script>
     <script src="/brocoli/resources/adminResources/libs/js/main-js.js"></script>
@@ -192,9 +146,6 @@
     <script src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
     <script src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
     
-    <!-- end Optional JavaScript -->
-    <!-- ============================================================== -->
-         
 </body>
  
 </html>

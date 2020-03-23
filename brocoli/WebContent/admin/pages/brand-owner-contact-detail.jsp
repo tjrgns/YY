@@ -106,12 +106,13 @@
 
 									<div class="card-footer float-right"
 										style="background-color: transparent !important; border-top: white;">
-										<form action="/brocoli/admin/pages/brand-owner-contact-detailModify.jsp"
+										<form
+											action="/brocoli/admin/pages/brand-owner-contact-detailModify.jsp"
 											method="post">
 											<button type="submit" class="btn btn-dark ">수정</button>
 										</form>
 										<button type="submit" class="btn btn-light "
-											    onclick="location.href='brand-owner-contact.jsp'">목록</button>
+											onclick="location.href='brand-owner-contact.jsp'">목록</button>
 									</div>
 								</div>
 								<div class="card-footer bg-white">
@@ -143,15 +144,6 @@
 												<!-- 댓글 보여주기 부분 -->
 												<!-- ============================================================== -->
 												<div id="textbox_comment_list" style="width: 100%;">
-													<%-- <%
-					if (clist != null) {
-						int i = 0;
-				%>
-				<%
-					for (Comment co : clist) {
-				%>  --%>
-
-
 													<table id="replySelectTable" style="width: 108%">
 														<tr id="con-tr">
 															<td style="width: 720px;"><div name="conCno"
@@ -161,7 +153,8 @@
 																<div id="conModify" name="conModify"
 																	style="display: none;">
 																	<textarea id="conUpdate" name="conUpdate" value=""></textarea>
-																	<button name="conUpdateButton" class="btn btn-inverse" type="button">저장</button>
+																	<button name="conUpdateButton" class="btn btn-inverse"
+																		type="button">저장</button>
 																</div>
 																<div id="conUpdate" name="con"></div></td>
 															<hr style="border: solid 0.4px lightgray;">
@@ -170,14 +163,10 @@
 																style="float: right; margin-left: 30px; margin-right: 50px;"></td>
 															<td style="float: right;"></td>
 															<td style="float: right;">
-																<%-- <%
-								if (m.getUserName().equals(co.getCwriter())) {
-							%> --%>
-																<form
-																	<%-- action="<%=request.getContextPath()%>/cUpdate.cu" --%> method="post">
+
+																<form method="post">
 																	<button type="button" name="modifyCon"
-																		class="btn btn-inverse"
-																		style="font-size: 0.8em;">
+																		class="btn btn-inverse" style="font-size: 0.8em;">
 																		<i class="fas fa-pencil-alt"></i>
 																	</button>
 
@@ -185,19 +174,15 @@
 
 																<form action="" method="post">
 																	<button class="btn btn-inverse"
-																		style="font-size: 0.8em; margin-top:5px;"
+																		style="font-size: 0.8em; margin-top: 5px;"
 																		onclick="location.href ">
 																		<i class="fas fa-trash"></i>
 																	</button>
-																</form> <%-- <%}%> --%>
+																</form>
 															</td>
 														</tr>
 													</table>
 													<br>
-													<%-- <%
-					}				
-					}
-				%> --%>
 												</div>
 												<!-- ============================================================== -->
 												<!-- /댓글 보여주기 부분 -->
@@ -347,12 +332,6 @@
 
 
 	<!-- Optional JavaScript -->
-	<!-- jquery 3.3.1 -->
-	<script
-		src="/brocoli/resources/adminResources/vendor/jquery/jquery-3.3.1.min.js"></script>
-	<!-- bootstap bundle js -->
-	<script
-		src="/brocoli/resources/adminResources/vendor/bootstrap/js/bootstrap.bundle.js"></script>
 	<!-- slimscroll js -->
 	<script
 		src="/brocoli/resources/adminResources/vendor/slimscroll/jquery.slimscroll.js"></script>
