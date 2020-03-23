@@ -8,13 +8,14 @@
 </head>
 <body>
 
+
 </body>
 	<!-- Footer -->
 	<footer class="bg3 p-t-75 p-b-32" id="footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-lg-3 p-b-50">
-					<h4 class="stext-301 cl0 p-b-30">
+					<h4 class="stext-301 cl1 p-b-30">
 						Categories
 					</h4>
 
@@ -46,7 +47,7 @@
 				</div>
 
 				<div class="col-sm-6 col-lg-3 p-b-50">
-					<h4 class="stext-301 cl0 p-b-30">
+					<h4 class="stext-301 cl1 p-b-30">
 						Help
 					</h4>
 
@@ -78,7 +79,7 @@
 				</div>
 
 				<div class="col-sm-6 col-lg-3 p-b-50">
-					<h4 class="stext-301 cl0 p-b-30">
+					<h4 class="stext-301 cl1 p-b-30">
 					<i class="fa fa-phone"></i>
 						1588-1588
 					</h4>
@@ -107,7 +108,7 @@
 				</div>
 
 				<div class="col-sm-6 col-lg-3 p-b-50">
-					<h4 class="stext-301 cl0 p-b-30">
+					<h4 class="stext-301 cl1 p-b-30">
 						ETC
 					</h4>
 

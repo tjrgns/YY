@@ -7664,7 +7664,7 @@ li.box-tab-btn.tab-btn.btn.tab-box-bidlist.active {line-height:12px; border:1px 
 .article_sold_out .cell_discount_detail2 {padding-top:10px}
 .cell_order_form2 {display:table-cell; width:240px; box-sizing:border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box}
 .cell_order_form2 ul:after {display:block; clear:both; content:""}
-.cell_order_form2 li {float:left}
+/* .cell_order_form2 li {float:left} */
 .cell_order_form2.list_gift_order {border:1px solid #ddd; background-color:#f3f3f3}
 .cell_order_form2.list_gift_order ul{line-height:18px; font-family:"굴림",Gulim,Arial,sans-serif; padding:10px}
 .cell_order_form2.list_gift_order ul li{width:104px; margin-top:8px}

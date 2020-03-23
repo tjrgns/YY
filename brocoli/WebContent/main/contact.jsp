@@ -4,15 +4,46 @@
 <html lang="en">
 <%@ include file="../common/header.jsp" %>
 <%@ include file="../common/cart.jsp" %>
+<%@ include file="../common/sidebar.jsp" %>
 <body class="animsition">
+<link href="https://fonts.googleapis.com/css?family=Gamja+Flower&display=swap" rel="stylesheet">
+
 <style>
 .addr{
-border: 1px solid black;
+border-style : hidden;
+box-shadow : 5px 5px 3px 2px gray;
 margin-top: 10px;
-display : inline-block;
+width : 360px;
 text-align: left;
 border-radius: 10px;
 }
+.addinfo{
+background-color : grey;
+width : 50%;
+}
+.addrinfo1{
+width:675px;
+height:100px;
+margin-top : 0px;
+margin-bottom : 0px;
+display : inline-block;
+border-style : double;
+color :#e6e6e6;
+background-color: grey;
+padding-top: 14px;
+
+}
+.size-2{
+	width:675px;
+}
+ .addrinfo1 > span{
+font-family: 'Gamja Flower', cursive;
+font-size : 50px;
+} 
+.addr > p{
+font-family: 'Gamja Flower', cursive;
+font-size: 20px;
+} 
 </style>
 
 
@@ -24,12 +55,30 @@ border-radius: 10px;
 	</section>	
 
 
+
 	<!-- Content page -->
 	<section class="bg p-t-104 p-b-116">
+	
+	<!-- breadcrumb -->
+	<div class="container">
+		<div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg">
+			<a href="index.html" class="stext-109 cl8 hov-cl1 trans-04">
+				Home
+				<i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
+			</a>
+
+			<span class="stext-109 cl4">
+				Contact
+			</span>
+		</div>
+	</div>
+	
 		<div class="container" align="center">
+				<div class="addrinfo1"><span>플래그십 스토어</span></div><div class="addrinfo1"><span>상설 매장</span></div>
 			<div class="flex-w bg6 flex-tr" >
-				<div  class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
-					<form>
+			
+				<div  class="size-2 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
+						<form>
 						<ul>
 						<li class="addr" ><p>청담점 - </p>
 						<p>Address  : 서울특별시 청담동 어쩌구저쩌구</p>
@@ -48,7 +97,9 @@ border-radius: 10px;
 					</form>
 					
 				</div>
-			<div  class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
+				
+				
+			<div  class="size-2 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
 					<form>
 						<ul>
 						<li class="addr" ><p>강남점 - </p>
@@ -120,9 +171,6 @@ border-radius: 10px;
 			})
 		});
 	</script>
-<!--===============================================================================================-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
-	<script src="js/map-custom.js"></script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
 
