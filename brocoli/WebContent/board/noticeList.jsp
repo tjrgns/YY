@@ -16,10 +16,11 @@
   
   <style>
   	#all{
-		border:1px solid red;
+		/* border:1px solid red; */
 		margin: auto;
 		width: 70%;
-		 height: 900px;  	
+		height: 900px; 
+		display: grid; 	
   		}
   	#all th{
   		text-align:center;
@@ -32,43 +33,95 @@
 <div id="all">
 <br>
 <h1 align="center">공지사항</h1>
-<br>
-<table class="table table-striped" align="center">
+<table class="table table-hover" align="center" id="listArea">
     <thead>
       <tr>
         <th style="width:10%">글번호</th>
-        <th style="width:60%">제목</th>
+        <th style="width:50%">제목</th>
         <th style="width:10%">작성자</th>
         <th style="width:20%">작성일</th>
+        <th style="width:20%">조회수</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td align="center">1</td>
-        <td align="center">게시판이 개빡쳐요</td>
+        <td align="center">게시판</td>
         <td align="center">홍길동</td>
         <td align="center">2020-03-21</td>
+        <td align="center">1</td>
       </tr>
       
        <tr>
         <td align="center">2</td>
-        <td align="center">게시판이 개빡쳐요</td>
+        <td align="center">게시판</td>
         <td align="center">홍길동</td>
         <td align="center">2020-03-21</td>
+        <td align="center">1</td>
       </tr>
       
        <tr>
         <td align="center">3</td>
-        <td align="center">게시판이 개빡쳐요</td>
+        <td align="center">게시판</td>
         <td align="center">홍길동</td>
         <td align="center">2020-03-21</td>
+        <td align="center">1</td>
       </tr>
       
        <tr>
         <td align="center">4</td>
-        <td align="center">게시판이 개빡쳐요</td>
+        <td align="center">게시판</td>
         <td align="center">홍길동</td>
         <td align="center">2020-03-21</td>
+        <td align="center">1</td>
+      </tr>
+      
+      <tr>
+        <td align="center">5</td>
+        <td align="center">게시판</td>
+        <td align="center">홍길동</td>
+        <td align="center">2020-03-21</td>
+        <td align="center">1</td>
+      </tr>
+      
+      <tr>
+        <td align="center">6</td>
+        <td align="center">게시판</td>
+        <td align="center">홍길동</td>
+        <td align="center">2020-03-21</td>
+        <td align="center">1</td>
+      </tr>
+      
+      <tr>
+        <td align="center">7</td>
+        <td align="center">게시판</td>
+        <td align="center">홍길동</td>
+        <td align="center">2020-03-21</td>
+        <td align="center">1</td>
+      </tr>
+      
+      <tr>
+        <td align="center">8</td>
+        <td align="center">게시판</td>
+        <td align="center">홍길동</td>
+        <td align="center">2020-03-21</td>
+        <td align="center">1</td>
+      </tr>
+      
+      <tr>
+        <td align="center">9</td>
+        <td align="center">게시판</td>
+        <td align="center">홍길동</td>
+        <td align="center">2020-03-21</td>
+        <td align="center">1</td>
+      </tr>
+      
+      <tr>
+        <td align="center">10</td>
+        <td align="center">게시판</td>
+        <td align="center">홍길동</td>
+        <td align="center">2020-03-21</td>
+        <td align="center">1</td>
       </tr>
      
     </tbody>
@@ -93,6 +146,7 @@
 				</form>			
 			</div>
   </div>
+  
   
   	<%@ include file="/common/footer.jsp" %>
 	<%@ include file="/common/BacktoTop.jsp" %>

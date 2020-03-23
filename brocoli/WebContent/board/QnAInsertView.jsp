@@ -59,10 +59,7 @@
 				<td>작 성 자</td>
 				<td>ㅎ</b></td>
 			</tr>
-			<tr>
-				<td>조 회 수</td>
-				<td>ㅎ</td>
-			</tr>
+
 			<tr>
 				<td>작 성 일</td>
 				<td>ㅎ</td>

@@ -16,7 +16,7 @@
   
   <style>
   	#all{
-		border:1px solid red;
+		/* border:1px solid red; */
 		margin: auto;
 		width: 70%;
 		 height: 900px;  	

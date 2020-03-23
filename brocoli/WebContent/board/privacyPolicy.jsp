@@ -13,7 +13,7 @@
 <title>약간 동의</title>
 <style>
 	#all{
-		border:1px solid red;
+		/* border:1px solid red; */
 		margin: auto;
 		width: 90%;
 		height: 700px;
