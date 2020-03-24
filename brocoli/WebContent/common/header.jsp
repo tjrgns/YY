@@ -36,6 +36,8 @@
 	<link rel="stylesheet" type="text/css" href="/brocoli/main/css/util.css">
 	<link rel="stylesheet" type="text/css" href="/brocoli/main/css/main.css">
 <!--===============================================================================================-->
+
+	<script src="/brocoli/main/vendor/jquery/jquery-3.2.1.min.js"></script>
 	
 </head>
 <!-- Header -->
@@ -48,7 +50,21 @@
 		<!-- Header desktop -->
 		<div class="container-menu-desktop">
 			<!-- Topbar -->
-			
+						<!-- Topbar -->
+			<div class="top-bar">
+				<div class="content-topbar flex-sb-m h-full container">
+					<div class="left-top-bar">
+						Free shipping
+					</div>
+
+					<div class="right-top-bar flex-w h-full">
+						<a href="#" class="flex-c-m trans-04 p-lr-25">
+							Help & FAQs
+						</a>
+
+					</div>
+				</div>
+			</div>
 
 			<div class="wrap-menu-desktop how-shadow1">
 				<nav class="limiter-menu-desktop container">
@@ -223,12 +239,21 @@
 					<button class="flex-c-m trans-04">
 						<i class="zmdi zmdi-search"></i>
 					</button>
-					<input class="plh3" type="text" name="search" placeholder="Search...">
+					<input class="plh3" id="searchbar" type="text" name="search" placeholder="Search...">
 				</form>
 			</div>
 		</div>
 	</header>
 
+	<script>
+	$('#searchbar').keyup(function(e) {
+	    if (e.keyCode == 13) {
+	   location.href="/brocoli/main/searchResult.jsp";
+	    }
+	});
+
+	
+	</script>
 <body>
 
 </body>
