@@ -36,14 +36,11 @@
 	<link rel="stylesheet" type="text/css" href="/brocoli/main/css/util.css">
 	<link rel="stylesheet" type="text/css" href="/brocoli/main/css/main.css">
 <!--===============================================================================================-->
-<<<<<<< HEAD
 	 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
 
-=======
 
 	<script src="/brocoli/main/vendor/jquery/jquery-3.2.1.min.js"></script>
 	
->>>>>>> branch 'master' of https://github.com/tjrgns/YY.git
 </head>
 <!-- Header -->
 	<header class="header-v4">
