@@ -310,6 +310,118 @@
                                                 <textarea required="" class="form-control"></textarea>
                                             </div>
                                         </div>
+                                        
+                                        <div class="form-group row">
+                                            <label class="col-12 col-sm-3 col-form-label text-sm-right" >옵션설정</label>
+                                            <div class="col-12 col-sm-8 col-lg-6" style="">
+                                            
+                                                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 mb-5" style="max-width: 120%; ">
+						                            <div class="tab-regular">
+						                                <ul class="nav nav-tabs " id="myTab" role="tablist">
+						                                    <li class="nav-item">
+						                                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">옵션사용</a>
+						                                    </li>
+						                                    <li class="nav-item">
+						                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">옵션사용안함</a>
+						                                    </li>
+						                                </ul>
+						                                <div class="tab-content" id="myTabContent" style="    width: 125%;">
+						                                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+						                                        <div class="lead" style="border-bottom: 1px solid #dddde8;">
+						                                            <label class="custom-control custom-radio custom-control-inline">
+						                                                <input onclick="OptionDisplay('0');" id="combination" type="radio" name="radio-inline" class="custom-control-input"  ><span class="custom-control-label">조합 일체형선택</span>
+						                                            </label>
+						                                            <label class="custom-control custom-radio custom-control-inline">
+						                                                <input  onclick="OptionDisplay('1');" id="Detachable" type="radio" name="radio-inline" class="custom-control-input"><span class="custom-control-label" >조합 분리형선택</span>
+						                                            </label>
+						                                        </div>
+						                                        <div id="combinationArea" style="display: none;">
+						                                        	<table style="border-bottom: 1px solid #dddde8; margin-bottom: 10px;">
+						                                        		<thead>
+								                                            <tr>
+								                                                <th>옵션1</th>
+								                                                <th>옵션2</th>
+								                                            </tr>
+								                                        </thead>
+						                                        		 <tbody>
+								                                            <tr>
+								                                                <td style="vertical-align: top;">
+								                                                	<div class="input-group mb-3" >
+										                                                <input type="text" class="form-control option1">
+										                                                <div class="input-group-append" >
+										                                                    <button type="button" class="btn btn-primary" onclick="option1Add();"><i class="fas fa-plus"></i></button>
+										                                                    <div type="button" class="btn btn-primary"  style="background: none; border: none;"><i class="fas fa-plus"></i></div>
+										                                                </div>
+										                                            </div>
+								                                                </td>
+								                                                <td style="width: 50.5%;">
+									                                                <div class="input-group mb-3" >
+											                                                <input type="text" class="form-control option2">
+											                                                <div class="input-group-append" >
+											                                                    <button type="button" class="btn btn-primary" onclick="option2Add(this)"><i class="fas fa-plus"></i></button>
+											                                                    
+											                                                </div>
+											                                        </div>
+								                                                </td>
+								                                            </tr>
+								                                            
+								                                         </tbody>
+						                                        	</table >
+						                                   <!--      	<hr style="color:#dddde8;"> -->
+						                                        </div>
+						                                        <div id="DetachableArea" style="display: none;">
+						                                        	<table style="width: 95%;">
+						                                        		<thead>
+								                                            <tr>
+								                                                <th>옵션1</th>
+								                                            </tr>
+								                                        </thead>
+						                                        		 <tbody id="option3Area">
+								                                            <tr>
+								                                                <td>
+								                                                	<div class="input-group mb-3" >
+										                                                <input type="text" class="form-control option3">
+										                                                <div class="input-group-append" >
+										                                                    <button type="button" class="btn btn-primary" onclick="option3Add();"><i class="fas fa-plus"></i></button>
+										                                                </div>
+										                                            </div>
+								                                                </td>
+								                                            </tr>
+								                                         </tbody>
+						                                        	</table>
+						                                        	<table style="width: 95%; border-top: 1px solid #dddde8; ">
+						                                        		<thead>
+								                                            <tr>
+								                                                <th>옵션2</th>
+								                                            </tr>
+								                                        </thead>
+						                                        		 <tbody id="option4Area">
+								                                            <tr>
+								                                                <td>
+								                                                	<div class="input-group mb-3" >
+										                                                <input type="text" class="form-control option4">
+										                                                <div class="input-group-append" >
+										                                                    <button type="button" class="btn btn-primary" onclick="option4Add();"><i class="fas fa-plus"></i></button>
+										                                                </div>
+										                                            </div>
+								                                                </td>
+								                                            </tr>
+								                                         </tbody>
+						                                        	</table>
+						                                        </div>
+						                                        <a href="#" class="btn btn-secondary" onclick="getList();">옵션리스트에 등록</a>
+						                                    </div>
+						                                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+						                                    	<p>상품의 옵션을 사용하지 않습니다.</p>
+						                                    </div>
+						                                </div>
+						                            </div>
+				                       			</div>
+                                                
+                                            </div>
+                                        </div>
+                             
+                                        
                                         <div class="form-group row text-right">
                                             <div class="col col-sm-10 col-lg-9 offset-sm-1 offset-lg-0">
                                                 <button type="submit" class="btn btn-space btn-primary">등록</button>
@@ -340,7 +452,157 @@
     <script>
     $('#form').parsley();
     </script>
+    
     <script>
+     var count = 0;
+    /*     작성자 : 박주완
+        작성일 : 2020-03-23
+        내용: 버튼클릭시 옵션 input추가 */
+        function option1Add(){
+        	
+        	  const str = 
+        	`
+					<table  style="border-bottom: 1px solid #dddde8; margin-bottom: 10px;">
+        	  			<tbody id="optionArea`+count+`" >
+				        	<tr>
+				              <td style="vertical-align: top;">
+				              	<div class="input-group mb-3" >
+				                      <input type="text" class="form-control option1">
+				                      <div class="input-group-append" >
+				                          <button type="button" class="btn btn-primary" onclick="option1Add();"><i class="fas fa-plus"></i></button>
+				                          <button type="button" class="btn btn-secondary" onclick="optionDel(this);"><i class="fas fa-minus"></i></button>
+				                      </div>
+				                  </div>
+				              </td>
+				              <td>
+				              <div class="input-group mb-3" >
+				                      <input type="text" class="form-control option2">
+				                      <div class="input-group-append" >
+				                          <button type="button" class="btn btn-primary" onclick="option2Add(this);"><i class="fas fa-plus"></i></button>
+				                          <button type="button" class="btn btn-secondary" onclick="option2Del(this);"><i class="fas fa-minus"></i></button>
+				                      </div>
+				                  </div>
+				              </td>
+				          </tr>
+				       </tbody>
+					</table>
+					
+          `;
+          
+        	  $("#combinationArea").append(str); 
+        }
+
+    function option2Add(obj){
+    	  const str = 
+    	`
+			<tb>
+			
+			</tb>
+          <td>
+          <div class="input-group mb-3" >
+                  <input type="text" class="form-control option2">
+                  <div class="input-group-append" >
+                     
+                      <button  type="button" class="btn btn-secondary del" onclick="option2Del(this);" ><i class="fas fa-minus"></i></button>
+                  </div>
+              </div>
+          </td>
+      `;
+    	  $(obj).parent().parent().parent().append(str); 
+    }
+    
+    function option3Add(){
+    	
+  	  const str = 
+  	`
+	<tr>
+          <td>
+          	<div class="input-group mb-3" >
+            <input type="text" class="form-control option3">
+            <div class="input-group-append" >
+                <button type="button" class="btn btn-primary" onclick="option3Add();"><i class="fas fa-plus"></i></button>
+                <button type="button" class="btn btn-secondary" onclick="option3Del(this);"><i class="fas fa-minus"></i></button>
+            </div>
+        </div>
+          </td>
+      </tr>
+  	`;
+    
+  	  $("#option3Area").append(str); 
+  }
+    
+    function option4Add(){
+    	
+  	  const str = 
+  	  	`
+  		<tr>
+  	          <td>
+  	          	<div class="input-group mb-3" >
+  	            <input type="text" class="form-control option4">
+  	            <div class="input-group-append" >
+  	                <button type="button" class="btn btn-primary" onclick="option4Add();"><i class="fas fa-plus"></i></button>
+  	                <button type="button" class="btn btn-secondary" onclick="option3Del(this);"><i class="fas fa-minus"></i></button>
+  	            </div>
+  	        </div>
+  	          </td>
+  	      </tr>
+  	  	`;	
+    
+  	  $("#option4Area").append(str); 
+  }
+
+
+    
+    </script>
+    
+    <script>
+    function optionDel(obj){
+        jQuery(obj).parent().parent().parent().parent().parent().parent().remove();
+    }
+    
+    function option2Del(obj){
+        jQuery(obj).parent().parent().parent().parent().remove();
+    }
+    
+    function option3Del(obj){
+        jQuery(obj).parent().parent().parent().remove();
+    }
+    
+    
+    </script>
+
+    <script>
+       function OptionDisplay(selectList) {
+           if( selectList == "0" ) {		// 조합일체형
+               $('#combinationArea').css("display", "block");  
+               $('#DetachableArea').css("display", "none");
+           } else { 						// 조합분리형
+               $('#DetachableArea').css("display", "block");
+           	   $('#combinationArea').css("display", "none");
+           }
+       }
+
+   	</script>
+
+ 	<!-- 버튼클릭시 input 옵션들 전부 리스트로 가져오기 -->
+ 	<script>
+		 function getList(){
+			var list1 = $('.option1').val();
+			var list2 = $('.option2').val();
+			var list3 = $('.option3').val();
+			var list4 = $('.option4').val();
+			
+			alert('option1=' + list1 + 
+					'option2=' + list2 +
+					'option3=' + list3 +
+					'option4=' + list4);
+		}
+ 		
+ 		
+ 	</script>
+ 	<!-- 버튼클릭시 input 옵션들 전부 리스트로 가져오기  [끝]-->
+    <script>
+
     // Example starter JavaScript for disabling form submissions if there are invalid fields
     (function() {
         'use strict';
@@ -441,6 +703,8 @@
         }
     });
     
+    
+
     
 
     </script>
