@@ -208,7 +208,7 @@
 							<!-- ================================================ -->
 							<li class="nav-item"><a class="nav-link" href="/brocoli/admin/admin.jsp"
 								aria-expanded="false" aria-controls="submenu-1"><i
-									class="fa fa-fw fa-user-circle"></i>홈</a>
+									class="fa fa-fw fa-home"></i>홈</a>
 							</li>
 							
 							<li class="nav-item"><a class="nav-link" href="#"
@@ -226,7 +226,7 @@
 							<li class="nav-item"><a class="nav-link" href="#"
 								data-toggle="collapse" aria-expanded="false"
 								data-target="#submenu-3" aria-controls="submenu-3"><i
-									class="fa fa-fw fa-user-circle"></i>가맹브랜드 관리</a>
+									class="fa fa-fw fa-bold"></i>가맹브랜드 관리</a>
 								<div id="submenu-3" class="collapse submenu" style="">
 									<ul class="nav flex-column">
 										<li class="nav-item"><a class="nav-link"
@@ -242,7 +242,7 @@
 							<li class="nav-item"><a class="nav-link" href="#"
 								data-toggle="collapse" aria-expanded="false"
 								data-target="#submenu-4" aria-controls="submenu-4"><i
-									class="fa fa-fw fa-user-circle"></i>주문관리</a>
+									class="fa fa-fw fa-truck"></i>주문관리</a>
 								<div id="submenu-4" class="collapse submenu" style="">
 									<ul class="nav flex-column">
 										<li class="nav-item"><a class="nav-link"
@@ -258,7 +258,7 @@
 							<li class="nav-item"><a class="nav-link" href="#"
 								data-toggle="collapse" aria-expanded="false"
 								data-target="#submenu-5" aria-controls="submenu-5"><i
-									class="fa fa-fw fa-user-circle"></i>상품관리</a>
+									class="fa fa-fw fa-tags"></i>상품관리</a>
 								<div id="submenu-5" class="collapse submenu" style="">
 									<ul class="nav flex-column">
 										<li class="nav-item"><a class="nav-link"
@@ -274,7 +274,7 @@
 							<li class="nav-item"><a class="nav-link" href="#"
 								data-toggle="collapse" aria-expanded="false"
 								data-target="#submenu-6" aria-controls="submenu-6"><i
-									class="fa fa-fw fa-user-circle"></i>매출관리</a>
+									class="fa fa-fw fa-dollar-sign"></i>매출관리</a>
 								<div id="submenu-6" class="collapse submenu" style="">
 									<ul class="nav flex-column">
 										<li class="nav-item"><a class="nav-link"
@@ -289,7 +289,7 @@
 							<li class="nav-item"><a class="nav-link" href="#"
 								data-toggle="collapse" aria-expanded="false"
 								data-target="#submenu-7" aria-controls="submenu-7"><i
-									class="fa fa-fw fa-user-circle"></i>매거진관리</a>
+									class="fa fa-fw fa-newspaper"></i>매거진관리</a>
 								<div id="submenu-7" class="collapse submenu" style="">
 									<ul class="nav flex-column">
 										<li class="nav-item"><a class="nav-link"
@@ -305,7 +305,7 @@
 							<li class="nav-item"><a class="nav-link" href="#"
 								data-toggle="collapse" aria-expanded="false"
 								data-target="#submenu-8" aria-controls="submenu-8"><i
-									class="fa fa-fw fa-user-circle"></i>게시판</a>
+									class="fa fa-fw fa-tasks"></i>게시판</a>
 								<div id="submenu-8" class="collapse submenu" style="">
 									<ul class="nav flex-column">
 										<li class="nav-item"><a class="nav-link"
@@ -314,6 +314,36 @@
 									<ul class="nav flex-column">
 										<li class="nav-item"><a class="nav-link"
 											href="/brocoli/admin/pages/board-questions.jsp">Q&A</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="#"
+								data-toggle="collapse" aria-expanded="false"
+								data-target="#submenu-9" aria-controls="submenu-9"><i
+									class="fa fa-fw fa-images"></i>광고경매</a>
+								<div id="submenu-9" class="collapse submenu" style="">
+									<ul class="nav flex-column">
+										<li class="nav-item"><a class="nav-link"
+											href="/brocoli/admin/pages/advertisement-auction.jsp">경매신청현황</a></li>
+									</ul>
+									<ul class="nav flex-column">
+										<li class="nav-item"><a class="nav-link"
+											href="/brocoli/admin/pages/advertisement-apply.jsp">광고 적용 ,경매 결과</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="#"
+								data-toggle="collapse" aria-expanded="false"
+								data-target="#submenu-10" aria-controls="submenu-9"><i
+									class="fa fa-fw fa-cog"></i>설정</a>
+								<div id="submenu-10" class="collapse submenu" style="">
+									<ul class="nav flex-column">
+										<li class="nav-item"><a class="nav-link"
+											href="/brocoli/admin/pages/setting.jsp">알림</a></li>
+									</ul>
+									<ul class="nav flex-column">
+										<li class="nav-item"><a class="nav-link"
+											href="/brocoli/admin/pages/.jsp">//</a></li>
 									</ul>
 								</div>
 							</li>
