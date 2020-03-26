@@ -19,7 +19,7 @@
 		/* border:1px solid red; */
 		margin: auto;
 		width: 70%;
-		height: 700px;  	
+		height: 100%;  	
   		}
   		
   	.tableArea {
@@ -34,7 +34,7 @@
 <body>
 <div id="all">
 <br>
-	<h2 align="center">공지사항 세부보기</h2><Br>
+	<h2 style="background: #333333; color: white; padding:4%; text-align: center">공지사항 세부보기</h2><Br>
 	
 	<table align="center" id="tableArea" class="table">
 			<tr>
@@ -59,11 +59,12 @@
 			</tr>
 			<tr>
 				<td>내용</td>
-				<td><textarea class="form-control" rows="5" id="comment"></textarea></td>
+				<td><textarea class="form-control" rows="5" id="comment" 
+				style="height: 250px; resize: none"></textarea></td>
 			</tr>				
 		</table>
 		<div align="center">
-		<button class="btn btn-outline-primary" style="width:100px;">확인</button>
+		<button class="btn btn-outline-primary" style="background: #999; width: 300px; border: 1px solid #999; color: white">확인</button>
 		</div>
 </div>
 <%@ include file="/common/footer.jsp" %>

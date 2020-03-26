@@ -19,7 +19,7 @@
 		/* border:1px solid red; */
 		margin: auto;
 		width: 70%;
-		height: 900px; 
+		height: 110%; 
 		display: grid; 	
   		}
   	#all th{
@@ -32,7 +32,7 @@
 <body>
 <div id="all">
 <br>
-<h1 align="center">공지사항</h1>
+<h1 style="background: #333333; color: white; padding:4%; text-align: center">공지사항</h1>
 <table class="table table-hover" align="center" id="listArea">
     <thead>
       <tr>

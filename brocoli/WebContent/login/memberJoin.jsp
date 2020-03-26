@@ -15,11 +15,22 @@
 <title>회원가입 창</title>
 <style>
 	#all{
-		  border:1px solid red;
+		  /* border:1px solid red; */
           margin: auto;
           width: 50%;
-          height: 900px;
+          height: 150%;
 	}
+	
+	.form-group{
+	    border: 1px solid #999;
+   		border-radius: 10px;
+   		padding: 16px
+    }
+    
+    #ck{
+    	height: 26px;
+    	width: 17px;
+    }
 	/* input{
 		display:none;
 	} */
@@ -30,63 +41,71 @@
 
 <form>
 	<div id="all">
-			<h2>회원 가입</h2><Br>
+			<h2 style="background: #333333; color: white; padding:4%; text-align: center">회원 가입</h2><Br>
 			<hr>
 		<div class="form-group">
-			<tr>
-      			<td><label for="userName">이름 :</label></td>
-     			<td><input type="text" class="form-control" id="userName" name="userName" style="width:300px;"></td>
-     		</tr>
-   		</div>
+      		<label for="userId">이름 : </label>
+    		<input type="text" class="form-control" id="userId" name="userId" style="width:90%;">
+   		</div>   		
    		
   		<div class="form-group">
       		<label for="userId">아이디 : </label>
-    		<input type="text" class="form-control" id="userId" name="userId" style="width:300px;">
+    		<input type="text" class="form-control" id="userId" name="userId" style="width:90%;">
    		</div>
    		
    		<div class="form-group">
-      		<label for="userPwd1">비밀번호 : </label>
-    		<input type="password" class="form-control" id="userPwd1" name="userPwd1" style="width:300px;">
+      		<label for="userId">비밀번호 : </label>
+    		<input type="text" class="form-control" id="userId" name="userId" style="width:90%;">
    		</div>
    		
    		<div class="form-group">
-      		<label for="userPwd2">비밀번호 확인: </label>
-    		<input type="password" class="form-control" id="userPwd2" name="userPwd2" style="width:300px;">
+      		<label for="userId">비밀번호 확인 : </label>
+    		<input type="text" class="form-control" id="userId" name="userId" style="width:90%;">
    		</div>
    		
    		<div class="form-group">
-      		<label for="email">이메일 : </label>
-    		<input type="email" class="form-control" id="email" name="email" style="width:300px;">
+      		<label for="userId">이메일 : </label>
+    		<input type="text" class="form-control" id="userId" name="userId" style="width:90%;">
    		</div>
    		
    		<div class="form-group">
       		<label for="phone">핸드폰 번호 : </label>
-    		<input type="text" class="form-control" id="phone" name="phone" style="width:300px;">
+    		<input type="text" class="form-control" id="phone" name="phone" style="width:90%;">
    		</div>
    		
    		<div class="form-group">
       		<label for="year">생년월일 : </label>
-    		<input type="text" class="form-control" id="year" name="year" style="width:300px;">
+    		<input type="text" class="form-control" id="year" name="year" style="width:90%;">
    		</div>
    		
+   		<div class="form-group" >
    		<label for="year">성별 : </label>
-   		<div class="form-group" style="display:flex;">
    		
-			<input type="radio" name="chk_info" value="1"> 남 &nbsp;
-			<input type="radio" name="chk_info" value="2"> 여
+   		<div style="display: inline-flex">
+   			<input type="checkBox" name="cate" id="ck" value="">&nbsp; 남
+   		</div>
+   		
+   		<div style="display: inline-flex">
+   			<input type="checkBox" name="cate" id="ck" value="">&nbsp; 여
+   		</div>
+			
    		</div>
    		
    		<div class="form-group">
       		<label for="year">배송지 입력 : </label>
-    		<input type="text" class="form-control" id="year" name="year" style="width:300px;">
+    		<input type="text" class="form-control" id="year" name="year" style="width:90%;">
    		</div>
    		<div class="form-group">
    			<label for="Agree">이용 약간 동의</label>
    		
    		</div>
    		
-   		<button type="submit" class="btn btn-primary">가입</button>
+   		<div style="margin-left: 30%">
+   		<button type="submit" class="btn btn-primary" style="background: #999; width: 300px; border: 1px solid #999;
+   					  ">가   입</button>
+   		</div>
 	</div>
+	<br>
 	
 </form>
 		<%@ include file="/common/footer.jsp" %>
