@@ -16,29 +16,29 @@
   <style>
          #login{
              margin: auto;
-             border:1px solid blue;
-             width: 50%;
-             height: 500px;
+             /* border:1px solid blue; */
+             width: 30%;
+             height: 50%;
          }
          #a{
              margin: auto;
-             border:1px solid red;
+           /*  border:1px solid red; */
          }
          #b{
              margin: auto;
-             border:1px solid green;
+           /*   border:1px solid green;  */
              width:250px;
          }
 
          #c{
              margin: auto;
-             border:1px solid grey;
+           /*   border:1px solid grey; */
          }
          
          #logo{
          	margin: auto;
-         	border:1px solid pink;
-         	height:40%
+         	/* border:1px solid pink; */
+         	height:30%
          }
         </style>
 <%@ include file="/common/header.jsp" %>
@@ -47,7 +47,7 @@
 	<div id="login">
 	
 	<div id="logo">
-		로고 넣는칸입니다.
+		<span style="font-size: 70px; margin-left: 5%;">B R O C O L I</span>
 	</div>
 	    <table id="a" >
 	        <tr>
@@ -66,14 +66,17 @@
 	
 	    <table id="b">
 	        <tr>
-	            <td><button class="btn btn-primary btn-lg btn-block">로그인</button></td>
+	            <td><button class="btn btn-primary btn-lg btn-block"
+	            style="background: #999; width: 290px; border: 1px solid #999;">로그인</button></td>
 	        </tr>
 	    </table><br>
 	
 	    <table id="c">
 	        <tr>
 	            <td align="center">
-	                <a href="#">회원가입</a> &nbsp;&nbsp;<a href="#">아이디 찿기</a>&nbsp;&nbsp;<a href="#">비밀번호 찿기</a>
+	                <a href="/brocoli/login/memberJoin.jsp">회원가입</a> &nbsp;&nbsp;
+	                <a href="/brocoli/find/idFind.jsp">아이디 찿기</a>&nbsp;&nbsp;
+	                <a href="/brocoli/find/pwdFind.jsp">비밀번호 찿기</a>
 	            </td>                    
 	        </tr>
 	    </table>

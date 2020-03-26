@@ -16,26 +16,26 @@
 
 <style>
 	#all{
-		border:1px solid red;
-		margin: auto;
-		width: 70%;
-		height: 600px;  	
+		 margin: auto;
+      /* border:1px solid blue; */
+         width: 30%;
+         height: 80%; 	
   		}
   		
 	 #a{
           margin: auto;
-          border:1px solid red;
+         /*  border:1px solid red; */
       }
      #b{
            margin: auto;
-           border:1px solid green;
+           /* border:1px solid green; */
            width:250px;
        }
       #logo{
       
        	margin: auto;
-       	border:1px solid pink;
-       	height:40%
+       	/* border:1px solid pink; */
+       	height:20%
        }
 
 </style>
@@ -47,10 +47,10 @@
 
 <div id="all">
 <br>
-<h2 align="center">비밀번호 찾기</h2><br>
+<h2 align="center" style="background: #333333; color: white; padding:4%; text-align: center">비밀번호 찾기</h2><br>
 	<div id="logo">
-		로고 넣는칸입니다.
-	</div><br><br>
+		<span style="font-size: 70px; margin-left: 5%;">B R O C O L I</span>
+	</div>
 	  <table id="a" >
 	        <tr>
 	            <td align="right">
@@ -74,7 +74,8 @@
 	<div >
 	    <table id="b" align="center">
 	        <tr>
-	            <td><button class="btn btn-primary btn-lg btn-block">인증번호 받기</button></td>
+	            <td><a class="btn btn-primary btn-lg btn-block" onclick="location.href='/brocoli/find/pwdFindEmail.jsp'"
+	            style="background: #999; width: 290px; border: 1px solid #999;">인증번호 받기</a></td>
 	        </tr>
 	    </table>
 	    </div>

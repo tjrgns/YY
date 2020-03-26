@@ -49,6 +49,11 @@
    	작성일 : 2020-03-18
    	내용 : 헤더 수정
     -->
+    <!-- 
+    	작성자 : 문예림
+    	작성일 : 2020-03-26
+    	내용 : 헤더경로 입력(로그인)
+     -->
 		<!-- Header desktop -->
 		<div class="container-menu-desktop">
 			<!-- Topbar -->
@@ -59,9 +64,16 @@
 						Free shipping
 					</div>
 
-					<div class="right-top-bar flex-w h-full">
+					<div class="right-top-bar flex-w h-full" style="margin-left: 850px;">
 						<a href="#" class="flex-c-m trans-04 p-lr-25">
 							Help & FAQs
+						</a>
+
+					</div>
+					
+					<div class="right-top-bar flex-w h-full">
+						<a href="/brocoli/login/login.jsp" class="flex-c-m trans-04 p-lr-25">
+							Login
 						</a>
 
 					</div>
