@@ -86,7 +86,7 @@
                                     </p>
                                 </a>
                             </li>
-                            <li class="order-list" img="/brocoli/main/images/mypage_">
+                            <li class="order-list" img="/brocoli/main/images/mypage_orderlist.png">
                                 <a href="/brocoli/main/orderlist.jsp">
                                     <h4>주문상품관리</h4>
                                     <p>"주문한 상품을 하는데"
