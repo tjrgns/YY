@@ -317,7 +317,7 @@
 
 						<!-- - -->
 						<div class="tab-pane fade" id="reviews" role="tabpanel">
-							<span class="wrap-rating fs-18 cl11 pointer" style="margin-left: 155px;">
+							<span class="wrap-rating fs-18 cl11 pointer" style="margin-left: 25%;">
 								<label style="color:black; display:inline-block">평점 : </label>
 									<i class="zmdi zmdi-star"></i>
 									<i class="zmdi zmdi-star"></i>
