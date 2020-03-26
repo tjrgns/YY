@@ -6,6 +6,10 @@
 <%@ include file="../common/cart.jsp" %>
 <%@ include file="../common/sidebar.jsp" %>
 <link rel="stylesheet" type="text/css" href="/brocoli/main/css/trackList.css">
+<style>
+input{
+display: inline-block;}
+</style>
 <body class="animsition">
 	
    
@@ -13,31 +17,13 @@
 		<h2 class="ltext-105 cl0 txt-center" style="color:white;">
 			배송지 선택
 		</h2>
-	</section>	
-	<!-- breadcrumb -->
-	<div class="container">
-		<div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg">
-			<a href="index.html" class="stext-109 cl8 hov-cl1 trans-04">
-				Home
-				<i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
-			</a>
-
-			<span class="stext-109 cl4">
-				장바구니
-				<i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
-			</span>
-			
-			<span class="stext-109 cl4">
-				배송지 선택
-			</span>
-		</div>
-	</div>
-		
+	</section>
+	
 		
 		
 
 	<form class="bg0 p-t-75 p-b-85">
-		<div class="container">
+		<div class="container" >
 		<div class="row">
 			<div class="cell_order_form article_tit">
 					<div class="cell_order_form1">
@@ -84,8 +70,8 @@
 							<li class="cell_discount_tit">휴대전화</li>
 							<li class="cell_discount_detail order_address_form box_phone">
 								<select name="rmobile1">
-									<option value="">선택하세요</option>
-									<option value="010" selected="selected">010</option>
+									<option value="" selected="selected">선택하세요</option>
+									<option value="010">010</option>
 									<option value="011" >011</option>
 									<option value="016" >016</option>
 									<option value="017" >017</option>
@@ -101,8 +87,8 @@
 							<li class="cell_discount_tit">전화번호</li>
 							<li class="cell_discount_detail order_address_form box_tel">
 								<select name="rphone1">
-									<option value="">선택하세요</option>
-									<option value="02" selected="selected">02</option>
+									<option value="" selected="selected">선택하세요</option>
+									<option value="02" >02</option>
 									<option value="031" >031</option>
 									<option value="032" >032</option>
 									<option value="033" >033</option>
@@ -118,7 +104,7 @@
 									<option value="062" >062</option>
 									<option value="063" >063</option>
 									<option value="064" >064</option>
-									<option value="010" selected="selected">010</option>
+									<option value="010" >010</option>
 									<option value="011" >011</option>
 									<option value="016" >016</option>
 									<option value="017" >017</option>
@@ -180,36 +166,43 @@
 						<ul class="box_buyer_info">
 							<li class="order_address_form box_phone">
 								<!--휴대전화-->
-																	<input type="text" name="omobile1" value="010" size="3" maxlength="3" /> -
+																	<input type="text" name="omobile1" value="" size="3" maxlength="3" /> -
 									<input type="text" name="omobile2" value="" size="3" maxlength="4" /> -
 									<input type="text" name="omobile3" value="" size="3" maxlength="4" />
 															</li>
 						</ul>
 						<ul class="box_buyer_info">
 							<li class="order_address_form box_tel">
-																										<input type="text" name="ophone1" value="010" size="3" maxlength="3" /> -
+																										<input type="text" name="ophone1" value="" size="3" maxlength="3" /> -
 									<input type="text" name="ophone2" value="" size="3" maxlength="4" /> -
 									<input type="text" name="ophone3" value="" size="3" maxlength="4" />
 																				<div class="box_check"><input type="checkbox" onClick="SetBuyerPhoneNumber(this);" name="ophonecheckbox"/> 없음</div>
 																																		</li>
 						</ul>
-						<ul class="box_buyer_info last">
-							<li class="order_address_form box_address" style="display:none">
-								<!--주소-->
-								<input type="text" class="zipcode" name="ozip_cd1"  value=""  size="7" readonly />
-								<a class="plain-btn btn" onClick="popup_new_zipcode('ozip_cd1','ozip_addr1','ozip_addr2', 504, 688); return false;">우편번호 찾기</a>
-								<input type="text" class="address" name="ozip_addr1" value="" readonly="readonly"/>
-								<input type="text" class="address detail" name="ozip_addr2" value=""/>
-							</li>
-
-							
-						</ul>
+						
 						<!--//구매자 정보-->
 					</div>
+					
 				</div>
-
+				
+				
+								
+							
+							
 			</div>
+			
+						<input type="submit" class="flex-c-m stext-101 cl2 size-118 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-5" style="background: #666666;
+   						 color: white; width: 200px; float: right;" value="결제하기"	>
+						<input type="reset" class="flex-c-m stext-101 cl2 size-118 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-5" style="background: #666666;
+   						 color: white; width: 200px; float: right;" value="취소"	>
+							
+						
+						
+							
+						
+    					
 </div>
+
 </form>
 
 						

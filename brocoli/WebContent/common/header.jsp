@@ -36,6 +36,10 @@
 	<link rel="stylesheet" type="text/css" href="/brocoli/main/css/util.css">
 	<link rel="stylesheet" type="text/css" href="/brocoli/main/css/main.css">
 <!--===============================================================================================-->
+	 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+
+	<script src="/brocoli/main/vendor/jquery/jquery-3.2.1.min.js"></script>
 	
 </head>
 <!-- Header -->
@@ -48,7 +52,21 @@
 		<!-- Header desktop -->
 		<div class="container-menu-desktop">
 			<!-- Topbar -->
-			
+						<!-- Topbar -->
+			<div class="top-bar">
+				<div class="content-topbar flex-sb-m h-full container">
+					<div class="left-top-bar">
+						Free shipping
+					</div>
+
+					<div class="right-top-bar flex-w h-full">
+						<a href="#" class="flex-c-m trans-04 p-lr-25">
+							Help & FAQs
+						</a>
+
+					</div>
+				</div>
+			</div>
 
 			<div class="wrap-menu-desktop how-shadow1">
 				<nav class="limiter-menu-desktop container">
@@ -95,7 +113,7 @@
 					<!-- Icon header -->
 					<div class="wrap-icon-header flex-w flex-r-m">
 						<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 js-show-modal-search">
-							<i class="zmdi zmdi-search"></i>
+							<i class="zmdi zmdi-search" ></i>
 						</div>
 
 						<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="2">
@@ -219,17 +237,42 @@
 					<img src="/brocoli/main/images/icons/icon-close2.png" alt="CLOSE">
 				</button>
 
-				<form class="wrap-search-header flex-w p-l-15">
-					<button class="flex-c-m trans-04">
+				<div class="wrap-search-header flex-w p-l-15" id="alpreah_input">
+					<button class="flex-c-m trans-04" >
 						<i class="zmdi zmdi-search"></i>
 					</button>
-					<input class="plh3" type="text" name="search" placeholder="Search...">
+<<<<<<< HEAD
+					<input  class="plh3" type="text"  placeholder="Search..." >
+				</div>
+=======
+					<input class="plh3" id="searchbar" type="text" name="search" placeholder="Search...">
 				</form>
+>>>>>>> branch 'master' of https://github.com/tjrgns/YY.git
 			</div>
 		</div>
 	</header>
 
-<body>
+	<script>
+	$('#searchbar').keyup(function(e) {
+	    if (e.keyCode == 13) {
+	   location.href="/brocoli/main/searchResult.jsp";
+	    }
+	});
 
+	
+	</script>
+<body>
+<script>
+$(document).ready(function() {
+    $("#alpreah_input").keydown(function(key) {
+        if (key.keyCode == 13) {
+            location.href="/brocoli/main/searchResult.jsp";
+           
+        }
+    });
+});
+
+
+</script>
 </body>
 </html>

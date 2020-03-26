@@ -7,7 +7,11 @@
 <%@ include file="../common/header.jsp" %>
 <%@ include file="../common/sidebar.jsp" %>
 <%@ include file="../common/cart.jsp" %>
+
+
 <style>
+
+
 	#ordersearch{
 		clear: both;
 	    background: rgb(247, 247, 247);
@@ -47,7 +51,7 @@
 	 }
 	 .ordertable{
 	 	border:1px solid #6666;
-	 	width:1000px;
+	 	width:1100px;
 	 	margin:0px auto;
 	 	text-align:center;
 	 	margin-bottom:80px;
@@ -70,10 +74,32 @@
 		 border-radius: 5px;
 	 }
 	 
-	 
+.ticon{
+width: 70px;
+height: 70px;
+}
+.inner{position:relative;width:1100px;min-width:1100px;margin:0 auto}
+.contTitArea + .tabList{margin-top:46px}
+.contTitArea{padding-top:86px}
+.contTitArea.type01 + .contArea{margin-top:46px}
+.contTitArea h3{color:#2a2a2a;font-size:56px;text-align:center}
+.contTitArea h3 span{color:#2a2a2a;font-size:56px;font-family:'NotoSansM';vertical-align:baseline}
+.contTitArea p{margin-top:13px;color:#54585a;font-size:20px;text-align:center}
+/* Step */
+.contStep{margin:68px 0 45px 0}
+.contStep li{float:left;position:relative;width:149px;height:149px;margin-left:168px;background:url(../images/reservation/bg_step_circle.png) no-repeat 0 0}
+.contStep li.on{background-position:0 -149px}
+.contStep li span{display:block;position:relative;padding-top:40px;text-align:left}
+.contStep li.on span{color:#da291c}
+.contStep li.item01{margin-left:0}
+i.fa{
 
-
+}
 </style>
+
+   <!--  <link rel="stylesheet" type="text/css" href="css/tp.css" /> -->
+   
+
 </head>
 <body class="animsition">
 
@@ -82,52 +108,34 @@
 			주문현황
 		</h2>
 	</section>
-     <div>
-	
-    </div>
-    
-	<!--  좌측 메뉴바 -->
-	<!-- 상단 주문기간 검색 -->
-	<div>
-	
-	<div style="width:1000px; margin:15px auto; border-bottom:1px solid #666">
-	<label style=" display:inline-block; font-size:20px; "><b>주문 정보</b></label>
-	<button style="display:inline-block; float:right;">환불</button>&nbsp;
-	<button style="display:inline-block; float:right;">교환</button>&nbsp;
-	<button style="display:inline-block; float:right;">배송상태</button>&nbsp;
-	<button style="display:inline-block; float:right;">전체</button>&nbsp;
-	</div>
-	
-
-
-	<div id="ordersearch" style="width:1000px; height:5%; margin:1% auto;">
 	
 	
-	<span style="float:left; width: 150px; margin-top:-0.5%;">&nbsp;&nbsp;기간별 조회</span>
+	 <!-- contents -->
+        <div id="contents">
+            <div class="inner">
+                <div class="contTitArea">
+                <div style="padding-rihgt : 50px;">
+        <h4 style="width: 1100px; border-bottom: 1px solid #999;"><p>배송 상황</p></h4>
+        </div>
+	  <ul class="contStep goodsStep">
+                        <li class="item01"><img class="ticon" src="images/icons/Monitor-icon.png"/><span>상품 접수</span></li> 
+                       
+                        <li class="item02"><img class="ticon" src="images/icons/Truck-icon1.png"/><span>상품 이동중</span></li>
+                       
+                        <li class="item03"><img class="ticon" src="images/icons/Truck-icon2.png"/><span>배송 출발</span></li>
+                      
+                        <li class="item04"><img class="ticon" src="images/icons/hand.png"/><span>배달 완료</span></li>
+                    </ul>
+					</div>
+					</div>
+					</div>
+				
+  
 	
-	<div style="float:left; margin-top: -1%; display: inline-block;">
-	<button class="btn-term">&nbsp;1주일&nbsp;</button>
-	<button class="btn-term">&nbsp;1개월&nbsp;</button>
-	<button class="btn-term">&nbsp;3개월&nbsp;</button>
-	<button class="btn-term">&nbsp;6개월&nbsp;</button>
-	<button class="btn-term">&nbsp;9개월&nbsp;</button>
-	<button class="btn-term">&nbsp;1년 이상&nbsp;</button>
-
-	
-	</div>
-	
-	<div style="margin-top:-0.5%;">
-	<input type="date" class="datelist" style="display:inline-block;">
-	~
-	<input type="date" class="datelist" style="display:inline-block;">
-	
-	<button class="datesearch">조회하기</button>
-	</div>
-	
-	</div>
 	<!-- 끝 -->
 	
 	<div>
+	<h5 style="width: 1100px; margin: 18px auto; text-align: center; border-bottom: 1px solid #999; padding-top: 200px;"><p>주문 정보</p></h5>
 		<table class="ordertable">
 			<tr class="orderdetail">
 				<th style="border-right: 1px solid #6666; width:20%; text-align:center;">날짜</th>
@@ -212,7 +220,7 @@
 		
 		
 	</div>
-	</div>
+	
 	
 	<%@ include file="../common/footer.jsp" %>
 

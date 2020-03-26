@@ -173,7 +173,7 @@
                                             <a class="nav-link" href="/brocoli/owner/pages/income-year.jsp">연간매출</a>
                                         </li>
                                          <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/income-management.jsp">매출분석(제작중)</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/404-Page.jsp">매출분석(제작중)</a>
                                         </li> 
                                     </ul>
                                 </div>
@@ -192,7 +192,7 @@
                                             <a class="nav-link" href="/brocoli/owner/pages/stock-management.jsp">재고관리</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/listgroup.html">판매제품순위(제작중)</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/404-Page.jsp">판매제품순위(제작중)</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="/brocoli/owner/pages/product-list.jsp">판매상품전체보기</a>
@@ -217,7 +217,7 @@
                                             <a class="nav-link" href="/brocoli/owner/pages/order-exchange.jsp">교환</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/order-analysis.jsp">주문분석(제작중)</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/404-Page.jsp">주문분석(제작중)</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -252,21 +252,21 @@
                             </li>
                             
                              <li class="nav-item ">
-                                <a class="nav-link" href="/brocoli/owner/pages/manager-contact.jsp" aria-expanded="false" data-target="#submenu-4" aria-controls="submenu-4"><i class="fas fa-hands-helping"></i>매니저컨텍(제작중)</a>
+                                <a class="nav-link" href="/brocoli/owner/pages/manager-contact.jsp" aria-expanded="false" data-target="#submenu-4" aria-controls="submenu-4"><i class="fas fa-hands-helping"></i>매니저컨택트</a>
                             </li>
                             
                             <li class="nav-item ">
-                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-6" aria-controls="submenu-6"><i class="fas fa-images"></i>광고(제작중)</a>
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-6" aria-controls="submenu-6"><i class="fas fa-images"></i>광고</a>
                                 <div id="submenu-6" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/order-progress.jsp">광고요령</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/banner-Tip.jsp">광고요령</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/order-complete.jsp">광고입찰</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/banner-sale.jsp">광고신청</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/order-complete.jsp">결과확인</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/banner-result.jsp">결과확인</a>
                                         </li>
 
                                     </ul>
@@ -277,13 +277,13 @@
                                 <div id="submenu-7" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/order-progress.jsp">메거진신청</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/404-Page.jsp">메거진신청</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/order-complete.jsp">진행현황</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/404-Page.jsp">진행현황</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/order-complete.jsp">지난메거진</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/404-Page.jsp">지난메거진</a>
                                         </li>
 
                                     </ul>
@@ -295,13 +295,13 @@
                                 <div id="submenu-8" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/order-progress.jsp">알림설정</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/404-Page.jsp">알림설정</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/order-complete.jsp">브랜드관리</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/404-Page.jsp">브랜드관리</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/order-complete.jsp">계정관리</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/404-Page.jsp">계정관리</a>
                                         </li>
 
                                     </ul>

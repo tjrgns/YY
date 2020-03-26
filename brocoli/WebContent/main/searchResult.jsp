@@ -6,17 +6,20 @@
 <%@ include file="../common/sidebar.jsp" %>
 <%@ include file="../common/cart.jsp" %>
 <style>
-/* .SR{
-margin-top : 30px;
-margin-left: 10px;
-} */
+li > button > img{
+height : 125px;
+width : 125px;
+border-radius: 70%;
+overflow: hidden;
+}
+
 </style>
 
 <body class="animsition">
 
    <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/brocoli/main/images/bg-02.jpg');">
       <h2 class="ltext-105 cl0 txt-center" style="color:white">
-         SHOP
+         검색
       </h2>
    </section>   
    <!-- Product -->
@@ -24,22 +27,18 @@ margin-left: 10px;
       <div class="container">
          <div class="flex-w flex-sb-m p-b-52" >
             <div class="flex-w flex-l-m filter-tope-group m-tb-10" >
-               	<label style="font-size:20px;">검색결과</label>
-               
-            </div>
-			
-            <div class="flex-w flex-c-m m-tb-10">
-               <div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn3 trans-04 m-r-8 m-tb-4 js-show-filter">
-                  <i class="icon-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-filter-list"></i>
-                  <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
-                   Filter
-               </div>
-
+               	<label style="font-size:20px;">검색결과</label>&nbsp;&nbsp;&nbsp;
                <div class="flex-c-m stext-106 cl6 size-105 bor4 pointer hov-btn3 trans-04 m-tb-4 js-show-search">
                   <i class="icon-search cl2 m-r-6 fs-15 trans-04 zmdi zmdi-search"></i>
                   <i class="icon-close-search cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
                   Search
+			
                </div>
+            </div>
+            <div class="flex-w flex-c-m m-tb-10">
+               
+
+               
             </div>
             
             <!-- Search product -->
@@ -53,197 +52,9 @@ margin-left: 10px;
                </div>   
             </div>
 
-            <!-- Filter -->
-            <div class="dis-none panel-filter w-full p-t-10">
-               <div class="wrap-filter flex-w bg6 w-full p-lr-40 p-t-27 p-lr-15-sm">
-                  <div class="filter-col1 p-r-15 p-b-27">
-                     <div class="mtext-102 cl2 p-b-15">
-                        정렬
-                     </div>
-
-                     <ul>
-                        <li class="p-b-6">
-                           <a href="#" class="filter-link stext-106 trans-04">
-                              가격 ↑
-                           </a>
-                        </li>
-
-                        <li class="p-b-6">
-                           <a href="#" class="filter-link stext-106 trans-04">
-                              가격 ↓
-                           </a>
-                        </li>
-
-                        <li class="p-b-6">
-                           <a href="#" class="filter-link stext-106 trans-04">
-                              인기순
-                           </a>
-                        </li>
-
-                        <li class="p-b-6">
-                           <a href="#" class="filter-link stext-106 trans-04">
-                           <!-- <a href="#" class="filter-link stext-106 trans-04 filter-link-active "> -->
-                              New 품목
-                           </a>
-                        </li>
-
-<!--                         <li class="p-b-6">
-                           <a href="#" class="filter-link stext-106 trans-04">
-                              
-                           </a>
-                        </li>
-
-                        <li class="p-b-6">
-                           <a href="#" class="filter-link stext-106 trans-04">
-                              Price: High to Low
-                           </a>
-                        </li> -->
-                     </ul>
-                  </div>
-
-                  <div class="filter-col2 p-r-15 p-b-27">
-                     <div class="mtext-102 cl2 p-b-15">
-                        가격
-                     </div>
-
-                     <ul>
-<!--                         <li class="p-b-6">
-                           <a href="#" class="filter-link stext-106 trans-04 filter-link-active">
-                              전체
-                           </a>
-                        </li> -->
-
-                        <li class="p-b-6">
-                           <a href="#" class="filter-link stext-106 trans-04">
-                              10,000 ~ 20,000원
-                           </a>
-                        </li>
-
-                        <li class="p-b-6">
-                           <a href="#" class="filter-link stext-106 trans-04">
-                              20,000 ~ 30,000원
-                           </a>
-                        </li>
-
-                        <li class="p-b-6">
-                           <a href="#" class="filter-link stext-106 trans-04">
-                              30,000 ~ 40,000원
-                           </a>
-                        </li>
-
-                        <li class="p-b-6">
-                           <a href="#" class="filter-link stext-106 trans-04">
-                              40,000 ~ 50,000원
-                           </a>
-                        </li>
-
-                        <li class="p-b-6">
-                           <a href="#" class="filter-link stext-106 trans-04">
-                              50,000원 ↑
-                           </a>
-                        </li>
-                     </ul>
-                  </div>
-
-                  <div class="filter-col3 p-r-15 p-b-27">
-                     <div class="mtext-102 cl2 p-b-15">
-                        색상
-                     </div>
-
-                     <ul>
-                        <li class="p-b-6">
-                           <span class="fs-15 lh-12 m-r-6" style="color: #222;">
-                              <i class="zmdi zmdi-circle"></i>
-                           </span>
-
-                           <a href="#" class="filter-link stext-106 trans-04">
-                              검정
-                           </a>
-                        </li>
-
-                        <li class="p-b-6">
-                           <span class="fs-15 lh-12 m-r-6" style="color: #4272d7;">
-                              <i class="zmdi zmdi-circle"></i>
-                           </span>
-
-                           <a href="#" class="filter-link stext-106 trans-04 filter-link-active">
-                              파랑
-                           </a>
-                        </li>
-
-                        <li class="p-b-6">
-                           <span class="fs-15 lh-12 m-r-6" style="color: #b3b3b3;">
-                              <i class="zmdi zmdi-circle"></i>
-                           </span>
-
-                           <a href="#" class="filter-link stext-106 trans-04">
-                              회색
-                           </a>
-                        </li>
-
-                        <li class="p-b-6">
-                           <span class="fs-15 lh-12 m-r-6" style="color: #00ad5f;">
-                              <i class="zmdi zmdi-circle"></i>
-                           </span>
-
-                           <a href="#" class="filter-link stext-106 trans-04">
-                              초록
-                           </a>
-                        </li>
-
-                        <li class="p-b-6">
-                           <span class="fs-15 lh-12 m-r-6" style="color: #fa4251;">
-                              <i class="zmdi zmdi-circle"></i>
-                           </span>
-
-                           <a href="#" class="filter-link stext-106 trans-04">
-                              빨강
-                           </a>
-                        </li>
-
-                        <li class="p-b-6">
-                           <span class="fs-15 lh-12 m-r-6" style="color: #aaa;">
-                              <i class="zmdi zmdi-circle-o"></i>
-                           </span>
-
-                           <a href="#" class="filter-link stext-106 trans-04">
-                              하양
-                           </a>
-                        </li>
-                     </ul>
-                  </div>
-
-                  <div class="filter-col4 p-b-27">
-                     <div class="mtext-102 cl2 p-b-15">
-                        카테고리
-                     </div>
-
-                     <div class="flex-w p-t-4 m-r--5">
-                        <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
-                           상의
-                        </a>
-
-                        <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
-                           하의
-                        </a>
-
-                        <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
-                           아우터
-                        </a>
-
-                        <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
-                           신발
-                        </a>
-
-                        <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
-                           모자
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
+            
+            
          </div>
-         
          
   <!-- 브랜드 시작 -->
   <div class="wrap-filter flex-w ">
@@ -251,19 +62,21 @@ margin-left: 10px;
          <div>
 			 	<label style="font-size:30px;">브랜드</label>
 			</div>
+         <hr style="border: 1px solid grey;">
          <div class="brandSR">
          <ul style="display : inline-block">
-         	<li><img src="#" /><button>브랜드1</button></li>
-         	<li><img src="#" /><button>브랜드2</button></li>
+         	<li><button><img src="images/nike.png" /><br><p>Nike</p></button></li>
+         	<li><button><img src="images/adidas.jpg" /><br><p>adidas</p></button></li>
          	</ul>
          	<ul style="display : inline-block">
-         	<li><img src="#" /><button>브랜드3</button></li>
-         	<li><img src="#" /><button>브랜드4</button></li>
+         	<li><button><img src="images/puma.png" /><br><p>puma</p></button></li>
+         	<li><button><img src="images/lecoq.png" /><br><p>le coq</p></button></li>
          	
          	</ul>
          </div>
        </div>
        </div>
+<hr style="border: 1px solid grey;">
 <!--  브랜드 끝 -->
 <!-- 상품 시작 -->
 <div>

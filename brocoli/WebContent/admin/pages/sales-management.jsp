@@ -114,7 +114,7 @@
                                             </tr>
                                         </c:forEach>
                                       </tbody>
-                                      <tfoot style="background-color:#c3e6cb;">
+                                      <tfoot style="background-color:#ffbe99;">
                                       	<tr style="font-weight: 1000;">
                                       		<th style="font-weight: 1000;">합계</th>
                                       		<th style="font-weight: 1000;">총 매출</th>

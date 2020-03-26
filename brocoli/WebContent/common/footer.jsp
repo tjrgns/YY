@@ -5,50 +5,59 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style>
+.stext-301{
+font-size: 25px;
+}
+.stext-107{
+font-size: 15px;
+}
+</style>
 </head>
 <body>
 
+
 </body>
 	<!-- Footer -->
-	<footer class="bg3 p-t-75 p-b-32" id="footer">
+	<footer class="bg3 p-t-30 p-b-0" id="footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-lg-3 p-b-50">
-					<h4 class="stext-301 cl0 p-b-30">
-						Categories
-					</h4>
+					<h3 class="stext-301 cl7 p-b-30">
+						Information
+					</h3>
 
 					<ul>
 						<li class="p-b-10">
-							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								여성복
+							<a href="/brocoli/main/introduce.jsp" class="stext-107 cl7 hov-cl1 trans-04">
+								회사 소개
 							</a>
 						</li>
 
 						<li class="p-b-10">
 							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								남성복
+								개인정보보호정책
 							</a>
 						</li>
 
 						<li class="p-b-10">
-							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								신발
+							<a href="/brocoli/main/contact.jsp" class="stext-107 cl7 hov-cl1 trans-04">
+								Contact
 							</a>
 						</li>
 
-						<li class="p-b-10">
+						<!-- <li class="p-b-10">
 							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
 								시계
 							</a>
-						</li>
+						</li> -->
 					</ul>
 				</div>
 
 				<div class="col-sm-6 col-lg-3 p-b-50">
-					<h4 class="stext-301 cl0 p-b-30">
+					<h3 class="stext-301 cl7 p-b-30">
 						Help
-					</h4>
+					</h3>
 
 					<ul>
 						<li class="p-b-10">
@@ -78,10 +87,10 @@
 				</div>
 
 				<div class="col-sm-6 col-lg-3 p-b-50">
-					<h4 class="stext-301 cl0 p-b-30">
+					<h3 class="stext-301 cl7 p-b-30">
 					<i class="fa fa-phone"></i>
 						1588-1588
-					</h4>
+					</h3>
 
 					<p class="stext-107 cl7 size-201">
 						1번 : 배송 / 교환 / 환불관련
@@ -107,9 +116,9 @@
 				</div>
 
 				<div class="col-sm-6 col-lg-3 p-b-50">
-					<h4 class="stext-301 cl0 p-b-30">
+					<h3 class="stext-301 cl7 p-b-30">
 						ETC
-					</h4>
+					</h3>
 
 					<form>
 						<div class="wrap-input1 w-full p-b-4">

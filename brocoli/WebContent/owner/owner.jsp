@@ -559,7 +559,7 @@
     <!-- slimscroll js -->
     <script src="/brocoli/resources/ownerResources/vendor/slimscroll/jquery.slimscroll.js"></script>
     <!-- main js -->
-    <script src="/brocoli/resources/ownerResources/libs/js/main-js.js"></script>
+
     <!-- chart chartist js -->
     <script src="/brocoli/resources/ownerResources/vendor/charts/chartist-bundle/chartist.min.js"></script>
     <!-- sparkline js -->
