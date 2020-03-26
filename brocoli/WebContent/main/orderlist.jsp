@@ -92,10 +92,10 @@
 	
 	<div style="width:1000px; margin:15px auto; border-bottom:1px solid #666">
 	<label style=" display:inline-block; font-size:20px; "><b>주문 정보</b></label>
-	<button style="display:inline-block; float:right;">환불</button>&nbsp;
-	<button style="display:inline-block; float:right;">교환</button>&nbsp;
-	<button style="display:inline-block; float:right;">배송상태</button>&nbsp;
-	<button style="display:inline-block; float:right;">전체</button>&nbsp;
+	<button style="display:inline-block; float:right; margin-left: 10%;  margin-right: 30%;">환불</button>&nbsp;
+	<button style="display:inline-block; float:right; margin-left: 10%;">교환</button>&nbsp;
+	<button style="display:inline-block; float:right; margin-left: 10%;">배송상태</button>&nbsp;
+	<button style="display:inline-block; float:right; margin-left: 10%;">전체</button>&nbsp;
 	</div>
 	
 

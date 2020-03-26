@@ -241,13 +241,10 @@
 					<button class="flex-c-m trans-04" >
 						<i class="zmdi zmdi-search"></i>
 					</button>
-<<<<<<< HEAD
 					<input  class="plh3" type="text"  placeholder="Search..." >
 				</div>
-=======
 					<input class="plh3" id="searchbar" type="text" name="search" placeholder="Search...">
 				</form>
->>>>>>> branch 'master' of https://github.com/tjrgns/YY.git
 			</div>
 		</div>
 	</header>
