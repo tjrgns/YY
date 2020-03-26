@@ -9,7 +9,7 @@
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>오너 페이지 : 메인</title>
+<title>어드민 메인 페이지</title>
 
 </head>
 
