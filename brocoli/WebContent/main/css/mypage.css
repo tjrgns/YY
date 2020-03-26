@@ -110,7 +110,7 @@
 	width: 16px;
 	height: 14px;
 	text-indent: -9999px;
-	background-image: url('../img/icon/icon_home_link.png');
+	background-image: url('/brocoli/main/images/mypage_home.png');
 	background-size: 100%;
 	background-position: center;
 }
@@ -124,6 +124,7 @@
 }
 
 .mypage .mypage-member-info-container .mypage-member-info {
+	width: 1150px;
 	padding: 0 8px 0 27px;
 	margin-top: 42px;
 	font-size: 0;
@@ -248,53 +249,53 @@
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.my-info > a {
-	background-image: url('/brocoli/main/images/mypage_me.png');
+	background-image: url('/brocoli/main/images/mypage_me3.png');
 	background-size: 55px 55px;
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.my-info:hover > a,
 .mypage .mypage-menu-container .mypage-menu-list > li.my-info.selected > a {
-	background-image: url('/brocoli/main/images/mypage_me.png');
+	background-image: url('/brocoli/main/images/mypage_me3.png');
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.order-list > a {
-	background-image: url('/brocoli/main/images/mypage_orderlist.png');
+	background-image: url('/brocoli/main/images/mypage_list2.png');
 	background-size: 55px 55px;
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.order-list:hover > a,
 .mypage .mypage-menu-container .mypage-menu-list > li.order-list.selected > a {
-	background-image: url('/brocoli/main/images/mypage_orderlist.png');
+	background-image: url('/brocoli/main/images/mypage_list2.png');
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.wish-list > a {
-	background-image: url('/brocoli/main/images/mypage_like.png');
+	background-image: url('/brocoli/main/images/mypage_like2.png');
 	background-size: 55px 55px;
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.wish-list:hover > a,
 .mypage .mypage-menu-container .mypage-menu-list > li.wish-list.selected > a {
-	background-image: url('/brocoli/main/images/mypage_like.png');
+	background-image: url('/brocoli/main/images/mypage_like2.png');
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.reserve-deposit > a {
-	background-image: url('/brocoli/main/images/mypage_save.png');
+	background-image: url('/brocoli/main/images/mypage_save3.png');
 	background-size: 55px 55px;
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.reserve-deposit:hover > a,
 .mypage .mypage-menu-container .mypage-menu-list > li.reserve-deposit.selected > a {
-	background-image: url('/brocoli/main/images/mypage_save.png');
+	background-image: url('/brocoli/main/images/mypage_save3.png');
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.my-article > a {
-	background-image: url('/brocoli/main/images/mypage_list.png');
+	background-image: url('/brocoli/main/images/mypage_my.png');
 	background-size: 55px 55px;
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.my-article:hover > a,
 .mypage .mypage-menu-container .mypage-menu-list > li.my-article.selected > a {
-	background-image: url('/brocoli/main/images/mypage_list.png');
+	background-image: url('/brocoli/main/images/mypage_my.png');
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li > a > h4 {
