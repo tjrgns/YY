@@ -104,8 +104,8 @@
                                     </p>
                                 </a>
                             </li>
-                            <li class="reserve-deposit" img="/brocoli/main/images/mypage_wishlist.png">
-                                <a href="">
+                            <li class="reserve-deposit" img="/brocoli/main/images/mypage_wishlist2.png">
+                                <a href="/brocoli/main/shoping-cart.jsp">
                                     <h4>장바구니</h4>
                                     <p>"장바구니를"
                                         <br>
