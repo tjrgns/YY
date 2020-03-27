@@ -108,8 +108,7 @@
    		</div>
    		<br><br>
    		<div style="margin-left: 30%">
-   		<button type="submit" class="btn btn-primary" style="background: #999; width: 300px; border: 1px solid #999;
-   					  ">가   입</button>
+   		<button type="submit" class="btn btn-primary" style="background: #999; width: 300px; border: 1px solid #999;">가   입</button>
    		</div>
    		
 	</div>

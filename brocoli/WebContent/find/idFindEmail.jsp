@@ -16,28 +16,27 @@
 
 <style>
 	#all{
-		border:1px solid red;
-		margin: auto;
-		width: 70%;
-		height: 500px;  	
+		 margin: auto;
+      /* border:1px solid blue; */
+         width: 30%;
+         height: 80%; 	
   		}
   		
- 	#a{
-        margin: auto;
-        border:1px solid red;
+	 #a{
+          margin: auto;
+         /*  border:1px solid red; */
       }
-    	
      #b{
-        margin: auto;
-        border:1px solid green;
-        width:250px;
+           margin: auto;
+           /* border:1px solid green; */
+           width:250px;
        }
-       
-     #logo{
-      	margin: auto;
-      	border:1px solid pink;
-      	height:40%
-      }
+      #logo{
+      
+       	margin: auto;
+       	/* border:1px solid pink; */
+       	height:20%
+       }
 
 </style>
 <%@ include file="/common/header.jsp" %>
@@ -48,10 +47,10 @@
 
 <div id="all">
 <br>
-<h2 align="center">아이디 찾기</h2><br>
+<h2 align="center" style="background: #333333; color: white; padding:4%; text-align: center">아이디 찾기</h2><br>
 	<div id="logo">
-		로고 넣는칸입니다.
-	</div><Br><br>
+		<span style="font-size: 70px; margin-left: 5%;">B R O C O L I</span>
+	</div><br><br><br>
  <table id="a" >
 	        <tr>
 	            <td align="right">
@@ -59,10 +58,11 @@
 	            </td>
 	            <td><input type="text" class="form-control form-control"></td>
 	        </tr>	
-	    </table><br>
+	    </table><br><br>
 	     <table id="b">
 	        <tr>
-	            <td><button class="btn btn-primary btn-lg btn-block">인증 하기</button></td>
+	            <td><button class="btn btn-primary btn-lg btn-block"
+	            style="background: #999; width: 290px; border: 1px solid #999;">인증 하기</button></td>
 	        </tr>
 	    </table>
 </div>
