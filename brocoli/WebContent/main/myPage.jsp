@@ -88,7 +88,7 @@
                             </li>
                             <li class="order-list" img="/brocoli/main/images/mypage_list2.png">
                                 <a href="/brocoli/main/orderlist.jsp">
-                                    <h4>주문상품관리</h4>
+                                    <h4>주문현황</h4>
                                     <p>"주문한 상품을 하는데"
                                         <br>
                                         "확인할 수 있습니다."
@@ -104,10 +104,10 @@
                                     </p>
                                 </a>
                             </li>
-                            <li class="reserve-deposit" img="/brocoli/main/images/mypage_save3.png">
+                            <li class="reserve-deposit" img="/brocoli/main/images/mypage_wishlist.png">
                                 <a href="">
-                                    <h4>적립금</h4>
-                                    <p>"적립금을"
+                                    <h4>장바구니</h4>
+                                    <p>"장바구니를"
                                         <br>
                                         "확인할 수 있습니다."
                                     </p>
