@@ -273,17 +273,17 @@
                                 </div>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="#"  data-toggle="collapse" aria-expanded="false" data-target="#submenu-7" aria-controls="submenu-7"><i class=" fab fa-leanpub"></i>메거진(제작중)</a>
+                                <a class="nav-link" href="#"  data-toggle="collapse" aria-expanded="false" data-target="#submenu-7" aria-controls="submenu-7"><i class=" fab fa-leanpub"></i>매거진</a>
                                 <div id="submenu-7" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/404-Page.jsp">메거진신청</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/magazine-insert.jsp">매거진등록</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/404-Page.jsp">진행현황</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/magazine-result.jsp">진행현황</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/404-Page.jsp">지난메거진</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/magazine-old.jsp">등록된매거진</a>
                                         </li>
 
                                     </ul>
@@ -291,11 +291,11 @@
                             </li>
 
                             <li class="nav-item ">
-                                <a class="nav-link" href="#" data-toggle="collapse"  aria-expanded="false" data-target="#submenu-8" aria-controls="submenu-8"><i class="fab fa-whmcs"></i>설정(제작중)</a>
+                                <a class="nav-link" href="#" data-toggle="collapse"  aria-expanded="false" data-target="#submenu-8" aria-controls="submenu-8"><i class="fab fa-whmcs"></i>설정</a>
                                 <div id="submenu-8" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/404-Page.jsp">알림설정</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/alarm-setting.jsp">알림설정</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="/brocoli/owner/pages/404-Page.jsp">브랜드관리</a>
