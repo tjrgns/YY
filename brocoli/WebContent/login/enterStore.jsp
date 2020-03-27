@@ -18,8 +18,19 @@
 		  /* border:1px solid red; */
           margin: auto;
           width: 50%;
-          height: 950px;
+          height: 100%;
 	}
+	
+	.form-group{
+	    border: 1px solid #999;
+   		border-radius: 10px;
+   		padding: 16px
+    }
+    
+    #ck{
+    	height: 26px;
+    	width: 17px;
+    }
 </style>
 <%@ include file="/common/header.jsp" %>
 </head>
@@ -27,63 +38,81 @@
 
 <form>
 	<div id="all">
-			<h2>BROCOLI 입점 문의</h2><Br>
+			<h2 style="background: #333333; color: white; padding:4%; text-align: center" >BROCOLI 입점 문의</h2><Br>
 			<hr>
 			<p>
 			안녕하세요.<br>
-			힙합퍼에 입점 문의주신 것에 깊은 감사 드립니다. <br>
+			BOCOLI에 입점 문의주신 것에 깊은 감사 드립니다. <br>
 			하단의 시트를 기재 후 제출하여 주시면 담당자 배정 후 연락드리도록 하겠습니다.			
 			</p>
 			<hr>
 		
   		<div class="form-group">
       		<label for="userId">사업자 명 : </label>
-    		<input type="text" class="form-control" id="userId" name="userId" style="width:300px;">
+    		<input type="text" class="form-control" id="userId" name="userId" style="width:90%;">
    		</div>
    		 		
    		<div class="form-group">
       		<label for="userPwd2">취급 브랜드 명: </label>
-    		<input type="password" class="form-control" id="userPwd2" name="userPwd2" style="width:300px;">
+    		<input type="password" class="form-control" id="userPwd2" name="userPwd2" style="width:90%;">
    		</div>
    		
    		<div class="form-group">
       		<label for="email">사이트 URL(http://포함) : </label>
-    		<input type="email" class="form-control" id="email" name="email" style="width:300px;">
+    		<input type="email" class="form-control" id="email" name="email" style="width:90%;">
    		</div>
    		
    		<div class="form-group">
       		<label for="phone">담당자 명 : </label>
-    		<input type="text" class="form-control" id="phone" name="phone" style="width:300px;">
+    		<input type="text" class="form-control" id="phone" name="phone" style="width:90%;">
    		</div>
    		
    		<div class="form-group">
       		<label for="year">핸드폰 번호 : </label>
-    		<input type="text" class="form-control" id="year" name="year" style="width:300px;">
+    		<input type="text" class="form-control" id="year" name="year" style="width:90%;">
    		</div>
    		
    		<div class="form-group">
       		<label for="gender">담당자 이메일 : </label>
-    		<input type="text" class="form-control" id="year" name="year" style="width:300px;">
+    		<input type="text" class="form-control" id="year" name="year" style="width:90%;">
    		</div>
-   		<div id="cate" >
+   		<div id="cate" class="form-group">
    			<label for="sad">카테고리 분류 : </label>
    			
-   			<div style="display:flex;">
-   			<input type="checkBox" name="cate" value="">Clothing (국내 브랜드 의류 전반) (http://www.hiphoper.com/clothing)<br>
-   			<input type="checkBox" name="cate" value="">Clothing (국내 브랜드 의류 전반) (http://www.hiphoper.com/clothing)
-   			<input type="checkBox" name="cate" value="">Clothing (국내 브랜드 의류 전반) (http://www.hiphoper.com/clothing)
-   			<input type="checkBox" name="cate" value="">Clothing (국내 브랜드 의류 전반) (http://www.hiphoper.com/clothing)
+   			
+   			<div style="display: inline-flex">
+   			<input type="checkBox" name="cate" id="ck" value="">&nbsp; Clothing (국내 브랜드 의류 전반) (http://www.BROCOLI.com/clothing)
    			</div>
+   			
+   			<div style="display: inline-flex">
+   			<input type="checkBox" name="cate" id="ck" value="">&nbsp; Shoes (자체생산/정식수입/병행수입 슈즈) (http://www.BROCOLI.com/shoes)
+   			</div>
+   			
+   			<div style="display: inline-flex">
+   			<input type="checkBox" name="cate" id="ck" value="">&nbsp; Accessories (가방/귀금속 등 액세서리를 다룹니다) (http://www.BROCOLI.com/acc)
+   			</div>
+   			
+   			<div style="display: inline-flex">
+   			<input type="checkBox" name="cate" id="ck" value="">&nbsp; Lifestyle (생활 소품, 가전 제품 및 헬스 케어 용품) (http://www.BROCOLI.com/life)
+   			</div>
+   			
+   			<div style="display: inline-flex">
+   			<input type="checkBox" name="cate" id="ck" value="">&nbsp; Select Shop (해외 정식수입 브랜드/캐쥬얼, 명품병행 수입 의류) (http://www.BROCOLI.com/selectshop)
+   			</div>   			
    			
    		</div>
    		
    		<div class="form-group">
       		<label for="year">브랜드 소개 : </label>
-    		<input type="text" class="form-control" id="year" name="year" style="width:300px;">
+    		<input type="text" class="form-control" id="year" name="year" style="width:90%;">
+   		</div>
+   		<br><br>
+   		<div style="margin-left: 30%">
+   		<button type="submit" class="btn btn-primary" style="background: #999; width: 300px; border: 1px solid #999;">가   입</button>
    		</div>
    		
-   		<button type="submit" class="btn btn-primary">가입</button>
 	</div>
+	<br>
 </form>
 		<%@ include file="/common/footer.jsp" %>
 		<%@ include file="/common/BacktoTop.jsp" %>

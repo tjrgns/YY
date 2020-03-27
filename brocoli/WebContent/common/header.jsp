@@ -36,14 +36,11 @@
 	<link rel="stylesheet" type="text/css" href="/brocoli/main/css/util.css">
 	<link rel="stylesheet" type="text/css" href="/brocoli/main/css/main.css">
 <!--===============================================================================================-->
-<<<<<<< HEAD
 	 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
 
-=======
 
 	<script src="/brocoli/main/vendor/jquery/jquery-3.2.1.min.js"></script>
 	
->>>>>>> branch 'master' of https://github.com/tjrgns/YY.git
 </head>
 <!-- Header -->
 	<header class="header-v4">
@@ -52,6 +49,11 @@
    	작성일 : 2020-03-18
    	내용 : 헤더 수정
     -->
+    <!-- 
+    	작성자 : 문예림
+    	작성일 : 2020-03-26
+    	내용 : 헤더경로 입력(로그인)
+     -->
 		<!-- Header desktop -->
 		<div class="container-menu-desktop">
 			<!-- Topbar -->
@@ -62,9 +64,16 @@
 						Free shipping
 					</div>
 
-					<div class="right-top-bar flex-w h-full">
+					<div class="right-top-bar flex-w h-full" style="margin-left: 850px;">
 						<a href="#" class="flex-c-m trans-04 p-lr-25">
 							Help & FAQs
+						</a>
+
+					</div>
+					
+					<div class="right-top-bar flex-w h-full">
+						<a href="/brocoli/login/login.jsp" class="flex-c-m trans-04 p-lr-25">
+							Login
 						</a>
 
 					</div>
@@ -244,13 +253,10 @@
 					<button class="flex-c-m trans-04" >
 						<i class="zmdi zmdi-search"></i>
 					</button>
-<<<<<<< HEAD
 					<input  class="plh3" type="text"  placeholder="Search..." >
 				</div>
-=======
 					<input class="plh3" id="searchbar" type="text" name="search" placeholder="Search...">
 				</form>
->>>>>>> branch 'master' of https://github.com/tjrgns/YY.git
 			</div>
 		</div>
 	</header>

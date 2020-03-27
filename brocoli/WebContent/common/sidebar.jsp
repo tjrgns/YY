@@ -5,6 +5,21 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+	<link rel="stylesheet" type="text/css" href="/brocoli/main/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/brocoli/main/fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/brocoli/main/fonts/linearicons-v1.0.0/icon-font.min.css">
+<style>
+.side_mypage{
+	color:black;
+	font-size:15px;
+	font-family: Poppins-Regular;
+	line-height: 0.9;
+}
+
+
+</style>
 </head>
 <body>
 	<!-- Sidebar -->
@@ -19,7 +34,7 @@
 			</div>
 
 			<div class="sidebar-content flex-w w-full p-lr-65 js-pscroll">
-				<ul class="sidebar-link w-full">
+<!-- 				<ul class="sidebar-link w-full">
 					<li class="p-b-13">
 						<a href="index.jsp" class="stext-102 cl2 hov-cl1 trans-04">
 							Home
@@ -50,12 +65,39 @@
 							Help & FAQ
 						</a>
 					</li>
-				</ul>
+				</ul> -->
 
+				<div style="padding: 5px; width: 500px; text-align: center; line-height:1.7;">
+					<span style="text-align: center">
+						<a href="/brocoli/main/myPage.jsp" style="color:black; font-size:20px;">My page</a>
+					</span><hr>
+					<span style="text-align: center">
+						<a href="/brocoli/main/index.jsp" class="side_mypage">메인으로</a>
+					</span><hr>
+					<span style="text-align: center">
+						<a href="/brocoli/main/shoping-cart.jsp" class="side_mypage">장바구니</a>
+					</span><hr>										
+					<span style="text-align: center">
+						<a href="/brocoli/main/wishlist.jsp" class="side_mypage">관심 상품 보기</a>
+					</span><hr>
+					<span style="text-align: center">
+						<a href="/brocoli/main/wishlist.jsp" class="side_mypage">배송 조회</a>
+					</span><hr>
+					<span style="text-align: center">
+						<a href="/brocoli/main/orderlist.jsp" class="side_mypage">주문 현황</a>
+					</span><hr>
+					<span style="text-align: center">
+						<a href="/brocoli/main/myPage.jsp" class="side_mypage">My Review</a>
+					</span><hr>																
+					<span style="text-align: center">
+						<a href="/brocoli/main/.jsp" class="side_mypage">개인 정보 관리</a>
+					</span><hr>
+					<span style="text-align: center">
+						<a href="/brocoli/main/.jsp" class="side_mypage">Help & FAQ</a>
+					</span><br><br><br>					
+				</div>
 				<div class="sidebar-gallery w-full p-tb-30">
-					<span class="mtext-101 cl5" style="text-align: center">
-						<a href="/brocoli/main/myPage.jsp">My page</a>
-					</span>
+
 
 					<div class="flex-w flex-sb p-t-36 gallery-lb">
 						<!-- item gallery sidebar -->

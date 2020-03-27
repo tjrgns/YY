@@ -35,7 +35,7 @@ font-size: 15px;
 						</li>
 
 						<li class="p-b-10">
-							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+							<a href="/brocoli/board/privacyPolicy.jsp" class="stext-107 cl7 hov-cl1 trans-04">
 								개인정보보호정책
 							</a>
 						</li>

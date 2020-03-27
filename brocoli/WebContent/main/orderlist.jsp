@@ -82,13 +82,25 @@
 			주문현황
 		</h2>
 	</section>
-	<!--  좌측 메뉴바 -->
-<%@ include file="../common/myPagemenu.jsp" %>
-	<!-- 상단 주문기간 검색 -->
-	<div id="ordersearch" style="width:1000px; height:5%; margin:3% auto;">
+     <div>
 	
+    </div>
+    
+	<!--  좌측 메뉴바 -->
+	<!-- 상단 주문기간 검색 -->
+	<div>
+	
+	<div style="width:1000px; margin:15px auto; border-bottom:1px solid #666">
+	<label style=" display:inline-block; font-size:20px; "><b>주문 정보</b></label>
+	<button style="display:inline-block; float:right; margin-left: 10%;  margin-right: 30%;">환불</button>&nbsp;
+	<button style="display:inline-block; float:right; margin-left: 10%;">교환</button>&nbsp;
+	<button style="display:inline-block; float:right; margin-left: 10%;">배송상태</button>&nbsp;
+	<button style="display:inline-block; float:right; margin-left: 10%;">전체</button>&nbsp;
+	</div>
 	
 
+
+	<div id="ordersearch" style="width:1000px; height:5%; margin:1% auto;">
 	
 	
 	<span style="float:left; width: 150px; margin-top:-0.5%;">&nbsp;&nbsp;기간별 조회</span>
@@ -116,7 +128,6 @@
 	<!-- 끝 -->
 	
 	<div>
-	<h5 style="width: 1000px; margin: 18px auto; border-bottom: 1px solid #999;"><b>주문 정보</b></h5>
 		<table class="ordertable">
 			<tr class="orderdetail">
 				<th style="border-right: 1px solid #6666; width:20%; text-align:center;">날짜</th>
@@ -201,7 +212,7 @@
 		
 		
 	</div>
-	
+	</div>
 	
 	<%@ include file="../common/footer.jsp" %>
 

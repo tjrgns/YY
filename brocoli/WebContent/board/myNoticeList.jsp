@@ -32,7 +32,7 @@
 <body>
 <div id="all">
 <br>
-<h1 align="center">내가 쓴 글</h1>
+<h1 style="background: #333333; color: white; padding:4%; text-align: center">내가 쓴 글</h1>
 <br>
 <table class="table table-hover" align="center">
     <thead>
@@ -47,7 +47,7 @@
     <tbody>
       <tr>
         <td align="center">1</td>
-        <td align="center">내가 쓴글이유</td>
+        <td align="center">내가 글 쓴 이유</td>
         <td align="center">홍길동</td>
         <td align="center">2020-03-21</td>
         <td align="center">1</td>
@@ -55,7 +55,7 @@
       
       <tr>
         <td align="center">2</td>
-        <td align="center">내가 쓴글이유</td>
+        <td align="center">내가 글 쓴이유</td>
         <td align="center">홍길동</td>
         <td align="center">2020-03-21</td>
         <td align="center">1</td>
@@ -63,7 +63,7 @@
       
       <tr>
         <td align="center">3</td>
-        <td align="center">내가 쓴글이유</td>
+        <td align="center">내가 글 쓴이유</td>
         <td align="center">홍길동</td>
         <td align="center">2020-03-21</td>
         <td align="center">1</td>
@@ -71,7 +71,7 @@
       
       <tr>
         <td align="center">4</td>
-        <td align="center">내가 쓴글이유</td>
+        <td align="center">내가 글 쓴 이유</td>
         <td align="center">홍길동</td>
         <td align="center">2020-03-21</td>
         <td align="center">1</td>
@@ -79,7 +79,7 @@
       
       <tr>
         <td align="center">5</td>
-        <td align="center">내가 쓴글이유</td>
+        <td align="center">내가 글 쓴 이유</td>
         <td align="center">홍길동</td>
         <td align="center">2020-03-21</td>
         <td align="center">1</td>
