@@ -34,70 +34,54 @@
 			</div>
 
 			<div class="sidebar-content flex-w w-full p-lr-65 js-pscroll">
-<!-- 				<ul class="sidebar-link w-full">
+				<ul class="sidebar-link w-full">
 					<li class="p-b-13">
-						<a href="index.jsp" class="stext-102 cl2 hov-cl1 trans-04">
-							Home
+						<a href="/brocoli/main/index.jsp" class="stext-102 cl2 hov-cl1 trans-04">
+							메인
+						</a>
+					</li>
+					
+					<li class="p-b-13">
+						<a href="/brocoli/main/myPage.jsp" class="stext-102 cl2 hov-cl1 trans-04">
+							마이 페이지
 						</a>
 					</li>
 
 					<li class="p-b-13">
 						<a href="/brocoli/main/wishlist.jsp" class="stext-102 cl2 hov-cl1 trans-04">
-							My Wishlist
+							위시 리스트
 						</a>
 					</li>
 
 					<li class="p-b-13">
-						<a href="#" class="stext-102 cl2 hov-cl1 trans-04">
-							Cart
+						<a href="/brocoli/main/shoping-cart.jsp" class="stext-102 cl2 hov-cl1 trans-04">
+							장바구니
+						</a>
+					</li>
+					
+					<li class="p-b-13">
+						<a href="/brocoli/main/orderlist.jsp" class="stext-102 cl2 hov-cl1 trans-04">
+							주문조회
 						</a>
 					</li>
 
 					<li class="p-b-13">
-						<a href="trackList.jsp" class="stext-102 cl2 hov-cl1 trans-04">
-							Track Oder
+						<a href="/brocoli/main/trackProcess.jsp" class="stext-102 cl2 hov-cl1 trans-04">
+							배송조회
 						</a>
 					</li>
-
 
 					<li class="p-b-13">
-						<a href="#" class="stext-102 cl2 hov-cl1 trans-04">
-							Help & FAQ
+						<a href="/brocoli/" class="stext-102 cl2 hov-cl1 trans-04">
+							Help & FAQs
 						</a>
 					</li>
-				</ul> -->
+				</ul>
 
-				<div style="padding: 5px; width: 500px; text-align: center; line-height:1.7;">
-					<span style="text-align: center">
-						<a href="/brocoli/main/myPage.jsp" style="color:black; font-size:20px;">My page</a>
-					</span><hr>
-					<span style="text-align: center">
-						<a href="/brocoli/main/index.jsp" class="side_mypage">메인으로</a>
-					</span><hr>
-					<span style="text-align: center">
-						<a href="/brocoli/main/shoping-cart.jsp" class="side_mypage">장바구니</a>
-					</span><hr>										
-					<span style="text-align: center">
-						<a href="/brocoli/main/wishlist.jsp" class="side_mypage">관심 상품 보기</a>
-					</span><hr>
-					<span style="text-align: center">
-						<a href="/brocoli/main/wishlist.jsp" class="side_mypage">배송 조회</a>
-					</span><hr>
-					<span style="text-align: center">
-						<a href="/brocoli/main/orderlist.jsp" class="side_mypage">주문 현황</a>
-					</span><hr>
-					<span style="text-align: center">
-						<a href="/brocoli/main/myPage.jsp" class="side_mypage">My Review</a>
-					</span><hr>																
-					<span style="text-align: center">
-						<a href="/brocoli/main/.jsp" class="side_mypage">개인 정보 관리</a>
-					</span><hr>
-					<span style="text-align: center">
-						<a href="/brocoli/main/.jsp" class="side_mypage">Help & FAQ</a>
-					</span><br><br><br>					
-				</div>
 				<div class="sidebar-gallery w-full p-tb-30">
-
+					<span class="mtext-101 cl5">
+						@ LookBook
+					</span>
 
 					<div class="flex-w flex-sb p-t-36 gallery-lb">
 						<!-- item gallery sidebar -->
@@ -156,15 +140,19 @@
 					</div>
 				</div>
 
-<!-- 				<div class="sidebar-gallery w-full">
+				<div class="sidebar-gallery w-full">
 					<span class="mtext-101 cl5">
 						About Us
 					</span>
 
 					<p class="stext-108 cl6 p-t-27">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur maximus vulputate hendrerit. Praesent faucibus erat vitae rutrum gravida. Vestibulum tempus mi enim, in molestie sem fermentum quis. 
+					브로콜리에서 입점 판매되는 모든 해외 브랜드 제품은 정식제조, 정식수입절차를 통해서 유통되는 100% 정품입니다.<br>
+					1599-7616<br>
+					평일 10:00 ~ 17:00 <br>
+					점심시간 12:00 ~ 13:30 <br>
+					주말, 공휴일 휴무<br>
 					</p>
-				</div> -->
+				</div>
 			</div>
 		</div>
 	</aside>
