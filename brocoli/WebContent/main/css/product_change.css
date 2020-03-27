@@ -1,5 +1,5 @@
 /* BASIC css start */
-#orderSt { padding: 10px; }
+#orderSt { margin-left: 100px; margin-right: 100px; padding: 10px; }
 #orderSt .tit-pop { padding-bottom: 3px; border-bottom: 1px solid #d0d0d0; }
 #orderSt .tit-pop .dsc { display: inline-block; padding-top: 10px; margin-left: 30px; color: #9a9a9a; letter-spacing: -1px; }
 #orderSt .tit-pop .dsc em { color: #ff5d00; }

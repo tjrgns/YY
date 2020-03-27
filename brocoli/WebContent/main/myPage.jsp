@@ -122,7 +122,7 @@
                                     </p>
                                 </a>
                             </li>
-                            <li class="with-drw">
+                            <li class="with-draw">
                                 <a href="">회원탈퇴하기 ></a>
                             </li>
                         </ul>
