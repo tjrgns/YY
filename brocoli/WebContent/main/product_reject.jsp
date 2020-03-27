@@ -11,7 +11,7 @@
 
 <head>
 <meta charset="UTF-8">
-<title>product change</title>
+<title>product reject</title>
 </head>
 <body>
     <div id="orderSt">
@@ -251,10 +251,10 @@
           </tbody>
         </table>
     </div>
-    <h2>교환사유</h2>
+    <h2>반품사유</h2>
     <div class="table-w table-orderinfo">
         <table summary>
-            <caption>교환사유</caption>
+            <caption>반품사유</caption>
             <colgroup>
                <col width="120">
                <col width="*">
@@ -271,7 +271,7 @@
                          <select>
                             <option value="선택">--선택--</option>
                             <option value="단순">단순변심</option>
-                            <option value="불량">불량교환</option>
+                            <option value="불량">불량반품</option>
                           </select>  
                         </div>
                     </td>
@@ -302,9 +302,9 @@
         <a href="orderlist.jsp" style="width:100%; color:#fff;">신청완료</a>
         </button>
         &nbsp;&nbsp;
-         <button style="height: 35px; width: 97px; border-radius: 3px;">
-         <a href="orderlist.jsp" style="width:100%; color:#fff;">돌아가기</a>
-         </button>
+        <button style="height: 35px; width: 97px; border-radius: 3px;">
+          <a href="orderlist.jsp" style="width:100%; color:#fff;">돌아가기</a>
+        </button>
     </div>
 </div>
 </div>

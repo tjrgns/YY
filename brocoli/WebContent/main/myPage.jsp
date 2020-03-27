@@ -26,7 +26,7 @@
                     <div class="mypage-common-container">
                         <!-- mypage link section -->
                         <div class="mypage-link-container">
-                            <a href="home-03.html" class="home">home</a>
+                            <a href="index.jsp" class="home">home</a>
 							<a href="/shop/mypage.html" class="test">"MY PAGE"</a>
 						</div>
 						<!-- mypage link section-->
@@ -121,9 +121,6 @@
                                         "모든 게시글을 확인할 수 있습니다."
                                     </p>
                                 </a>
-                            </li>
-                            <li class="with-draw">
-                                <a href="">회원탈퇴하기 ></a>
                             </li>
                         </ul>
                     </div>
