@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <%@ include file="/WEB-INF/owner/pages/header.jsp" %>
+    <%@ include file="/owner/pages/header.jsp" %>
     
     <title>오너 : 메인</title>
 </head>
@@ -559,7 +559,7 @@
     <!-- slimscroll js -->
     <script src="/brocoli/resources/ownerResources/vendor/slimscroll/jquery.slimscroll.js"></script>
     <!-- main js -->
-    <script src="/brocoli/resources/ownerResources/libs/js/main-js.js"></script>
+
     <!-- chart chartist js -->
     <script src="/brocoli/resources/ownerResources/vendor/charts/chartist-bundle/chartist.min.js"></script>
     <!-- sparkline js -->

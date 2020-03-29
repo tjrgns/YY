@@ -175,8 +175,8 @@ i.fa{
 				</td>
 				<td style="border: 1px solid #6666;"><b style="font-size:20px;">배송중</b></td>
 				<td style="border: 1px solid #6666;">
-				<button class="orderview">교환 및 환불</button>
-				<button class="orderview" style="margin-top:30px;"> 리뷰 확인</button>
+				<button class="orderview">배송추적</button>
+				<!-- <button class="orderview" style="margin-top:30px;"> 리뷰 확인</button> -->
 				</td>
 			</tr>
 			
@@ -212,8 +212,8 @@ i.fa{
 				</td>
 				<td style="border: 1px solid #6666;"><b style="font-size:20px;">배송중</b></td>
 				<td style="border: 1px solid #6666;">
-				<button class="orderview">교환 및 환불</button>
-				<button class="orderview" style="margin-top:30px;"> 리뷰 확인</button>
+				<button class="orderview">배송추적</button>
+				<!-- <button class="orderview" style="margin-top:30px;"> 리뷰 확인</button> -->
 				</td>
 			</tr>			
 		</table>
