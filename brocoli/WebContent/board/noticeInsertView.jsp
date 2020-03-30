@@ -35,7 +35,7 @@
 <body>
 <div id="all">
 <br>
-	<h2 style="background: #333333; color: white; padding:4%; text-align: center">공지사항 작성</h2><Br>
+	<h2 style="background: #222; color: white; padding:4%; text-align: center">공지사항 작성</h2><Br>
 	
 	<table align="center" id="tableArea" class="table">
 			<tr>
@@ -65,7 +65,7 @@
 			</tr>				
 		</table>
 		<div align="center">
-		<button class="btn btn-primary" style="background: #999; width: 200px; border: 1px solid #999;">작성 완료</button>
+		<button class="btn btn-primary" style="background: #222; width: 200px; border: 1px solid #222;">작성 완료</button>
 		</div>
 </div>
 <%@ include file="/common/footer.jsp" %>

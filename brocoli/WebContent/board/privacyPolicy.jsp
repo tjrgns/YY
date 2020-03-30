@@ -26,7 +26,7 @@
 <body>
 <div id="all">
 <br>
-<h2 style="background: #333333; color: white; padding:4%; text-align: center">개인정보 보호정책</h2>
+<h2 style="background: #222; color: white; padding:4%; text-align: center">개인정보 보호정책</h2>
 <br>
 <pre>
 (주)BROCOLI 개인정보처리방침

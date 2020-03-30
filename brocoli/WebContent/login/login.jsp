@@ -16,13 +16,14 @@
   <style>
          #login{
              margin: auto;
+             margin-top: 30px;
              /* border:1px solid blue; */
              width: 30%;
-             height: 50%;
+             height: 60%;
          }
          #a{
-             margin: auto;
-           /*  border:1px solid red; */
+            margin-left: 65px;
+            /* border:1px solid red;  */
          }
          #b{
              margin: auto;
@@ -47,30 +48,34 @@
 <body>
 	<div id="login">
 	
-	<div id="logo">
-		<span style="font-size: 450%; margin-left: 5%;">B R O C O L I</span>
+	<div id="logo" style="width:">
+		<p style="font-size: 450%; margin-left: 5%; width: 450px;">B R O C O L I</p>
 	</div>
-	    <table id="a" >
-	        <tr>
-	            <td align="right">
-	              	  로 그 인 : &nbsp;
-	            </td>
-	            <td><input type="text" class="form-control form-control"
-	           		 placeholder="아이디 입력"></td>
+	<br><br>
+	<div id="a">
+		<input type="text" class="form-control form-control" style="border-radius: 10px;
+   					 width: 320px" placeholder="아이디 "><br>
+	
+		<input type="password" class="form-control form-control" style="border-radius: 10px;
+   					 width: 320px" placeholder="비밀번호 ">
+	</div><br>
+	    <!-- <table id="a" >
+	        <tr>	           
+	            <td><input type="text" class="form-control form-control" style="border-radius: 10px;
+   					 width: 320px" placeholder="아이디 "></td>
+   				
 	        </tr>
 	        <tr>
-	            <td align="right"> 
-	            	    비밀 번호 : &nbsp;
-	            </td>
-	            <td><input type="password" class="form-control form-control"
-	            	placeholder="비밀번호 입력"></td>
+	          
+	            <td><input type="password" class="form-control form-control"style="border-radius: 10px;
+   					 width: 320px" placeholder="비밀번호 "></td>
 	        </tr>	
-	    </table><br>
+	    </table><br> -->
 	
 	    <table id="b">
 	        <tr>
 	            <td><button class="btn btn-primary btn-lg btn-block"
-	            style="background: #999; width: 290px; border: 1px solid #999;">로그인</button></td>
+	            style="background: #222; width: 320px; border: 1px solid #222;">로그인</button></td>
 	        </tr>
 	    </table><br>
 	

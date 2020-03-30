@@ -33,7 +33,7 @@
 <body>
 <div id="all">
 <br>
-<h1 style="background: #333333; color: white; padding:4%; text-align: center">고객 문의 사항</h1>
+<h1 style="background: #222; color: white; padding:4%; text-align: center">고객 문의 사항</h1>
 <br>
 <table class="table table-hover" align="center">
     <thead>
@@ -141,22 +141,22 @@
     </tbody>
   </table>
   <ul class="pagination justify-content-center">
-    <li class="page-item"><a class="page-link" href="javascript:void(0);" style="color: #999">이전</a></li>
-    <li class="page-item"><a class="page-link" href="javascript:void(0);" style="color: #999">1</a></li>
-    <li class="page-item"><a class="page-link" href="javascript:void(0);" style="color: #999">2</a></li>
-    <li class="page-item"><a class="page-link" href="javascript:void(0);" style="color: #999">다음</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);" style="color: #222">이전</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);" style="color: #222">1</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);" style="color: #222">2</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);" style="color: #222">다음</a></li>
   </ul>
   <div id="searchArea" align="center" >
 				<form action="${ contextPath }/search.bo" style="display: inline-flex;" >
 					<select id="searchCondition" name="condition">
-						<option>---------------------</option>
+						<option>--------선택--------</option>
 						<option value="writer">작성자</option>
 						<option value="title">제목</option>
 						<option value="content">내용</option>					
 					</select>
 					<br>
 					<input type="search" name="search" class="form-control form-control" style="width:300px;">
-					<button class="btn btn-primary" style="background: #999; width: 100px; border: 1px solid #999;">검색하기</button>				
+					<button class="btn btn-primary" style="background: #222; width: 100px; border: 1px solid #222;">검색하기</button>				
 				</form>			
 			</div>
   </div>
