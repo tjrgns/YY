@@ -73,9 +73,15 @@
 
 					<li class="p-b-13">
 						<a href="/brocoli/board/noticeList.jsp" class="stext-102 cl2 hov-cl1 trans-04">
-							Help & FAQs
+							Help 
 						</a>
 					</li>
+					
+					<li class="p-b-13">
+						<a href="/brocoli/board/customerViewList.jsp" class="stext-102 cl2 hov-cl1 trans-04">
+							FAQs 
+						</a>
+					</li>					
 				</ul>
 
 				<div class="sidebar-gallery w-full p-tb-30">
