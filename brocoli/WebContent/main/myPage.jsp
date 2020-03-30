@@ -76,7 +76,7 @@
                     <!-- mypage menu list section-->
                     <div class="mypage-menu-container">
                         <ul class="mypage-menu-list">
-                            <li class="my-info" img="/brocoli/main/images/mypage_me3.png">
+                            <li class="my-info" img="/brocoli/main/images/mypage_me1.png">
                                 <a href="">
                                     <h4>개인정보관리</h4>
                                     <p>
@@ -86,7 +86,7 @@
                                     </p>
                                 </a>
                             </li>
-                            <li class="order-list" img="/brocoli/main/images/mypage_list2.png">
+                            <li class="order-list" img="/brocoli/main/images/mypage_list1.png">
                                 <a href="/brocoli/main/orderlist.jsp">
                                     <h4>주문현황</h4>
                                     <p>"주문한 상품을 하는데"
@@ -95,7 +95,7 @@
                                     </p>
                                 </a>
                             </li>
-                            <li class="wish-list" img="/brocoli/main/images/mypage_like2.png">
+                            <li class="wish-list" img="/brocoli/main/images/mypage_like1.png">
                                 <a href="/brocoli/main/wishlist.jsp">
                                     <h4>관심상품관리</h4>
                                     <p>"내가 찜 해둔 상품을"
@@ -104,7 +104,7 @@
                                     </p>
                                 </a>
                             </li>
-                            <li class="reserve-deposit" img="/brocoli/main/images/mypage_cart.png">
+                            <li class="reserve-deposit" img="/brocoli/main/images/mypage_cart1.png">
                                 <a href="/brocoli/main/shoping-cart.jsp">
                                     <h4>장바구니</h4>
                                     <p>"장바구니를"
@@ -113,7 +113,7 @@
                                     </p>
                                 </a>
                             </li>
-                            <li class="my-article" img="/brocoli/main/images/mypage_my.png">
+                            <li class="my-article" img="/brocoli/main/images/mypage_my1.png">
                                 <a href="">
                                     <h4>내가 쓴 글 보기</h4>
                                     <p>"주문관련문의, 상품후기 등"
