@@ -42,6 +42,7 @@
          }
         </style>
 <%@ include file="/common/header.jsp" %>
+<%@ include file="/common/sidebar.jsp" %>
 </head>
 <body>
 	<div id="login">
