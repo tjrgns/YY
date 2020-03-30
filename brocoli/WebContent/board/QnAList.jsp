@@ -43,7 +43,7 @@
         <th style="width:40%">제목</th>
         <th style="width:10%">작성자</th>
         <th style="width:20%">작성일</th>
-        <th style="width:10%">조회수</th>
+        <th style="width:10%">댭변여부</th>
       </tr>
     </thead>
     <tbody>
@@ -54,7 +54,7 @@
         <td align="center">고객문의</td>
         <td align="center">홍길동</td>
         <td align="center">2020-03-21</td>
-        <td align="center">1</td>
+        <td align="center">답변완료</td>
       </tr>
       
       <tr>
@@ -63,7 +63,7 @@
         <td align="center">고객문의</td>
         <td align="center">홍길동</td>
         <td align="center">2020-03-21</td>
-        <td align="center">1</td>
+        <td align="center">답변중</td>
       </tr>
       
       <tr>
@@ -72,7 +72,7 @@
         <td align="center">고객문의</td>
         <td align="center">홍길동</td>
         <td align="center">2020-03-21</td>
-        <td align="center">1</td>
+        <td align="center">미확인</td>
       </tr>
       
       <tr>
@@ -81,7 +81,7 @@
         <td align="center">고객문의</td>
         <td align="center">홍길동</td>
         <td align="center">2020-03-21</td>
-        <td align="center">1</td>
+        <td align="center">미확인</td>
       </tr>
       
       <tr>
@@ -90,7 +90,7 @@
         <td align="center">고객문의</td>
         <td align="center">홍길동</td>
         <td align="center">2020-03-21</td>
-        <td align="center">1</td>
+        <td align="center">미확인</td>
       </tr>
       
       <tr>
@@ -99,7 +99,7 @@
         <td align="center">고객문의</td>
         <td align="center">홍길동</td>
         <td align="center">2020-03-21</td>
-        <td align="center">1</td>
+        <td align="center">미확인</td>
       </tr>
       
       <tr>
@@ -108,7 +108,7 @@
         <td align="center">고객문의</td>
         <td align="center">홍길동</td>
         <td align="center">2020-03-21</td>
-        <td align="center">1</td>
+        <td align="center">미확인</td>
       </tr>
       
       <tr>
@@ -117,7 +117,7 @@
         <td align="center">고객문의</td>
         <td align="center">홍길동</td>
         <td align="center">2020-03-21</td>
-        <td align="center">1</td>
+        <td align="center">미확인</td>
       </tr>
       
       <tr>
@@ -126,7 +126,7 @@
         <td align="center">고객문의</td>
         <td align="center">홍길동</td>
         <td align="center">2020-03-21</td>
-        <td align="center">1</td>
+        <td align="center">미확인</td>
       </tr>
       
       <tr>
@@ -135,7 +135,7 @@
         <td align="center">고객문의</td>
         <td align="center">홍길동</td>
         <td align="center">2020-03-21</td>
-        <td align="center">1</td>
+        <td align="center">미확인</td>
       </tr>
      
     </tbody>
@@ -149,7 +149,7 @@
   <div id="searchArea" align="center" >
 				<form action="${ contextPath }/search.bo" style="display: inline-flex;" >
 					<select id="searchCondition" name="condition">
-						<option>---------------------</option>
+						<option>--------선택--------</option>
 						<option value="writer">작성자</option>
 						<option value="title">제목</option>
 						<option value="content">내용</option>					

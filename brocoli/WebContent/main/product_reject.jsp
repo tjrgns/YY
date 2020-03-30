@@ -24,7 +24,7 @@
     <ul class="tab">
        <li>
          <div class="back">
-           <div class="button_base b01_simple_rollover" style="height: 22px; width: 150px; border-radius: 3px;">
+           <div class="button_base b01_simple_rollover" style="padding-top:0px; height: 22px; width: 150px; border-radius: 3px;">
              <a href="product_change.jsp" style="width: 100%;">
                <strong>교환</strong>
              </a>
@@ -33,7 +33,7 @@
        </li>
        <li>
          <div class="back">
-            <div class="button_base b01_simple_rollover" style="height: 22px; width: 150px; border-radius: 3px;">
+            <div class="button_base b01_simple_rollover" style="padding-top:0px; height: 22px; width: 150px; border-radius: 3px;">
               <a href="product_reject.jsp" style="width: 100%;">
                <strong>반품</strong>
                </a>
@@ -204,28 +204,20 @@
                </tr>
            </tfoot>
           <tbody>
-              <tr>
+             <tr>
                   <td>
-                      <div class="tb-center">
-                          <img src="" style="width: 58px; height:58px;">
-                      </div>
+                       <div class="tb-center">(주문번호)</div> 
                   </td>
-                  <td>
-                      <div class="tb-left">
-                          <a href="">
-                              (상품명)
-                              <br>
-                          </a>
-                          <span class="quantity order_table_Td style4">
-                            
-                                                             타입 : (상품 색상 타입)
-                          </span>
-                      </div>
-                  </td>
-                  <td>
-                     <div class="tb-center">(상품별주문번호)</div> 
-                  </td>
-                  <td>
+					<td colspan="2">
+						<div style="float: left;">
+							<img src="/brocoli/resources/product-Img/P11001.jpg" style="width: 58px; height: 78px;">
+						</div>
+						<div style="float: left;">
+							<a href=""> (상품명) <br>
+								</a> <span class="quantity order_table_Td style4"> 타입 : (상품색상 타입) </span>
+						</div>
+					</td>
+					<td>
                       <div class="tb-center">(수량)</div>
                   </td>
                   <td>
