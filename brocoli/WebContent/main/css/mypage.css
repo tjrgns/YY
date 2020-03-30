@@ -110,7 +110,7 @@
 	width: 16px;
 	height: 14px;
 	text-indent: -9999px;
-	background-image: url('../img/icon/icon_home_link.png');
+	background-image: url('/brocoli/main/images/mypage_home.png');
 	background-size: 100%;
 	background-position: center;
 }
@@ -124,6 +124,7 @@
 }
 
 .mypage .mypage-member-info-container .mypage-member-info {
+	width: 1150px;
 	padding: 0 8px 0 27px;
 	margin-top: 42px;
 	font-size: 0;
@@ -168,7 +169,7 @@
 .mypage .mypage-member-info-container .mypage-member-info .member-deposit-container,
 .mypage .mypage-member-info-container .mypage-member-info .member-order-total-price-container {
 	position: relative;
-	width: 300px;
+	width: 285px;
 	padding-right: 70px;
 	font-size: 14px;
 	text-align: right;
@@ -220,7 +221,7 @@
 .mypage .mypage-menu-container .mypage-menu-list > li {
 	position: relative;
 	display: inline-block;
-	width: 240px;
+	width: 230px;
 	text-align: center;
 	vertical-align: top;
 }
@@ -248,49 +249,53 @@
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.my-info > a {
-	background-image: url('../img/icon/icon_mypage_menu_myinfo.png');
+	background-image: url('/brocoli/main/images/mypage_me1.png');
 	background-size: 55px 55px;
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.my-info:hover > a,
 .mypage .mypage-menu-container .mypage-menu-list > li.my-info.selected > a {
-	background-image: url('../img/icon/icon_mypage_menu_myinfo_on.png');
+	background-image: url('/brocoli/main/images/mypage_me1.png');
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.order-list > a {
-	background-image: url('../img/icon/icon_mypage_menu_order.png');
+	background-image: url('/brocoli/main/images/mypage_list1.png');
+	background-size: 55px 55px;
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.order-list:hover > a,
 .mypage .mypage-menu-container .mypage-menu-list > li.order-list.selected > a {
-	background-image: url('../img/icon/icon_mypage_menu_order_on.png');
+	background-image: url('/brocoli/main/images/mypage_list1.png');
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.wish-list > a {
-	background-image: url('../img/icon/icon_mypage_menu_wish.png');
+	background-image: url('/brocoli/main/images/mypage_like1.png');
+	background-size: 55px 55px;
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.wish-list:hover > a,
 .mypage .mypage-menu-container .mypage-menu-list > li.wish-list.selected > a {
-	background-image: url('../img/icon/icon_mypage_menu_wish_on.png');
+	background-image: url('/brocoli/main/images/mypage_like1.png');
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.reserve-deposit > a {
-	background-image: url('../img/icon/icon_mypage_menu_coupon.png');
+	background-image: url('/brocoli/main/images/mypage_cart1.png');
+	background-size: 55px 55px;
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.reserve-deposit:hover > a,
 .mypage .mypage-menu-container .mypage-menu-list > li.reserve-deposit.selected > a {
-	background-image: url('../img/icon/icon_mypage_menu_coupon_on.png');
+	background-image: url('/brocoli/main/images/mypage_cart1.png');
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.my-article > a {
-	background-image: url('../img/icon/icon_mypage_menu_article.png');
+	background-image: url('/brocoli/main/images/mypage_my1.png');
+	background-size: 55px 55px;
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.my-article:hover > a,
 .mypage .mypage-menu-container .mypage-menu-list > li.my-article.selected > a {
-	background-image: url('../img/icon/icon_mypage_menu_article_on.png');
+	background-image: url('/brocoli/main/images/mypage_my1.png');
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li > a > h4 {
@@ -324,7 +329,7 @@
 }
 
 .mypage .mypage-menu-container .mypage-menu-list .with-draw > a {
-	padding: 7px 0;
+	padding: 7px 20px;
 	font-weight: 300;
 	font-size: 14px;
 	color: #adadad;
@@ -335,6 +340,181 @@
 	color: #666;
 }
 /* mypage main page end */
+
+/* mypage order list page start */
+#myorder .order-list-container > h3 {
+	font-size: 18px;
+}
+
+#myorder .order-list-container .order-list {
+	padding-bottom: 30px;
+	margin-top: 20px;
+}
+
+#myorder .order-list-container .order-list td.order-product {
+	padding-left: 10px;
+	text-align: left;
+}
+
+#myorder .order-list-container .default-paging-container {
+	margin-top: 60px;
+}
+
+#myorder .order-desc {
+	margin-bottom: 50px;
+}
+
+#myorder .order-desc > p {
+	color: #999;
+}
+/* mypage order list page end */
+
+/* mypage wish list page start */
+#myWish .wish-list-container,
+#myTodayView .today-view-list-container {
+	position: relative;
+	margin-bottom: 70px;
+}
+
+#myTodayView .today-view-list-container {
+	padding-top: 27px;
+}
+
+#myWish .wish-list-container > h3 {
+	font-size: 18px;
+}
+
+#myWish .wish-list-container .wish-list,
+#myTodayView .today-view-list-container .today-view-list {
+	margin-top: 20px;
+}
+
+#myWish .wish-list-container .wish-list .product-image,
+#myTodayView .today-view-list-container .today-view-list .product-image {
+	padding: 5px 0;
+}
+
+#myWish .wish-list-container .wish-list .product-image > a,
+#myTodayView .today-view-list-container .today-view-list .product-image > a {
+	display: block;
+	width: 60px;
+	height: 90px;
+	margin: 0 auto;
+}
+
+#myWish .wish-list-container .wish-list .product-image > a > img,
+#myTodayView .today-view-list-container .today-view-list .product-image > a > img {
+	width: 100%;
+}
+
+#myWish .wish-list-container .wish-list .product-info,
+#myTodayView .today-view-list-container .today-view-list .product-info {
+	padding-left: 20px;
+	text-align: left;
+}
+
+#myWish .wish-list-container .wish-list .product-info .product-option {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+#myWish .wish-list-container .wish-list .product-quantity > input,
+#myTodayView .today-view-list-container .today-view-list .product-quantity > input {
+	width: 35px;
+	height: 25px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+#myWish .wish-list-container .wish-list .button-list > a,
+#myTodayView .today-view-list-container .today-view-list .button-list > a {
+	display: block;
+	width: 68px;
+    border: 1px solid #e5e5e5;
+    margin: 5px auto 0;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#myWish .wish-list-container .wish-list .button-list > a.add-basket-button,
+#myTodayView .today-view-list-container .today-view-list .button-list > a.add-basket-button {
+	border-color: #333;
+	color: #fff;
+	background: #333;
+}
+
+#myWish .wish-list-container .wish-list .button-list > a.add-basket-button:hover,
+#myTodayView .today-view-list-container .today-view-list .button-list > a.add-basket-button:hover {
+	border-color: #e5e5e5;
+	color: #363636;
+	background: #fff;
+}
+
+#myWish .wish-list-container .wish-list .button-list > a:first-child,
+#myTodayView .today-view-list-container .today-view-list .button-list > a:first-child {
+	margin-top: 0;
+}
+
+#myWish .wish-list-container .default-paging-container {
+	margin-top: 60px;
+}
+
+#myWish .wish-list-container .add-button-list,
+#myTodayView .today-view-list-container .add-button-list {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#myWish .wish-list-container .add-button-list > a,
+#myTodayView .today-view-list-container .add-button-list > a {
+	display: inline-block;
+	width: 88px;
+	height: 32px;
+	border: 1px solid #e5e5e5;
+	margin-left: 5px;
+	font-size: 13px;
+	text-align: center;
+	line-height: 32px;
+}
+
+#myWish .wish-list-container .add-button-list > a:hover,
+#myTodayView .today-view-list-container .add-button-list > a:hover {
+	color: #e92648;
+}
+
+#myWish .wish-list-container .add-button-list > a:first-child,
+#myTodayView .today-view-list-container .add-button-list > a:first-child {
+	margin-left: 0;
+}
+
+#myorder .order-list-container .order-list .no-order,
+#myWish .wish-list-container .wish-list .no-wish,
+#myTodayView .today-view-list-container .today-view-list .no-today-view {
+	padding: 20px 0;
+	color: #999
+}
+
+#myorder .order-list-container .order-list .no-order > img,
+#myWish .wish-list-container .wish-list .no-wish > img,
+#myTodayView .today-view-list-container .today-view-list .no-today-view > img {
+	width: 60px;
+}
+
+#myorder .order-list-container .order-list .no-order .title,
+#myWish .wish-list-container .wish-list .no-wish .title,
+#myTodayView .today-view-list-container .today-view-list .no-today-view .title {
+	margin-top: 15px;
+	font-size: 14px;
+}
+
+#myorder .order-list-container .order-list .no-order .sub-title,
+#myWish .wish-list-container .wish-list .no-wish .sub-title,
+#myTodayView .today-view-list-container .today-view-list .no-today-view .sub-title {
+	font-size: 12px;
+}
+/* mypage wish list page end */
+
 
 /* mypage order list page start */
 #myorder .order-list-container > h3 {

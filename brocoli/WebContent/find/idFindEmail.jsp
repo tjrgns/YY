@@ -47,22 +47,21 @@
 
 <div id="all">
 <br>
-<h2 align="center" style="background: #333333; color: white; padding:4%; text-align: center">아이디 찾기</h2><br>
+<h2 align="center" style="background: #222; color: white; padding:4%; text-align: center">아이디 찾기</h2><br>
 	<div id="logo">
 		<span style="font-size: 70px; margin-left: 5%;">B R O C O L I</span>
 	</div><br><br><br>
  <table id="a" >
 	        <tr>
-	            <td align="right">
-	              	  인증 번호 입력 : &nbsp;
-	            </td>
-	            <td><input type="text" class="form-control form-control"></td>
+	            <td><input type="email" class="form-control form-control"
+	            placeholder="인증번호" style="width: 320px;"></td>
 	        </tr>	
+	        	
 	    </table><br><br>
 	     <table id="b">
 	        <tr>
 	            <td><button class="btn btn-primary btn-lg btn-block"
-	            style="background: #999; width: 290px; border: 1px solid #999;">인증 하기</button></td>
+	            style="background: #222; width: 320px; border: 1px solid #222;">인증 하기</button></td>
 	        </tr>
 	    </table>
 </div>

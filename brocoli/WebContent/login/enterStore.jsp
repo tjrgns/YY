@@ -33,12 +33,13 @@
     }
 </style>
 <%@ include file="/common/header.jsp" %>
+<%@ include file="/common/sidebar.jsp" %>
 </head>
 <body>
 
 <form>
 	<div id="all">
-			<h2 style="background: #333333; color: white; padding:4%; text-align: center" >BROCOLI 입점 문의</h2><Br>
+			<h2 style="background: #222; color: white; padding:4%; text-align: center" >BROCOLI 입점 문의</h2><Br>
 			<hr>
 			<p>
 			안녕하세요.<br>
@@ -108,7 +109,7 @@
    		</div>
    		<br><br>
    		<div style="margin-left: 30%">
-   		<button type="submit" class="btn btn-primary" style="background: #999; width: 300px; border: 1px solid #999;">가   입</button>
+   		<button type="submit" class="btn btn-primary" style="background: #222; width: 300px; border: 1px solid #222;">가   입</button>
    		</div>
    		
 	</div>

@@ -23,7 +23,7 @@
   		}
   		
 	 #a{
-          margin: auto;
+          margin-left: 65px;
          /*  border:1px solid red; */
       }
      #b{
@@ -47,35 +47,22 @@
 
 <div id="all">
 <br>
-<h2 align="center" style="background: #333333; color: white; padding:4%; text-align: center">비밀번호 찾기</h2><br>
+<h2 align="center" style="background: #222; color: white; padding:4%; text-align: center">비밀번호 찾기</h2><br>
 	<div id="logo">
 		<span style="font-size: 70px; margin-left: 5%;">B R O C O L I</span>
-	</div>
-	  <table id="a" >
-	        <tr>
-	            <td align="right">
-	              	  이 름 : &nbsp;
-	            </td>
-	            <td><input type="text" class="form-control form-control"></td>
-	        </tr>
-	        <tr>
-	            <td align="right"> 
-	            	    아 이 디  : &nbsp; 
-	            </td>
-	            <td><input type="text" class="form-control form-control"></td>
-	        </tr>
-	        <tr>
-	            <td align="right"> 
-	            	   이 메 일 : &nbsp;
-	            </td>
-	            <td><input type="email" class="form-control form-control"></td>
-	        </tr>	
-	    </table><br>
-	<div >
+	</div><br><br>
+	<div id="a">
+		<input type="text" class="form-control form-control" style="border-radius: 10px;
+   					 width: 320px" placeholder="아이디 "><br>
+	
+		<input type="password" class="form-control form-control" style="border-radius: 10px;
+   					 width: 320px" placeholder="비밀번호 ">
+	</div><br>
+	<div>
 	    <table id="b" align="center">
 	        <tr>
 	            <td><a class="btn btn-primary btn-lg btn-block" onclick="location.href='/brocoli/find/pwdFindEmail.jsp'"
-	            style="background: #999; width: 290px; border: 1px solid #999;">인증번호 받기</a></td>
+	             style="background: #222; width: 320px; border: 1px solid #222; color: white">인증번호 받기</a></td>
 	        </tr>
 	    </table>
 	    </div>

@@ -33,20 +33,18 @@
 	 }
 	 
 	 .datesearch{
-		 border: 1px solid #c3bdbd; 
-		 padding: 4px; 
+		 padding: 5px; 
 		 margin-left: 10px; 
 		 margin-top: -1%; 
-		 border-radius: 5px;
+		 border-radius: 2px;
 		 color:white;
-		 box-shadow: 0 -12px 43px #999 inset, 0 -30px 2px #444 inset;
+		 background:#222;
 		 
 	 }
 	 .datesearch:hover{
-	 	background: black;
+	 	background: #BDBDBD;
 	 }
 	 .ordertable{
-	 	border:1px solid #6666;
 	 	width:1000px;
 	 	margin:0px auto;
 	 	text-align:center;
@@ -54,12 +52,8 @@
 	 }
 	 
 	 .orderdetail{
-		box-shadow: 0 -2px 20px #999 inset, 0 -5px 5px #444 inset;
-	 	border:1px solid #6666;
-	 	background: #999999;
-	 	color:white;
+	    border-bottom:2px solid black;
 		font-size:15px;
-		border-top:3px solid black;
 		height: 35px;
 	 }
 	 .orderview{
@@ -127,91 +121,90 @@
 	</div>
 	<!-- 끝 -->
 	
-	<div>
-		<table class="ordertable">
-			<tr class="orderdetail">
-				<th style="border-right: 1px solid #6666; width:20%; text-align:center;">날짜</th>
-				<th style="border-right: 1px solid #6666; width: 50%; text-align:center;">상품정보</th>
-				<th style="border-right: 1px solid #6666; width: 15%; text-align:center;">상태</th>
-				<th style="text-align:center; width:15%;">확인/신청</th>
-			</tr>
-			<tr>
-				<td style="border: 1px solid #6666; ">
-					<ul>
-						<li style="font-size:17px;"><b>2020-03-22</b></li><br>
-						<li><button class="orderview">주문 상세보기</button></li>
-					</ul>
-				</td>
-				
-				<td style="border: 1px solid #6666; text-align:left">
-				
-				<div style="display:inline-block;">
-						<img src="/brocoli/main/images/item-cart-02.jpg" style="padding:30px; width:170px; margin-top: -200px;">
-					
-					
-				</div>
-					<div style="display:inline-block; margin-top: 30px;">
-						
-						<label  ><b style="font-size:17px;">상품명</b> : 신발</label>
-						<label style="display:inline-block;"><b style="font-size:17px;">상품번호</b>: abc12345</label>
-						<label  style="display:inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;
-						<b style="font-size:17px;">수량</b>:1
-						</label><br>
-						<label><b style="font-size:17px;">상품설명 </b>: 설명</label><br><br>
-						<hr style="border-top:1px solid black; width: 300px;">
-						<label><b style="font-size:17px;">31,000원</b></label>
-					
-					</div>
-					
-						
-				</td>
-				<td style="border: 1px solid #6666;"><b style="font-size:20px;">배송중</b></td>
-				<td style="border: 1px solid #6666;">
-				<button class="orderview">교환 및 환불</button>
-				<button class="orderview" style="margin-top:30px;"> 리뷰 확인</button>
-				</td>
-			</tr>
-			
-			<tr>
-				<td style="border: 1px solid #6666; ">
-					<ul>
-						<li style="font-size:17px;"><b>2020-03-22</b></li><br>
-						<li><button class="orderview">주문 상세보기</button></li>
-					</ul>
-				</td>
-				
-				<td style="border: 1px solid #6666; text-align:left">
-				
-				<div style="display:inline-block;">
-						<img src="/brocoli/main/images/item-cart-02.jpg" style="padding:30px; width:170px; margin-top: -200px;">
-					
-					
-				</div>
-					<div style="display:inline-block; margin-top: 30px;">
-						
-						<label  ><b style="font-size:17px;">상품명</b> : 신발</label>
-						<label style="display:inline-block;"><b style="font-size:17px;">상품번호</b>: abc12345</label>
-						<label  style="display:inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;
-						<b style="font-size:17px;">수량</b>:1
-						</label><br>
-						<label><b style="font-size:17px;">상품설명 </b>: 설명</label><br><br>
-						<hr style="border-top:1px solid black; width: 300px;">
-						<label><b style="font-size:17px;">31,000원</b></label>
-					
-					</div>
-					
-						
-				</td>
-				<td style="border: 1px solid #6666;"><b style="font-size:20px;">배송중</b></td>
-				<td style="border: 1px solid #6666;">
-				<button class="orderview">교환 및 환불</button>
-				<button class="orderview" style="margin-top:30px;"> 리뷰 확인</button>
-				</td>
-			</tr>			
-		</table>
-		
-		
-	</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 col-xl-7 m-lr-auto m-b-50" style="margin-left: -1%;">
+					<div class="m-l-25 m-r--38 m-lr-0-xl" style="width: 170%;">
+						<div class="wrap-table-shopping-cart">
+							<table class="table-shopping-cart">
+								<tr class="table_head">
+									<th class="column-0">주문번호</th>
+									<th class="column-1">이미지</th>
+									<th class="column-2">상품명</th>
+									<th class="column-3">옵션1</th>
+									<th class="column-4">옵션2</th>
+									<th class="column-5">판매금액</th>
+									<th class="column-6">수량</th>
+									<th class="column-7">총 금액</th>
+								</tr>
+
+								<tr class="table_row">
+									<td class="column-0"><input type="checkbox"></td>
+									<td class="column-1">
+										<div class="how-itemcart1">
+											<img src="images/item-cart-04.jpg" alt="IMG">
+										</div>
+									</td>
+									<td class="column-2">패딩</td>
+									<td class="column-3">Red</td>
+									<td class="column-4">XL</td>
+									<td class="column-5">36,000원</td>
+									<td class="column-6">										
+										<div class="wrap-num-product flex-w m-l-auto m-r-0">
+											<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+												<i class="fs-16 zmdi zmdi-minus"></i>
+											</div>
+	
+												<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product1" value="1">
+	
+											<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+												<i class="fs-16 zmdi zmdi-plus"></i>
+											</div>
+										</div>
+									</td>
+									<td class="column-7">36,000원</td>
+									
+								</tr>
+								
+								
+
+								<tr class="table_row">
+									<td class="column-0"><input type="checkbox"></td>
+									<td class="column-1">
+										<div class="how-itemcart1">
+											<img src="images/item-cart-05.jpg" alt="IMG">
+										</div>
+									</td>
+									<td class="column-2">아우터</td>
+									<td class="column-3">BLACK</td>
+									<td class="column-4">L</td>
+									<td class="column-5">72,000원</td>
+									<td class="column-6">
+									<div class="wrap-num-product flex-w m-l-auto m-r-0">
+											<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+												<i class="fs-16 zmdi zmdi-minus"></i>
+											</div>
+
+											<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product2" value="1">
+
+											<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+												<i class="fs-16 zmdi zmdi-plus"></i>
+											</div>
+										</div>
+									</td>
+									<td class="column-7">72,000원</td>
+								</tr>
+								<tr style="height:100px;">
+									<td colspan="6"></td>
+									<td >총 금액 : </td>
+									<td>98,000원 </td>
+								</tr>
+							</table>
+						</div>
+
+						<div class="flex-w flex-sb-m bor15 p-t-18 p-b-15 p-lr-40 p-lr-15-sm">
+			</div>
+		</div>
 	</div>
 	
 	<%@ include file="../common/footer.jsp" %>
