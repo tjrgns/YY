@@ -24,21 +24,21 @@
 	<div class="bg0 m-t-23 p-b-140">
 		<div class="container">
 			<div class="flex-w flex-sb-m p-b-52" style="height:75px;">
-				<div class="flex-w flex-l-m filter-tope-group m-tb-10" style="border-radius: 12px; border: 3px solid; border-color: #666666; color:#555;">
+				<div class="flex-w flex-l-m filter-tope-group m-tb-10">
 					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" style="font-size:30px;"data-filter="*">
-						Day
+						오늘
 					</button>
 
 					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" style="font-size:30px;" data-filter=".women">
-						Week
+						이번주
 					</button>
 
 					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" style="font-size:30px;" data-filter=".men">
-						Month
+						이번달
 					</button>
 
 					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" style="font-size:30px;" data-filter=".bag">
-						Year
+						올해
 					</button>
 					
 				
