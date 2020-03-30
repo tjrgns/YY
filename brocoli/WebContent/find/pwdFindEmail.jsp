@@ -14,55 +14,35 @@
   
 <title>비밀번호 이메일 인증</title>
 
-<style>
-	#all{
-		 margin: auto;
-      /* border:1px solid blue; */
-         width: 30%;
-         height: 80%; 	
-  		}
-  		
-	 #a{
-          margin: auto;
-         /*  border:1px solid red; */
-      }
-     #b{
-           margin: auto;
-           /* border:1px solid green; */
-           width:250px;
-       }
-      #logo{
-      
-       	margin: auto;
-       	/* border:1px solid pink; */
-       	height:20%
-       }
-
-</style>
 <%@ include file="/common/header.jsp" %>
  <%@ include file="/common/sidebar.jsp" %>
 
 </head>
 <body>
 
-<div id="all">
-<br>
-<h2 align="center" style="background: #222; color: white; padding:4%; text-align: center">비밀번호 찾기</h2><br>
-	<div id="logo">
-		<span style="font-size: 70px; margin-left: 5%;">B R O C O L I</span>
-	</div><br><br><br>
- <table id="a" >
-	        <tr>
-	            <td><input type="email" class="form-control form-control"
-	            placeholder="인증번호" style="width: 320px;"></td>
-	    </table><br><br>
-	     <table id="b">
-	        <tr>
-	            <td><button class="btn btn-primary btn-lg btn-block"
-	            style="background: #222; width: 320px; border: 1px solid #222;">인증 하기</button></td>
-	        </tr>
-	    </table>
-</div>
+	<!-- 수정자 : 박주완
+		수정일 : 2020-03-30
+		내용 : CSS수정 -->
+	<div id="login" class="container" style="text-align: center; width: 100%; height: 80%; padding-top: 5%;">
+
+		<div id="logo" class="flex-w flex-tr" style="margin-bottom: 40px;">
+			<p style="font-size: 55px; width: 100%; margin: 0 auto; color: #222; height: 60px;"><strong>B R O C O L I</strong></p>
+		</div>
+		<div style="margin-bottom: 25px;">
+			<h2 style="margin-bottom: 25px; color: #222; font-size: 30px;"><strong>비밀번호 찾기</strong></h2>
+			<input type="number"
+				class="form-control form-control"
+				style="border-radius: 5px; width: 320px; margin: 0 auto; height: 50px;"
+				placeholder="인증번호 입력 ">
+		</div>		
+		<div>
+			<button class="btn btn-primary btn-lg btn-block" onclick=""
+				style="background: #222; width: 320px; border: 1px solid #222; margin: 0 auto;">인증 하기</button>
+		</div>
+
+	</div>
+
+
 
 
   	<%@ include file="/common/footer.jsp" %>
