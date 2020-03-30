@@ -10,12 +10,13 @@
 <link rel="stylesheet" type="text/css" href="/brocoli/main/css/product_change.css">
 
 <style>
-.th{
-	padding:5px;
+
+.tb-center{
+padding : 5px;
 }
 
-.td{
-	padding:5px;
+#orderInfo .table-prdinfo .tb-center {
+padding : 5px;
 }
 
 </style>
@@ -182,11 +183,11 @@
             </colgroup>
            <thead>
                <tr>
-                   <th scope="row" colspan="2">
-                       <div class="tb-center">주문상품정보</div>
-                   </th>
                    <th scope="row">
-                       <div class="tb-center">상품별주문번호</div>
+                       <div class="tb-center">주문번호</div>
+                   </th>
+                   <th colspan="2">
+                       <div class="tb-center">주문상품정보</div>
                    </th>
                    <th scope="row">
                        <div class="tb-center">수량</div>
@@ -217,26 +218,18 @@
           <tbody>
               <tr>
                   <td>
-                      <div class="tb-center">
-                          <img src="" style="width: 58px; height:58px;">
-                      </div>
+                       <div class="tb-center">(주문번호)</div> 
                   </td>
-                  <td>
-                      <div class="tb-left">
-                          <a href="">
-                              (상품명)
-                              <br>
-                          </a>
-                          <span class="quantity order_table_Td style4">
-                            
-                                                             타입 : (상품 색상 타입)
-                          </span>
-                      </div>
-                  </td>
-                  <td>
-                     <div class="tb-center">(상품별주문번호)</div> 
-                  </td>
-                  <td>
+					<td colspan="2">
+						<div style="float: left;">
+							<img src="/brocoli/resources/product-Img/P11001.jpg" style="width: 58px; height: 78px;">
+						</div>
+						<div style="float: left;">
+							<a href=""> (상품명) <br>
+								</a> <span class="quantity order_table_Td style4"> 타입 : (상품색상 타입) </span>
+						</div>
+					</td>
+					<td>
                       <div class="tb-center">(수량)</div>
                   </td>
                   <td>
