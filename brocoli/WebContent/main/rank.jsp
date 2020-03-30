@@ -2,9 +2,16 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
+<head>
 <%@ include file="../common/header.jsp" %>
 <%@ include file="../common/sidebar.jsp" %>
 <%@ include file="../common/cart.jsp" %>
+<style>
+#header-color2{
+	color:#6c7ae0
+}
+</style>
+</head>
 <body class="animsition">
 	
 	

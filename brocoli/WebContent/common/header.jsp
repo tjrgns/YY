@@ -57,7 +57,6 @@
 		<!-- Header desktop -->
 		<div class="container-menu-desktop">
 			<!-- Topbar -->
-						<!-- Topbar -->
 			<div class="top-bar">
 				<div class="content-topbar flex-sb-m h-full container">
 					<div class="left-top-bar">
@@ -97,7 +96,7 @@
 					<div class="menu-desktop">
 						<ul class="main-menu">
 							<li>
-								<a href="/brocoli/main/index.jsp">Home</a>
+								<a href="/brocoli/main/index.jsp" id="header-color1">Home</a>
 <!-- 								<ul class="sub-menu main-menu">
 									<li><a href="index.jsp">Homepage 1</a></li>
 									<li><a href="home-02.jsp">Homepage 2</a></li>
@@ -105,24 +104,24 @@
 								</ul>  -->
 							</li>
 
-							<li>
-								<a href="/brocoli/main/rank.jsp">RANK</a>
-							</li>
-
 							<li class="label1" data-label1="hot">
-								<a href="/brocoli/main/brand.jsp">BRAND</a>
+								<a href="/brocoli/main/rank.jsp" id="header-color2">RANK</a>
 							</li>
 
 							<li>
-								<a href="/brocoli/main/product.jsp">SHOP</a>
-							</li>
-
-							<li class="active-menu">
-								<a href="/brocoli/main/magazine.jsp">MAGAZINE</a>
+								<a href="/brocoli/main/brand.jsp" id="header-color3">BRAND</a>
 							</li>
 
 							<li>
-								<a href="contact.jsp">Contact</a>
+								<a href="/brocoli/main/product.jsp" id="header-color4">SHOP</a>
+							</li>
+
+							<li>
+								<a href="/brocoli/main/magazine.jsp" id="header-color5">MAGAZINE</a>
+							</li>
+
+							<li>
+								<a href="contact.jsp" id="header-color6">Contact</a>
 							</li>
 						</ul>
 					</div>	
@@ -188,27 +187,25 @@
 			<ul class="topbar-mobile">
 				<li>
 					<div class="left-top-bar">
-						Free shipping for standard order over $100
+						Free shipping
 					</div>
 				</li>
 
 				<li>
 					<div class="right-top-bar flex-w h-full">
-						<a href="#" class="flex-c-m p-lr-10 trans-04">
-							Help & FAQs
+						<a href="/brocoli/board/noticeList.jsp" class="flex-c-m trans-04 p-lr-25" style="border-left:0px solid black;">
+							공지사항
 						</a>
 
-						<a href="#" class="flex-c-m p-lr-10 trans-04">
-							My Account
+						<a href="/brocoli/board/customerViewList.jsp" class="flex-c-m trans-04 p-lr-25">
+							자주묻는질문
 						</a>
 
-						<a href="#" class="flex-c-m p-lr-10 trans-04">
-							EN
+						<a href="/brocoli/login/login.jsp" class="flex-c-m trans-04 p-lr-25" style="border-right:0px solid black;">
+							Login
 						</a>
 
-						<a href="#" class="flex-c-m p-lr-10 trans-04">
-							USD
-						</a>
+						
 					</div>
 				</li>
 			</ul>

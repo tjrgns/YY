@@ -15,7 +15,7 @@
 
 	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/brocoli/main/images/bg-01.jpg');">
 		<h2 class="ltext-105 cl0 txt-center" style="color:white;">
-			My WishList
+			관심 상품 관리
 		</h2>
 	</section>	
 	<!-- breadcrumb -->
@@ -31,7 +31,7 @@
 			</a>
 
 			<span class="stext-109 cl4">
-				My WishList
+				관심 상품 관리
 			</span>
 		</div>
 	</div>
@@ -52,7 +52,7 @@
 									<th class="column-3">옵션1</th>
 									<th class="column-4">옵션2</th>
 									<th class="column-5">판매금액</th>
-									<th class="column-6">수량</th>
+									<th class="column-6">할인가</th>
 									<th class="column-7">총 금액</th>
 								</tr>
 
@@ -67,20 +67,8 @@
 									<td class="column-3">Red</td>
 									<td class="column-4">XL</td>
 									<td class="column-5">36,000원</td>
-									<td class="column-6">										
-										<div class="wrap-num-product flex-w m-l-auto m-r-0">
-											<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
-												<i class="fs-16 zmdi zmdi-minus"></i>
-											</div>
-	
-												<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product1" value="1">
-	
-											<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
-												<i class="fs-16 zmdi zmdi-plus"></i>
-											</div>
-										</div>
-									</td>
-									<td class="column-7">36,000원</td>
+									<td class="column-6">-2,000원</td>
+									<td class="column-7">34,000원</td>
 									
 								</tr>
 								
@@ -97,25 +85,13 @@
 									<td class="column-3">BLACK</td>
 									<td class="column-4">L</td>
 									<td class="column-5">72,000원</td>
-									<td class="column-6">
-									<div class="wrap-num-product flex-w m-l-auto m-r-0">
-											<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
-												<i class="fs-16 zmdi zmdi-minus"></i>
-											</div>
-
-											<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product2" value="1">
-
-											<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
-												<i class="fs-16 zmdi zmdi-plus"></i>
-											</div>
-										</div>
-									</td>
-									<td class="column-7">72,000원</td>
+									<td class="column-6">-4,000원</td>
+									<td class="column-7">68,000원</td>
 								</tr>
 								<tr style="height:100px;">
 									<td colspan="6"></td>
 									<td >총 금액 : </td>
-									<td>98,000원 </td>
+									<td>102,000원 </td>
 								</tr>
 							</table>
 						</div>
@@ -132,13 +108,13 @@
 								선택 상품 삭제
 							</div>
 						</div> -->
-						<div class="flex-c-m stext-101 cl2 size-118 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-5" style="background: #666666;
-   						 color: white; width: 200px; float: right;"	>
+						<div class="flex-c-m stext-101 cl2 size-118 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-5" style="background: #333;
+   						 color: white; width: 200px; float: right; border-radius:5px;"	>
 							장바구니에 담기
 						</div>
 						
-						<div class="flex-c-m stext-101 cl2 size-118 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-5" style="background: #666666;
-   						 color: white; width: 200px; float: right;"	>
+						<div class="flex-c-m stext-101 cl2 size-118 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-5" style="background: #333;
+   						 color: white; width: 200px; float: right; border-radius:5px;"	>
 							선택 상품 삭제
 						</div>
 					</div>
