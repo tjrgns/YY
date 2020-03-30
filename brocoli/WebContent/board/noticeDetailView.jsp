@@ -19,7 +19,7 @@
 		/* border:1px solid red; */
 		margin: auto;
 		width: 70%;
-		height: 100%;  	
+		height: 110%;  	
   		}
   		
   	.tableArea {
@@ -58,14 +58,20 @@
 				<td>ㅎ</td>
 			</tr>
 			<tr>
+				<td>첨부 파일</td>
+				<td>첨부하기</td>
+			</tr>
+			<tr>
 				<td>내용</td>
 				<td><textarea class="form-control" rows="5" id="comment" 
 				style="height: 250px; resize: none"></textarea></td>
 			</tr>				
 		</table>
 		<div align="center">
-		<button class="btn btn-outline-primary" style="background: #999; width: 300px; border: 1px solid #999; color: white">확인</button>
+		<button class="btn btn-primary" style="background: #999; width: 200px; border: 1px solid #999;">확인</button>
+		<button class="btn btn-primary" style="background: #999; width: 200px; border: 1px solid #999;">수정</button>
 		</div>
+		<br><br>
 </div>
 <%@ include file="/common/footer.jsp" %>
 	<%@ include file="/common/BacktoTop.jsp" %>

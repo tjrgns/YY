@@ -4,27 +4,141 @@
 <html>
 <head>
 <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<title>Insert title here</title>
-<style>
-	#all{
-		/* border:1px solid red; */ 
-		margin: auto;
-		width: 90%;
-		height: 700px;
-		overflow: auto;
-  		}
-</style>
+<title>자주 묻는 질문 </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  
   <%@ include file="/common/header.jsp" %>
+  
+  <style>
+    #all{
+		/* border:1px solid red; */
+		margin: auto;
+		width: 70%;
+		height: 110%;
+		display: grid; 	
+  		}
+  	#all th{
+  		text-align:center;
+  	}
+  		
+  </style>
+  
 </head>
 <body>
-
-<%@ include file="/common/footer.jsp" %>
-<%@ include file="/common/BacktoTop.jsp" %>
+<div id="all">
+<br>
+<h1 style="background: #333333; color: white; padding:4%; text-align: center">자주 묻는 질문</h1>
+<br>
+<table class="table table-hover" align="center">
+    <thead>
+      <tr>
+        <th style="width:10%">글번호</th>
+        <th style="width:60%">제목</th>
+        <th style="width:10%">작성자</th>
+        <th style="width:20%">작성일</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center">1</td>
+        <td align="center">배송이 안와요</td>
+        <td align="center">홍길동</td>
+        <td align="center">2020-03-21</td>
+      </tr>
+      
+       <tr>
+        <td align="center">2</td>
+        <td align="center">뭐가 안되요</td>
+        <td align="center">홍길동</td>
+        <td align="center">2020-03-21</td>
+      </tr>
+      
+       <tr>
+        <td align="center">3</td>
+        <td align="center">이것도 안되유</td>
+        <td align="center">홍길동</td>
+        <td align="center">2020-03-21</td>
+      </tr>
+      
+       <tr>
+        <td align="center">4</td>
+        <td align="center">저것도 안되유</td>
+        <td align="center">홍길동</td>
+        <td align="center">2020-03-21</td>
+      </tr>
+      
+       <tr>
+        <td align="center">5</td>
+        <td align="center">저것도 안되유</td>
+        <td align="center">홍길동</td>
+        <td align="center">2020-03-21</td>
+      </tr>
+      
+       <tr>
+        <td align="center">6</td>
+        <td align="center">저것도 안되유</td>
+        <td align="center">홍길동</td>
+        <td align="center">2020-03-21</td>
+      </tr>
+      
+       <tr>
+        <td align="center">7</td>
+        <td align="center">저것도 안되유</td>
+        <td align="center">홍길동</td>
+        <td align="center">2020-03-21</td>
+      </tr>
+      
+       <tr>
+        <td align="center">8</td>
+        <td align="center">저것도 안되유</td>
+        <td align="center">홍길동</td>
+        <td align="center">2020-03-21</td>
+      </tr>
+      
+       <tr>
+        <td align="center">9</td>
+        <td align="center">저것도 안되유</td>
+        <td align="center">홍길동</td>
+        <td align="center">2020-03-21</td>
+      </tr>
+      
+       <tr>
+        <td align="center">10</td>
+        <td align="center">저것도 안되유</td>
+        <td align="center">홍길동</td>
+        <td align="center">2020-03-21</td>
+      </tr>
+     
+    </tbody>
+  </table>
+  <ul class="pagination justify-content-center">
+    <li class="page-item"><a class="page-link" href="javascript:void(0);" style="color: #999">이전</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);" style="color: #999">1</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);" style="color: #999">2</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);" style="color: #999">다음</a></li>
+  </ul>
+  <div id="searchArea" align="center" >
+				<form action="${ contextPath }/search.bo" style="display: inline-flex;" >
+					<select id="searchCondition" name="condition">
+						<option>---------------------</option>
+						<option value="writer">작성자</option>
+						<option value="title">제목</option>
+						<option value="content">내용</option>					
+					</select>
+					<br>
+					<input type="search" name="search" class="form-control form-control" style="width:300px;">
+					<button class="btn btn-primary" style="background: #999; width: 100px; border: 1px solid #999;">검색하기</button>				
+				</form>			
+			</div>
+  </div>
+  
+  	<%@ include file="/common/footer.jsp" %>
+	<%@ include file="/common/BacktoTop.jsp" %>
 				
 <!--===============================================================================================-->   
    <script src="../main/vendor/jquery/jquery-3.2.1.min.js"></script>

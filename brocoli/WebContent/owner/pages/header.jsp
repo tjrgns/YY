@@ -298,7 +298,7 @@
                                             <a class="nav-link" href="/brocoli/owner/pages/alarm-setting.jsp">알림설정</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/brocoli/owner/pages/404-Page.jsp">브랜드관리</a>
+                                            <a class="nav-link" href="/brocoli/owner/pages/brand_setting.jsp">브랜드관리</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="/brocoli/owner/pages/404-Page.jsp">계정관리</a>

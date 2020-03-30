@@ -65,7 +65,7 @@
 					</div>
 
 					<div class="right-top-bar flex-w h-full" style="margin-left: 850px;">
-						<a href="#" class="flex-c-m trans-04 p-lr-25">
+						<a href="/brocoli/board/noticeList.jsp"" class="flex-c-m trans-04 p-lr-25">
 							Help & FAQs
 						</a>
 
@@ -84,7 +84,7 @@
 				<nav class="limiter-menu-desktop container">
 					
 					<!-- Logo desktop -->		
-					<a href="#" class="logo">
+					<a href="/brocoli/main/index.jsp" class="logo">
 						<img src="/brocoli/main/images/icons/logo-01.png" alt="IMG-LOGO">
 					</a>
 
@@ -113,7 +113,7 @@
 							</li>
 
 							<li class="active-menu">
-								<a href="/brocoli/main/blog.jsp">MAGAZINE</a>
+								<a href="/brocoli/main/magazine.jsp">MAGAZINE</a>
 							</li>
 
 							<li>
@@ -255,7 +255,7 @@
 					</button>
 					<input  class="plh3" type="text"  placeholder="Search..." >
 				</div>
-					<input class="plh3" id="searchbar" type="text" name="search" placeholder="Search...">
+					<!-- <input class="plh3" id="searchbar" type="text" name="search" placeholder="Search..."> -->
 				</form>
 			</div>
 		</div>
