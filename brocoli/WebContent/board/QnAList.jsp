@@ -149,7 +149,7 @@
   <div id="searchArea" align="center" >
 				<form action="${ contextPath }/search.bo" style="display: inline-flex;" >
 					<select id="searchCondition" name="condition">
-						<option>---------------------</option>
+						<option>--------선택--------</option>
 						<option value="writer">작성자</option>
 						<option value="title">제목</option>
 						<option value="content">내용</option>					

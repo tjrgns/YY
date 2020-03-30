@@ -47,35 +47,22 @@
 
 <div id="all">
 <br>
-<h2 align="center" style="background: #333333; color: white; padding:4%; text-align: center">아이디 찾기</h2><br>
+<h2 align="center" style="background: #222; color: white; padding:4%; text-align: center">아이디 찾기</h2><br>
 	<div id="logo">
-		<span style="font-size: 70px; margin-left: 5%;">B R O C O L I</span>
-	</div>
+		<span style="font-size: 70px; margin-left: 5%; width: 450px;">B R O C O L I</span>
+	</div><br><br><br>
 	  <table id="a" >
+	        
 	        <tr>
-	            <td align="right">
-	              	  이 름 : &nbsp;
-	            </td>
-	            <td><input type="text" class="form-control form-control"></td>
-	        </tr>
-	        <tr>
-	            <td align="right"> 
-	            	    주민등록 번호 : &nbsp; 
-	            </td>
-	            <td><input type="text" class="form-control form-control"></td>
-	        </tr>
-	        <tr>
-	            <td align="right"> 
-	            	   이 메 일 : &nbsp;
-	            </td>
-	            <td><input type="email" class="form-control form-control"></td>
+	            <td><input type="email" class="form-control form-control"
+	            placeholder="이메일" style="width: 320px;"></td>
 	        </tr>	
-	    </table><br>
+	    </table><br><br>
 	<div >
 	    <table id="b" align="center">
 	        <tr>
 	            <td><a class="btn btn-primary btn-lg btn-block" onclick="location.href='/brocoli/find/idFindEmail.jsp'"
-	            style="background: #999; width: 290px; border: 1px solid #999;">인증번호 받기</a></td>
+	            style="background: #222; width: 320px; border: 1px solid #222; color: white">인증번호 받기</a></td>
 	        </tr>
 	    </table>
 	    </div>

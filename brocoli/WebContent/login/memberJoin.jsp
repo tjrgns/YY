@@ -21,8 +21,8 @@
           height: 150%;
 	}
 	
-	.form-group{
-	    border: 1px solid #999;
+	#all2{
+	    border: 1px solid #222;
    		border-radius: 10px;
    		padding: 16px
     }
@@ -33,11 +33,12 @@
     }
 	
 	#agree{
-		border: 1px solid #999;
+		border: 1px solid #222;
 		font-size:80%;
-		width:95%;
-		height:100px;
+		width:99%;
+		height:150px;
 	}
+	
 </style>
 <%@ include file="/common/header.jsp" %>
 <%@ include file="/common/sidebar.jsp" %>
@@ -48,6 +49,7 @@
 	<div id="all">
 			<h2 style="background: #222; color: white; padding:4%; text-align: center">회원 가입</h2><Br>
 			<hr>
+	<div id="all2">
 		<div class="form-group">
       		<label for="userId">이름 : </label>
     		<input type="text" class="form-control" id="userId" name="userId" style="width:80%;">
@@ -57,7 +59,7 @@
       		<label for="userId">아이디 : </label>
       		<div style="display: flex;">
     		<input type="text" class="form-control" id="userId" name="userId" style="width:80%;"> &nbsp;&nbsp;&nbsp;
-    		<button class="btn btn-primary" style="background: #222; border: 1px solid #999; width: 20%;">중복확인</button>
+    		<button class="btn btn-primary" style="background: #222; border: 1px solid #999; width: 19%;">중복확인</button>
     		</div>
    		</div>
    		
@@ -101,8 +103,18 @@
    		
    		<div class="form-group">
       		<label for="year">배송지 입력 : </label>
-    		<input type="text" class="form-control" id="year" name="year" style="width:80%;">
+      		<div style="display: flex;">
+      		<input type="text" class="form-control" id="year" name="year" style="width:30%;">&nbsp;&nbsp;&nbsp;
+      		<button class="btn btn-primary" style="background: #222; border: 1px solid #999; width: 20%;">우편번호 검색</button>
+      		</div>
+      		<br>
+      		<div>
+    		<input type="text" class="form-control" id="year" name="year" style="width:80%;" placeholder="상세주소">    		
    		</div>
+   		
+   	</div>
+ </div>
+   	<br>
    		<div class="form-group">
    			<label for="Agree">이용 약관 동의</label>
    			<div style="display: inline-flex">
@@ -372,7 +384,8 @@
 7)
 기타 관련법령에 의하여 수출입이 제한되는 물품을 대상으로 한 경우
 
-제12조(지급방법) “몰”에서 구매한 재화 또는 용역에 대한 대금지급방법은 다음 각 호의 방법중 가용한 방법으로 할 수 있습니다.
+제12조(지급방법) “몰”에서 구매한 재화 또는 용역에 대한 대금지급방법은 다음 각 호의 방법중 가용한 방법으로 
+할 수 있습니다.
 단, “몰”은 이용자의 지급방법에 대하여 재화 등의 대금에 어떠한 명목의 수수료도 추가하여 징수할 수 없습니다.
 
 1. 폰뱅킹, 인터넷뱅킹, 메일 뱅킹 등의 각종 계좌이체
@@ -438,8 +451,8 @@
 
 제17조(긴급조치)
 
-① "몰"이용자는 위법, 불법 또는 부당한 목적을 위해 서비스를 이용한다고 "몰"이 판단하는 때에는 "몰"은 관련 물품의 수취나 
-배송을 거절할 권리를 가집니다.
+① "몰"이용자는 위법, 불법 또는 부당한 목적을 위해 서비스를 이용한다고 "몰"이 판단하는 때에는 "몰"은 
+관련 물품의 수취나 배송을 거절할 권리를 가집니다.
 
 ② 관할관청 또는 당국에 의해 "몰"에 의해 서비스되는 물품에 대해 제재를 받았을 때 "몰"은 해당물품을 관할관청 또는 
 당국에 인도하는 것을 원칙으로 합니다.
@@ -460,8 +473,9 @@
 「전자상거래 등에서의 소비자보호에 관한 법률 시행령」
 제21조의2에서 정하는 지연이자율을 곱하여 산정한 지연이자를 지급합니다.
 
-② “몰”은 위 대금을 환급함에 있어서 이용자가 신용카드 또는 전자화폐 등의 결제수단으로 재화 등의 대금을 지급한 때에는 
-지체 없이 당해 결제수단을 제공한 사업자로 하여금 재화 등의 대금의 청구를 정지 또는 취소하도록 요청합니다.
+② “몰”은 위 대금을 환급함에 있어서 이용자가 신용카드 또는 전자화폐 등의 결제수단으로 재화 등의 
+대금을 지급한 때에는 지체 없이 당해 결제수단을 제공한 사업자로 하여금 재화 등의 대금의 청구를 
+정지 또는 취소하도록 요청합니다.
 
 ③ 청약철회 등의 경우 공급받은 재화 등의 반환에 필요한 비용은 이용자가 부담합니다. “몰”은 이용자에게 청약철회 등을 
 이유로 위약금 또는 손해배상을 청구하지 않습니다. 다만 재화 등의 내용이 표시•광고 내용과 다르거나 
@@ -483,14 +497,15 @@
 제3자에게 제공하는 경우에는 이용•제공단계에서 당해 이용자에게 그 목적을 고지하고 동의를 받습니다. 
 다만, 관련 법령에 달리 정함이 있는 경우에는 예외로 합니다.
 
-⑤ “몰”이 제2항과 제3항에 의해 이용자의 동의를 받아야 하는 경우에는 개인정보관리 책임자의 신원(소속, 성명 및 전화번호, 기타 연락처),
- 정보의 수집목적 및 이용목적, 제3자에 대한 정보제공 관련사항(제공받은자, 제공목적 및 제공할 정보의 내용) 등
-  「정보통신망 이용촉진 및 정보보호 등에 관한 법률」 제22조제2항이 규정한 사항을 미리 명시하거나 고지해야 하며 이용자는 
-  언제든지 이 동의를 철회할 수 있습니다.
+⑤ “몰”이 제2항과 제3항에 의해 이용자의 동의를 받아야 하는 경우에는 개인정보관리 책임자의 신원
+(소속, 성명 및 전화번호, 기타 연락처), 정보의 수집목적 및 이용목적, 
+제3자에 대한 정보제공 관련사항(제공받은자, 제공목적 및 제공할 정보의 내용) 등
+ 「정보통신망 이용촉진 및 정보보호 등에 관한 법률」 제22조제2항이 규정한 사항을 미리 명시하거나 
+ 고지해야 하며 이용자는 언제든지 이 동의를 철회할 수 있습니다.
 
 ⑥ 이용자는 언제든지 “몰”이 가지고 있는 자신의 개인정보에 대해 열람 및 오류정정을 요구할 수 있으며 “몰”은 이에 
-대해 지체 없이 필요한 조치를 취할 의무를 집니다. 이용자가 오류의 정정을 요구한 경우에는 “몰”은 그 오류를 정정할 때까지 당해 
-개인정보를 이용하지 않습니다.
+대해 지체 없이 필요한 조치를 취할 의무를 집니다. 이용자가 오류의 정정을 요구한 경우에는 “몰”은 
+그 오류를 정정할 때까지 당해 개인정보를 이용하지 않습니다.
 ⑦ “몰”은 개인정보 보호를 위하여 이용자의 개인정보를 취급하는 자를 최소한으로 제한하여야 하며 신용카드, 
 은행계좌 등을 포함한 이용자의 개인정보의 분실, 도난, 유출, 동의 없는 제3자 제공, 변조 등으로 인한 
 이용자의 손해에 대하여 모든 책임을 집니다.
@@ -556,7 +571,8 @@
 
 제25조(분쟁해결)
 
-① “몰”은 이용자가 제기하는 정당한 의견이나 불만을 반영하고 그 피해를 보상처리하기 위하여 피해보상처리기구를 설치․운영합니다.
+① “몰”은 이용자가 제기하는 정당한 의견이나 불만을 반영하고 그 피해를 보상처리하기 위하여
+ 피해보상처리기구를 설치․운영합니다.
 
 ② “몰”은 이용자로부터 제출되는 불만사항 및 의견은 우선적으로 그 사항을 처리합니다. 
 다만, 신속한 처리가 곤란한 경우에는 이용자에게 그 사유와 처리일정을 즉시 통보해 드립니다.
@@ -604,12 +620,11 @@
    		</div>
    		
    		</div>
-   		
+   		<br>
    		<div style="margin-left: 40%">
    		<button type="submit" class="btn btn-primary" style="background: #222; width: 300px; border: 1px solid #222;">가   입</button>
    		</div>
-	</div>
-	<br>
+	<br><br>
 	
 </form>
 		<%@ include file="/common/footer.jsp" %>
