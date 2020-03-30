@@ -1783,7 +1783,7 @@
                      <img src="images/product-01.jpg" alt="IMG-PRODUCT">
 
                      <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-                        Quick View
+                       	 미리보기
                      </a>
                   </div>
 
@@ -1815,7 +1815,7 @@
                      <img src="images/product-02.jpg" alt="IMG-PRODUCT">
 
                      <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-                        Quick View
+                     	   미리보기
                      </a>
                   </div>
 
@@ -2071,7 +2071,7 @@
                      <img src="images/product-10.jpg" alt="IMG-PRODUCT">
 
                      <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-                        Quick View
+                       	미리보기
                      </a>
                   </div>
 
@@ -2103,7 +2103,7 @@
                      <img src="images/product-11.jpg" alt="IMG-PRODUCT">
 
                      <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-                        Quick View
+                   	    미리보기
                      </a>
                   </div>
 
@@ -2135,7 +2135,7 @@
                      <img src="images/product-12.jpg" alt="IMG-PRODUCT">
 
                      <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-                        Quick View
+                        	미리보기
                      </a>
                   </div>
 
@@ -2167,7 +2167,7 @@
                      <img src="images/product-13.jpg" alt="IMG-PRODUCT">
 
                      <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-                        Quick View
+                      	  미리보기
                      </a>
                   </div>
 
