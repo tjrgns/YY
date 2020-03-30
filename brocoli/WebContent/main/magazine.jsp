@@ -30,7 +30,7 @@
 					Home > Magazine
 						<!-- item blog -->
 						<div class="p-b-63">
-							<a href="blog-detail.jsp" class="hov-img0 how-pos5-parent">
+							<a href="magazine-detail.jsp" class="hov-img0 how-pos5-parent">
 								<img src="images/blog-04.jpg" alt="IMG-BLOG">
 
 								<div class="flex-col-c-m size-123 bg9 how-pos5">
@@ -46,7 +46,7 @@
 
 							<div class="p-t-32">
 								<h4 class="p-b-15">
-									<a href="blog-detail.jsp" class="ltext-108 cl2 hov-cl1 trans-04">
+									<a href="magazine-detail.jsp" class="ltext-108 cl2 hov-cl1 trans-04">
 										프레젠테이션 | [Brocoli 매거진] 운동도 전부 템빨인 거 다 알지?
 									</a>
 								</h4>
@@ -73,7 +73,7 @@
 										</span>
 									</span>
 
-									<a href="blog-detail.jsp" class="stext-101 cl2 hov-cl1 trans-04 m-tb-10">
+									<a href="magazine-detail.jsp" class="stext-101 cl2 hov-cl1 trans-04 m-tb-10">
 										더보기
 
 										<i class="fa fa-long-arrow-right m-l-9"></i>
@@ -84,7 +84,7 @@
 						Home > Magazine
 						<!-- item blog -->
 						<div class="p-b-63">
-							<a href="blog-detail.jsp" class="hov-img0 how-pos5-parent">
+							<a href="magazine-detail.jsp" class="hov-img0 how-pos5-parent">
 								<img src="images/blog-05.jpg" alt="IMG-BLOG">
 
 								<div class="flex-col-c-m size-123 bg9 how-pos5">
@@ -100,7 +100,7 @@
 
 							<div class="p-t-32">
 								<h4 class="p-b-15">
-									<a href="blog-detail.jsp" class="ltext-108 cl2 hov-cl1 trans-04">
+									<a href="magazine-detail.jsp" class="ltext-108 cl2 hov-cl1 trans-04">
 										프레젠테이션 | 데님 팬츠, 오래오래 새것처럼 입는 법
 									</a>
 								</h4>
@@ -127,7 +127,7 @@
 										</span>
 									</span>
 
-									<a href="blog-detail.jsp" class="stext-101 cl2 hov-cl1 trans-04 m-tb-10">
+									<a href="magazine-detail.jsp" class="stext-101 cl2 hov-cl1 trans-04 m-tb-10">
 										더보기
 
 										<i class="fa fa-long-arrow-right m-l-9"></i>
@@ -138,7 +138,7 @@
 						Home > Magazine
 						<!-- item blog -->
 						<div class="p-b-63">
-							<a href="blog-detail.jsp" class="hov-img0 how-pos5-parent">
+							<a href="magazine-detail.jsp" class="hov-img0 how-pos5-parent">
 								<img src="images/blog-06.jpg" alt="IMG-BLOG">
 
 								<div class="flex-col-c-m size-123 bg9 how-pos5">
@@ -154,7 +154,7 @@
 
 							<div class="p-t-32">
 								<h4 class="p-b-15">
-									<a href="blog-detail.jsp" class="ltext-108 cl2 hov-cl1 trans-04">
+									<a href="magazine-detail.jsp" class="ltext-108 cl2 hov-cl1 trans-04">
 										프레젠테이션 | 티셔츠 하나 바꿨는데 스타일이 업그레이드!
 									</a>
 								</h4>
@@ -181,7 +181,7 @@
 										</span>
 									</span>
 
-									<a href="blog-detail.jsp" class="stext-101 cl2 hov-cl1 trans-04 m-tb-10">
+									<a href="magazine-detail.jsp" class="stext-101 cl2 hov-cl1 trans-04 m-tb-10">
 										더보기
 
 										<i class="fa fa-long-arrow-right m-l-9"></i>

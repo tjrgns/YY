@@ -149,13 +149,16 @@
                                         </div>
                                     </th>
                                     <td>
-                                        <div class="custom_select cb_clear" :before>
-                                            <div>
-                                            </div>(생년월일 만들어야함)
-                                            <input type="radio" name="sex" value="1" class="MS_radio"> 남
-                                            <input type="radio" name="sex" value="2" class="MS_radio"> 여
+                                        <div class="custom_select cb_clear ">
+                                            
+                                            <input type="text" name="year" value="year" style="display:inline-block;"> 년
+                                            <input type="text" name="month" value="month" style="display:inline-block;"> 생
+                                            <input type="text" name="day" value="day" style="display:inline-block;"> 일
+                                            
+                                            <input type="radio" name="sex" value="1" class="MS_radio" style="display:inline-block;"> 남
+                                            <input type="radio" name="sex" value="2" class="MS_radio" style="display:inline-block;"> 여
                                    
-                                        </div>
+                                        </div >
                                     </td>  
                                 </tr>
                                 <tr>
@@ -168,9 +171,9 @@
                                         <div class="arr_line">
                                             <ul>
                                                 <li class="input_num">
-                                                    <input type="text" name="hpost1" form="join_form" id="hpost1" class="MS_input_txt" value="" size="3" maxlength="3" onfocus="this.blur();">
+                                                    <input type="text" name="hpost1" form="join_form" id="hpost1" class="MS_input_txt" value="" size="3" maxlength="3" onfocus="this.blur();" style="display:inline-block;">
                                                        -
-                                                       <input type="text" name="hpost2" form="join_form" id="hpost2" class="MS_input_txt" value="" size="3" maxlength="3" onfocus="this.blur();">
+                                                       <input type="text" name="hpost2" form="join_form" id="hpost2" class="MS_input_txt" value="" size="3" maxlength="3" onfocus="this.blur();" style="display:inline-block;">
                                                        <span>
                                                         <a href="javascript:post(1);" class="submit_button" alt="우편번호검색">우편번호 검색</a>
                                                        </span>   
@@ -192,7 +195,8 @@
                                     </th>
                                     <td>
                                         <div>
-                                                <input type="text" name="hphone" form="join_form" id="hphone" class="MS_input_tel w180" size="15" maxlength="30" value="">												</div>
+                                                <input type="text" name="hphone" form="join_form" id="hphone" class="MS_input_tel w180" size="15" maxlength="30" value="">												
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
@@ -202,72 +206,25 @@
                                     </th>
                                     <td>
                                         <div>
-                                                <input type="hidden" name="oldemail" value="agui36@hanmail.net">
-                                                <input type="text" name="email" id="email" class="MS_input_txt MS_input_txt06 w180" size="20" maxlength="35" value="" onchange="this.form.emailcheck.value=''">																											<span><a href="javascript:emailcheck('N', 'N');" class="submit_button" alt="중복확인">중복확인</a></span>
+                                                <input type="hidden" name="oldemail" value="agui36@hanmail.net" >
+                                                <input type="text" name="email" id="email" class="MS_input_txt MS_input_txt06 w180" size="20" maxlength="35" value="" onchange="this.form.emailcheck.value=''" style="display:inline-block;">																											
+                                                <span>
+                                                   <a href="javascript:emailcheck('N', 'N');" class="submit_button" alt="중복확인">중복확인</a>
+                                                </span>
+                                        </div>        
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th><div>&nbsp;&nbsp;회사전화</div></th>
-                                    <td>
-                                        <div>
-                                                <input type="text" name="ophone" id="ophone" class="MS_input_tel w180" size="15" maxlength="30" value="">												</div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th class="arr_line"><div>&nbsp;&nbsp;회사주소</div></th>
-                                    <td>
-                                        <div class="arr_line">
-                                            <ul>
-                                                <li class="input_num">
-                                                     <input type="text" name="opost1" id="opost1" class="MS_input_txt" value="" size="3" maxlength="3" onfocus="this.blur();">
-                                                       -
-                                                     <input type="text" name="opost2" id="opost2" class="MS_input_txt" value="" size="3" maxlength="3" onfocus="this.blur();">															<a href="javascript:post(2);" class="submit_button" alt="우편번호검색">우편번호 검색</a>
-                                                </li>
-                                                <li class="margin_none">
-                                                    <input type="text" name="oaddress" id="oaddress" class="MS_input_txt w600" value="" size="40" maxlength="100">														</li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                               </tr>
-                               <tr>
-                                <th>
+                                  <th>
                                     <div>&nbsp;&nbsp;휴대폰</div>
-                                </th>
+                                  </th>
                                 <td>
                                     <div>
-                                        <input type="text" name="etcphone" form="join_form" id="etcphone" class="MS_input_tel w180" size="15" maxlength="30" value="">												</div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <div>&nbsp;&nbsp;뉴스메일</div>
-                                </th>
-                                <td>
-                                    <div>
-                                        <label style="margin-right:20px;">        
-                                            <input type="radio" name="emailreceive" value="Y"> 받습니다.
-                                        </label>
-                                        <label>        
-                                            <input type="radio" name="emailreceive" value="N" checked=""> 받지 않습니다.
-                                        </label>
+                                        <input type="text" name="etcphone" form="join_form" id="etcphone" class="MS_input_tel w180" size="15" maxlength="30" value="">												
                                     </div>
                                 </td>
                             </tr>
-                            <tr>
-                                <th>
-                                    <div>&nbsp;&nbsp;SMS안내</div>
-                                </th>
-                                <td>
-                                    <div>
-                                        <label style="margin-right:20px;">        
-                                            <input type="radio" name="smsreceive" form="join_form" value="Y"> 받습니다.
-                                        </label>
-                                        <label>        
-                                            <input type="radio" name="smsreceive" form="join_form" value="N" checked=""> 받지 않습니다.
-                                        </label>
-                                    </div>
-                                </td>
-                            </tr>                 
+                                
                           </tbody>
                         </table>
                     </li>
