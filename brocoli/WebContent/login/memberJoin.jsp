@@ -46,7 +46,7 @@
 
 <form>
 	<div id="all">
-			<h2 style="background: #333333; color: white; padding:4%; text-align: center">회원 가입</h2><Br>
+			<h2 style="background: #222; color: white; padding:4%; text-align: center">회원 가입</h2><Br>
 			<hr>
 		<div class="form-group">
       		<label for="userId">이름 : </label>
@@ -57,7 +57,7 @@
       		<label for="userId">아이디 : </label>
       		<div style="display: flex;">
     		<input type="text" class="form-control" id="userId" name="userId" style="width:80%;"> &nbsp;&nbsp;&nbsp;
-    		<button class="btn btn-primary" style="background: #999; border: 1px solid #999; width: 20%;">중복확인</button>
+    		<button class="btn btn-primary" style="background: #222; border: 1px solid #999; width: 20%;">중복확인</button>
     		</div>
    		</div>
    		
@@ -606,7 +606,7 @@
    		</div>
    		
    		<div style="margin-left: 40%">
-   		<button type="submit" class="btn btn-primary" style="background: #999; width: 300px; border: 1px solid #999;">가   입</button>
+   		<button type="submit" class="btn btn-primary" style="background: #222; width: 300px; border: 1px solid #222;">가   입</button>
    		</div>
 	</div>
 	<br>

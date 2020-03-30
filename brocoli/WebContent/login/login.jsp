@@ -70,7 +70,7 @@
 	    <table id="b">
 	        <tr>
 	            <td><button class="btn btn-primary btn-lg btn-block"
-	            style="background: #999; width: 290px; border: 1px solid #999;">로그인</button></td>
+	            style="background: #222; width: 290px; border: 1px solid #222;">로그인</button></td>
 	        </tr>
 	    </table><br>
 	
