@@ -5,16 +5,8 @@
 <%@ include file="../common/header.jsp" %>
 <%@ include file="../common/sidebar.jsp" %>
 <%@ include file="../common/cart.jsp" %>
-<style>
-li > button > img{
-height : 125px;
-width : 125px;
-border-radius: 70%;
-overflow: hidden;
-}
 
-</style>
-
+<link rel="stylesheet" type="text/css" href="/brocoli/main/css/SRCSS.css">
 <body class="animsition">
 
    <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/brocoli/main/images/bg-02.jpg');">
@@ -58,25 +50,32 @@ overflow: hidden;
          </div>
          
   <!-- 브랜드 시작 -->
-  <div class="wrap-filter flex-w ">
-                  <div class="filter-col1 p-r-15 p-b-27" style="width:100%;">
+  <section class="brlist wrap-filter flex-w ">
+                  <div class="filter-col1  " style="width:100%;">
          <div>
 			 	<label style="font-size:30px;">브랜드</label>
 			</div>
          <hr style="border: 1px solid grey;">
          <div class="brandSR">
-         <ul style="display : inline-block">
+         <ol class="olf">
          	<li><button><img src="images/nike.png" /><br><p>Nike</p></button></li>
          	<li><button><img src="images/adidas.jpg" /><br><p>adidas</p></button></li>
-         	</ul>
-         	<ul style="display : inline-block">
-         	<li><button><img src="images/puma.png" /><br><p>puma</p></button></li>
+         	<li><button><img src="images/puma.png" /><br><p>PUMA</p></button></li>
          	<li><button><img src="images/lecoq.png" /><br><p>le coq</p></button></li>
+         	<li><button><img src="images/dynafit.png" /><br><p>DYNAFIT</p></button></li>
+         	</ol>
          	
-         	</ul>
+         	<ol class="ols">
+         	<li><button><img src="images/nike.png" /><br><p>Nike</p></button></li>
+         	<li><button><img src="images/adidas.jpg" /><br><p>adidas</p></button></li>
+         	<li><button><img src="images/puma.png" /><br><p>PUMA</p></button></li>
+         	<li><button><img src="images/lecoq.png" /><br><p>le coq</p></button></li>
+         	<li><button><img src="images/dynafit.png" /><br><p>DYNAFIT</p></button></li>
+         	
+         	</ol>
          </div>
        </div>
-       </div>
+       </section>
 <hr style="border: 1px solid grey;">
 <!--  브랜드 끝 -->
 <!-- 상품 시작 -->
