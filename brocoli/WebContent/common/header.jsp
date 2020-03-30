@@ -65,7 +65,7 @@
 					</div>
 
 					<div class="right-top-bar flex-w h-full" style="margin-left: 850px;">
-						<a href="#" class="flex-c-m trans-04 p-lr-25">
+						<a href="/brocoli/board/noticeList.jsp"" class="flex-c-m trans-04 p-lr-25">
 							Help & FAQs
 						</a>
 

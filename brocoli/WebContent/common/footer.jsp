@@ -73,13 +73,13 @@ font-size: 15px;
 						</li>
 
 						<li class="p-b-10">
-							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+							<a href="/brocoli/board/QnAList.jsp" class="stext-107 cl7 hov-cl1 trans-04">
 								문의하기
 							</a>
 						</li>
 
 						<li class="p-b-10">
-							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+							<a href="/brocoli/board/customerViewList.jsp" class="stext-107 cl7 hov-cl1 trans-04">
 								FAQs
 							</a>
 						</li>
@@ -126,12 +126,13 @@ font-size: 15px;
 							<div class="focus-input1 trans-04"></div>
 						</div>
 
+					</form>
 						<div class="p-t-18">
-							<button class="flex-c-m stext-101 cl0 size-103 bg1 bor1 hov-btn2 p-lr-15 trans-04">
-								입점문의
+							<button class="flex-c-m stext-101 cl0 size-103 bg1 bor1 hov-btn2 p-lr-15 trans-04"
+							 onclick="location.href='/brocoli/login/enterStore.jsp' ">
+								입점 문의
 							</button>
 						</div>
-					</form>
 				</div>
 			</div>
 
