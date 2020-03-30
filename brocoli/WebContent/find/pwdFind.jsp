@@ -40,7 +40,7 @@
 
 </style>
 <%@ include file="/common/header.jsp" %>
-
+<%@ include file="/common/sidebar.jsp" %>
 
 </head>
 <body>
@@ -56,7 +56,7 @@
    					 width: 320px" placeholder="아이디 "><br>
 	
 		<input type="password" class="form-control form-control" style="border-radius: 10px;
-   					 width: 320px" placeholder="비밀번호 ">
+   					 width: 320px" placeholder="이메일">
 	</div><br>
 	<div>
 	    <table id="b" align="center">
