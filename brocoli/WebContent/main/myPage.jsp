@@ -21,12 +21,12 @@
     <div id="contentWrapper"  style="padding-top: 0px;">
         <div id="contentWrap">
             <div id="content">
-                <div id="mypage" class="mypage SMP-container" style="WIDTH: 80%; MARGIN: 0px auto;">
+                <div id="mypage" class="mypage SMP-container" >
                     <!-- mypage common section -->
                     <div class="mypage-common-container">
                         <!-- mypage link section -->
                         <div class="mypage-link-container">
-                            <a href="home-03.html" class="home">home</a>
+                            <a href="index.jsp" class="home">home</a>
 							<a href="/shop/mypage.html" class="test">"MY PAGE"</a>
 						</div>
 						<!-- mypage link section-->
@@ -36,43 +36,47 @@
                     <div class="mypage-member-info-container">
 
                         <div class="mypage-member-info">
-                            <div class="member-id-container cd_clear">
+                            <div class="member-id-container">
                                 <div class="group-image">
-                                    <img src="/brocoli/main/images/about-01.jpg" alt="이미지" style="width: 150px; height: 150px; border-radius: 70%; top: -48px;">
-                                </div>
-                                <div style="width:400px; text-align: right;">
+                                    <img src="/brocoli/main/images/about-01.jpg" alt="이미지" style="width: 60px; height: 60px; border-radius: 30%; top: -10px;">
+                                </div class="test2">
+                                <div style="padding-left: 70px;">
                                 <p>안녕하세요.
                                     <span class="id">김주희</span> 님
 								</p>
-								<p style="margin-top: 4%;">
+								<p>
 									 오늘도 좋은하루 되세요.
 								</p>
 								</div>
 							</div>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <div class="member-reserve-container" style="margin-left: 13%;">
-                                <p style="font-size: 25px;">적립금</p>
+                            <div class="member-reserve-container" :after>
+                                <p>적립금</p>
                                 <p>
                                     <a href="" class="reserve"></a>
                                     <span>원</span>
 								</p>
                             </div>
                             <div class="member-deposit-container" :after>
-                                <p style="margin-bottom: 15%; font-size: 25px;">총 주문건수</p>
+                                <p>총 주문건수</p>
                                 <p>
-									<a href="" class="order-total"></a>
+                                    <a href="" class="deposit"></a>
                                     <span>건</span>
 								</p>
-							<div class="member-order-total-price-container"></div>	
-                            </div>
+                            </div>	
+							<div class="member-order-total-price-container">
+							     <p>총 주문금액<p>
+							      <p>
+							        <a href="" class="order-total-price"></a>
+							        <span>원</span>
+							      </p>  
+							</div>	
                         </div>
                     </div>
                     <!-- mypage member info section-->
                     <!-- mypage menu list section-->
                     <div class="mypage-menu-container">
                         <ul class="mypage-menu-list">
-                            <li class="my-info" img="/brocoli/main/images/icon/">
+                            <li class="my-info" img="/brocoli/main/images/mypage_me3.png">
                                 <a href="">
                                     <h4>개인정보관리</h4>
                                     <p>
@@ -82,16 +86,16 @@
                                     </p>
                                 </a>
                             </li>
-                            <li class="order-list">
+                            <li class="order-list" img="/brocoli/main/images/mypage_list2.png">
                                 <a href="/brocoli/main/orderlist.jsp">
-                                    <h4>주문상품관리</h4>
+                                    <h4>주문현황</h4>
                                     <p>"주문한 상품을 하는데"
                                         <br>
                                         "확인할 수 있습니다."
                                     </p>
                                 </a>
                             </li>
-                            <li class="wish-list">
+                            <li class="wish-list" img="/brocoli/main/images/mypage_like2.png">
                                 <a href="/brocoli/main/wishlist.jsp">
                                     <h4>관심상품관리</h4>
                                     <p>"내가 찜 해둔 상품을"
@@ -100,16 +104,16 @@
                                     </p>
                                 </a>
                             </li>
-                            <li class="reserve-deposit">
-                                <a href="">
-                                    <h4>적립금</h4>
-                                    <p>"적립금을"
+                            <li class="reserve-deposit" img="/brocoli/main/images/mypage_cart.png">
+                                <a href="/brocoli/main/shoping-cart.jsp">
+                                    <h4>장바구니</h4>
+                                    <p>"장바구니를"
                                         <br>
                                         "확인할 수 있습니다."
                                     </p>
                                 </a>
                             </li>
-                            <li class="my-article" img="/brocoli/main/images/icons/내가.png">
+                            <li class="my-article" img="/brocoli/main/images/mypage_my.png">
                                 <a href="">
                                     <h4>내가 쓴 글 보기</h4>
                                     <p>"주문관련문의, 상품후기 등"
@@ -117,9 +121,6 @@
                                         "모든 게시글을 확인할 수 있습니다."
                                     </p>
                                 </a>
-                            </li>
-                            <li class="with-drw">
-                                <a href="">회원탈퇴하기 ></a>
                             </li>
                         </ul>
                     </div>
