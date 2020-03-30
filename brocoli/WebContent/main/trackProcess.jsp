@@ -66,7 +66,7 @@
 		border-top:3px solid black;
 		height: 35px;
 	 }
-	 .orderview{
+	 .trackview{
 		 border: 1px solid #c3bdbd; 
 		 padding: 4px; 
 		 margin-left: 10px; 
@@ -175,7 +175,7 @@ i.fa{
 				</td>
 				<td style="border: 1px solid #6666;"><b style="font-size:20px;">배송중</b></td>
 				<td style="border: 1px solid #6666;">
-				<button class="orderview">배송추적</button>
+				<button class="trackview">배송추적</button>
 				<!-- <button class="orderview" style="margin-top:30px;"> 리뷰 확인</button> -->
 				</td>
 			</tr>
@@ -212,7 +212,7 @@ i.fa{
 				</td>
 				<td style="border: 1px solid #6666;"><b style="font-size:20px;">배송중</b></td>
 				<td style="border: 1px solid #6666;">
-				<button class="orderview">배송추적</button>
+				<button class="trackview">배송추적</button>
 				<!-- <button class="orderview" style="margin-top:30px;"> 리뷰 확인</button> -->
 				</td>
 			</tr>			
@@ -227,6 +227,12 @@ i.fa{
 
 	<%@ include file="../common/BacktoTop.jsp" %>
 	
+	
+	<script>
+	$(".trackview").on('click',function(){
+		window.open("trackDetail.jsp", "trackDetail", "width=400, height=300, left=100, top=50");
+	});
+	</script>
 <!--===============================================================================================-->   
    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
