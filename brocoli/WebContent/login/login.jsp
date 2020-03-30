@@ -47,20 +47,22 @@
 	<div id="login">
 	
 	<div id="logo">
-		<span style="font-size: 70px; margin-left: 5%;">B R O C O L I</span>
+		<span style="font-size: 450%; margin-left: 5%;">B R O C O L I</span>
 	</div>
 	    <table id="a" >
 	        <tr>
 	            <td align="right">
 	              	  로 그 인 : &nbsp;
 	            </td>
-	            <td><input type="text" class="form-control form-control"></td>
+	            <td><input type="text" class="form-control form-control"
+	           		 placeholder="아이디 입력"></td>
 	        </tr>
 	        <tr>
 	            <td align="right"> 
 	            	    비밀 번호 : &nbsp;
 	            </td>
-	            <td><input type="password" class="form-control form-control"></td>
+	            <td><input type="password" class="form-control form-control"
+	            	placeholder="비밀번호 입력"></td>
 	        </tr>	
 	    </table><br>
 	
