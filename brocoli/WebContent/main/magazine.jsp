@@ -6,6 +6,12 @@
 	<%@ include file="../common/header.jsp" %>
 <%@ include file="../common/cart.jsp" %>
 <%@ include file="../common/sidebar.jsp" %>
+
+<style>
+#header-color5{
+	color:#6c7ae0
+}
+</style>
 </head>
 <body class="animsition">
 	

@@ -123,13 +123,13 @@
 
 							</div> -->
 
-							<div class="flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10" style="margin-left: 88%; background: #666666;
-    					color: white;">
+							<div class="flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10" style="margin-left: 88%; background: #333;
+    					color: white; border-radius:5px;">
 								선택 상품 삭제
 							</div>
 						</div>
-						<div class="flex-c-m stext-101 cl2 size-118 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-5" style="background: #666666;
-   						 color: white;"	>
+						<div class="flex-c-m stext-101 cl2 size-118 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-5" style="background: #333;
+   						 color: white; border-radius:5px;"	>
 							주문 하기
 						</div>
 					</div>

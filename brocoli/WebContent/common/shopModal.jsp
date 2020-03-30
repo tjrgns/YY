@@ -19,28 +19,51 @@
 <body>
 					<div class="col-md-6 col-lg-5 p-b-30">
 						<div class="p-r-50 p-t-5 p-lr-0-lg">
-							<h4 class="mtext-105 cl2 js-name-detail p-b-14">
-								아우터
-							</h4>
-
-							<span class="mtext-106 cl2">
-								60,000원
-							</span>
-
-							<p class="stext-102 cl3 p-t-23">
-								상품설명
+							<p class="stext-102 cl3 p-t-23" style="display:inline-block; padding:5px; font-size:30px;">
+								<strong>그냥 아우터</strong>
+							</p>
+							<br>
+							<p class="stext-102 cl3 p-t-23 " style="display:inline-block; padding:5px;">
+								<strong>브랜드  </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ABC
+							</p>
+							&nbsp;&nbsp;&nbsp;
+							<p class="stext-102 cl3 p-t-23" style="display:inline-block; padding:5px;">
+								<strong>상품번호 </strong>&nbsp;&nbsp;&nbsp; AB12CD34
+							</p>
+							<br>
+							<p class="stext-102 cl3 p-t-23" style="display:inline-block; padding:5px;">
+								<strong>조회 수 </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3,000
+							</p>
+							<br>
+							<p class="stext-102 cl3 p-t-23" style="display:inline-block; padding:5px;">
+								<strong>구매후기  </strong>&nbsp;&nbsp;&nbsp; 20개
+							</p>
+							<br>
+							<hr>
+							<p class="stext-102 cl3 p-t-23" style="display:inline-block; padding:5px;">
+								<strong>판매가  </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<span style="font-size:18px;"><strong><strike>36,000원</strike></strong></span>
+							</p>
+							<br>
+							<p class="stext-102 cl3 p-t-23" style="display:inline-block; padding:5px;">
+								<strong>할인가  </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<span style="font-size:18px;"><strong>34,000원</strong></span>
+							</p>		
+							<br>					
+							<p class="stext-102 cl3 p-t-23" style="display:inline-block; padding:5px;">
+								<strong>상품 설명  </strong><br>
+								
+								 ㅁㄹㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴ
 							</p>
 							
 							<!--  -->
 							<div class="p-t-33">
 								<div class="flex-w flex-r-m p-b-10">
-									<div class="size-203 flex-c-m respon6">
-										Size
-									</div>
+
 
 									<div class="size-204 respon6-next">
-										<div class="rs1-select2 bor8 bg0">
-											<select class="js-select2" name="time">
+										<div class="rs1-select2 bor8 bg0" style="margin-left: -100px;">
+											<select class="js-select2" name="time" >
 												<option>선택</option>
 												<option>Size S</option>
 												<option>Size M</option>
@@ -53,12 +76,10 @@
 								</div>
 
 								<div class="flex-w flex-r-m p-b-10">
-									<div class="size-203 flex-c-m respon6">
-										Color
-									</div>
+
 
 									<div class="size-204 respon6-next">
-										<div class="rs1-select2 bor8 bg0">
+										<div class="rs1-select2 bor8 bg0" style="margin-left: -100px;">
 											<select class="js-select2" name="time">
 												<option>선택</option>
 												<option>Red</option>
@@ -87,11 +108,12 @@
 
 									</div>
 									<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail"
-									style="color: white; background-color: #666666;">
+									style="color: white; background-color: #333; border-radius:5px; ">
 										즉시 결제
 									</button>
+									&nbsp;&nbsp;&nbsp;
 									<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail"
-									style="color: white; background-color: #666666;">
+									style="color: white; background-color: #333; border-radius:5px;">
 										장바구니+
 									</button>
 								</div>	
@@ -117,32 +139,7 @@
 									<i class="fa fa-google-plus"></i>
 								</a>
 							</div>
-							 <!-- 
-					   	작성자 : 윤석훈
-					   	작성일 : 2020-03-18
-					   	내용 : 해당상품 다른 컬러 보기
-					    -->
-						<!-- 해당 제품의 다른 색상  이미지(white-space:nowrap으로 가로정렬 함)-->
-						<div style="overflow-x: scroll; white-space:nowrap; width:530px; height:308px; margin-top: 30px; ">
-						
-						<div class="img_color">
-						<img src="images/product-detail-01.jpg" alt="IMG-PRODUCT" style="width:260px; height:260px;">
-						</div>
 
-						<div class="img_color" >
-						<img src="images/product-detail-01.jpg" alt="IMG-PRODUCT" style="width:260px; height:260px;">
-						</div>
-						
-						<div class="img_color">
-						<img src="images/product-detail-01.jpg" alt="IMG-PRODUCT" style="width:260px; height:260px;">
-						</div>
-						
-						<div class="img_color">
-						<img src="images/product-detail-01.jpg" alt="IMG-PRODUCT" style="width:260px; height:260px;">
-						</div>
-						
-						</div>
-						<!-- ----------끝----------- -->
 						</div>
 					</div>
 </body>

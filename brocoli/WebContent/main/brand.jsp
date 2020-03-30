@@ -2,11 +2,16 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="ko">
+<head>
 <%@ include file="../common/header.jsp" %>
 <%@ include file="../common/sidebar.jsp" %>
 <%@ include file="../common/cart.jsp" %>
-
-
+<style>
+#header-color3{
+	color:#6c7ae0
+}
+</style>
+</head>
 <body class="animsition">
 
    <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/brocoli/main/images/bg-02.jpg');">
@@ -1778,7 +1783,7 @@
                      <img src="images/product-01.jpg" alt="IMG-PRODUCT">
 
                      <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-                        Quick View
+                       	 미리보기
                      </a>
                   </div>
 
@@ -1810,7 +1815,7 @@
                      <img src="images/product-02.jpg" alt="IMG-PRODUCT">
 
                      <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-                        Quick View
+                     	   미리보기
                      </a>
                   </div>
 
@@ -2066,7 +2071,7 @@
                      <img src="images/product-10.jpg" alt="IMG-PRODUCT">
 
                      <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-                        Quick View
+                       	미리보기
                      </a>
                   </div>
 
@@ -2098,7 +2103,7 @@
                      <img src="images/product-11.jpg" alt="IMG-PRODUCT">
 
                      <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-                        Quick View
+                   	    미리보기
                      </a>
                   </div>
 
@@ -2130,7 +2135,7 @@
                      <img src="images/product-12.jpg" alt="IMG-PRODUCT">
 
                      <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-                        Quick View
+                        	미리보기
                      </a>
                   </div>
 
@@ -2162,7 +2167,7 @@
                      <img src="images/product-13.jpg" alt="IMG-PRODUCT">
 
                      <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-                        Quick View
+                      	  미리보기
                      </a>
                   </div>
 

@@ -3,10 +3,17 @@
 
 <!DOCTYPE html>
 <html lang="en">
+<head>
 <%@ include file="../common/header.jsp" %>
 <%@ include file="../common/sidebar.jsp" %>
 <%@ include file="../common/cart.jsp" %>
 <%@ include file="../common/section-slide.jsp" %>
+<style>
+#header-color1{
+	color:#6c7ae0
+}
+</style>
+</head>
 <body class="animsition">
 
 
