@@ -81,22 +81,17 @@
 	                                                        <h2 class="mb-1">DIM. E CRES</h2>
 	                                                    </div>
 	                                                    <div class="rating-star  d-inline-block">
-	                                                        <i class="fa fa-fw fa-star"></i>
-	                                                        <i class="fa fa-fw fa-star"></i>
-	                                                        <i class="fa fa-fw fa-star"></i>
-	                                                        <i class="fa fa-fw fa-star"></i>
-	                                                        <i class="fa fa-fw fa-star"></i>
-	                                                        <p class="d-inline-block text-dark">145 새 후기</p>
+	                                                      
 	                                                    </div>
 	                                                </div>
 	                                                <!--  <div class="float-right"><a href="#" class="user-avatar-email text-secondary">www.henrybarbara.com</a></div> -->
 	                                                <div class="user-avatar-address">
 	                                                    <p class="border-bottom pb-3">
-	                                                        <span class="d-xl-inline-block d-block mb-2"><i class="fa fa-map-marker-alt mr-2 text-primary "></i>서울 강남구 압구정로60길 21 / 청담동 89 (우)06019 02-2056-1234 </span>
-	                                                        <span class="mb-2 ml-xl-4 d-xl-inline-block d-block">입점일 : 2020-03-27 </span>
-	                                                        <span class=" mb-2 d-xl-inline-block d-block ml-xl-4">대표
-	                                                                </span>
-	                                                        <span class=" mb-2 d-xl-inline-block d-block ml-xl-4">박주완 </span>
+	                                                        <span class="d-xl-inline-block d-block mb-2"><i class="fa fa-map-marker-alt mr-2 text-primary "></i>서울 강남구 압구정로60길 21 / 청담동 89 (우)06019</span>
+	                                                        <span class="mb-2 ml-xl-4 d-xl-inline-block d-block"><i class="fas fa-phone-volume" style="color: skyblue; font-size: 17px;"></i> 02-9547-0000</span>
+	                                                        <span class="mb-2 ml-xl-4 d-xl-inline-block d-block"><i class="fas fa-file-signature"></i> 입점일 : 2020-03-27 </span>
+	                                                        <span class="mb-2 ml-xl-4 d-xl-inline-block d-block"><i class="fas fa-user-tie"></i>대표 :</span>
+	                                                        <span class="mb-2 ml-xl-4 d-xl-inline-block d-block">박주완 </span>
 	                                                    </p>
 	                                                    <div class="mt-3">
 	                                                        <a href="#" class="badge badge-light mr-1">Fitness</a> <a href="#" class="badge badge-light mr-1">Life Style</a> <a href="#" class="badge badge-light">Gym</a>
