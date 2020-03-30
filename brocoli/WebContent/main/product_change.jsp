@@ -9,6 +9,17 @@
 
 <link rel="stylesheet" type="text/css" href="/brocoli/main/css/product_change.css">
 
+<style>
+.th{
+	padding:5px;
+}
+
+.td{
+	padding:5px;
+}
+
+</style>
+
 <head>
 <meta charset="UTF-8">
 <title>product change</title>
