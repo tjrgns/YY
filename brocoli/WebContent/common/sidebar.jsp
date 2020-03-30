@@ -72,14 +72,14 @@
 					</li>
 
 					<li class="p-b-13">
-						<a href="/brocoli/board/noticeList.jsp" class="stext-102 cl2 hov-cl1 trans-04">
-							Help 
+						<a href="/brocoli/board/QnAList.jsp" class="stext-102 cl2 hov-cl1 trans-04">
+							문의사항
 						</a>
 					</li>
 					
 					<li class="p-b-13">
 						<a href="/brocoli/board/customerViewList.jsp" class="stext-102 cl2 hov-cl1 trans-04">
-							FAQs 
+							자주묻는질문
 						</a>
 					</li>					
 				</ul>

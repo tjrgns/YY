@@ -64,15 +64,15 @@
 						Free shipping
 					</div>
 
-					<div class="right-top-bar flex-w h-full" style="margin-left: 800px;">
+					<div class="right-top-bar flex-w h-full" style="margin-left: 782px;">
 						<a href="/brocoli/board/noticeList.jsp"" class="flex-c-m trans-04 p-lr-25">
-							Help
+							공지사항
 						</a>
 					</div>
 					
 					<div class="right-top-bar flex-w h-full">
 						<a href="/brocoli/board/customerViewList.jsp"" class="flex-c-m trans-04 p-lr-25">
-							FAQs
+							자주묻는질문
 						</a>
 					</div>
 					

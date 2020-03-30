@@ -80,7 +80,7 @@ font-size: 15px;
 
 						<li class="p-b-10">
 							<a href="/brocoli/board/customerViewList.jsp" class="stext-107 cl7 hov-cl1 trans-04">
-								FAQs
+								자주묻는질문
 							</a>
 						</li>
 					</ul>
