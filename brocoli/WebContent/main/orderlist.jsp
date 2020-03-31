@@ -96,6 +96,8 @@
     <br><br>
 	<!--  좌측 메뉴바 -->
 	<!-- 상단 주문기간 검색 -->
+	
+	<div class="container">
 	<div>
 	
 	<div style="width:1330px; margin:15px auto; border-bottom:1px solid #666">
@@ -135,7 +137,6 @@
 	</div>
 	<!-- 끝 -->
 
-		<div class="container">
 			<div class="row">
 				<div class="col-lg-10 col-xl-7 m-lr-auto m-b-50" style="margin-left: -1%;">
 					<div class="m-l-25 m-r--38 m-lr-0-xl">
