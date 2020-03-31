@@ -12,7 +12,6 @@
 	    padding-top: 1%;
 	    text-align:center;
 	    margin:2% auto;
-	    width:1330px;
 	}
 	
 	.btn-term{
@@ -99,7 +98,7 @@
 	
 	<div class="container">
 		
-	<div style="max-width:1330px; margin:15px auto; border-bottom:1px solid #666">
+	<div style=" margin:15px auto; border-bottom:1px solid #666">
 	<label style=" display:inline-block; font-size:20px; "><b>주문 정보</b></label>
 <!-- 	<button style="display:inline-block; float:right; margin-left: 10%; color: #555; margin-right: 30%;">환불</button>&nbsp;
 	<button style="display:inline-block; float:right; margin-left: 10%; color: #555;">교환</button>&nbsp;
@@ -136,7 +135,7 @@
 	</div>
 	<!-- 끝 -->
 
-			<div class="row">
+			<div class="row" style="padding: 15px;">
 							<table class="table-shopping-cart">
 								<tr class="table_head" >
 									<th style="width:8%; text-align:center;">주문번호</th>
@@ -170,7 +169,7 @@
 									<td style="text-align:center;">68,000원</td>
 									<td style="text-align:center; font-size:13px; color: #555;"><strong>주문완료</strong><br>
 									<td style="text-align:center;">
-									<button class="ord-btn"><strong>상세 조회</strong></button>
+									<button class="ord-btn"><strong>상세 보기</strong></button>
 									<button class="ord-btn"><strong>교환/반품</strong></button>
 									<button class="ord-btn"><strong>리뷰 작성</strong></button>
 									</td>
@@ -195,7 +194,7 @@
 									<td style="text-align:center;">68,000원</td>
 									<td style="text-align:center;"><!-- <span style="color:blue;">●</span> --><strong>배송 중</strong></td>
 									<td style="text-align:center;">
-									<button class="ord-btn"><strong>상세 조회</strong></button>
+									<button class="ord-btn"><strong>상세 보기</strong></button>
 									<button class="ord-btn"><strong>교환/반품</strong></button>
 									<button class="ord-btn"><strong>리뷰 작성</strong></button>
 									</td>
