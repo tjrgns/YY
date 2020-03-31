@@ -77,7 +77,7 @@
                     <div class="mypage-menu-container">
                         <ul class="mypage-menu-list">
                             <li class="my-info" img="/brocoli/main/images/mypage_me1.png">
-                                <a href="">
+                                <a href="/brocoli/main/myInformation.jsp">
                                     <h4>개인정보관리</h4>
                                     <p>
                                         "개인정보를 수정 및 관리"

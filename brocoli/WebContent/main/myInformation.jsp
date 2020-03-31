@@ -9,10 +9,49 @@
 
 <link rel="stylesheet" type="text/css" href="/brocoli/main/css/myInformation.css">
 
-<head>
+<style>
+button{
+  background:#000000;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:0 4em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#fff;
+  color:#000000;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #000000;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+</style>
+
+
 <meta charset="UTF-8">
 <title>My information</title>
-</head>
 <body>
 
 
@@ -95,7 +134,7 @@
                                 <tr>
                                     <th>
                                         <div>
-                                            <span class="fc_brown">*</span>이름
+                                            <span class="fc_brown">*</span> 이름
                                         </div>
                                     </th>
                                     <td>
@@ -107,12 +146,11 @@
                                 <tr>
                                    <th>
                                        <div>
-                                           <span class="fc_brown">*</span>아이디
+                                           <span class="fc_brown">*</span> 아이디
                                        </div>
                                    </th>
                                    <td>
                                        <div>
-                                           (아이디)
                                            <input type="hidden" name="id" id="id" value="">
                                        </div>
                                    </td> 
@@ -133,7 +171,7 @@
                                 <tr>
                                     <th>
                                         <div>
-                                            <span class="fc_brown">*</span>비밀번호 확인
+                                            <span class="fc_brown">*</span> 비밀번호 확인
                                         </div>
                                     </th>
                                     <td>
@@ -145,21 +183,32 @@
                                 <tr>
                                     <th>
                                         <div>
-                                            <span class="fc_brown">*</span>생일/성별
+                                            <span class="fc_brown">*</span> 생년월일
                                         </div>
                                     </th>
                                     <td>
-                                        <div class="custom_select cb_clear ">
-                                            
+                                        <div class="custom_select cb_clear " style="margin-left: -251px;">
+                                           <div>
                                             <input type="text" name="year" value="year" style="display:inline-block;"> 년
                                             <input type="text" name="month" value="month" style="display:inline-block;"> 생
                                             <input type="text" name="day" value="day" style="display:inline-block;"> 일
-                                            
-                                            <input type="radio" name="sex" value="1" class="MS_radio" style="display:inline-block;"> 남
-                                            <input type="radio" name="sex" value="2" class="MS_radio" style="display:inline-block;"> 여
-                                   
-                                        </div >
-                                    </td>  
+                                           </div>
+                                         </div>
+                                      </td>  
+                                  </tr>
+                                  <tr>
+                                     <th>
+                                        <div>
+                                            <span class="fc_brown">*</span> 성별
+                                        </div>
+                                      </th>
+                                      <td>                                   
+                                         <div style="margin-left: -660px;">
+                                            <input type="radio" name="sex" value="1" class="MS_radio" style="display: inline-block;">남
+                                            &nbsp;&nbsp;&nbsp;&nbsp;
+                                            <input type="radio" name="sex" value="2" class="MS_radio" style="display: inline-block;"> 여
+                                         </div> 
+                                       </td>  
                                 </tr>
                                 <tr>
                                     <th class="arr_line">
@@ -170,7 +219,7 @@
                                     <td>
                                         <div class="arr_line">
                                             <ul>
-                                                <li class="input_num">
+                                                <li class="input_num" style="margin-left: -507px;">
                                                     <input type="text" name="hpost1" form="join_form" id="hpost1" class="MS_input_txt" value="" size="3" maxlength="3" onfocus="this.blur();" style="display:inline-block;">
                                                        -
                                                        <input type="text" name="hpost2" form="join_form" id="hpost2" class="MS_input_txt" value="" size="3" maxlength="3" onfocus="this.blur();" style="display:inline-block;">
@@ -207,16 +256,13 @@
                                     <td>
                                         <div>
                                                 <input type="hidden" name="oldemail" value="agui36@hanmail.net" >
-                                                <input type="text" name="email" id="email" class="MS_input_txt MS_input_txt06 w180" size="20" maxlength="35" value="" onchange="this.form.emailcheck.value=''" style="display:inline-block;">																											
-                                                <span>
-                                                   <a href="javascript:emailcheck('N', 'N');" class="submit_button" alt="중복확인">중복확인</a>
-                                                </span>
+                                                <input type="text" name="email" id="email" class="MS_input_txt MS_input_txt06 w180" size="20" maxlength="35" value="" onchange="this.form.emailcheck.value=''">
                                         </div>        
                                     </td>
                                 </tr>
                                 <tr>
                                   <th>
-                                    <div>&nbsp;&nbsp;휴대폰</div>
+                                    <div><span class="fc_brown">*</span> 휴대폰</div>
                                   </th>
                                 <td>
                                     <div>
@@ -228,17 +274,19 @@
                           </tbody>
                         </table>
                     </li>
-                    <::after></::after>
                 </ul>
             </div>
             <!-- #personInfo -->
-            <div class="btn-area">
-                <a id="SP_join" href="javascript:send();">
-                    <img alt="수정완료" src="/design/label55/smartpc_2019/img/join_new_rewrite_btn.gif">
-                </a>
-                <a href="Javascript:history.back()">
-                    <img alt="돌아가기" src="/design/label55/smartpc_2019/img/join_new_cancel_btn.gif">
-                </a>
+            <div style="padding-top: 9px; padding-right: 50px;">
+                <button style="height: 35px; width: 140px; border-radius: 3px;  padding:0px; padding-bottom:2px;">
+                   <a href="mypage.jsp" style="width:100%; color:#fff; font-size: 11px; ">
+                       <strong>수정</strong></a>
+                 </button>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <button style="height: 35px; width: 140px; border-radius: 3px;  padding:0px; padding-bottom:2px;">
+                    <a href="mypage.jsp" style="width:100%; color:#fff; font-size: 11px; ">
+                    <strong>삭제</strong></a>
+                 </button>
             </div>
         </form>
     </div>
@@ -250,5 +298,114 @@
         </div>
         <!-- #contentWrap -->
     </div>
+    
+    
+<%@ include file="../common/footer.jsp" %>
+<%@ include file="../common/BacktoTop.jsp" %>
+
+	<!--===============================================================================================-->   
+   <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+   <script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+   <script src="vendor/bootstrap/js/popper.js"></script>
+   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+   <script src="vendor/select2/select2.min.js"></script>
+   <script>
+      $(".js-select2").each(function(){
+         $(this).select2({
+            minimumResultsForSearch: 20,
+            dropdownParent: $(this).next('.dropDownSelect2')
+         });
+      })
+   </script>
+<!--===============================================================================================-->
+   <script src="vendor/daterangepicker/moment.min.js"></script>
+   <script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+   <script src="vendor/slick/slick.min.js"></script>
+   <script src="js/slick-custom.js"></script>
+<!--===============================================================================================-->
+   <script src="vendor/parallax100/parallax100.js"></script>
+   <script>
+        $('.parallax100').parallax100();
+   </script>
+<!--===============================================================================================-->
+   <script src="vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
+   <script>
+      $('.gallery-lb').each(function() { // the containers for all your galleries
+         $(this).magnificPopup({
+              delegate: 'a', // the selector for gallery item
+              type: 'image',
+              gallery: {
+                 enabled:true
+              },
+              mainClass: 'mfp-fade'
+          });
+      });
+   </script>
+<!--===============================================================================================-->
+   <script src="vendor/isotope/isotope.pkgd.min.js"></script>
+<!--===============================================================================================-->
+   <script src="vendor/sweetalert/sweetalert.min.js"></script>
+   <script>
+      $('.js-addwish-b2, .js-addwish-detail').on('click', function(e){
+         e.preventDefault();
+      });
+
+      $('.js-addwish-b2').each(function(){
+         var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
+         $(this).on('click', function(){
+            swal(nameProduct, "is added to wishlist !", "success");
+
+            $(this).addClass('js-addedwish-b2');
+            $(this).off('click');
+         });
+      });
+
+      $('.js-addwish-detail').each(function(){
+         var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();
+
+         $(this).on('click', function(){
+            swal(nameProduct, "is added to wishlist !", "success");
+
+            $(this).addClass('js-addedwish-detail');
+            $(this).off('click');
+         });
+      });
+
+      /*---------------------------------------------*/
+
+      $('.js-addcart-detail').each(function(){
+         var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
+         $(this).on('click', function(){
+            swal(nameProduct, "is added to cart !", "success");
+         });
+      });
+   
+   </script>
+<!--===============================================================================================-->
+   <script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+   <script>
+      $('.js-pscroll').each(function(){
+         $(this).css('position','relative');
+         $(this).css('overflow','hidden');
+         var ps = new PerfectScrollbar(this, {
+            wheelSpeed: 1,
+            scrollingThreshold: 1000,
+            wheelPropagation: false,
+         });
+
+         $(window).on('resize', function(){
+            ps.update();
+         })
+      });
+   </script>
+<!--===============================================================================================-->
+   <script src="js/main.js"></script>
+  
+    
+    
 </body>
 </html>
