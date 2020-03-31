@@ -98,9 +98,8 @@
 	<!-- 상단 주문기간 검색 -->
 	
 	<div class="container">
-	<div>
-	
-	<div style="width:1330px; margin:15px auto; border-bottom:1px solid #666">
+		
+	<div style="max-width:1330px; margin:15px auto; border-bottom:1px solid #666">
 	<label style=" display:inline-block; font-size:20px; "><b>주문 정보</b></label>
 <!-- 	<button style="display:inline-block; float:right; margin-left: 10%; color: #555; margin-right: 30%;">환불</button>&nbsp;
 	<button style="display:inline-block; float:right; margin-left: 10%; color: #555;">교환</button>&nbsp;
@@ -138,9 +137,6 @@
 	<!-- 끝 -->
 
 			<div class="row">
-				<div class="col-lg-10 col-xl-7 m-lr-auto m-b-50" style="margin-left: -1%;">
-					<div class="m-l-25 m-r--38 m-lr-0-xl">
-						<div class="wrap-table-shopping-cart" style="width:1330px;">
 							<table class="table-shopping-cart">
 								<tr class="table_head" >
 									<th style="width:8%; text-align:center;">주문번호</th>
@@ -205,12 +201,9 @@
 									</td>
 								</tr>
 							</table>
-							<br><br><br><br>
-						</div>
-					</div>
-				</div>
 			</div>
-		</div>
+							<br><br><br><br>
+		
 	</div>
 	
 	<%@ include file="../common/footer.jsp" %>
