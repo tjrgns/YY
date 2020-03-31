@@ -15,58 +15,35 @@
 <title>아이디 찾기</title>
 
 <style>
-	#all{
-		 margin: auto;
-      /* border:1px solid blue; */
-         width: 30%;
-         height: 80%; 	
-  		}
-  		
-	 #a{
-          margin: auto;
-         /*  border:1px solid red; */
-      }
-     #b{
-           margin: auto;
-           /* border:1px solid green; */
-           width:250px;
-       }
-      #logo{
-      
-       	margin: auto;
-       	/* border:1px solid pink; */
-       	height:20%
-       }
 
 </style>
 <%@ include file="/common/header.jsp" %>
-
+ <%@ include file="/common/sidebar.jsp" %>
 
 </head>
 <body>
 
-<div id="all">
-<br>
-<h2 align="center" style="background: #222; color: white; padding:4%; text-align: center">아이디 찾기</h2><br>
-	<div id="logo">
-		<span style="font-size: 70px; margin-left: 5%; width: 450px;">B R O C O L I</span>
-	</div><br><br><br>
-	  <table id="a" >
-	        
-	        <tr>
-	            <td><input type="email" class="form-control form-control"
-	            placeholder="이메일" style="width: 320px;"></td>
-	        </tr>	
-	    </table><br><br>
-	<div >
-	    <table id="b" align="center">
-	        <tr>
-	            <td><a class="btn btn-primary btn-lg btn-block" onclick="location.href='/brocoli/find/idFindEmail.jsp'"
-	            style="background: #222; width: 320px; border: 1px solid #222; color: white">인증번호 받기</a></td>
-	        </tr>
-	    </table>
-	    </div>
-</div>
+	<!-- 수정자 : 박주완
+		수정일 : 2020-03-30
+		내용 : CSS수정 -->
+	<div id="login" class="container" style="text-align: center; width: 100%; height: 80%; padding-top: 5%;">
+
+		<div id="logo" class="flex-w flex-tr" style="margin-bottom: 40px;">
+			<p style="font-size: 55px; width: 100%; margin: 0 auto; color: #222; height: 60px;"><strong>B R O C O L I</strong></p>
+		</div>
+		<div style="margin-bottom: 25px;">
+			<h2 style="margin-bottom: 25px; color: #222; font-size: 30px;"><strong>아이디찾기</strong></h2>
+			<input type="email"
+				class="form-control form-control"
+				style="border-radius: 5px; width: 320px; margin: 0 auto; height: 50px;"
+				placeholder="이메일 ">
+		</div>		
+		<div>
+			<a class="btn btn-primary btn-lg btn-block" onclick="location.href='/brocoli/find/idFindEmail.jsp'"
+				style="background: #222; width: 320px; border: 1px solid #222; margin: 0 auto; color: white;">인증번호 발송</a>
+		</div>
+
+	</div>
 
   	<%@ include file="/common/footer.jsp" %>
 	<%@ include file="/common/BacktoTop.jsp" %>

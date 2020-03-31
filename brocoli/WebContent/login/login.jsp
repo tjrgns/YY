@@ -14,80 +14,39 @@
 <title>로그인 창</title>
 
   <style>
-         #login{
-             margin: auto;
-             margin-top: 30px;
-             /* border:1px solid blue; */
-             width: 30%;
-             height: 60%;
-         }
-         #a{
-            margin-left: 65px;
-            /* border:1px solid red;  */
-         }
-         #b{
-             margin: auto;
-           /*   border:1px solid green;  */
-             width:250px;
-         }
-
-         #c{
-             margin: auto;
-           /*   border:1px solid grey; */
-         }
-         
-         #logo{
-         	margin: auto;
-         	/* border:1px solid pink; */
-         	height:30%
-         }
+ 
+          
         </style>
 <%@ include file="/common/header.jsp" %>
 <%@ include file="/common/sidebar.jsp" %>
 </head>
 <body>
-	<div id="login">
-	
-	<div id="logo" style="width:">
-		<p style="font-size: 450%; margin-left: 5%; width: 450px;">B R O C O L I</p>
-	</div>
-	<br><br>
-	<div id="a">
-		<input type="text" class="form-control form-control" style="border-radius: 10px;
-   					 width: 320px" placeholder="아이디 "><br>
-	
-		<input type="password" class="form-control form-control" style="border-radius: 10px;
-   					 width: 320px" placeholder="비밀번호 ">
-	</div><br>
-	    <!-- <table id="a" >
-	        <tr>	           
-	            <td><input type="text" class="form-control form-control" style="border-radius: 10px;
-   					 width: 320px" placeholder="아이디 "></td>
-   				
-	        </tr>
-	        <tr>
-	          
-	            <td><input type="password" class="form-control form-control"style="border-radius: 10px;
-   					 width: 320px" placeholder="비밀번호 "></td>
-	        </tr>	
-	    </table><br> -->
-	
-	    <table id="b">
-	        <tr>
-	            <td><button class="btn btn-primary btn-lg btn-block"
-	            style="background: #222; width: 320px; border: 1px solid #222;">로그인</button></td>
-	        </tr>
-	    </table><br>
-	
-	    <table id="c">
-	        <tr>
-	            <td align="center">
-	                <a href="/brocoli/login/memberJoin.jsp">회원가입</a> &nbsp;&nbsp;
-	                <a href="/brocoli/find/idFind.jsp">아이디 찿기</a>&nbsp;&nbsp;
-	                <a href="/brocoli/find/pwdFind.jsp">비밀번호 찿기</a>
-	            </td>                    
-	        </tr>
-	    </table>
+	<!-- 수정자 : 박주완
+		수정일 : 2020-03-30
+		내용 : CSS수정 -->
+	<div id="login" class="container" style="text-align: center; width: 100%; height: 80%; padding-top: 5%;">
+
+		<div id="logo" class="flex-w flex-tr" style="margin-bottom: 55px;">
+			<p style="font-size: 55px; width: 100%; margin: 0 auto; color: #222; height: 60px;"><strong>B R O C O L I</strong></p>
+		</div>
+		<div style="margin-bottom: 25px;">
+			<input type="text" class="form-control form-control"
+				style="border-radius: 5px; width: 320px; margin: 0 auto; margin-bottom: 10px; height: 50px;"
+				placeholder="아이디 ">
+			<input type="password"
+				class="form-control form-control"
+				style="border-radius: 5px; width: 320px; margin: 0 auto; height: 50px;"
+				placeholder="비밀번호 ">
+		</div>		
+		<div>
+			<button class="btn btn-primary btn-lg btn-block"
+				style="background: #222; width: 320px; border: 1px solid #222; margin: 0 auto;">로그인</button>
+			<br>
+			<a href="/brocoli/login/memberJoin.jsp">회원가입</a> &nbsp;&nbsp; 
+			<a href="/brocoli/find/idFind.jsp">아이디 찿기</a>&nbsp;&nbsp; 
+			<a href="/brocoli/find/pwdFind.jsp">비밀번호 찿기</a>
+		</div>
+
 	</div>
 
 

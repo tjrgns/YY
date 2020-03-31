@@ -74,45 +74,55 @@
    		</div>
    		
    		<div class="form-group">
-      		<label for="userId">이메일 : </label>
-    		<input type="text" class="form-control" id="userId" name="userId" style="width:80%;">
-   		</div>
-   		
-   		<div class="form-group">
-      		<label for="phone">핸드폰 번호 : </label>
-    		<input type="text" class="form-control" id="phone" name="phone" style="width:80%;">
-   		</div>
-   		
-   		<div class="form-group">
       		<label for="year">생년월일 : </label>
     		<input type="text" class="form-control" id="year" name="year" style="width:80%;">
    		</div>
    		
    		<div class="form-group" >
-   		<label for="year">성별 : </label>
-   		
-   		<div style="display: inline-flex">
-   			<input type="checkBox" name="cate" id="ck" value="">&nbsp; 남
-   		</div>
-   		&nbsp;
-   		<div style="display: inline-flex">
-   			<input type="checkBox" name="cate" id="ck" value="">&nbsp; 여
-   		</div>
-			
+	   		<label for="year">성별 : </label>
+	   		
+	   		<div style="display: inline-flex">
+	   			<input type="checkBox" name="cate" id="ck" value="">&nbsp; 남
+	   		</div>
+	   		&nbsp;
+	   		<div style="display: inline-flex">
+	   			<input type="checkBox" name="cate" id="ck" value="">&nbsp; 여
+   			</div>			
    		</div>
    		
    		<div class="form-group">
       		<label for="year">배송지 입력 : </label>
       		<div style="display: flex;">
-      		<input type="text" class="form-control" id="year" name="year" style="width:30%;">&nbsp;&nbsp;&nbsp;
-      		<button class="btn btn-primary" style="background: #222; border: 1px solid #999; width: 20%;">우편번호 검색</button>
+	      		<input type="text" class="form-control" id="year" name="year" style="width:30%;">&nbsp;&nbsp;&nbsp;
+	      		<button class="btn btn-primary" style="background: #222; border: 1px solid #999; width: 20%;">우편번호 검색</button>
       		</div>
       		<br>
       		<div>
     		<input type="text" class="form-control" id="year" name="year" style="width:80%;" placeholder="상세주소">    		
+   			</div>   		
    		</div>
    		
-   	</div>
+   		<div class="form-group">
+      		<label for="phone">연락처 : </label>
+    		<input type="text" class="form-control" id="phone" name="phone" style="width:80%;">
+   		</div>
+   		
+   		<div class="form-group">
+      		<label for="userId">이메일 : </label>
+    		<input type="text" class="form-control" id="userId" name="userId" style="width:80%;">
+   		</div>
+
+		<div class="form-group">
+      		<label for="phone">휴대폰 : </label>
+    		<input type="text" class="form-control" id="phone" name="phone" style="width:80%;">
+   		</div>
+   		
+   		
+   		
+   		
+  
+   		
+   	
  </div>
    	<br>
    		<div class="form-group">
