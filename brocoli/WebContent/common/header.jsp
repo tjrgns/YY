@@ -96,7 +96,7 @@
 					<div class="menu-desktop">
 						<ul class="main-menu">
 							<li>
-								<a href="/brocoli/main/index.jsp" id="header-color1">Home</a>
+								<a href="/brocoli/main/index.jsp" id="header-color1">HOME</a>
 <!-- 								<ul class="sub-menu main-menu">
 									<li><a href="index.jsp">Homepage 1</a></li>
 									<li><a href="home-02.jsp">Homepage 2</a></li>
@@ -121,7 +121,7 @@
 							</li>
 
 							<li>
-								<a href="contact.jsp" id="header-color6">Contact</a>
+								<a href="/brocoli/main/contact.jsp" id="header-color6">CONTACT</a>
 							</li>
 						</ul>
 					</div>	
@@ -212,35 +212,32 @@
 
 			<ul class="main-menu-m">
 				<li>
-					<a href="index.jsp">Home</a>
-<!-- 					<ul class="sub-menu-m">
-						<li><a href="index.jsp">Homepage 1</a></li>
-						<li><a href="home-02.jsp">Homepage 2</a></li>
-						<li><a href="home-03.jsp">Homepage 3</a></li>
-					</ul>
-					<span class="arrow-main-menu-m">
-						<i class="fa fa-angle-right" aria-hidden="true"></i>
-					</span> -->
+					<a href="/brocoli/main/index.jsp" id="header-color1">HOME</a>
+<!-- 								<ul class="sub-menu main-menu">
+									<li><a href="index.jsp">Homepage 1</a></li>
+									<li><a href="home-02.jsp">Homepage 2</a></li>
+									<li><a href="home-03.jsp">Homepage 3</a></li>
+								</ul>  -->
+				</li>
+
+				<li class="label1" data-label1="hot">
+					<a href="/brocoli/main/rank.jsp" >RANK</a>
 				</li>
 
 				<li>
-					<a href="product.jsp">Shop</a>
+					<a href="/brocoli/main/brand.jsp" >BRAND</a>
 				</li>
 
 				<li>
-					<a href="shoping-cart.jsp" class="label1 rs1" data-label1="hot">Features</a>
+					<a href="/brocoli/main/product.jsp" >SHOP</a>
 				</li>
 
 				<li>
-					<a href="blog.jsp">Blog</a>
+					<a href="/brocoli/main/magazine.jsp">MAGAZINE</a>
 				</li>
 
 				<li>
-					<a href="about.jsp">About</a>
-				</li>
-
-				<li>
-					<a href="contact.jsp">Contact</a>
+					<a href="/brocoli/main/contact.jsp" >CONTACT</a>
 				</li>
 			</ul>
 		</div>
