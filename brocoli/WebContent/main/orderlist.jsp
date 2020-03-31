@@ -138,8 +138,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-10 col-xl-7 m-lr-auto m-b-50" style="margin-left: -1%;">
-					<div class="m-l-25 m-r--38 m-lr-0-xl" style="width: 170%;">
-						<div class="wrap-table-shopping-cart">
+					<div class="m-l-25 m-r--38 m-lr-0-xl">
+						<div class="wrap-table-shopping-cart" style="width:1330px;">
 							<table class="table-shopping-cart">
 								<tr class="table_head" >
 									<th style="width:8%; text-align:center;">주문번호</th>
@@ -173,7 +173,7 @@
 									<td style="text-align:center;">68,000원</td>
 									<td style="text-align:center; font-size:13px; color: #555;"><strong>주문완료</strong><br>
 									<td style="text-align:center;">
-									<button class="ord-btn"><strong>배송 조회</strong></button>
+									<button class="ord-btn"><strong>상세 조회</strong></button>
 									<button class="ord-btn"><strong>교환/반품</strong></button>
 									<button class="ord-btn"><strong>리뷰 작성</strong></button>
 									</td>
@@ -198,7 +198,7 @@
 									<td style="text-align:center;">68,000원</td>
 									<td style="text-align:center;"><!-- <span style="color:blue;">●</span> --><strong>배송 중</strong></td>
 									<td style="text-align:center;">
-									<button class="ord-btn"><strong>배송 조회</strong></button>
+									<button class="ord-btn"><strong>상세 조회</strong></button>
 									<button class="ord-btn"><strong>교환/반품</strong></button>
 									<button class="ord-btn"><strong>리뷰 작성</strong></button>
 									</td>
