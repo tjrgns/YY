@@ -9,10 +9,10 @@
 <%@ include file="../common/cart.jsp" %>
 <style>
 	#ordersearch{
-	    padding: 1%;
+	    padding-top: 1%;
 	    text-align:center;
 	    margin:2% auto;
-	    width:1150px;
+	    width:1330px;
 	}
 	
 	.btn-term{
@@ -98,7 +98,7 @@
 	<!-- 상단 주문기간 검색 -->
 	<div>
 	
-	<div style="width:1150px; margin:15px auto; border-bottom:1px solid #666">
+	<div style="width:1330px; margin:15px auto; border-bottom:1px solid #666">
 	<label style=" display:inline-block; font-size:20px; "><b>주문 정보</b></label>
 <!-- 	<button style="display:inline-block; float:right; margin-left: 10%; color: #555; margin-right: 30%;">환불</button>&nbsp;
 	<button style="display:inline-block; float:right; margin-left: 10%; color: #555;">교환</button>&nbsp;
@@ -125,7 +125,7 @@
 	</div>
 	
 	<div style="margin-top:-0.5%;">
-	<input type="date" class="datelist" style="display:inline-block; margin-left: 237px;">
+	<input type="date" class="datelist" style="display:inline-block; margin-left: 450px;">
 	~
 	<input type="date" class="datelist" style="display:inline-block;">
 	
