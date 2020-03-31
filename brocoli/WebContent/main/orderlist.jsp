@@ -125,7 +125,7 @@
 	</div>
 	
 	<div style="margin-top:-0.5%;">
-	<input type="date" class="datelist" style="display:inline-block; margin-left: -300px;">
+	<input type="date" class="datelist" style="display:inline-block;">
 	~
 	<input type="date" class="datelist" style="display:inline-block;">
 	
