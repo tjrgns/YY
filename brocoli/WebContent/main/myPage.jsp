@@ -33,9 +33,9 @@
 					</div>
 					<!-- mypage common section-->
 					<!-- mypage title and member info section-->
-                    <div class="mypage-member-info-container">
+                    <div class="mypage-member-info-container" >
 
-                        <div class="mypage-member-info">
+                        <div class="mypage-member-info" style="margin: auto;">
                             <div class="member-id-container">
                                 <div class="group-image">
                                     <img src="/brocoli/main/images/about-01.jpg" alt="이미지" style="width: 60px; height: 60px; border-radius: 30%; top: -10px;">
@@ -71,11 +71,16 @@
 							      </p>  
 							</div>	
                         </div>
-                    </div>
+                    
                     <!-- mypage member info section-->
                     <!-- mypage menu list section-->
+                    <!-- 수정자 : 박주완 
+                    	 수정일 : 2020-03-31
+                    	 내용 : css 중앙 정렬 수정
+                    -->
+                    	
                     <div class="mypage-menu-container">
-                        <ul class="mypage-menu-list">
+                        <ul class="mypage-menu-list" style=" width: 1200px; margin: auto;" >
                             <li class="my-info" img="/brocoli/main/images/mypage_me1.png">
                                 <a href="/brocoli/main/myInformation.jsp">
                                     <h4>개인정보관리</h4>
@@ -124,6 +129,7 @@
                             </li>
                         </ul>
                     </div>
+                   </div>
                     <!-- mypage menu list section-->
                
                 </div>
