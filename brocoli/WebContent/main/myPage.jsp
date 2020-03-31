@@ -23,7 +23,7 @@
             <div id="content">
                 <div id="mypage" class="mypage SMP-container" >
                     <!-- mypage common section -->
-                    <div class="mypage-common-container">
+                    <div class="mypage-common-container" style="margin-left: 12px;">
                         <!-- mypage link section -->
                         <div class="mypage-link-container">
                             <a href="index.jsp" class="home">home</a>
