@@ -6,8 +6,8 @@ body{
   text-align:center;
 }
 body:before{
-  content:'';
-  height:100%;
+/*   content:'';
+  height:100%; */
   display:inline-block;
   vertical-align:middle;
 }
@@ -52,7 +52,7 @@ button:hover:before,button:hover:after{
 
 
 
-/* 셀렉트 커스텀  크로스 브라우징 */
+/* ���젆�듃 而ㅼ뒪��  �겕濡쒖뒪 釉뚮씪�슦吏� */
 .IE_7 select,
 .IE_8 select,
 .IE_9 select{
@@ -97,14 +97,14 @@ body, h1, h2, h3, h4, th, td, input, select, textarea, button {font-size: 12px; 
 .gray_dot_3x3{display: inline-block; *display:inline; zoom:1; width: 3px; height: 3px; vertical-align: middle; margin-top: -2px; margin-right: 5px; background: url("../img/icon/icon_gray_dot_3x3.gif") no-repeat;}
 *a{text-decoration: none; cursor: pointer;}
 /*========== SMPC_intro ========*/
-/* 폰트정렬 */
+/* �룿�듃�젙�젹 */
 .txt-l { text-align: left !important; }
 .txt-r { text-align: right !important; }
 .txt-c { text-align: center !important; }
 .txt_l { text-align: left !important; }
 .txt_r { text-align: right !important; }
 .txt_c { text-align: center !important; }
-/* text 대문자 소문자 */
+/* text ��臾몄옄 �냼臾몄옄 */
 .uppercase{ text-transform: uppercase !important; }
 .lowercase{ text-transform: lowercase !important; }
 /* display ,font-weight */
@@ -529,18 +529,18 @@ width: 594px;
 }
 
 /* ---------
-상단
+�긽�떒
 --------- */
 #SMP-header {
 position: relative;
 z-index: 2;
 margin-top: 0;
-/* 따라가는 네비용 스타일 */
+/* �뵲�씪媛��뒗 �꽕鍮꾩슜 �뒪���씪 */
 }
 #SMP-header .SMP-header-container {
 width: 100%;
 background-color: #fff;
-/* 따라가는 네비용 스타일 */
+/* �뵲�씪媛��뒗 �꽕鍮꾩슜 �뒪���씪 */
 }
 
 /*-- top navigation --*/
@@ -726,7 +726,7 @@ border-color: #ccc;
 
 
 /* --------------------
-공통
+怨듯넻
 -------------------- */
 
 /* mypage */
@@ -738,7 +738,7 @@ text-align: center;
 margin-bottom: 25px;
 }
 
-/*===================== SMP detail 언더바 버전==================*/
+/*===================== SMP detail �뼵�뜑諛� 踰꾩쟾==================*/
 .SMP_paging{line-height: 0; text-align: center; vertical-align: top; padding-top: 25px;}
 .SMP_paging li{display: inline; line-height: 0; text-align: center; padding: 0;}
 .SMP_paging li a, .SMPC_paging li span{display:inline-block; color:#444; padding-top:3px; padding-right: 6px; padding-bottom: 1px; padding-left: 6px; border:none;}
@@ -796,7 +796,7 @@ margin-right: 10px;
 margin-left: 10px;
 }
 
-/* paging style - 박스타입 */
+/* paging style - 諛뺤뒪���엯 */
 .SMP-paging.paging-box {
 height: inherit; 
 *height: auto;
@@ -978,7 +978,7 @@ vertical-align:middle;
 color:#e71818;
 }
 /* --------------------
-SMP-table TABLE 표준화
+SMP-table TABLE �몴以��솕
 -------------------- */
 .SMP-table .tbl { border-top: none; border-bottom: 1px solid transparent;}
 .SMP-table .tbl th { padding-top: 8px; padding-bottom: 6px; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-color: #cdcdcd; background-color: #ededed; color: #838383; }
@@ -1180,7 +1180,7 @@ margin-left: auto;
 }
 
 /* --------------------
-BUTTON SMPC 표준 버튼 CSS
+BUTTON SMPC �몴以� 踰꾪듉 CSS
 -------------------- */
 #loginWrap .btns a span{
 display: inline-block;
@@ -1193,7 +1193,7 @@ font-size: 11px;
 font-weight: normal !important;
 text-decoration: underline;
 }
-/*---  로그인 btn    ---*/
+/*---  濡쒓렇�씤 btn    ---*/
 #loginWrap .login_submit a span.login_btn {
 display: inline-block;
 *display: linline;
@@ -1205,21 +1205,21 @@ text-align: center;
 color: #fff;
 background: #000;
 }
-/*---  비회원 btn  ---*/
+/*---  鍮꾪쉶�썝 btn  ---*/
 #loginWrap .btns a span.nonmembers_btn {
 width: 109px;
 }
 
-/*---  회원가입 btn  ---*/
+/*---  �쉶�썝媛��엯 btn  ---*/
 #loginWrap .btns a span.newmember_btn {
 width: 125px;
 }
 
-/*---  로그인정보 찾기 btn  ---*/
+/*---  濡쒓렇�씤�젙蹂� 李얘린 btn  ---*/
 #loginWrap .btns a span.find_btn {
 width: 104px;
 }
-/*---  비회원구매 btn    ---*/
+/*---  鍮꾪쉶�썝援щℓ btn    ---*/
 #loginWrap .nomem_buy a span.nonmem_b_btn{
 display: inline-block;
 *display: linline;
@@ -1231,7 +1231,7 @@ text-align: center;
 color: black;
 background: gray;
 }
-/*---  주문체크 btn  ---*/
+/*---  二쇰Ц泥댄겕 btn  ---*/
 #loginWrap .search_submit a span.order_btn {
 display: inline-block;
 *display: linline;
@@ -1266,7 +1266,7 @@ font-size: 10px;
 vertical-align: top;
 }
 
-/*--- 주문상세 check btn ---*/
+/*--- 二쇰Ц�긽�꽭 check btn ---*/
 .page-body div .check_btn {
 font-size: 11px;
 width: 41px;
@@ -1274,7 +1274,7 @@ height: 13px;
 margin: 0 auto;
 }
 
-/*----- 쿠폰등록 btn  ------*/
+/*----- 荑좏룿�벑濡� btn  ------*/
 .reg .submitbtn .coupon_btn{
 display: inline-block;
 *display: inline;
@@ -1287,7 +1287,7 @@ color: #ffffff;
 background: #000000;
 }
 
-/*----- 적립금 검색 btn  ------*/
+/*----- �쟻由쎄툑 寃��깋 btn  ------*/
 #myReserve .key-wrap .calendar_search_btn{
 display:inline-block;
 *display:inline;
@@ -1300,7 +1300,7 @@ color: #fff;
 background: #495164;
 }
 
-/* 상품보관함 내부 장바구니,조르기,삭제 버튼 */
+/* �긽�뭹蹂닿��븿 �궡遺� �옣諛붽뎄�땲,議곕Ⅴ湲�,�궘�젣 踰꾪듉 */
 .table-wish tbody td .basket_btn,
 .table-wish tbody td .importune_btn,
 .table-wish tbody td .del_btn{
@@ -1310,7 +1310,7 @@ font-size: 11px;
 color: #333;
 }
 
-/*====== 선택삭제, 조르기 btn =====*/
+/*====== �꽑�깮�궘�젣, 議곕Ⅴ湲� btn =====*/
 #myWish .btn-foot a .check_delete_btn{
 display:inline-block;
 *display:inline;
@@ -1342,7 +1342,7 @@ background:#ffffff;
 }
 
 /* --------------------
-기본 표준
+湲곕낯 �몴以�
 -------------------- */
 .default-tit h2 {
 font-size: 18px;
@@ -1556,7 +1556,7 @@ right: -50px;
 }
 
 
-/* type defalt 3열*/
+/* type defalt 3�뿴*/
 .type-defalt-3 .thumbsilde-gallery-container .gallery {
 width: 1236px;
 margin-left: -18px;
@@ -1568,9 +1568,9 @@ width: 376px;
 height: 620px;
 margin: 0 18px;
 }
-/* type defalt 3열:END */
+/* type defalt 3�뿴:END */
 
-/* type-A 4열 */
+/* type-A 4�뿴 */
 .type-a-4 .thumbsilde-gallery-container {
 position: relative;
 padding-top: 30px;
@@ -1591,11 +1591,11 @@ width: 285px;
 height: 520px;
 margin: 0 10px;
 }
-/* type-A 4열:END */
+/* type-A 4�뿴:END */
 /*-- best | recmd product:END --*/
 
 /* ---------
-메인페이지 팝업 로그인
+硫붿씤�럹�씠吏� �뙘�뾽 濡쒓렇�씤
 --------- */
 #login_container_bg{
 display:none;
@@ -1731,7 +1731,7 @@ font-weight:bold;
 }
 
 /* ---------
-메인
+硫붿씤
 --------- */
 /*-- main slider gallery --*/
 .main-slider-container {
@@ -2038,10 +2038,10 @@ top: 0;
 right: 0;
 }
 /* --------------------
-마이페이지 메인
+留덉씠�럹�씠吏� 硫붿씤
 -------------------- */
 
-/*  --------------------------------------------------        마이페이지 아이콘  ------------------------------------------------------------     */
+/*  --------------------------------------------------        留덉씠�럹�씠吏� �븘�씠肄�  ------------------------------------------------------------     */
 #mypage .info { zoom: 1; overflow: hidden; line-height: 1.5; }
 #mypage .info .user, 
 #mypage .info .order { float: left; min-height: 117px; _height:117px; padding-top: 10px; padding-left: 20px; border: 3px solid transparent; border-color: #ededed; }
@@ -2589,7 +2589,7 @@ text-align: center;
 }
 
 /* --------------------
-주문내역
+二쇰Ц�궡�뿭
 -------------------- */
 #myorder{
 margin-top: 66px;
@@ -2619,7 +2619,7 @@ font-size: 11px;
 color: #666;
 }
 /* --------------------
-쿠폰내역
+荑좏룿�궡�뿭
 -------------------- */
 #mycoupon .t-box-msg { zoom: 1; position: relative; }
 #mycoupon .t-box-msg a { position: absolute; right: 10px; top: 8px; }
@@ -2677,7 +2677,7 @@ padding-left: 8px;
 }
 
 /* --------------------
-적립금내역
+�쟻由쎄툑�궡�뿭
 -------------------- */
 #content{
 z-index:1;
@@ -2742,7 +2742,7 @@ color: #666;
 }
 
 /* --------------------
-내 게시글 보기
+�궡 寃뚯떆湲� 蹂닿린
 -------------------- */
 #myHistory .total-page { margin-top: 25px; }
 #myHistory .table-d2-list { margin-top: 5px; }
@@ -2815,7 +2815,7 @@ float: right;
 line-height: 28px;
 color: #888;
 }
-/* 예치금내역 */
+/* �삁移섍툑�궡�뿭 */
 #myEmoney .page-body { padding: 25px 20px; }
 #myEmoney .att-box-wrap { margin-top: 15px; padding-top: 25px; padding-bottom: 15px; background: url(/images/d3/modern_simple/img_atten_box.gif) no-repeat right 0; }
 #myEmoney .att-box { width: 502px; }
@@ -2829,7 +2829,7 @@ color: #888;
 #myEmoney .table-d2-list { margin-top: 5px; }
 #myEmoney .foot-dsc{ margin-top: 20px; }
 #myEmoney .foot-dsc li { padding-bottom: 5px; padding-left: 10px; background: url(/images/d3/modern_simple/common/bull_h3_sqr_gray.gif) no-repeat 0 5px; }
-/*기본 background css 리셋*/
+/*湲곕낯 background css 由ъ뀑*/
 #myEmoney .SMP-container .att-box-wrap{
 padding:0;
 margin: 0;
@@ -2876,7 +2876,7 @@ margin-top: 25px;
 #myEmoney .SMP-container .foot-dsc{
 margin-top: 10px;
 }
-/* 포인트 내역 */
+/* �룷�씤�듃 �궡�뿭 */
 #myPoint .page-body { padding: 25px 20px; }
 #myPoint .att-box-wrap { margin-top: 15px; padding-top: 15px; background: url(/images/d3/modern_simple/img_atten_box.gif) no-repeat right 0; }
 #myPoint .att-box { width: 502px; }
@@ -2888,7 +2888,7 @@ margin-top: 10px;
 #myPoint .att-box .table-att td { padding: 3px 0; }
 #myPoint .att-box .table-att td .tb-right { padding: 3px 5px; background-color: #f5f5f5; font-weight: bold; color: #356f9d;  }
 #myPoint .table-d2-list { margin-top: 5px; }
-/*기본 background css 리셋*/
+/*湲곕낯 background css 由ъ뀑*/
 #myPoint .SMP-container .att-box-wrap{
 padding:0;
 margin: 0;
@@ -2928,11 +2928,11 @@ float:right;
 margin-top: 25px;
 }
 /* --------------------
-상품보관함
+�긽�뭹蹂닿��븿
 -------------------- */
 #myWish {margin-top: 66px; margin-bottom: 90px;}
 #myWish .table-d2-list { margin-top: 25px; }
-#myWish .table-wish table .txt-input2 { width: 25px; padding:0px 3px 2px 0px; margin-right: 3px;}/*  중요 */
+#myWish .table-wish table .txt-input2 { width: 25px; padding:0px 3px 2px 0px; margin-right: 3px;}/*  以묒슂 */
 #myWish .tb-btns a { display: block; margin-bottom: 3px; }
 #myWish .btn-foot-wrap { font-size: 0; line-height: 0; padding:0; margin-bottom: 40px; text-align: right; border-bottom: 1px solid transparent; border-bottom-color: #444;}
 #myWish .btn-foot { background: #f7f7f7; padding-top: 28px; padding-right: 7px; padding-bottom: 28px; padding-left: 7px; }
@@ -2946,7 +2946,7 @@ color: #999;
 margin-bottom: 10px;
 }
 /* --------------------
-개인 회원 가입/수정
+媛쒖씤 �쉶�썝 媛��엯/�닔�젙
 -------------------- */
 #join{margin-top: 66px; margin-bottom: 90px;}
 .SMP-container .ipin-confirm { height: 110px; padding-top: 15px; padding-bottom: 15px; border: 3px solid transparent; border-color: #d4d4d4; text-align: center; background-color: #fdfdfd; }
@@ -2957,11 +2957,11 @@ margin-bottom: 10px;
 .SMP-container .ipin-confirm p { margin-top: 20px; line-height: 18px; font-size: 14px;  }
 .SMP-container a.ipin-svc { font-size: 14px; font-weight: bold; color: #ff3333; text-decoration: underline; margin-right: 10px; margin-left: 10px;}
 
-/* 회원 정보입력 */
+/* �쉶�썝 �젙蹂댁엯�젰 */
 .SMP-container .join-info { margin-top: 40px; margin-bottom: 5px; padding-left: 15px; background: url("/images/d3/modern_simple/bull_terms_h14.gif") no-repeat 0 0; }
 .SMP-table .tb-tit { padding-top: 15px; padding-bottom: 10px; padding-left: 25px; border-width: 1px 1px 2px 1px; border-color: #dedfde #dedfde #3a4452 #dedfde; border-style: solid; color: #575757; font-weight: bold; background: url("/images/d3/modern_simple/bull_tit_h11.gif") no-repeat 10px 14px #f7f7f7; }
 
-/* 담당자 정보 입력 */
+/* �떞�떦�옄 �젙蹂� �엯�젰 */
 .SMP-table #personInfo .person-tb th { vertical-align: top;}
 .SMP-table #personInfo .person-tb th div{
 font-size: 11px;
@@ -2975,12 +2975,12 @@ padding-left: 20px;
 }
 .SMP-container #personInfo .idpw-info { font-size: 11px; letter-spacing: -1px; }
 
-/* 담당자 정보 입력 */
+/* �떞�떦�옄 �젙蹂� �엯�젰 */
 .SMP-table #addInfo .addinfo-tb { border: 1px solid transparent; border-color: #dedede; }
 .SMP-table #addInfo .addinfo-tb th { height: 30px; letter-spacing: -1px; vertical-align: middle; border-right: 1px solid transparent; border-right-color: #dedede; }
 .SMP-table #addInfo .addinfo-tb td { padding-top: 7px; padding-bottom: 6px; }
 
-/* 약관 동의 */
+/* �빟愿� �룞�쓽 */
 #chkwrap { border:1px solid transparent; border-color: #dedede; }
 #chkwrap .all-chk .input-cbox { width:14px; height:14px; *margin-top:0; } 
 #chkwrap .cont ul:after { clear: both; content: ""; display: block; }
@@ -2993,10 +2993,10 @@ padding-left: 20px;
 #chkwrap .cont .marketing .mk-wrap input { margin-top:-1px; *margin-top:0; }
 h4.tit { margin-top: 50px; margin-bottom: 5px; padding-left:5px; font-size: 14px; font-weight: bold; }
 
-/* 이용 약관 */
+/* �씠�슜 �빟愿� */
 .SMP-container .privercy-contract textarea { width:97%; height:165px; }
 
-/* 개인정보 수집이용, 제3제공, 취급위탁 테이블 */
+/* 媛쒖씤�젙蹂� �닔吏묒씠�슜, �젣3�젣怨�, 痍④툒�쐞�긽 �뀒�씠釉� */
 .SMP-table .contract-tbl th,
 .SMP-table .contract-tbl td { border:1px solid transparent; border-color: #e0e0e0; text-align:center; }
 .SMP-table .contract-tbl th { background: #fcfcfc; }
@@ -3004,7 +3004,7 @@ h4.tit { margin-top: 50px; margin-bottom: 5px; padding-left:5px; font-size: 14px
 .SMP-table .contract-tbl tbody th { font-weight:normal; }
 .btm-msg { padding-top:30px; line-height:18px; }
 
-/*SNS 로그인 연동*/
+/*SNS 濡쒓렇�씤 �뿰�룞*/
 #snsConnect { margin-top: 30px; margin-bottom: 30px; margin-left: 25px; }
 #snsConnect li { margin-top: 12px; }
 #snsConnect li dl { zoom: 1; overflow: hidden; }
@@ -3124,7 +3124,7 @@ margin-left: 3px;
 }
 
 /* --------------------
-회원 가입 약관
+�쉶�썝 媛��엯 �빟愿�
 -------------------- */
 #terms{margin-top: 66px; margin-bottom: 90px;}
 #terms .page-body { width: 680px; margin-top: 50px; margin-right: auto; margin-left: auto;}
@@ -3166,7 +3166,7 @@ border-collapse: collapse;
 }
 
 /* --------------------
-아이디 비밀번호 찾기
+�븘�씠�뵒 鍮꾨�踰덊샇 李얘린
 -------------------- */
 #findIdPwd { height: 100%; margin:66px auto 90px;}
 #findIdPwd h3.cont-tit { margin-top: 30px; margin-bottom: 5px; padding-left: 15px; color: #575757; font-weight: bold; }
@@ -3223,7 +3223,7 @@ background:#000000;
 }
 
 /* --------------------
-회원가입 완료
+�쉶�썝媛��엯 �셿猷�
 -------------------- */
 #join-complete { margin:66px auto 90px;}
 #join-complete .complete-box { padding: 40px; margin:70px 0; background-color: #fefefe; border: 3px solid transparent; border-color: #d4d4d4; }
@@ -3254,7 +3254,7 @@ border-bottom-color: #dfdfdf;
 }
 
 /* --------------------
-아이디,비밀번호 찾기 완료
+�븘�씠�뵒,鍮꾨�踰덊샇 李얘린 �셿猷�
 -------------------- */
 #find_Success { padding-top: 45px; padding-bottom: 45px; margin-top: 70px; margin-bottom: 70px; border: 3px solid transparent; border-color: #d4d4d4; text-align: center; background-color: #fdfdfd; }
 #find_Success dt { margin-bottom: 25px; font-size: 14px; }
@@ -3290,7 +3290,7 @@ background:#000000;
 }
 
 /* --------------------
-회원탈퇴 신청
+�쉶�썝�깉�눜 �떊泥�
 -------------------- */
 #mySecede .page-body { padding-top: 25px; width: 630px; margin-left: auto; margin-right: auto; }
 #mySecede .dbox-wrap { width: 628px; margin-bottom:20px; border: 1px solid transparent; border-color: #e8e8e8; border-radius:7px; }
@@ -3314,7 +3314,7 @@ background:#eaeaea;
 }
 
 /* --------------------
-이용안내
+�씠�슜�븞�궡
 -------------------- */
 /* t-msg */
 #guide .t-msg { margin-top: 20px; color: #a4a4a4; }
@@ -3352,7 +3352,7 @@ color: #353334;
 }
 
 /* --------------------
-간편 회원가입
+媛꾪렪 �쉶�썝媛��엯
 -------------------- */
 #join_test { margin:66px auto 90px; }
 #join_test .box-wrap { width:510px; margin:0 auto; }
@@ -3374,7 +3374,7 @@ color: #353334;
 #join_test .join-msg li { height:18px; line-height:18px; padding-left:2px; color:#999; }
 #join_test .bottom-btn { padding-top: 40px; padding-bottom: 40px; text-align:center; }
 
-/* 약관 동의 */
+/* �빟愿� �룞�쓽 */
 #join_test .input-cbox { width:12px; height:12px; padding:0; margin:0; margin-top:-3px; *margin-top:1px; vertical-align:middle; *vertical-align:top; }
 #join_test .new-btn-area { text-align: center; margin:20px 0 0; padding-bottom:30px; border-bottom:1px solid transparent; border-bottom-color: #ececec; }
 #join_test .new-btn-area a { display:block; width:234px; height:64px; line-height:66px; margin:0 auto; font-size:22px; font-weight:bold; color:#fff; background:#0549bb; border:1px solid transparent; border-color: #053688; }
@@ -3396,10 +3396,10 @@ color: #353334;
 
 h4.tit { margin-top: 50px; margin-bottom: 5px; padding-left:5px; font-size: 14px; font-weight: bold; }
 
-/* 이용 약관 */
+/* �씠�슜 �빟愿� */
 #join_test .privercy-contract textarea { width:97%; height:165px; }
 
-/* 개인정보 수집이용, 제3제공, 취급위탁 테이블 */
+/* 媛쒖씤�젙蹂� �닔吏묒씠�슜, �젣3�젣怨�, 痍④툒�쐞�긽 �뀒�씠釉� */
 .SMP-table .contract-tbl th,
 .SMP-table .contract-tbl td { border:1px solid transparent; border-color: #e0e0e0; text-align:center; }
 .SMP-table .contract-tbl th { background: #fcfcfc; }
@@ -3428,7 +3428,7 @@ background:#26272b;
 }
 
 /* --------------------
-게시판 LIST
+寃뚯떆�뙋 LIST
 -------------------- */
 #bbsData{ margin-top: 66px; margin-bottom:90px;}
 #bbsData .bbs-link { position: relative; }
@@ -3488,7 +3488,7 @@ width: 500px;
 }
 
 /* --------------------
-게시판 WRITE
+寃뚯떆�뙋 WRITE
 -------------------- */
 .SMP-table .bbs-link-btm { margin-top: 12px; text-align: right; }
 .SMP-table .bbs-table-write textarea { width: 530px; height: 200px; }
@@ -3496,7 +3496,7 @@ width: 500px;
 .SMP-table .bbs-table-write .title { line-height: 25px; }
 .SMP-table .bbs-table-write .input_style { width: 180px; }
 .SMP-table .bbs-table-write .input_style2 { width: 460px; }
-/* 상품 상단 정보 */
+/* �긽�뭹 �긽�떒 �젙蹂� */
 .SMP-table .prd-tinfo { position: relative; zoom: 1; overflow: hidden; padding-top: 18px; padding-bottom: 18px; padding-left: 60px; margin-top: 10px; margin-bottom: 20px; border: 1px solid transparent; border-color: #777; }
 .SMP-table .prd-tinfo dt, .SMP-table .prd-tinfo dd { float: left; }
 .SMP-table .prd-tinfo dt { left: 0; margin: 0; width: 130px; height: auto; }
@@ -3509,11 +3509,11 @@ width: 500px;
 .SMP-table .prd-tinfo dd ul li.name{ font-size: 12px; font-weight: normal; color: #333;}
 .SMP-table .prd-tinfo dd ul li .tit { display: inline-block;  width: 65px; }
 .SMP-table .prd-tinfo dd ul li.name .tit { letter-spacing: 1px; }
-/* 개인정보보호정책 동의 */
+/* 媛쒖씤�젙蹂대낫�샇�젙梨� �룞�쓽 */
 .privercy-contract textarea { height: 100px; width: 660px; }
 .new-privercy-contract p { text-align: left; }
 
-/* 개인정보 수집 이용 */
+/* 媛쒖씤�젙蹂� �닔吏� �씠�슜 */
 .SMP-table .privercy-contract .tbl { width:100%; padding:0; margin:0; border-spacing:0; border-collapse:collapse; border-top: 1px solid transparent; border-left: 1px solid transparent; border-color: #dadada; }
 .SMP-table .privercy-contract .tbl caption { display:none; }
 .SMP-table .privercy-contract .tbl th { line-height:32px; color: #3b3b3b; font-size:12px; font-weight:bold; background: #f0f0f0; text-align:center; }
@@ -3661,7 +3661,7 @@ margin-left: 2px;
 }
 
 /* --------------------
-게시판 VIEW
+寃뚯떆�뙋 VIEW
 -------------------- */
 .SMP-table .bbs-table-view thead .cont-head{
 border: 1px solid transparent;
@@ -3933,12 +3933,12 @@ color: #555;
 }
 
 /* --------------------
-글게시판 PSW
+湲�寃뚯떆�뙋 PSW
 -------------------- */
 .pwd-link { margin-top:15px; text-align:center; }
 
 /* --------------------
-사진게시판 (상품 리뷰모음)
+�궗吏꾧쾶�떆�뙋 (�긽�뭹 由щ럭紐⑥쓬)
 -------------------- */
 #review .tit-sch { line-height: 0; font-size: 0; margin-top: 35px; }
 #review .table-sch { margin-bottom: 17px; border-top:none;}
@@ -3986,7 +3986,7 @@ overflow:hidden;
 .SMP-table .bbs-table-list .review-box td div div{}
 
 /* --------------------
-패스워드 재확인
+�뙣�뒪�썙�뱶 �옱�솗�씤
 -------------------- */
 #reconfirmPasswd {margin-top: 66px; margin-bottom: 90px;}
 #reconfirmPasswd .reconfirm-tit { text-align: center; font-size: 80px;}
@@ -4020,7 +4020,7 @@ border-color: #dddddd;
 	padding:0;
 }
 /* --------------------
-디테일 창
+�뵒�뀒�씪 李�
 -------------------- */
 li.product .detailBannerTarget #detailpage .detailBanner { width: 100%; height: 100%; border: 1px solid #ddd; background: #eee; }
 li.product .detailBannerTarget #detailpage .detailBanner .detail{ width: 100%; height: 100%;}
@@ -4073,7 +4073,7 @@ li.product .detailBannerTarget #detailpage .txt-wrap .f-btns .basket_btn{width:3
 li.product .detailBannerTarget #detailpage .txt-wrap .f-btns .wishlist_btn{width:34%;}
 
 /* --------------------
-로그인 페이지
+濡쒓렇�씤 �럹�씠吏�
 -------------------- */
 #loginWrap .page-body {
 width: 1066px;
@@ -4377,7 +4377,7 @@ display: block;
 }
 
 /* --------------------
-상세페이지
+�긽�꽭�럹�씠吏�
 -------------------- */
 /*-- tmb-info --*/
 /* product name */
@@ -4504,7 +4504,7 @@ font-weight: 600;
 margin-left: 10px;
 }
 
-/* 배송비 */
+/* 諛곗넚鍮� */
 .tmb-info .tmb-info-container .info .table-opt dl dd.SMS-delivery {
 position: relative;
 }
@@ -4663,13 +4663,13 @@ float: left;
 }
 /* info:END */
 
-/* ****************** 상품 상세 옵션 ******************** */
+/* ****************** �긽�뭹 �긽�꽭 �샃�뀡 ******************** */
 .MK_not_choice { color: red; }
 .MK_optAddWrap,
 .MK_optAddWrap * { margin: 0; padding: 0; }
 .MK_optAddWrap { color: #666; font-size: 11px; line-height: 13px;}
 .MK_optAddWrap li { list-style: none; }
-/* 옵션선택 */
+/* �샃�뀡�꽑�깮 */
 #MK_optAddList { overflow: hidden; *zoom: 1; }
 #MK_optAddList li { float: left; width: 100%; margin-top: 5px; }
 #MK_optAddList .MK_tit,
@@ -4682,13 +4682,13 @@ float: left;
 #MK_optAddList .MK_st { width: 205px; }
 #MK_optAddList .MK_st .MK_btn-add { cursor: pointer; }
 #MK_optAddList .MK_st select { margin-left: 5px; width: 195px; height: 18px; }
-/* 옵션선택PP */
+/* �샃�뀡�꽑�깮PP */
 #MK_optAddListPP { overflow: hidden; *zoom: 1; }
 #MK_optAddListPP .MK_tit,
 #MK_optAddListPP .MK_st { float: left; width: auto; }
 #MK_optAddListPP .MK_tit { margin-right: 5px; margin-top: 3px; }
 
-/* 옵션 결과 리스트 */
+/* �샃�뀡 寃곌낵 由ъ뒪�듃 */
 #MK_innerOptWrap {
 overflow: hidden;
 margin-top: 10px;
@@ -4766,12 +4766,12 @@ border: 1px solid transparent;
 border-color: #ddd;
 }
 
-/* 사용자 입력 인풋박스 (color, size )*/
+/* �궗�슜�옄 �엯�젰 �씤�뭼諛뺤뒪 (color, size )*/
 .MK_optAddWrap .MK_inner-opt-cm li .MK_txt_uinput {
 width: 200px;
 }
 
-/* 기본옵션 */
+/* 湲곕낯�샃�뀡 */
 #MK_innerOptWrap #MK_innerOpt_01 li .MK_p-name {
 margin-right: 180px;
 }
@@ -4827,7 +4827,7 @@ background: url('../img/detail_opt_down.gif') no-repeat;
 display: none;
 }
 
-/* 개별옵션 */
+/* 媛쒕퀎�샃�뀡 */
 #MK_innerOptWrap #MK_innerOpt_02 li .MK_p-name {
 margin-right: 180px;
 }
@@ -4883,7 +4883,7 @@ background: url('../img/detail_opt_down.gif') no-repeat;
 display: none;
 }
 
-/* 총합계 */
+/* 珥앺빀怨� */
 #MK_innerOptTotal {
 font-size: 12px;
 text-align: right;
@@ -4909,16 +4909,16 @@ font-weight: bold;
 color: #000; 
 }
 
-/* 소리뷰 */
+/* �냼由щ럭 */
 #sorivu { position: relative; margin-top: 20px; }
-/* 상품 일반정보(상품정보제공 고시) */
+/* �긽�뭹 �씪諛섏젙蹂�(�긽�뭹�젙蹂댁젣怨� 怨좎떆) */
 #productWrap { margin: 10px 0; }
 #productWrap h3.tb-tit { margin-bottom: 10px; text-align: left; }
 #productWrap table { width: 100%; font-size: 12px; border-collapse: collapse; border-width: 1px 0 1px 0; border-color: #b4b4b4; border-style: solid; table-layout: fixed; }
 #productWrap table th { border-right: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0; background-color: #f8f8f8; color: #3b3b3d; text-align: left; padding: 10px 0 10px 15px; }
 #productWrap table td { color: #8b8b8b; border-bottom: 1px solid #e0e0e0; word-break: break-all; text-align: left; padding: 10px 0 10px 17px; }
 
-/* 사이즈 차트 */
+/* �궗�씠利� 李⑦듃 */
 .box-btn-size-chart { width: 300px; padding: 10px; background: #D9DBDA; text-align: center; }
 td.area-btn-size-chart a { color: #000000; font-size: 15px; font-weight: bold; }
 #sizeChart { width:693px; position: absolute; display: none; }
@@ -4939,7 +4939,7 @@ td.area-btn-size-chart a { color: #000000; font-size: 15px; font-weight: bold; }
 .size-chart-cont p { margin-top: 10px; text-align: left; }
 
 
-/* 상품조르기 */
+/* �긽�뭹議곕Ⅴ湲� */
 .tmb-info .tmb-info-container .info .table-opt dl.SMP-importune dd.col {
 position: relative;
 text-align: right;
@@ -4951,7 +4951,7 @@ text-align: left;
 }
 
 
-/* SNS 소셜 퍼가기 */
+/* SNS �냼�뀥 �띁媛�湲� */
 .tmb-info .tmb-info-container .SMP-sns,
 .tmb-info .tmb-info-container .info .table-opt dl.SMP-sns {
 position: relative;
@@ -4983,7 +4983,7 @@ margin-left: -93px;
 }
 
 
-/* SNS 소셜 퍼가기 - 강제변환 */
+/* SNS �냼�뀥 �띁媛�湲� - 媛뺤젣蹂��솚 */
 .tmb-info .tmb-info-container .SMP-sns .col > span > a,
 .tmb-info .tmb-info-container .info .table-opt dl.SMP-sns dd.col > span > a {
 display: inline-block;
@@ -5033,7 +5033,7 @@ background: url('../img/detail-sns-ws-ico-on.gif') no-repeat;
 }
 
 
-/* 결제버튼 */
+/* 寃곗젣踰꾪듉 */
 
 .tmb-info .tmb-info-container .info .prd-btns {
 padding-top: 5px;
@@ -5088,7 +5088,7 @@ background: #efefef;
 }
 
 
-/* 결제버튼 type-1 */
+/* 寃곗젣踰꾪듉 type-1 */
 
 .tmb-info .tmb-info-container .info .prd-btns.type-1 a {
 margin-bottom: 5px;
@@ -5120,7 +5120,7 @@ background: url('../img/detail-wish-ico.png') no-repeat;
 }
 
 
-/* 결제버튼 type-2 */
+/* 寃곗젣踰꾪듉 type-2 */
 .tmb-info .tmb-info-container .info .prd-btns.type-2 a {
 float: left;
 display: block;
@@ -5163,7 +5163,7 @@ background: url('../img/detail-cart-ico.png') no-repeat;
 background: url('../img/detail-wish-ico.png') no-repeat;
 }
 
-/* 결제버튼 type-3 */
+/* 寃곗젣踰꾪듉 type-3 */
 .tmb-info .tmb-info-container .info .prd-btns.type-3 a {
 float: left;
 display: block;
@@ -5210,7 +5210,7 @@ background: url('../img/detail-wish-ico.png') no-repeat;
 /*-- tmb-info:END --*/
 
 
-/* 이동탭 (상세공통) */
+/* �씠�룞�꺆 (�긽�꽭怨듯넻) */
 #productDetail .detail-tap {
 margin-top: 120px;
 border-bottom: 1px solid transparent;
@@ -5265,7 +5265,7 @@ background: #333;
 }
 
 
-/* 타이틀 (상세공통) */
+/* ���씠�� (�긽�꽭怨듯넻) */
 #productDetail .tit-detail {
 position: relative;
 text-align: center;
@@ -5290,7 +5290,7 @@ color: #777;
 #productDetail .tit-detail .btns a { margin-left: 5px; }
 
 
-/* 상품 상세 이미지 */
+/* �긽�뭹 �긽�꽭 �씠誘몄� */
 #productDetail .prd-detail {
 overflow: hidden;
 width: 100%;
@@ -5305,12 +5305,12 @@ table-layout: auto;
 }
 
 
-/*-- 관련상품 --*/
+/*-- 愿��젴�긽�뭹 --*/
 #productDetail .SMP-rel-prd {	
 }
 
 
-/* 4열 정렬 */
+/* 4�뿴 �젙�젹 */
 #productDetail .SMP-rel-prd .SMP-rel-prd-container.grid_4 {
 width: 1220px;
 margin-left: -10px;
@@ -5325,7 +5325,7 @@ margin-left: 10px;
 margin-right: 10px;
 }
 
-/* 5열 정렬 */
+/* 5�뿴 �젙�젹 */
 #productDetail .SMP-rel-prd .SMP-rel-prd-container.grid_5 {
 width: 1220px;
 margin-left: -10px;
@@ -5340,7 +5340,7 @@ margin-left: 8px;
 margin-right: 8px;
 }
 
-/* 6열 정렬 */
+/* 6�뿴 �젙�젹 */
 #productDetail .SMP-rel-prd .SMP-rel-prd-container.grid_6 {
 width: 1212px;
 margin-left: -6px;
@@ -5355,7 +5355,7 @@ margin-left: 6px;
 margin-right: 6px;
 }
 
-/* 섬네일 */
+/* �꽟�꽕�씪 */
 #productDetail .SMP-rel-prd .SMP-rel-prd-container > ul > li .thumbnail {
 margin-bottom: 10px;
 }
@@ -5364,7 +5364,7 @@ margin-bottom: 10px;
 width: 100%;
 }
 
-/* 체크박스 */
+/* 泥댄겕諛뺤뒪 */
 #productDetail .SMP-rel-prd .SMP-rel-prd-container > ul > li .info {
 position:relative;
 }
@@ -5400,7 +5400,7 @@ color:#fff;
 /* background: url('../img/opt-open-icon.gif') no-repeat; */
 }
 
-/* 상품명 */
+/* �긽�뭹紐� */
 #productDetail .SMP-rel-prd .SMP-rel-prd-container ul > li .info .pname {
 font-weight: 700;
 padding-bottom: 5px;
@@ -5417,7 +5417,7 @@ font-size: 13px;
 margin-top: 10px;
 }
 
-/* 옵션 */
+/* �샃�뀡 */
 #productDetail .SMP-rel-prd .SMP-rel-prd-container ul > li .info .poption {
 padding-bottom: 5px;
 }
@@ -5454,7 +5454,7 @@ background: none \0;
 background-position: right center;	
 }
 
-/* 수량 */
+/* �닔�웾 */
 #productDetail .SMP-rel-prd .SMP-rel-prd-container ul > li .info .pamount {
 padding-bottom: 5px;
 margin-top: 5px;
@@ -5497,7 +5497,7 @@ text-indent: -9999px;
 background: url('../img/detail_opt_down.gif') no-repeat;
 }
 
-/* 결제버튼 */
+/* 寃곗젣踰꾪듉 */
 #productDetail .related-allbasket {
 text-align: center;
 margin-top: 50px;
@@ -5515,11 +5515,11 @@ font-weight: 600;
 color: #fff;
 background: #000;
 }
-/*-- 관련상품:END --*/
+/*-- 愿��젴�긽�뭹:END --*/
 
 
-/*-- 댓글리스트 --*/
-/* 댓글리스트 공통 */
+/*-- �뙎湲�由ъ뒪�듃 --*/
+/* �뙎湲�由ъ뒪�듃 怨듯넻 */
 .SMP-table .table-slide {
 }
 
@@ -5595,7 +5595,7 @@ cursor: default;
 background: #fafafa;
 }
 
-/* 댓글 리스트 부제목*/
+/* �뙎湲� 由ъ뒪�듃 遺��젣紐�*/
 .SMP-table .table-slide .cate_title h3 {
 padding-top: 15px;
 margin-bottom: 10px;
@@ -5616,7 +5616,7 @@ border-color: #111;
 }
 
 
-/* 댓글 리스트 부제목 텍스트 */
+/* �뙎湲� 由ъ뒪�듃 遺��젣紐� �뀓�뒪�듃 */
 .SMP-table .table-slide .cate_title .con_txt {
 padding-left: 10px;
 padding-right: 10px;
@@ -5639,7 +5639,7 @@ padding-right: 10px;
 margin-left: 3px;
 }
 
-/* 댓글 리스트 버튼 */
+/* �뙎湲� 由ъ뒪�듃 踰꾪듉 */
 .SMP-table .table-slide .cate_title .btns > a.board_list {
 border: 1px solid transparent;
 border-color: #bbb;
@@ -5684,9 +5684,9 @@ transition: 0.3s;
 border-color: #777;
 background: #efefef;
 }
-/*-- 댓글리스트:END --*/
+/*-- �뙎湲�由ъ뒪�듃:END --*/
 
-/*-- 상품리뷰(코멘트/평정 타입) --*/
+/*-- �긽�뭹由щ럭(肄붾찘�듃/�룊�젙 ���엯) --*/
 #productDetail .SMP-cot-write {
 }
 
@@ -5815,14 +5815,14 @@ border-color: #777;
 background: #efefef;
 }
 
-/* 자동입력방지 팝업 */
+/* �옄�룞�엯�젰諛⑹� �뙘�뾽 */
 #productDetail .SMP-cot-write #authimgdiv {
 z-index: 1;
 }
 
 #productDetail .table-slide tr.reply .tb-txt { padding-left: 30px; background: url(/images/d3/modern_simple/common/bull_reply.gif) no-repeat 10px 0; }
 
-/*-- 상품리뷰(코멘트/평정 타입):END --*/
+/*-- �긽�뭹由щ럭(肄붾찘�듃/�룊�젙 ���엯):END --*/
 #productDetail .coment-review-list {
 margin-top: 15px;
 }
@@ -5841,14 +5841,14 @@ border-bottom: 1px solid transparent;
 border-color: #111;
 }
 
-/*-- 상품리뷰(게시판 타입) --*/
+/*-- �긽�뭹由щ럭(寃뚯떆�뙋 ���엯) --*/
 #productDetail .review-list {
 margin-top: 15px;
 }
-/*-- 상품리뷰(게시판 타입):END --*/
+/*-- �긽�뭹由щ럭(寃뚯떆�뙋 ���엯):END --*/
 
-/*-- 주문서 작성 --*/
-/* 서브 타이틀 */
+/*-- 二쇰Ц�꽌 �옉�꽦 --*/
+/* �꽌釉� ���씠�� */
 #order .page-body .tit-cate {
 text-align: center;
 margin-top: 50px;
@@ -5868,7 +5868,7 @@ letter-spacing: 1px;
 color: #777;
 }
 
-/* 페이 팝업 */
+/* �럹�씠 �뙘�뾽 */
 #payiframe {
 z-index: 12;
 }
@@ -5904,7 +5904,7 @@ display:none;
 }
 
 
-/* 정보 공통 */
+/* �젙蹂� 怨듯넻 */
 #order .page-body .table-order-info {
 padding: 0 20px 15px;
 margin: 0;
@@ -6025,7 +6025,7 @@ margin-rigth: 10px;
 }
 
 
-/* 주문자 정보입력 */
+/* 二쇰Ц�옄 �젙蹂댁엯�젰 */
 #order .page-body .table-order-info .order-table td .refer_box {
 line-height: 18px;
 font-size: 11px;
@@ -6035,7 +6035,7 @@ margin-top: 20px;
 
 
 
-/* 배송지정보 입력 */
+/* 諛곗넚吏��젙蹂� �엯�젰 */
 #order .page-body .table-order-info .order-table .sub_title_txt .same_data {
 position: absolute;
 top: 16px;
@@ -6110,7 +6110,7 @@ margin-bottom: 10px;
 height: 150px;
 }
 
-/* 쿠폰, 적립금, 예치금, 마일리지 */
+/* 荑좏룿, �쟻由쎄툑, �삁移섍툑, 留덉씪由ъ� */
 #order .page-body .opt_cube {
 display: block;
 margin-top: 50px;
@@ -6312,7 +6312,7 @@ display: none !important;
 }
 
 
-/* 주문버튼 */
+/* 二쇰Ц踰꾪듉 */
 #order .page-body .btn-foot {
 text-align: center;
 margin-top: 50px;
@@ -6361,13 +6361,13 @@ background: #efefef;
 }
 
 
-/*-- 주문서 확인 --*/
-/* 결제방법 */
+/*-- 二쇰Ц�꽌 �솗�씤 --*/
+/* 寃곗젣諛⑸쾿 */
 #order .page-body .table-order-info .order-table td .method  {
 margin-top: 10px;
 }
 
-/* 결제완료 메세지 */
+/* 寃곗젣�셿猷� 硫붿꽭吏� */
 #order .admin-msg {
 text-align: center;
 padding-top: 40px;
@@ -6396,7 +6396,7 @@ font-weight: 600;
 font-weight: 600;
 }
 
-/* 주문버튼 */
+/* 二쇰Ц踰꾪듉 */
 #order .page-body .btn-foot .print-btn {
 transition: 0.3s;
 color: #fff;
@@ -6429,7 +6429,7 @@ background: #efefef;
 
 
 /*==============================================================
-# SMARTPC 장바구니
+# SMARTPC �옣諛붽뎄�땲
 =============================================================== */
 #cartWrap {
 }
@@ -6438,12 +6438,12 @@ background: #efefef;
 #cartWrap .mypage_tap_title h3.active{display:block !important;}
 #cartWrap .wish-opt {color: #FFA500; }
 #cartWrap .tit-cart {display: none; position: relative; height: 40px; line-height: 40px; margin-top: 15px;}
-/* 회원 등급 표시 */
+/* �쉶�썝 �벑湲� �몴�떆 */
 #cartWrap .mem-lvl {zoom: 1; overflow: hidden; margin-top: 45px;}
-/* 배송 메세지 */
+/* 諛곗넚 硫붿꽭吏� */
 #cartWrap .delivery {margin-top: 20px; text-align: center;}
 
-/* 주문 컨트롤 버튼 */
+/* 二쇰Ц 而⑦듃濡� 踰꾪듉 */
 #cartWrap .btn-order-ctrl {
 font-size: 0;
 text-align: right;
@@ -6492,13 +6492,13 @@ border-color: #777;
 background: #efefef;
 }
 
-/* 네이버 페이 */
+/* �꽕�씠踰� �럹�씠 */
 #cartWrap .naver-pay {
 text-align: right;
 margin-top: 10px;
 }
 
-/* 장바구니 위시리스트 탭 */
+/* �옣諛붽뎄�땲 �쐞�떆由ъ뒪�듃 �꺆 */
 #cartWrap .cart_borad_tap {
 position: relative;
 margin-top: 40px;
@@ -6556,7 +6556,7 @@ zoom: 1;
 text-align:left;
 }
 
-/* 수량 컨트롤 버튼 */
+/* �닔�웾 而⑦듃濡� 踰꾪듉 */
 .table-cart tbody td .opt-spin a span.btn-up, span.btn-dw {
 display:inline-block;
 *display:inline;
@@ -6683,7 +6683,7 @@ color: #666;
 margin-top: 5px;
 }
 
-/* 회원약관 동의 */
+/* �쉶�썝�빟愿� �룞�쓽 */
 #SMP_joinTerms{
 
 }
@@ -6797,7 +6797,7 @@ font-weight: normal;
 
 
 
-/* 간편회원가입 */
+/* 媛꾪렪�쉶�썝媛��엯 */
 #SMP_SimpleJoin{
 }
 
@@ -6901,7 +6901,7 @@ width: 100%;
 }
 
 
-/* 생년월일 */
+/* �깮�뀈�썡�씪 */
 #SMP_SimpleJoin #join_test .join-form li.birth{
 border-top: 1px dashed #ddd !important;
 border-bottom: 1px dashed #ddd !important;
@@ -6938,12 +6938,12 @@ background: #fff;
 background: #fff;
 }
 
-/* 성별 */
+/* �꽦蹂� */
 #SMP_SimpleJoin #join_test .join-form li.gender{
 text-align: center;
 }
 
-/* 인증 */
+/* �씤利� */
 #SMP_SimpleJoin #join_test .join-form li .btn {
 display: block;
 position: absolute;
@@ -6963,7 +6963,7 @@ width: 65px;
 }
 
 
-/* 회원가입완료 */
+/* �쉶�썝媛��엯�셿猷� */
 #SMP_joinCom{
 
 }
@@ -7031,7 +7031,7 @@ font-size: 15px;
 font-weight: bold;
 }
 
-/* FAQ 게시판 영역 */
+/* FAQ 寃뚯떆�뙋 �쁺�뿭 */
 #MS_WritenBySEB P { margin-top:7px; margin-bottom:7px;}
 #faqWrap BLOCKQUOTE { margin-left:15px; }
 #faqWrap BLOCKQUOTE.q1,
@@ -7048,7 +7048,7 @@ font-weight: bold;
 #faqWrap BLOCKQUOTE.q5{ border:2px solid #707070;}
 #faqWrap BLOCKQUOTE.q6{ border:1px dashed #707070;}
 #faqWrap BLOCKQUOTE.q7{ border:1px dashed #707070; background:#fbfbfb;}
-/* FAQ검색 폼 */
+/* FAQ寃��깋 �뤌 */
 #faqWrap .faq-search { text-align: center; border: 1px solid #d8d8d8; background-color: #FFFFFF; }
 #faqWrap .search-wrap { position: relative; height: 118px; width: 455px; margin-left: auto; margin-right: auto; }
 #faqWrap .search-wrap h4,
@@ -7069,7 +7069,7 @@ font-weight: bold;
 #faqWrap .search-wrap .best-keyword dt strong { font-weight: bold; color: #5789c2; }
 #faqWrap .search-wrap .best-keyword dd ul li { margin-left: 7px; }
 #faqWrap .search-wrap .best-keyword dd ul li a { white-space: nowrap; color: #999; }
-/* faq 메뉴 */
+/* faq 硫붾돱 */
 #faq-category { margin-top: 10px; margin-bottom: 10px; }
 #faqWrap .faq-menu { *zoom: 1; margin-left: 5px; margin-top: -10px; margin-bottom: -10px; overflow: hidden; }
 #faqWrap .faq-menu li,
@@ -7077,7 +7077,7 @@ font-weight: bold;
 #faqWrap .faq-menu li { padding-left: 8px; background: url(/images/d3/modern_simple/common/bull_faq_link.gif) no-repeat 0 45%; }
 #faqWrap .faq-menu li a { color: #999; font-weight: bold; padding-right: 20px; white-space: nowrap;	}
 #faqWrap .faq-menu li.now a { color: #555; }
-/* faq 리스트 */
+/* faq 由ъ뒪�듃 */
 #faqWrap #faqTable { border-top: 2px solid #797979; border-bottom: 1px solid #dadada; }
 #faqWrap #faqTable th,
 #faqWrap #faqTable tr td { padding: 7px 0 6px; border-bottom: 1px solid #dadada; background-color: #FFFFFF; }
