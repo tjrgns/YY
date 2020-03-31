@@ -33,7 +33,7 @@
 <body>
 <div id="all">
 <br>
-<h1 style="background: #222; color: white; padding:4%; text-align: center">자주 묻는 질문</h1>
+<h1 style=" color: #22; padding:4%; text-align: center; font-weight: bold;">자주 묻는 질문</h1>
 <br>
 <table class="table table-hover" align="center">
     <thead>
@@ -117,12 +117,17 @@
      
     </tbody>
   </table>
+ <div style="margin-left: 40%; display: flex;">
   <ul class="pagination justify-content-center">
-    <li class="page-item"><a class="page-link" href="javascript:void(0);" style="color: #222">이전</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);" style="color: #222"><</a></li>
     <li class="page-item"><a class="page-link" href="javascript:void(0);" style="color: #222">1</a></li>
     <li class="page-item"><a class="page-link" href="javascript:void(0);" style="color: #222">2</a></li>
-    <li class="page-item"><a class="page-link" href="javascript:void(0);" style="color: #222">다음</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);" style="color: #222">></a></li>
   </ul>
+  <div>
+  <button class="btn btn-primary" style="background: #222; width: 100px; border: 1px solid #222; margin-left: 370px;">작 성</button>
+  </div>
+  </div>
   <div id="searchArea" align="center" >
 				<form action="${ contextPath }/search.bo" style="display: inline-flex;" >
 					<select id="searchCondition" name="condition">

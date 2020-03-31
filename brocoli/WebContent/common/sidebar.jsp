@@ -65,11 +65,6 @@
 						</a>
 					</li>
 
-					<li class="p-b-13">
-						<a href="/brocoli/main/trackProcess.jsp" class="stext-102 cl2 hov-cl1 trans-04">
-							배송조회
-						</a>
-					</li>
 
 					<li class="p-b-13">
 						<a href="/brocoli/board/QnAList.jsp" class="stext-102 cl2 hov-cl1 trans-04">
