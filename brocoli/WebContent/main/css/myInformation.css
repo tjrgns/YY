@@ -1,16 +1,57 @@
-/* ======================================================================================================= 
 
-* SMARTPC CSS파일
-# 저작자 : SMART SKIN | (주)스마트스킨 스마트PC 사업부
-# 최초 작성일 : 2016 - 01 - 01
+html,body{
+  height:100%;
+}
+body{
+  text-align:center;
+}
+body:before{
+  content:'';
+  height:100%;
+  display:inline-block;
+  vertical-align:middle;
+}
+button{
+  background:#000000;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#fff;
+  color:#000000;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #000000;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
 
-* 고객센터: 1577-3364
-* 본 문서의 소스와 정보에 대한 모든 권리는 (주)스마트스킨에게 있습니다.
-* 사전 동의없이는 동일,유사의 수준에서 어떠한 형식과 방법으로든 무단 도용을 금합니다.
-* 만일 위와 같은 권고에도 불구하고 무단 도용시 저작권법에 의거하여 법적인 제재를 받으실 수 있습니다. 
-* IE하위버전 제어 => body태그에 .IE_7, .IE_8, .IE_9 class명이 붙습니다.
 
-======================================================================================================= */
+
+
+
 /* 셀렉트 커스텀  크로스 브라우징 */
 .IE_7 select,
 .IE_8 select,
@@ -350,7 +391,7 @@ zoom:1;
 .margin_l7 { margin-left: 7px; }
 .margin_l8 { margin-left: 8px; }
 .margin_l9 { margin-left: 9px; }
-.margin_l10 { margin-left: 10px; }
+.margin_l10 { margin-left: -350px; }
 .margin_l11 { margin-left: 11px; }
 .margin_l12 { margin-left: 12px; }
 .margin_l13 { margin-left: 13px; }
