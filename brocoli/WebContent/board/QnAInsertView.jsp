@@ -35,7 +35,7 @@
 <body>
 <div id="all">
 <br>
-	<h2 style="background: #222; color: white; padding:4%; text-align: center">문의 사항 입력</h2><Br>
+	<h2 style=" color: #22; padding:4%; text-align: center; font-weight: bold;">문의 사항 입력</h2><Br>
 	
 	<table align="center" id="tableArea" class="table">
 			<tr>

@@ -62,14 +62,14 @@
 					<div class="left-top-bar">
 						Free shipping
 					</div>
-
-					<div class="right-top-bar flex-w h-full" style="margin-left: 782px;">
+<div id= one style="display: flex;">
+					<div class="right-top-bar flex-w h-full" >
 						<a href="/brocoli/board/noticeList.jsp"" class="flex-c-m trans-04 p-lr-25">
 							공지사항
 						</a>
 					</div>
 					
-					<div class="right-top-bar flex-w h-full">
+					<div class="right-top-bar flex-w h-full" >
 						<a href="/brocoli/board/customerViewList.jsp"" class="flex-c-m trans-04 p-lr-25">
 							자주묻는질문
 						</a>
@@ -83,7 +83,7 @@
 					</div>
 				</div>
 			</div>
-
+</div>
 			<div class="wrap-menu-desktop how-shadow1">
 				<nav class="limiter-menu-desktop container">
 					
