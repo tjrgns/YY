@@ -105,123 +105,181 @@ i.fa{
 
 	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('/brocoli/main/images/bg-01.jpg'); position:relative;" id="">
 		<h2 class="ltext-105 cl0 txt-center" style="color:white;">
-			주문현황
+			주문정보
 		</h2>
 	</section>
-	
-	
-	 <!-- contents -->
-        <div id="contents">
-            <div class="inner">
-                <div class="contTitArea">
-                <div style="padding-rihgt : 50px;">
-        <h4 style="width: 1100px; border-bottom: 1px solid #999;"><p>배송 상황</p></h4>
-        </div>
-	  <ul class="contStep goodsStep">
-                        <li class="item01"><img class="ticon" src="images/icons/Monitor-icon.png"/><span>상품 접수</span></li> 
-                       
-                        <li class="item02"><img class="ticon" src="images/icons/Truck-icon1.png"/><span>상품 이동중</span></li>
-                       
-                        <li class="item03"><img class="ticon" src="images/icons/Truck-icon2.png"/><span>배송 출발</span></li>
-                      
-                        <li class="item04"><img class="ticon" src="images/icons/hand.png"/><span>배달 완료</span></li>
-                    </ul>
+
+	<div class="container">
+		<!-- contents -->
+		<div id="contents">
+			<div class="inner">
+				<div class="contTitArea">
+					<div style="padding-rihgt: 50px;  margin-bottom: 5px;">
+						<h4 style="width: 100%; border-bottom: 1px solid #999; padding-bottom: 5px;">
+							<strong>주문 상세보기</strong>
+						</h4>
 					</div>
-					</div>
-					</div>
-				
-  
-	
-	<!-- 끝 -->
-	
-	<div>
-	<h5 style="width: 1100px; margin: 18px auto; text-align: center; border-bottom: 1px solid #999; padding-top: 200px;"><p>주문 정보</p></h5>
-		<table class="ordertable">
-			<tr class="orderdetail">
-				<th style="border-right: 1px solid #6666; width:20%; text-align:center;">날짜</th>
-				<th style="border-right: 1px solid #6666; width: 50%; text-align:center;">상품정보</th>
-				<th style="border-right: 1px solid #6666; width: 15%; text-align:center;">상태</th>
-				<th style="text-align:center; width:15%;">확인/신청</th>
-			</tr>
-			<tr>
-				<td style="border: 1px solid #6666; ">
-					<ul>
-						<li style="font-size:17px;"><b>2020-03-22</b></li><br>
-						<li><button class="orderview">주문 상세보기</button></li>
+					<ul class="contStep goodsStep" style="margin-top: 30px;">
+						<li class="item01"><img class="ticon"
+							src="images/icons/Monitor-icon.png" /><span>주문 접수</span></li>
+
+						<li class="item02"><img class="ticon"
+							src="images/icons/Truck-icon1.png" /><span>상품 준비중</span></li>
+
+						<li class="item03"><img class="ticon"
+							src="images/icons/Truck-icon2.png" /><span>배송 시작</span></li>
+
+						<li class="item04"><img class="ticon"
+							src="images/icons/hand.png" /><span>배송 완료</span></li>
 					</ul>
-				</td>
-				
-				<td style="border: 1px solid #6666; text-align:left">
-				
-				<div style="display:inline-block;">
-						<img src="/brocoli/main/images/item-cart-02.jpg" style="padding:30px; width:170px; margin-top: -200px;">
-					
-					
 				</div>
-					<div style="display:inline-block; margin-top: 30px;">
-						
-						<label  ><b style="font-size:17px;">상품명</b> : 신발</label>
-						<label style="display:inline-block;"><b style="font-size:17px;">상품번호</b>: abc12345</label>
-						<label  style="display:inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;
-						<b style="font-size:17px;">수량</b>:1
-						</label><br>
-						<label><b style="font-size:17px;">상품설명 </b>: 설명</label><br><br>
-						<hr style="border-top:1px solid black; width: 300px;">
-						<label><b style="font-size:17px;">31,000원</b></label>
-					
+			</div>
+		</div>
+		<!-- 끝 -->
+
+
+		<div class="row" style="    width: 100%; margin-top: 50px;">
+			<div class="col-lg-10 col-xl-7 m-lr-auto m-b-50"
+				style="margin-left: -1%;">
+				<div class="m-l-25 m-r--38 m-lr-0-xl" style="width: 170%;">
+					<div class="wrap-table-shopping-cart">
+						<table class="table-shopping-cart">
+							<tr class="table_head">
+								<th style="width: 8%; text-align: center;">주문번호</th>
+								<th style="width: 8%; text-align: center;">주문일자</th>
+								<th style="width: 10%; text-align: center;">이미지</th>
+								<th style="width: 20%; text-align: center;">상품정보</th>
+								<th style="width: 8%; text-align: center;">판매금액</th>
+								<th style="width: 8%; text-align: center;">회원 할인</th>
+								<th style="width: 8%; text-align: center;">적립금</th>
+								<th style="width: 6%; text-align: center;">수량</th>
+								<th style="width: 8%; text-align: center;">총 금액</th>
+								<th style="width: 8%; text-align: center;">상태</th>
+								<th style="width: 8%; text-align: center;">확인</th>
+							</tr>
+							<tr>
+								<td style="text-align: center;">1</td>
+								<td style="text-align: center;">2020-03-30</td>
+								<td style="text-align: center;"><img
+									src="images/item-cart-04.jpg" alt="IMG" style="padding: 15px;"></td>
+								<td style="text-align: left;">
+									<ul>
+										<li>상품명 : 패딩</li>
+										<li>옵션 1 : 레드</li>
+										<li>옵션 2 : XL</li>
+									</ul>
+								</td>
+								<td style="text-align: center;"><strike>36,000원</strike> <br>34,000원</td>
+								<td style="text-align: center;">-2000원</td>
+								<td style="text-align: center;">360원</td>
+								<td style="text-align: center;">2</td>
+								<td style="text-align: center;">68,000원</td>
+								<td style="text-align: center; font-size: 13px; color: #555;"><strong>주문완료</strong><br>
+								<td style="text-align: center;">
+									<button class="ord-btn">
+										<strong>배송 추적</strong>
+									</button>
+
+								</td>
+							</tr>
+
+						</table>
+
 					</div>
-					
-						
-				</td>
-				<td style="border: 1px solid #6666;"><b style="font-size:20px;">배송중</b></td>
-				<td style="border: 1px solid #6666;">
-				<button class="trackview">배송추적</button>
-				<!-- <button class="orderview" style="margin-top:30px;"> 리뷰 확인</button> -->
-				</td>
-			</tr>
-			
-			<tr>
-				<td style="border: 1px solid #6666; ">
-					<ul>
-						<li style="font-size:17px;"><b>2020-03-22</b></li><br>
-						<li><button class="orderview">주문 상세보기</button></li>
-					</ul>
-				</td>
-				
-				<td style="border: 1px solid #6666; text-align:left">
-				
-				<div style="display:inline-block;">
-						<img src="/brocoli/main/images/item-cart-02.jpg" style="padding:30px; width:170px; margin-top: -200px;">
-					
-					
 				</div>
-					<div style="display:inline-block; margin-top: 30px;">
-						
-						<label  ><b style="font-size:17px;">상품명</b> : 신발</label>
-						<label style="display:inline-block;"><b style="font-size:17px;">상품번호</b>: abc12345</label>
-						<label  style="display:inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;
-						<b style="font-size:17px;">수량</b>:1
-						</label><br>
-						<label><b style="font-size:17px;">상품설명 </b>: 설명</label><br><br>
-						<hr style="border-top:1px solid black; width: 300px;">
-						<label><b style="font-size:17px;">31,000원</b></label>
-					
-					</div>
-					
-						
-				</td>
-				<td style="border: 1px solid #6666;"><b style="font-size:20px;">배송중</b></td>
-				<td style="border: 1px solid #6666;">
-				<button class="trackview">배송추적</button>
-				<!-- <button class="orderview" style="margin-top:30px;"> 리뷰 확인</button> -->
-				</td>
-			</tr>			
-		</table>
-		
-		
+			</div>
+		</div>
 	</div>
 	
 	
+	
+	<div class="container" style="margin-bottom: 100px;">
+			<div class="flex-w flex-tr">
+				<div class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
+					<div class="flex-w w-full p-b-42">
+						<span class="fs-18 cl5 txt-center size-211">
+							<span class="lnr lnr-map-marker"></span>
+						</span>
+
+						<div class="size-212 p-t-2">
+							<span class="mtext-110 cl2">
+								<strong>결제정보</strong>
+							</span>
+
+							<p class="stext-115 cl6 size-213 p-t-18">
+								<strong>결제수단 :</strong>
+							</p>
+							<p class="stext-115 cl6 size-213 p-t-18" style="margin-left: 10px; padding-top: 5px;">
+									(PAYCO) 카드+적립금 / 일시불 30034731
+							</p>
+						</div>
+
+					</div>
+					<div class="flex-w w-full p-b-42">
+						<span class="fs-18 cl5 txt-center size-211">
+							<span class="lnr lnr-map-marker"></span>
+						</span>
+
+						<div class="size-212 p-t-2">
+							<span class="mtext-110 cl2">
+								<strong>최종 결제정보</strong>
+							</span>
+
+							<p class="stext-115 cl6 size-213 p-t-18">
+								<strong>주문합계 :</strong> 15,920 원
+							</p>
+							<p class="stext-115 cl6 size-213 p-t-18" style="color: #717fe0;">
+								<strong style="color: #888888;">할인합계 :</strong> -2,000원
+							</p>
+							<p class="stext-115 cl6 size-213 p-t-18">
+								<strong>결제 수수료:</strong> 0원
+							</p>
+							<p class="stext-115 cl6 size-213 p-t-18">
+								<strong>최종 결제금액 :</strong> 13,920원
+							</p>
+
+						</div>
+					</div>
+
+				</div>
+
+			<div class="size-210 bor10 flex-w flex-col-m p-lr-93 p-tb-30 p-lr-15-lg w-full-md">
+				<div class="flex-w w-full p-b-42">
+					<span class="fs-18 cl5 txt-center size-211"> <span
+						class="lnr lnr-map-marker"></span>
+					</span>
+
+					<div class="size-212 p-t-2">
+						<span class="mtext-110 cl2"> 
+							<strong>배송지 정보</strong>
+						</span>
+
+						<p class="stext-115 cl6 size-213 p-t-18">
+							<strong>이름 :</strong> 박주완
+						</p>
+						<p class="stext-115 cl6 size-213 p-t-18">
+							<strong>연락처 :</strong> 010-0000-0000
+						</p>
+						<p class="stext-115 cl6 size-213 p-t-18">
+							<strong>배송지 주소 :</strong>
+						</p>
+						<p class="stext-115 cl6 size-213 p-t-18"
+							style="margin-left: 10px; padding-top: 5px;">
+							841-115 <br> 서울특별시 서초구 서초동 1304-3 <br>Brocoil 스토어 스파크타워
+							B1,1,2,3층
+						</p>
+						<p class="stext-115 cl6 size-213 p-t-18">
+							<strong>배송 메시지 :</strong> 문앞에 두고 문자주세요.
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+			</div>
+
+
+
 	<%@ include file="../common/footer.jsp" %>
 
 
