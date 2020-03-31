@@ -19,6 +19,7 @@
           margin: auto;
           width: 50%;
           height: 150%;
+          margin-top: 30px;
 	}
 	
 	#all2{

@@ -19,6 +19,7 @@
           margin: auto;
           width: 50%;
           height: 100%;
+          margin-top: 30px;
 	}
 	
 	.form-group{
