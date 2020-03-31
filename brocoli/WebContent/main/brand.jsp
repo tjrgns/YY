@@ -2427,7 +2427,7 @@
          var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();
 
          $(this).on('click', function(){
-            swal(nameProduct, "is added to wishlist !", "success");
+        	 swal("찜 완료!"/* nameProduct */, "관심 상품에 추가되었습니다!", "success");
 
             $(this).addClass('js-addedwish-detail');
             $(this).off('click');

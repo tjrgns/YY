@@ -1352,7 +1352,7 @@
       $('.js-addcart-detail').each(function(){
          var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
          $(this).on('click', function(){
-            swal(nameProduct, "is added to cart !", "success");
+        	 swal("찜 완료!"/* nameProduct */, "관심 상품에 추가되었습니다!", "success");
          });
       });
    
